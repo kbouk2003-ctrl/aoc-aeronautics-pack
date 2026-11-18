@@ -5732,6 +5732,10 @@ file = "resourcepacks/trading_floor_zh_hk.zip"
 hash = "a00603c6c447f97c7cfe2cb3e449dbe7e5fa18838138b5c516a23d63dfec7786"
 
 [[files]]
+file = "scripts/custom-start.bat"
+hash = "f3a61ea8c1b1c257a290a65e8b40cd05645bd59acad78ee120a4d00e404da7e6"
+
+[[files]]
 file = "shaderpacks/BSL_v10.1.1 + Clrwl_1.0.5.zip"
 hash = "9d283a7cf1a5c7836a13e6b9b786257f714c68ea04cae5c366600808f62f2c1f"
 

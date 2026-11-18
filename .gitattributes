@@ -1,0 +1,2 @@
+# Keep files byte-identical so packwiz hashes match what GitHub serves
+* -text

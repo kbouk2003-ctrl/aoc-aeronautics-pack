@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README.md"
+hash = "48d00c60e3f999eb54aa72d06a3ebfca6a52f23f5cd81b6d168a5a89b823471d"
+
+[[files]]
 file = "config/CSC/Data/variables.data"
 hash = "c26dcfe3f97d32f6161ed0f6317d5206fee265ba728e6d2ad484d92a23514259"
 
@@ -4971,8 +4975,13 @@ hash = "fd2a321d4abc440ff159e477dc75ebc9d32a9efa246e61ceeb6142391c55bfcf"
 metafile = true
 
 [[files]]
-file = "mods/linearbearing-1-2-6.pw.toml"
-hash = "6b735be640688182efad2278b2cb06f764a61f1b7d2afd03142d4e01d64ccbd8"
+file = "mods/linearbearing-1-3-5.pw.toml"
+hash = "e92248ff7e47d94175ee315550946858967e9f1076653468a1d10a6aa53a4d82"
+metafile = true
+
+[[files]]
+file = "mods/linearbearingsfix-1-0-3.pw.toml"
+hash = "210e07b6cd9ef4bbd7bb6327f5c1903f2075a684240cc4f7a629d4afe73fa4e6"
 metafile = true
 
 [[files]]

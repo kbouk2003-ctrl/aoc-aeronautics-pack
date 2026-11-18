@@ -4065,6 +4065,11 @@ hash = "68d6016fa3707c434b3aca5db041c7518c70feb53d0183faa2502cc6efd4c827"
 metafile = true
 
 [[files]]
+file = "mods/borderless-window.pw.toml"
+hash = "c15cf68301be3c07cd25295759f1e1a59aae0823894e07b30f4394cf1f990e8e"
+metafile = true
+
+[[files]]
 file = "mods/bwncr-neoforge-1-21-1-3-20-4.pw.toml"
 hash = "8c9fa55d9963a6759307a9471128c985d2e370bc16b628c59bfb8e81e586eb5e"
 metafile = true

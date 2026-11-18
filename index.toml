@@ -3502,7 +3502,7 @@ hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
 
 [[files]]
 file = "config/sodium-options.json"
-hash = "44478bef0973f1aa587c0493568a5cbc5426233b611f14bd2be489b5b862fa7f"
+hash = "f33d1af571fa70c5b7b35131b5ab63d40b220db6b7dc3407ae6315b7e3d9fa7c"
 
 [[files]]
 file = "config/sodiumdynamiclights-client.toml"
@@ -5355,11 +5355,6 @@ hash = "2dc498bd8a43a8e02fc9d08fe5846ac17f6eabbecbf38ae39aa7b1f23fe100b0"
 metafile = true
 
 [[files]]
-file = "mods/sky-archipelago-1-4.pw.toml"
-hash = "43af796df15749326513ad69bf3720d7e183d8b99af5e9399c8f89f728127286"
-metafile = true
-
-[[files]]
 file = "mods/sliceanddice-4-3-4-neoforge.pw.toml"
 hash = "3c24accda8011a6a5e04c49c40e39617bb04ab3a549d8f2e8180d3246fddac39"
 metafile = true
@@ -5560,6 +5555,11 @@ hash = "1b15aa249e728fe7af88899bfa08ca4a7a629b0f440750138f74a9b36c607292"
 metafile = true
 
 [[files]]
+file = "mods/voxy-seedgen.pw.toml"
+hash = "d9530c9fca47cd383d066a1fae06f56524b4311225d48d5b1eac7a9f6526aa89"
+metafile = true
+
+[[files]]
 file = "mods/watut-neoforge-1-21-0-1-2-7.pw.toml"
 hash = "9ce52d07c0c3d146a2a44f8bc187138ce7a5558a4e3ab540c86234702b6de274"
 metafile = true
@@ -5613,6 +5613,10 @@ file = "resourcepacks/Ar_sa_translations_v4.zip"
 hash = "96423774ef48f885b372cbb1ad2075864ec5d3b20b52a56bca0e9e9443485d56"
 
 [[files]]
+file = "resourcepacks/Better-Leaves-9.6.zip"
+hash = "cbeeccd774f910ed270dbe9651d789a8f785d055499f846e466d86f9cae91e90"
+
+[[files]]
 file = "resourcepacks/CU - 3d Wrench.zip"
 hash = "2fbdc992fc9c57be0c4e4d83bc7d612ad5b13e9aed850c28d323d02e41a2e4dd"
 
@@ -5651,6 +5655,10 @@ hash = "1b3c627ed8f3cff6a6da469831efcc3d1656d511e43e5d41b603c92a32777785"
 [[files]]
 file = "resourcepacks/IDAS Chinese Translation ZH HK.zip"
 hash = "d04001b53db1331646fe182d08c5a3b486a43bff6be2a6596bf1a3aba287dee8"
+
+[[files]]
+file = "resourcepacks/Icons v.1.14.zip"
+hash = "a3c4cf58ed15e3abb8e607de23a018edc6cce0600970d0908ebf8498a3445e0c"
 
 [[files]]
 file = "resourcepacks/NoBushyLeaves.zip"

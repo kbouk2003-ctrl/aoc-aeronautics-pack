@@ -2,7 +2,7 @@
 // Modrinth exact sha1 match -> Modrinth download; else CurseForge metadata mode (if distribution allowed).
 // Metafile names are stable: a mod that already has a metafile (matched by Modrinth/CurseForge project id)
 // keeps its filename across updates. Metafiles for jars no longer in the instance are deleted.
-// Client-only: jar filename listed in clientOnlyFile, or the mod's existing metafile was side="client"
+// Client-only: jar filename listed in clientOnlyFile, or the mod was client-only and its version changed
 // (so updates stay client-only). The list is rewritten to the current client-only jar filenames.
 // Exits 1 without touching anything if any jar can't be published or the Modrinth API fails.
 // Usage: node build_packwiz.js <instanceDir> <packDir> <clientOnlyFile>
@@ -20,13 +20,14 @@ const cfByFile = new Map(d.installedAddons.map(a => [a.installedFile.fileNameOnD
 const jars = fs.readdirSync(path.join(inst, 'mods')).filter(f => f.endsWith('.jar')).sort();
 if (!jars.length) die('no jars in ' + path.join(inst, 'mods'));
 
-// Existing metafiles: project key -> { name, side, filename }
+// Existing metafiles: project key -> { name, side, ver }
 const modsDir = path.join(pack, 'mods');
 fs.mkdirSync(modsDir, { recursive: true });
 const existing = new Map(), oldFiles = fs.readdirSync(modsDir).filter(f => f.endsWith('.pw.toml'));
 for (const f of oldFiles) {
   const t = fs.readFileSync(path.join(modsDir, f), 'utf8');
-  const info = { name: f, side: (t.match(/^side = "(\w+)"/m) || [])[1], filename: (t.match(/^filename = "(.*)"/m) || [])[1] };
+  const ver = t.match(/^version = "(.*)"/m) || t.match(/^file-id = (\d+)/m);
+  const info = { name: f, side: (t.match(/^side = "(\w+)"/m) || [])[1], ver: ver && ver[1] };
   const mr = t.match(/^mod-id = "(.*)"/m), cf = t.match(/^project-id = (\d+)/m);
   if (mr) existing.set('mr:' + mr[1], info);
   if (cf) existing.set('cf:' + cf[1], info);
@@ -51,7 +52,8 @@ for (const f of oldFiles) {
     const v = mr[sha1], a = cfByFile.get(f);
     const keys = [v && 'mr:' + v.project_id, a && 'cf:' + a.addonID].filter(Boolean);
     const prev = keys.map(k => existing.get(k)).find(Boolean);
-    const client = listed.has(f) || (prev && prev.side === 'client' && listed.has(prev.filename)); // keeps client-only across updates
+    const ver = v ? v.id : a ? String(a.installedFile.id) : f;
+    const client = listed.has(f) || (prev && prev.side === 'client' && prev.ver !== ver); // updates stay client-only
     const side = client ? 'client' : 'both';
     let toml, fresh;
     if (v) {

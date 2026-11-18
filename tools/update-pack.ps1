@@ -103,7 +103,9 @@ try {
         'D' { $removed += "$(Field $old 'name') ($(Field $old 'filename'))" }
         default {
           $of = Field $old 'filename'; $nf = Field $new 'filename'
-          $what = if ($of -ne $nf) { "$of -> $nf" } else { "side $(Field $old 'side') -> $(Field $new 'side')" }
+          $os = Field $old 'side'; $ns = Field $new 'side'
+          $what = @(); if ($of -ne $nf) { $what += "$of -> $nf" }; if ($os -ne $ns) { $what += "side $os -> $ns" }
+          $what = if ($what) { $what -join ', ' } else { 'download info changed' }
           $updated += "$(Field $new 'name'): $what"
         }
       }

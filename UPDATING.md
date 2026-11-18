@@ -51,7 +51,7 @@ Change it in-game or edit the file in the instance's `config` folder, then run
 Client-only mods (shaders, minimaps, menus and so on) are not installed on the server. Add the
 jar's exact filename on its own line in `tools\client-only.txt`, then run `update-pack.bat`.
 Updates keep a mod client-only, and the tool rewrites the list with the new filename. To make a
-mod install on both client and server again, delete its line and run the tool.
+mod install on both client and server again, delete its line and run the tool (in a run where that mod is not also being updated).
 
 ## Mods that can't be used
 Some authors block third-party downloads on CurseForge. Those mods can't be distributed through
@@ -69,5 +69,6 @@ CurseForge instance back the same way (downgrade or re-add the mod). If you don'
 
 ## If it aborts
 - **Personal data found**: it names the files. Remove your name or email from them, or add the path to `.packwizignore`.
-- **Pack files have uncommitted changes**: run `git status`, then commit or discard them (`git checkout -- .`).
+- **Pack files have uncommitted changes**: run `git status`, then commit or discard them with
+  `git checkout -- .` followed by `git clean -fd -- mods config defaultconfigs configureddefaults resourcepacks shaderpacks fancymenu_data datapacks`.
 - **git push failed**: the commit is saved locally. Fix the problem (network or login) and run `git push`.

@@ -3697,10 +3697,6 @@ file = "config/tempad.jsonc"
 hash = "14273982c5b333e4f6288f5cc093ae20c84bcc23cf3b51c4533b314afb180adc"
 
 [[files]]
-file = "config/temperaturebands-common.toml"
-hash = "708d9ab3c297f55d93c03fd63da0b239cb27e1b8247734dab0b84ca684c26dcc"
-
-[[files]]
 file = "config/terrablender.toml"
 hash = "cff6a9a0d415b19b9852844c0ad5bb2b1cfdb9fce12e729e7228a6521fc95927"
 
@@ -5467,11 +5463,6 @@ metafile = true
 [[files]]
 file = "mods/tempad-1-21-1-3-0-4-all.pw.toml"
 hash = "9e2a80744672102d9f5cde3366e6089e70f5c46309bf0533bc33cc96701c6adc"
-metafile = true
-
-[[files]]
-file = "mods/temperaturebands-2-2-0-neoforge-1-21-1.pw.toml"
-hash = "7416c87275669ce97e752cd4b1ae5244697ab491d24d35365031f91c269425dc"
 metafile = true
 
 [[files]]

@@ -5555,11 +5555,6 @@ hash = "1b15aa249e728fe7af88899bfa08ca4a7a629b0f440750138f74a9b36c607292"
 metafile = true
 
 [[files]]
-file = "mods/voxy-seedgen.pw.toml"
-hash = "d9530c9fca47cd383d066a1fae06f56524b4311225d48d5b1eac7a9f6526aa89"
-metafile = true
-
-[[files]]
 file = "mods/watut-neoforge-1-21-0-1-2-7.pw.toml"
 hash = "9ce52d07c0c3d146a2a44f8bc187138ce7a5558a4e3ab540c86234702b6de274"
 metafile = true

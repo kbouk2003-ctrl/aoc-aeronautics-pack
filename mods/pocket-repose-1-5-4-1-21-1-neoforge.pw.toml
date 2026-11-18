@@ -1,0 +1,13 @@
+name = "Pocket Repose"
+filename = "pocket-repose-1.5.4-1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qwBon1nq/versions/cqrQwmNz/pocket-repose-1.5.4-1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "ac22a2467dd108d3054bfc6247f626b91f7a213679162b73174f698dd9570769c3b8f4415b87cb5892b8279c3f3209d31868455f09c0fc6f10e569b309dab6f7"
+
+[update]
+[update.modrinth]
+mod-id = "qwBon1nq"
+version = "cqrQwmNz"

@@ -1,0 +1,13 @@
+name = "Where the Sky Remembers: An immersive celestial death marker"
+filename = "Where the Sky Remembers-1.0.3-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "240baee43ebd41f9df9d0e0c9dcba5e777a345a8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9129468
+project-id = 1632899

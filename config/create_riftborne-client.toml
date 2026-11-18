@@ -1,0 +1,38 @@
+#Turns off every visual effect below at once, whatever their own setting says.
+#Meant for players with epilepsy, sensitivity to flashing lights or motion sickness. Gameplay stays the same.
+disableAllEffects = false
+
+[effects]
+	#The full-screen effect while riding a ship through a Rift Engine jump.
+	jumpWarp = true
+	#The effect around the ship during a jump, as seen from outside.
+	jumpTear = true
+	#The full-screen shimmer that grows with phase blight.
+	phaseBlightWarp = true
+	#The small effect at a Phase Sticker while it holds a ship.
+	phaseStickerTear = true
+	#The distortion around Rift anomalies. Turning it off does not make them harmless, only harder to see.
+	anomalyDistortion = true
+
+[camera]
+	#The quick camera zoom-out when a jump fires. Separate from jumpWarp, so you can keep one and turn off the other.
+	jumpFovKick = true
+	#A slight camera zoom-out that grows with phase blight.
+	phaseBlightFovKick = true
+
+[particles]
+	#The particles that rush in around a ship while a jump charges.
+	jumpInrushParticles = true
+
+[preview]
+	#Size of the ghost blocks that preview the Rift Engine and A.P.E.X. Unit (1.0 = normal block size).
+	#Slightly above 1.0 makes wrongly placed blocks easier to spot.
+	# Default: 1.01
+	# Range: 0.5 ~ 1.5
+	ghostPreviewScale = 1.01
+
+[debug]
+	#While you ride a Skitter, shows its fuel, fuel use, speed and heat at the top of the screen.
+	skitterInfoHud = false
+	#Shows your FPS, frame time and the slowest frame of the last second in the top right corner.
+	fpsHud = false

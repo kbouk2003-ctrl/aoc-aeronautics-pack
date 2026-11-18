@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Fixes broken loot tables and Sable physics entries (made 2026-11-17)"
+  }
+}

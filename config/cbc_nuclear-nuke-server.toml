@@ -1,0 +1,125 @@
+[scale]
+	#GAME (default): game flight speeds and heights, full nuclear radii, distant nuclear wave at 0.25 of sound speed.
+	#REAL: reference flight speeds and heights, full nuclear radii and physical wave timing. Flight and air defense use a game model.
+	#CUSTOM uses flight_speed, nuclear.wave_speed and nuclear.effects_scale as set; effects_scale below 1 shrinks nuclear effects.
+	#Allowed Values: GAME, REAL, CUSTOM
+	scale_preset = "GAME"
+
+[world]
+	#Blasts destroy blocks. Off: they still hurt players and mobs. Nuclear strikes use nuclear.block_damage.
+	block_damage = true
+	#The blast wave breaks glass beyond the crater wherever outside air reaches it.
+	shatter_glass = true
+	#Conventional blasts and burning debris start fires.
+	fire = true
+	#Ground clods stay as blocks on loose ground; large airframe parts and burning debris can also remain. Small chips disperse. Off: all debris disappears on landing. Fire still needs fuel.
+	debris_stay = true
+	#An underground blast brings down the roof of the cavity above it.
+	collapse = true
+
+[nuclear]
+	#Nuclear weapons work. Off: the nuclear shells and bombs fizzle.
+	enabled = true
+	#Largest yield, kt (up to 1000 = 1 Mt; the thermonuclear devices of this mod reach 1 Mt). Ruins of large yields need memory and time: at 1 Mt the zone behind the wave is ruined over tens of minutes.
+	# Default: 1000
+	# Range: 1 ~ 1000
+	max_yield = 1000
+	#Works with scale.scale_preset = CUSTOM. Scale of all radii: 1.0 is true to life (1 block = 1 m); lower for small worlds.
+	# Default: 1.0
+	# Range: 0.005 ~ 1.0
+	effects_scale = 1.0
+	#Works with scale.scale_preset = CUSTOM. Speed of the blast wave and its dust wall away from the fireball,
+	#as a share of the speed of sound (1.0 is true to life, 0.25 is the GAME preset). Lower is not true to life: it
+	#gives the server more time to build ruins ahead of the wave and lets players watch the wall roll in. Near the
+	#fireball the wave is always true to life; beyond the dust wall only the sound travels on, at the speed of sound.
+	# Default: 0.25
+	# Range: 0.15 ~ 1.0
+	wave_speed = 0.25
+	#The blast wave destroys buildings and trees. Off: no ruins and no crater.
+	block_damage = true
+	#The thermal pulse starts fires.
+	fires = true
+	#Tree trunks fall whole, away from ground zero.
+	tree_fall = true
+	#A ground burst digs a crater.
+	crater = true
+	#Radioactive fallout: the trail downwind of a ground burst and what black rain washes down after any burst.
+	fallout = true
+	#Radiation dose and radiation sickness for players.
+	radiation = true
+	#Radiation dose and sickness for mobs (except the undead): a dose at the burst and in the fallout trail,
+	#sickness in the same stages as players. Off: prompt radiation kills mobs at once (from 1000 rem) or takes
+	#half their health (from 400 rem), and fallout does not affect them.
+	mob_radiation = true
+	#Black rain: smoke from a nuclear firestorm rains out downwind. It washes a little radioactivity to the ground
+	#and contaminates skin and clothes until washed off with water. Off: no black rain at all.
+	#Applies to new detonations.
+	black_rain = true
+	#When players use Distant Horizons: the heavy-damage zone that is not fully generated on disk (the edge of the explored
+	#world) is generated in the background behind the wave (at most two 5×5 squares at a time), so the ruins are
+	#visible from afar at once. Off: ruins appear there only when a player gets there.
+	#Existing final-block chunks throughout the ruin zone are always settled in the background, independently of this setting.
+	far_zone = true
+	#How many background threads build ruin plans (breaks, collapse and fill from chunk snapshots, parsing chunks
+	#from disk). 0: automatic, all cores but three (server thread, rendering, world I/O and generation;
+	#on a dedicated server all but two), at least one. The mod adjusts how many of them work
+	#to the server tick. The server thread only snapshots chunks and places finished ruins.
+	# Default: 0
+	# Range: 0 ~ 256
+	ruin_threads = 0
+	#Largest number of fires from one detonation that burn on after the blast wave (the flash also lights the ones the wave blows out).
+	# Default: 20000
+	# Range: 0 ~ 100000
+	fires_per_detonation = 20000
+	#Players within this many blocks of a detonation are told about it (warning radius of the nuclear events).
+	# Default: 20000
+	# Range: 100 ~ 1000000
+	warning_radius = 20000
+
+[grid]
+	#Blackout: a strike on a substation cuts power to its area, and electric lights go out district by district.
+	#Torches, candles, campfires and furnaces keep burning: they are not on the grid.
+	enabled = true
+	#Radius of the area a substation powers, blocks.
+	# Default: 512
+	# Range: 16 ~ 4096
+	node_radius = 512
+	#Largest radius of one substation or command outage, blocks. A nuclear strike darkens its whole damage reach (at most 16384 blocks).
+	# Default: 4096
+	# Range: 64 ~ 16384
+	max_radius = 4096
+	#How fast the outage spreads from the substation across districts, blocks per second.
+	# Default: 60.0
+	# Range: 1.0 ~ 10000.0
+	cascade_speed = 60.0
+	#Game hours until power starts coming back after a substation is knocked out (0: only with /incoming grid restore); after a nuclear strike power returns by the damage.
+	#Hours of the world's day: 50 seconds each under a vanilla day, real hours with a mod that makes days 24 hours long; sleep brings power back sooner.
+	# Default: 18.0
+	# Range: 0.0 ~ 12096.0
+	restore_hours = 18.0
+	#Seconds (at vanilla day speed) over which power returns to all districts, in random order.
+	# Default: 90
+	# Range: 0 ~ 3600
+	restore_spread_seconds = 90
+	#Nuclear blackout requires grid.enabled and works without a substation, over the strike's whole damage reach (glass or burns, at most 16384 blocks).
+	nuke_blackout = true
+
+[performance]
+	#At most how many milliseconds of each tick the server spends on the mod's heavy work in total (5–45):
+	#strike destruction first, then the nuke (building ruins ahead while an ICBM flies takes at most 4/15 of the
+	#budget), then blackout lights (at most 2/15; the nuke leaves them that while they have work). The full budget
+	#comes only from time left free in the tick: a server behind schedule gets 2 ms for each of the three, and
+	#6 ms more for nuclear ruins in a player's view. More: salvo damage and nuclear ruins appear sooner; less: a
+	#steadier tick, craters and ruins take longer to finish.
+	# Default: 30
+	# Range: 5 ~ 45
+	work_ms_per_tick = 30
+
+[visibility]
+	#How far players see and hear projectiles in flight (horizontally, at any altitude) and conventional blasts, blocks. Beyond render distance they show
+	#as a model (a dot when smaller than a couple of pixels), flame, trail, fireball and smoke column; sound arrives with
+	#the speed-of-sound delay. Haze hides them anyway further out; a lower value sends fewer packets to players.
+	#A blast is also sent as far as its sound carries on a quiet night, which depends on its charge, up to 32000 blocks.
+	# Default: 8000
+	# Range: 640 ~ 32000
+	far_range = 8000

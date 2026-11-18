@@ -1,0 +1,120 @@
+#General. Detonations support 1 kt to 1 Mt (capped further by nuke.max_yield in cbc_nuclear-nuke-server.toml).
+[general]
+	#Multiplies every weapon's yield (the result is kept within 1 kt and nuke.max_yield).
+	# Default: 1.0
+	# Range: 0.001 ~ 1000.0
+	globalYieldMultiplier = 1.0
+	#A shell that bursts at least this many blocks above the ground (timed or proximity fuze) is an
+	#airburst: it detonates at the optimum burst height for its yield - wider blast damage, no crater.
+	# Default: 12
+	# Range: 1 ~ 4096
+	airburstHeight = 12
+
+#Bomb and shell behaviour.
+[devices]
+	# Default: 15
+	# Range: 1 ~ 3600
+	bombCountdownSeconds = 15
+	#Allow sneak-using a counting-down bomb with an empty hand to abort the detonation.
+	allowDisarm = true
+	#Maximum detonator distance in blocks (0 = unlimited, same dimension only).
+	# Default: 2048
+	# Range: 0 ~ 1000000
+	detonatorRange = 2048
+	#Keep an armed bomb's chunk loaded and ticking (saved with the world), so its countdown runs and the
+	#detonator reaches it while everyone is far away watching. Off: it only works with a player nearby.
+	keepArmedBombsLoaded = true
+	#A dropped (dispensed) bomb must fall this far before its impact fuze arms.
+	# Default: 8
+	# Range: 0 ~ 256
+	bombArmingDistance = 8
+	#If true, conventional explosions hitting a placed nuclear shell trigger a full nuclear detonation.
+	#If false (realistic), the shell is simply destroyed.
+	conventionalExplosionsTriggerNukes = false
+	#Yields (kt) the bombs' dials cycle through with a wrench. Each bomb only uses the presets inside its own
+	#range (tactical 1-5 kt, gun-type 1-50 kt, implosion 5-500 kt, thermonuclear 100 kt-1 Mt, Tsar Bomba 1 Mt) plus its default.
+	bombYieldPresets = [1.0, 2.0, 5.0, 10.0, 15.0, 21.0, 50.0, 100.0, 200.0, 300.0, 500.0, 1000.0]
+
+#Radiation suits (Create: Nuclear's anti-radiation armour, any colour, or items in the cbc_nuclear:radiation_suit tag).
+#Each value is how much of that dose a FULL suit stops (0 = nothing, 1 = all). Single pieces count by the body they
+#cover: helmet 30 %, chestplate 30 %, leggings 25 %, boots 15 %.
+[hazmat]
+	#Fallout dust and black rain on the body (a real suit's main job).
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	contamination = 1.0
+	#Radiation from the fallout on the ground around you. A real suit barely stops these gamma rays; walls,
+	#roofs and earth do (they are already counted). The default favours gameplay.
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
+	fallout = 0.75
+	#The burst's own radiation at the moment of detonation (neutrons and gamma rays).
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	prompt = 0.25
+
+#Per-weapon yields in kilotons of TNT (1 to 1000). For bombs this is the default dial setting.
+[weapons]
+
+	#Small nuclear shell
+	[weapons.small_shell]
+		#Yield in kilotons of TNT.
+		# Default: 1.0
+		# Range: 1.0 ~ 1000.0
+		yieldKilotons = 1.0
+
+	#Medium nuclear shell
+	[weapons.medium_shell]
+		#Yield in kilotons of TNT.
+		# Default: 15.0
+		# Range: 1.0 ~ 1000.0
+		yieldKilotons = 15.0
+
+	#Large nuclear shell
+	[weapons.large_shell]
+		#Yield in kilotons of TNT.
+		# Default: 100.0
+		# Range: 1.0 ~ 1000.0
+		yieldKilotons = 100.0
+
+	#Thermonuclear shell
+	[weapons.thermonuclear_shell]
+		#Yield in kilotons of TNT.
+		# Default: 1000.0
+		# Range: 1.0 ~ 1000.0
+		yieldKilotons = 1000.0
+
+	#Tactical nuclear device (default dial setting)
+	[weapons.tactical_nuke]
+		#Yield in kilotons of TNT.
+		# Default: 1.0
+		# Range: 1.0 ~ 1000.0
+		yieldKilotons = 1.0
+
+	#Gun-type fission bomb (default dial setting, Little Boy)
+	[weapons.nuclear_bomb]
+		#Yield in kilotons of TNT.
+		# Default: 15.0
+		# Range: 1.0 ~ 1000.0
+		yieldKilotons = 15.0
+
+	#Implosion fission bomb (default dial setting, Fat Man)
+	[weapons.implosion_bomb]
+		#Yield in kilotons of TNT.
+		# Default: 21.0
+		# Range: 1.0 ~ 1000.0
+		yieldKilotons = 21.0
+
+	#Thermonuclear bomb (default dial setting)
+	[weapons.thermonuclear_bomb]
+		#Yield in kilotons of TNT.
+		# Default: 1000.0
+		# Range: 1.0 ~ 1000.0
+		yieldKilotons = 1000.0
+
+	#Tsar Bomba (fixed at the 1 Mt maximum)
+	[weapons.tsar_bomba]
+		#Yield in kilotons of TNT.
+		# Default: 1000.0
+		# Range: 1.0 ~ 1000.0
+		yieldKilotons = 1000.0

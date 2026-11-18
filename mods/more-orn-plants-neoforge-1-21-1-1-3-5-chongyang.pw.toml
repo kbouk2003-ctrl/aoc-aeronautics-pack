@@ -1,0 +1,13 @@
+name = "Ornamental Plants"
+filename = "more_orn_plants-neoforge-1.21.1-1.3.5-Chongyang.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vpVbBCHp/versions/Om267THB/more_orn_plants-neoforge-1.21.1-1.3.5-Chongyang.jar"
+hash-format = "sha512"
+hash = "fddec94b275dfe84825c1bee5a46600dee1af8e3fca4d112dcd9f1110558ac1b6d2d3c1c7962c92d3b72759e461ea761a11bf1d5486e282c7402fcbfcd2a20c3"
+
+[update]
+[update.modrinth]
+mod-id = "vpVbBCHp"
+version = "Om267THB"

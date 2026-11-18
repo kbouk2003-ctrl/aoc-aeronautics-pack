@@ -1,0 +1,49 @@
+#Client-side appearance of the latest-death star.
+[latestDeathStar]
+	#Whether the latest-death star is rendered.
+	starEnabled = true
+	#AUTO uses the sky pass normally and a depth-tested pass after shader composition with Iris.
+	#SKY preserves shader clouds/post-processing but some packs discard custom stars.
+	#AFTER_LEVEL avoids pack-specific sky programs; shader clouds and Distant Horizons LOD occlusion may differ.
+	#Allowed Values: AUTO, SKY, AFTER_LEVEL
+	starRenderMode = "AUTO"
+	#Apparent size of the star on the celestial sphere.
+	# Default: 12.0
+	# Range: 0.25 ~ 16.0
+	starScale = 12.0
+	#Size of the crisp inner star relative to the base star scale.
+	# Default: 2.0
+	# Range: 0.25 ~ 4.0
+	coreScale = 2.0
+	#Opacity of the crisp main star layer.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	starOpacity = 1.0
+	#Horizontal distance at which the star is halfway from zenith to its far-sky elevation.
+	# Default: 1000.0
+	# Range: 16.0 ~ 4096.0
+	virtualSkyHeight = 1000.0
+	#Minimum elevation retained when the death point is very far away.
+	# Default: 60.0
+	# Range: 5.0 ~ 75.0
+	farElevationDegrees = 60.0
+	#Fixed roll of the star texture on the celestial sphere.
+	# Default: 30.0
+	# Range: -180.0 ~ 180.0
+	starRollDegrees = 30.0
+	#Optional alpha-only breathing of the additive halo; zero is completely steady.
+	# Default: 0.0
+	# Range: 0.0 ~ 0.25
+	pulseStrength = 0.0
+	#Primary breathing speed in radians per second.
+	# Default: 0.8
+	# Range: 0.01 ~ 4.0
+	pulseSpeed = 0.8
+	#Halo size relative to the main star.
+	# Default: 3.0
+	# Range: 1.0 ~ 4.0
+	haloScale = 3.0
+	#Opacity of the larger halo layer.
+	# Default: 0.6
+	# Range: 0.0 ~ 1.0
+	haloOpacity = 0.6

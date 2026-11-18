@@ -1,0 +1,13 @@
+name = "Kaleidoscope: Immersive Eating"
+filename = "kaleidoscope_ImmersiveEating-neoforge1.21.1-1.5.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SI33d5HH/versions/CHswfQRa/kaleidoscope_ImmersiveEating-neoforge1.21.1-1.5.6.jar"
+hash-format = "sha512"
+hash = "d65bbc1c7cd13c63ec185202dafe748cf4e679779415b8c0f183ce6ddf06c35cb9add128dae0e3b7f27a99e82934344b1fb1ce6e889cbcf7c35f1ac8777a57dc"
+
+[update]
+[update.modrinth]
+mod-id = "SI33d5HH"
+version = "CHswfQRa"

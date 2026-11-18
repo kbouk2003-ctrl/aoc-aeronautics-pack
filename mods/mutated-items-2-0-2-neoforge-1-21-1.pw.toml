@@ -1,0 +1,13 @@
+name = "Mutated Items"
+filename = "mutated_items-2.0.2-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d091648b9e96610df5037c04c5d41f732809cb02"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5749325
+project-id = 855771

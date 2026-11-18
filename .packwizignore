@@ -1,0 +1,6 @@
+*.bak
+*.log
+config/spark/
+config/serverbrowser.conf
+fancymenu_data/last_world.fmdata
+config/crash_assistant/

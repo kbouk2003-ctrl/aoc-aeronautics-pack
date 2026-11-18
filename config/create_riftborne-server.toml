@@ -1,0 +1,758 @@
+	[rift_engine.core]
+		#Seconds the Rift Engine Core needs to cool down after a jump.
+		# Default: 60
+		# Range: 0 ~ 100000
+		coreCooldownSeconds = 60
+		#Explosion strength when the Core is broken while cooling down. It does not destroy blocks.
+		# Default: 4.0
+		# Range: 0.0 ~ 50.0
+		coreExplosionPower = 4.0
+		#Lowest fan speed (RPM) that cools the Core at all.
+		#The fan must blow at the Core from at most coreCoolingMaxDistance blocks away, with only air in between.
+		# Default: 32
+		# Range: 1 ~ 100000
+		coreCoolingMinRpm = 32
+		#Fan speed (RPM) at which the cooling is strongest.
+		# Default: 256
+		# Range: 1 ~ 100000
+		coreCoolingFullRpm = 256
+		#How much a cold fan (ice, snow or water nearby) at full speed shortens the cooldown, from 0 to 0.99.
+		#0.95 makes the cooldown run about 20 times faster.
+		# Default: 0.95
+		# Range: 0.0 ~ 0.99
+		coreCoolingMaxReduction = 0.95
+		#How well a fan without ice, snow or water cools, compared to a cold fan. 0.5 = half as well.
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		coreCoolingWarmFactor = 0.5
+		#How far away (blocks) a fan can be and still cool the Core. 1 = right next to it.
+		#Only air may be in between. A fan that is not right next to the Core also pushes the ship.
+		# Default: 4
+		# Range: 1 ~ 16
+		coreCoolingMaxDistance = 4
+		#Core temperature (°C) when no fan blows at it.
+		# Default: 20.0
+		# Range: -273.0 ~ 100000.0
+		coreTempBase = 20.0
+		#Temperature (°C) a normal fan cools the Core down to.
+		# Default: 0.0
+		# Range: -273.0 ~ 100000.0
+		coreTempFan = 0.0
+		#Lowest temperature (°C), reached with a fan blowing over ice, snow or water.
+		# Default: -50.0
+		# Range: -273.0 ~ 100000.0
+		coreTempMin = -50.0
+		#Highest temperature (°C), reached with a fan blowing over lava, fire or magma.
+		# Default: 10000.0
+		# Range: 0.0 ~ 1000000.0
+		coreTempMax = 10000.0
+		#Temperature (°C) from which a jump can misfire into the Rift.
+		#The chance rises from here up to coreMisfireMaxChance at coreTempMax.
+		# Default: 8000.0
+		# Range: 0.0 ~ 1000000.0
+		coreTempMisfire = 8000.0
+		#Temperature (°C) from which an overheated jump also releases a damaging discharge from the Core.
+		# Default: 9500.0
+		# Range: 0.0 ~ 1000000.0
+		coreTempCritical = 9500.0
+		#How fast the Core heats up with a hot fan at full speed. Higher = faster.
+		# Default: 0.012
+		# Range: 0.0 ~ 1.0
+		coreHeatRate = 0.012
+		#Highest temperature rise (°C) per tick while heating. Lower = slower heating.
+		#At 20 it takes about 20 seconds of full-speed heating to reach the misfire zone.
+		# Default: 20.0
+		# Range: 0.0 ~ 1000000.0
+		coreHeatMaxRise = 20.0
+		#Highest temperature rise (°C) per tick while a hot fan warms a cooled Core back up to the base temperature.
+		#At 1.0 a fully cooled Core takes about 3.5 seconds to warm back up.
+		# Default: 1.0
+		# Range: 0.0 ~ 1000000.0
+		coreWarmMaxRise = 1.0
+		#How much faster a hot Core charges the Stabilizer at its maximum temperature. 1.0 = no boost.
+		#The boost grows from 1.0 at the base temperature up to this value.
+		# Default: 3.0
+		# Range: 1.0 ~ 100.0
+		coreHeatChargeBoost = 3.0
+		#How fast the Core cools down toward its target temperature. Higher = faster.
+		# Default: 0.03
+		# Range: 0.0 ~ 1.0
+		coreCoolRate = 0.03
+		#Highest temperature drop (°C) per tick while cooling. Lower = slower cooling.
+		#At 80 a fully heated Core takes about 8 seconds to cool back down.
+		# Default: 80.0
+		# Range: 0.0 ~ 1000000.0
+		coreCoolMaxDrop = 80.0
+		#Highest chance (0 to 1) that a jump misfires into the Rift, reached at the maximum temperature.
+		# Default: 0.6
+		# Range: 0.0 ~ 1.0
+		coreMisfireMaxChance = 0.6
+		#Extra cooldown seconds after a jump at the maximum temperature. Less heat adds less.
+		# Default: 60
+		# Range: 0 ~ 100000
+		coreOverheatCooldownExtra = 60
+		#How far a hot Core can overcharge the Stabilizer (1.0 = 100%).
+		#At this value the Core blows up, which hurts players and mobs but not blocks, and loses its charge and heat.
+		# Default: 1.25
+		# Range: 1.0 ~ 5.0
+		coreOverchargeMax = 1.25
+		#Seconds a hot Core needs to overcharge the Stabilizer from 100% to coreOverchargeMax.
+		# Default: 180
+		# Range: 1 ~ 100000
+		coreOverchargeSeconds = 180
+		#Damage to players and mobs from the overcharge blast. Blocks are not damaged.
+		# Default: 8.0
+		# Range: 0.0 ~ 1000.0
+		coreOverchargeDamage = 8.0
+
+	[rift_engine.stabilizer]
+		#Seconds at 256 RPM needed to charge the Stabilizer from empty to full.
+		# Default: 60
+		# Range: 1 ~ 100000
+		stabilizerChargeSeconds = 60
+		#Seconds below 128 RPM until a full Stabilizer is empty.
+		# Default: 120
+		# Range: 1 ~ 100000
+		stabilizerDischargeSeconds = 120
+
+	[rift_engine.jump]
+		#Base fuel cost (mB) of every jump.
+		# Default: 1000
+		# Range: 0 ~ 8000
+		jumpBaseCost = 1000
+		#Extra fuel cost (mB) per 1000 blocks of jump distance.
+		# Default: 250
+		# Range: 0 ~ 8000
+		jumpDistanceCostPer1000 = 250
+		#Base fuel cost (mB) of a Directional Jump. Anchor and return jumps use jumpBaseCost instead.
+		# Default: 3000
+		# Range: 0 ~ 8000
+		jumpDirectionalBaseCost = 3000
+		#Multiplier on the distance cost of a Directional Jump. 2.0 = twice the cost per block of an anchor jump.
+		# Default: 2.0
+		# Range: 0.0 ~ 16.0
+		jumpDirectionalDistanceMult = 2.0
+		#Extra fuel cost (mB) per 100 units of ship mass.
+		# Default: 150
+		# Range: 0 ~ 8000
+		jumpMassCostPer100 = 150
+		#Lowest Stabilizer charge (0 to 1) needed to jump.
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		jumpMinCharge = 1.0
+		#How many blocks above the target anchor the ship arrives. Lower = closer to the anchor.
+		# Default: 5.0
+		# Range: -64.0 ~ 256.0
+		jumpYOffset = 5.0
+		#Seconds after a jump during which the Last Position return jump is available.
+		# Default: 300
+		# Range: 0 ~ 86400
+		returnWindowSeconds = 300
+		#Seconds a jump charges up before the ship teleports.
+		# Default: 4
+		# Range: 1 ~ 60
+		jumpChargeSeconds = 4
+		#Stabilizer charge (0 to 1) used per jump. 0.10 = 10%.
+		# Default: 0.1
+		# Range: 0.0 ~ 1.0
+		jumpChargeCost = 0.1
+		#Seconds of Slowness, Mining Fatigue and Nausea after a jump.
+		# Default: 6
+		# Range: 0 ~ 600
+		jumpEffectSeconds = 6
+		#Radius (blocks) around the engine in which players get these effects after a jump.
+		# Default: 16.0
+		# Range: 0.0 ~ 128.0
+		jumpEffectRadius = 16.0
+		#Longest distance (blocks) of a Directional Jump.
+		# Default: 20000
+		# Range: 0 ~ 10000000
+		directionalJumpMaxBlocks = 20000
+		#Shortest distance (blocks) of a Directional Jump.
+		# Default: 100
+		# Range: 1 ~ 10000000
+		directionalJumpMinBlocks = 100
+		#Blocks per scroll step when setting the Directional Jump distance in the Console.
+		# Default: 10
+		# Range: 1 ~ 10000000
+		directionalJumpScrollStep = 10
+		#Blocks per scroll step while holding Shift.
+		# Default: 100
+		# Range: 1 ~ 10000000
+		directionalJumpShiftStep = 100
+		#Blocks per scroll step while holding Ctrl.
+		# Default: 1000
+		# Range: 1 ~ 10000000
+		directionalJumpCtrlStep = 1000
+		#How many blocks above the highest ground a Directional Jump puts the bottom of the ship.
+		# Default: 30
+		# Range: 1 ~ 256
+		directionalJumpClearanceBlocks = 30
+		#The block a jump into each dimension uses up from the Core, as "<dimension id>=<item id>".
+		#Jumps into the Overworld need none. Dimensions not listed use crossDimDefaultResource.
+		crossDimResources = ["minecraft:the_nether=minecraft:netherrack", "minecraft:the_end=minecraft:end_stone", "create_riftborne:rift=create_riftborne:nocturnal_end_stone"]
+		#The block used up by jumps into dimensions not listed in crossDimResources, for example from other mods.
+		crossDimDefaultResource = "create_riftborne:noctite_nugget"
+		#Coordinate scale per dimension for the fuel cost of jumps between dimensions, as "<dimension id>=<ratio>".
+		#Works like the Nether's 1:8. Dimensions not listed use 1.0.
+		crossDimRatios = ["minecraft:the_nether=8.0", "create_riftborne:rift=16.0"]
+		#Extra fuel cost (%) for jumps into another dimension. 20 = +20%, 0 = none.
+		#Does not apply to the Last Position and Leave the Rift return jumps.
+		# Default: 20
+		# Range: 0 ~ 1000
+		crossDimSurchargePercent = 20
+		#Radius (blocks) the Console's Scan button searches for other players' public anchors.
+		# Default: 300
+		# Range: 16 ~ 10000000
+		anchorScanRadius = 300
+		#Stabilizer charge (0 to 1) used per scan.
+		# Default: 0.05
+		# Range: 0.0 ~ 1.0
+		anchorScanCharge = 0.05
+		#Stabilized Phase Fluid (mB) used per scan.
+		# Default: 200
+		# Range: 0 ~ 100000
+		anchorScanFluid = 200
+
+	[rift_engine.call]
+		#Whether the Rift Engine Remote works.
+		#A ship far away is only loaded for the moment of the jump, never kept loaded.
+		enableShipCall = true
+		#How long (ticks) the Remote waits for a ship far away to load before giving up. 20 ticks = 1 second.
+		#Raise it if calls time out in freshly generated terrain.
+		# Default: 200
+		# Range: 20 ~ 12000
+		callLoadTimeoutTicks = 200
+		#Fuel cost multiplier for calling the ship to you with the Remote, compared to a normal jump of the same distance.
+		# Default: 2.0
+		# Range: 0.0 ~ 100.0
+		callCostMultiplier = 2.0
+
+	[rift_engine.reinforcement]
+		#Share (0 to 1) of the jump fuel cost saved with all 9 frame casings reinforced. Each casing saves 1/9 of it.
+		#0.75 = jumps cost a quarter with the whole frame reinforced.
+		# Default: 0.75
+		# Range: 0.0 ~ 1.0
+		reinforcementCostMax = 0.75
+
+	[rift_engine.rift_anchor]
+		#Stress impact (SU per RPM) of the Rift Anchor.
+		# Default: 8.0
+		# Range: 0.0 ~ 1024.0
+		anchorStressImpact = 8.0
+		#How far (blocks) off target a ship can arrive when the anchor spins at 32 RPM.
+		#At 256 RPM it arrives exactly on target. 0 = always exact.
+		# Default: 64.0
+		# Range: 0.0 ~ 1000.0
+		anchorPrecisionScatterMax = 64.0
+		#Jump cost multiplier when the anchor spins at 32 RPM. At 256 RPM the cost is normal. 1.0 = no extra cost.
+		# Default: 2.0
+		# Range: 1.0 ~ 100.0
+		anchorCostSurchargeMax = 2.0
+
+	[physics.stasis_core]
+		#Fine-tunes how much gravity the Stasis Core cancels. 1.0 = exactly all of it.
+		#Lower it slightly if ships slowly rise, raise it if they slowly sink.
+		# Default: 1.0
+		# Range: 0.0 ~ 10.0
+		stasisCoreCompensation = 1.0
+		#How firmly the Stasis Core holds the ship at its height. Higher = firmer, 0 = off (the ship slowly drifts up).
+		# Default: 6.0
+		# Range: 0.0 ~ 1000.0
+		stasisCoreStiffness = 6.0
+		#How quickly the ship settles at its height without bouncing. Higher = calmer.
+		# Default: 5.0
+		# Range: 0.0 ~ 100.0
+		stasisCoreDamping = 5.0
+		#How far (blocks) the ship can be pushed up or down before the Stasis Core holds it at the new height.
+		#This lets propellers still change the altitude.
+		# Default: 0.5
+		# Range: 0.0 ~ 256.0
+		stasisCoreHoldTolerance = 0.5
+		#How firmly the Stasis Core keeps the ship level. Turning stays free. 0 = off, so uneven loads can tilt the ship.
+		# Default: 10.0
+		# Range: 0.0 ~ 1000.0
+		stasisCoreAttitudeStiffness = 10.0
+		#How quickly the ship settles level without wobbling. Higher = calmer.
+		# Default: 8.0
+		# Range: 0.0 ~ 100.0
+		stasisCoreAttitudeDamping = 8.0
+		#Stress impact (SU per RPM) of the Stasis Core.
+		# Default: 16.0
+		# Range: 0.0 ~ 1024.0
+		stasisCoreStressImpact = 16.0
+		#Base Stabilized Phase Fluid use (mB per second) at 256 RPM. At 32 RPM it uses half.
+		# Default: 8
+		# Range: 0 ~ 8000
+		stasisCoreFluidBase = 8
+		#Extra fluid use (mB per second) per 100 units of ship mass at 256 RPM.
+		#Example: base 8 plus 2 per 100 mass makes a ship of 2000 mass use about 48 mB/s.
+		# Default: 2.0
+		# Range: 0.0 ~ 8000.0
+		stasisCoreFluidPer100Mass = 2.0
+		#Highest fluid use (mB per second), so one Mechanical Pump can always keep it running.
+		# Default: 1000
+		# Range: 1 ~ 8000
+		stasisCoreMaxFluidPerSecond = 1000
+		#How strongly the Stasis Core stops its ship drifting sideways. 0 = no friction, 3.0 stops drift in 1 to 2 seconds.
+		#Propellers can still move the ship.
+		# Default: 3.0
+		# Range: 0.0 ~ 100.0
+		stasisCoreFriction = 3.0
+		#Above this speed (blocks per second) the Stasis Core turns friction on by itself, even if it is switched off.
+		#This keeps frictionless ships from speeding up forever. Set it very high to disable.
+		# Default: 200.0
+		# Range: 1.0 ~ 100000.0
+		stasisCoreAutoFrictionSpeed = 200.0
+
+	[physics.stasis_field]
+		#Distance (blocks) from the Stasis Field to the near side of its zone.
+		# Default: 2.0
+		# Range: 0.0 ~ 64.0
+		stasisFieldOffset = 2.0
+		#Starting zone width and length (blocks) of a newly placed field. Both can be changed in-world from 1 to 16.
+		# Default: 2.0
+		# Range: 1.0 ~ 16.0
+		stasisFieldSize = 2.0
+		#Stress impact (SU per RPM) of the Stasis Field.
+		# Default: 16.0
+		# Range: 0.0 ~ 1024.0
+		stasisFieldStressImpact = 16.0
+		#Base Stabilized Phase Fluid use (mB per second) at 256 RPM. At 32 RPM it uses half.
+		# Default: 15
+		# Range: 0 ~ 8000
+		stasisFieldFluidBase = 15
+		#Extra fluid use (mB per second) per block of zone volume at 256 RPM. A zone of size N has N^3 blocks.
+		#Example: base 15 plus 0.0256 per block makes a 16^3 zone use about 120 mB/s.
+		# Default: 0.0256
+		# Range: 0.0 ~ 1000.0
+		stasisFieldFluidPerVolume = 0.0256
+		#Flight speed of players inside a field with the Lens Upgrade (normal creative flight is 0.05).
+		# Default: 0.05
+		# Range: 0.0 ~ 1.0
+		stasisFieldFlySpeed = 0.05
+		#Highest up and down flight speed (blocks per tick) inside the field. 0 = no limit.
+		# Default: 0.18
+		# Range: 0.0 ~ 5.0
+		stasisFieldFlyVerticalCap = 0.18
+		#How long (ticks) players take no fall damage after leaving the field. 20 ticks = 1 second.
+		# Default: 200
+		# Range: 0 ~ 12000
+		stasisFieldFallGraceTicks = 200
+		#How strongly the field slows down caught ships while friction is on.
+		#0 = no friction, 3.0 stops a ship in 1 to 2 seconds.
+		# Default: 3.0
+		# Range: 0.0 ~ 100.0
+		stasisFieldFriction = 3.0
+		#Highest fluid use (mB per second), so one Mechanical Pump can always keep it running.
+		# Default: 1000
+		# Range: 1 ~ 8000
+		stasisFieldMaxFluidPerSecond = 1000
+		#With Create: Big Cannons installed, cannon projectiles freeze in place inside the zone until they leave it.
+		stasisFieldFreezeProjectiles = true
+
+	[physics.repulsor_field]
+		#Distance (blocks) from the Repulsor Field to the near side of its zone.
+		# Default: 2.0
+		# Range: 0.0 ~ 64.0
+		repulsorFieldOffset = 2.0
+		#Starting zone width and length (blocks) of a newly placed field. Both can be changed in-world from 1 to 16.
+		# Default: 2.0
+		# Range: 1.0 ~ 16.0
+		repulsorFieldSize = 2.0
+		#Stress impact (SU per RPM) of the Repulsor Field.
+		# Default: 16.0
+		# Range: 0.0 ~ 1024.0
+		repulsorFieldStressImpact = 16.0
+		#Base Stabilized Phase Fluid use (mB per second) at 256 RPM. At 32 RPM it uses half.
+		# Default: 15
+		# Range: 0 ~ 8000
+		repulsorFieldFluidBase = 15
+		#Extra fluid use (mB per second) per block of zone volume at 256 RPM. A zone of size N has N^3 blocks.
+		# Default: 0.0256
+		# Range: 0.0 ~ 1000.0
+		repulsorFieldFluidPerVolume = 0.0256
+		#Highest fluid use (mB per second), so one Mechanical Pump can always keep it running.
+		# Default: 1000
+		# Range: 1 ~ 8000
+		repulsorFieldMaxFluidPerSecond = 1000
+		#Push on ships (blocks per tick, added every tick) at the near side of the zone at 256 RPM.
+		#It is the same for any ship mass and gets weaker toward the far side.
+		# Default: 0.6
+		# Range: 0.0 ~ 50.0
+		repulsorFieldShipPush = 0.6
+		#Push on players, mobs and items (blocks per tick, added every tick) at the near side of the zone at 256 RPM.
+		# Default: 0.22
+		# Range: 0.0 ~ 50.0
+		repulsorFieldEntityPush = 0.22
+		#Share (0 to 1) of the push left at the far side of the zone. 1.0 = the same everywhere, 0.0 = none at the far side.
+		# Default: 0.6
+		# Range: 0.0 ~ 1.0
+		repulsorFieldFalloffFloor = 0.6
+		#With Create: Big Cannons installed, cannon projectiles that hit the zone glance off it like off a wall.
+		repulsorFieldDeflectProjectiles = true
+		#Share (0 to 1) of a cannon projectile's speed it keeps when the zone bounces it back.
+		# Default: 0.3
+		# Range: 0.0 ~ 1.0
+		repulsorFieldShellBounce = 0.3
+
+	[physics.pulse_drive]
+		#Highest strength setting of the Pulse Drive. Each point adds pulseDriveSpeedPerStrength to a dash.
+		# Default: 10
+		# Range: 1 ~ 64
+		pulseDriveMaxStrength = 10
+		#Dash speed (blocks per second) per strength point. It is the same for any ship mass.
+		# Default: 6.0
+		# Range: 0.0 ~ 50.0
+		pulseDriveSpeedPerStrength = 6.0
+		#Wait time (ticks) between dashes. 20 ticks = 1 second.
+		# Default: 25
+		# Range: 0 ~ 1200
+		pulseDriveCooldownTicks = 25
+		#Base Stabilized Phase Fluid cost (mB) per dash.
+		# Default: 10
+		# Range: 0 ~ 8000
+		pulseDriveFluidBase = 10
+		#Extra fluid cost (mB) per dash and strength point.
+		#Example: base 10 plus 5 per point makes a strength 10 dash cost 60 mB.
+		# Default: 5
+		# Range: 0 ~ 8000
+		pulseDriveFluidPerStrength = 5
+		#Fluid tank size (mB) of the Pulse Drive.
+		# Default: 4000
+		# Range: 0 ~ 1000000
+		pulseDriveCapacity = 4000
+
+	[physics.tether_winch]
+		#Range (blocks) of the Tether Winch at 256 RPM.
+		#Tethered players can fly anywhere within it and get pulled back at the edge.
+		# Default: 20.0
+		# Range: 1.0 ~ 256.0
+		tetherWinchMaxRange = 20.0
+		#Share of the full range at 32 RPM. The range grows to full at 256 RPM.
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		tetherWinchRangeMinFactor = 0.5
+		#Whether pulling on a tight tether drags the winch's ship toward you. Experimental.
+		tetherWinchShipPullEnabled = false
+		#How strongly a tight tether drags the winch's ship toward you. 0 = off.
+		#It is the same for any ship mass, so light ships move easily and heavy ones barely.
+		# Default: 15.0
+		# Range: 0.0 ~ 100000.0
+		tetherWinchShipPull = 15.0
+		#Flight speed of a tethered player at 256 RPM (normal creative flight is 0.05).
+		# Default: 0.05
+		# Range: 0.0 ~ 1.0
+		tetherWinchFlySpeed = 0.05
+		#Share of the full flight speed at 32 RPM. The speed rises to full at 256 RPM.
+		# Default: 0.45
+		# Range: 0.0 ~ 1.0
+		tetherWinchFlySpeedMinFactor = 0.45
+		#Stabilized Phase Fluid use (mB per second) while a tethered player flies.
+		# Default: 10
+		# Range: 0 ~ 8000
+		tetherWinchFluidPerSecond = 10
+		#Stress impact (SU per RPM) of the Tether Winch.
+		# Default: 8.0
+		# Range: 0.0 ~ 1024.0
+		tetherWinchStressImpact = 8.0
+		#When on, holding a Lead in your off hand tethers you to the nearest Tether Winch in range.
+		tetherWinchAutoConnect = false
+
+	[physics.phase_sticker]
+		#Ship mass one active Phase Sticker can lock in place. Heavier ships only slow down and need more stickers.
+		#Most ships weigh about 300 to 1600.
+		# Default: 500.0
+		# Range: 0.0 ~ 1.0E12
+		phaseStickerMassPerLock = 500.0
+
+	[slipgates.item_slipgate]
+		#Lowest speed (RPM) both Slipgates need to transfer anything. Above it, the slower gate sets the transfer speed.
+		# Default: 64
+		# Range: 1 ~ 100000
+		slipgateMinRpm = 64
+		#Fuel tank size (mB) of the Item Slipgate.
+		# Default: 4000
+		# Range: 0 ~ 1000000
+		slipgateCapacity = 4000
+		#Base Stabilized Phase Fluid cost (mB) per item.
+		# Default: 2
+		# Range: 0 ~ 8000
+		slipgateFluidPerItem = 2
+		#Every this many blocks between the gates adds 1 mB per item.
+		#Example: 32 makes a transfer over 320 blocks cost 10 mB more per item.
+		# Default: 32
+		# Range: 1 ~ 100000
+		slipgateFluidDistanceDivisor = 32
+		#Stress impact (SU per RPM) of the Item Slipgate.
+		# Default: 8.0
+		# Range: 0.0 ~ 1024.0
+		slipgateStressImpact = 8.0
+		#Ticks between transfers at the lowest speed. It gets faster up to slipgateTransferTicksMin at 256 RPM.
+		#20 ticks = 1 second.
+		# Default: 100
+		# Range: 1 ~ 1200
+		slipgateTransferTicksAtMinRpm = 100
+		#Fewest ticks between transfers at high speed.
+		# Default: 2
+		# Range: 1 ~ 1200
+		slipgateTransferTicksMin = 2
+		#Chance (0 to 1) per transfer that a gate running on Unstable Phase Slurry destroys the items instead of sending them.
+		#Stabilized Phase Fluid never loses items.
+		# Default: 0.1
+		# Range: 0.0 ~ 1.0
+		slipgateSlurryLossChance = 0.1
+		#Transfers to another dimension that one Corrupted Shard adds to a Slipgate.
+		#Transfers within one dimension never use them.
+		# Default: 100
+		# Range: 1 ~ 100000
+		slipgateShardCharges = 100
+		#Distance (blocks) used for the fluid cost of a transfer to another dimension. It also uses a Corrupted Shard charge.
+		# Default: 1000
+		# Range: 0 ~ 1000000
+		slipgateCrossDimDistance = 1000
+
+	[slipgates.fluid_slipgate]
+		#Size (mB) of the Fluid Slipgate's cargo tank, filled from the top. The fuel tank uses slipgateCapacity.
+		# Default: 8000
+		# Range: 0 ~ 1000000
+		fluidSlipgateCargoCapacity = 8000
+		#Amount (mB) sent per transfer. The gate waits until it has a full batch and the receiver has room for it.
+		# Default: 250
+		# Range: 1 ~ 100000
+		fluidSlipgateBatch = 250
+
+	[apex.unit]
+		#Speed (RPM) of the A.P.E.X. Unit Tap. Only the stress capacity changes with the level.
+		# Default: 256
+		# Range: 1 ~ 256
+		apexRpm = 256
+		#Stress capacity (SU) at level 9. Each level below halves it.
+		# Default: 16777216
+		# Range: > 0
+		apexMaxSu = 16777216
+		#Rift Ichor Chunks collected per harvest by the Anomaly Manipulator. Only a Tier 2 unit at level 9 harvests.
+		#0 = off. The Base holds up to 64.
+		# Default: 1
+		# Range: 0 ~ 64
+		apexChunksPerHarvest = 1
+		#Seconds a Shulker Burner stays lit per Ender Pearl.
+		# Default: 120
+		# Range: 1 ~ 36000
+		shulkerBurnerPearlSeconds = 120
+		#Seconds a Shulker Burner stays superphased per Shulker Cake.
+		# Default: 180
+		# Range: 1 ~ 36000
+		shulkerBurnerCakeSeconds = 180
+		#Seconds a Shulker Burner stays lit per Shulkie.
+		# Default: 100
+		# Range: 1 ~ 36000
+		shulkerBurnerCookieSeconds = 100
+		#Seconds a Shulker Burner stays lit per Chorus Fruit.
+		# Default: 40
+		# Range: 1 ~ 36000
+		shulkerBurnerChorusSeconds = 40
+		#Seconds a Shulker Burner stays lit per Noctite Nugget.
+		# Default: 60
+		# Range: 1 ~ 36000
+		shulkerBurnerNuggetSeconds = 60
+		#Seconds of Slow Falling and Extended Reach from eating a Shulkie.
+		# Default: 150
+		# Range: 1 ~ 36000
+		shulkieEffectSeconds = 150
+		#Highest level a Shulker Burner lit with normal fuel allows. With Shulker Cakes it allows level 9.
+		# Default: 5
+		# Range: 1 ~ 9
+		apexNormalPhaseMaxLevel = 5
+		#When on, breaking a running A.P.E.X. Unit causes a meltdown that destroys the unit and a large area around it.
+		#Off by default because it is very destructive. When off, the unit just shuts down.
+		apexMeltdown = false
+
+	[apex.nexus]
+		#Mass the A.P.E.X. Nexus needs to collect for Genesis before it can make a Primordium.
+		# Default: 1000000
+		# Range: 1 ~ 1000000000
+		genesisTargetMass = 1000000
+		#Mass a normal mob is worth when the Nexus eats it.
+		# Default: 20.0
+		# Range: 0.0 ~ 1000000.0
+		nexusMobMass = 20.0
+		#Mass of a mob on the small list (birds, rabbits, fish).
+		# Default: 5.0
+		# Range: 0.0 ~ 1000000.0
+		nexusSmallMobMass = 5.0
+		#Mass of a mob on the big list (Warden, Ravager and similar).
+		# Default: 100.0
+		# Range: 0.0 ~ 1000000.0
+		nexusBigMobMass = 100.0
+		#Entity ids that count as small mobs. Mobs on neither list use nexusMobMass.
+		nexusSmallMobs = ["minecraft:chicken", "minecraft:parrot", "minecraft:bat", "minecraft:rabbit", "minecraft:bee", "minecraft:allay", "minecraft:cod", "minecraft:salmon", "minecraft:tropical_fish", "minecraft:pufferfish", "minecraft:tadpole", "minecraft:frog", "minecraft:silverfish", "minecraft:endermite", "minecraft:ocelot", "minecraft:cat", "minecraft:fox"]
+		#Entity ids that count as big mobs.
+		nexusBigMobs = ["minecraft:warden", "minecraft:ravager", "minecraft:iron_golem", "minecraft:ender_dragon", "minecraft:wither", "minecraft:elder_guardian", "minecraft:ghast", "minecraft:hoglin", "minecraft:zoglin", "minecraft:polar_bear", "minecraft:camel"]
+		#Range (blocks) between a marked mob and the A.P.E.X. Nexus that drains it.
+		# Default: 24.0
+		# Range: 1.0 ~ 128.0
+		ascensionRange = 24.0
+		#Entity ids that cannot be marked with a Rift Ichor Chunk.
+		ascensionBlacklist = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:warden", "minecraft:elder_guardian"]
+		#Ascension points a normal mob is worth.
+		# Default: 10.0
+		# Range: 0.0 ~ 1000000.0
+		ascensionSoulDefault = 10.0
+		#Ascension points a mob from ascensionHighValueMobs is worth.
+		# Default: 60.0
+		# Range: 0.0 ~ 1000000.0
+		ascensionSoulHigh = 60.0
+		#Entity ids worth ascensionSoulHigh, such as villagers.
+		ascensionHighValueMobs = ["minecraft:villager", "minecraft:wandering_trader"]
+		#Ascension points needed to fill the meter.
+		# Default: 1000
+		# Range: 1 ~ 1000000000
+		ascensionTarget = 1000
+		#Seconds the Nexus needs to drain one marked mob.
+		# Default: 40
+		# Range: 1 ~ 100000
+		ascensionHarvestSeconds = 40
+		#Range (blocks) around an active A.P.E.X. Nexus with full Ascension in which Rift Engine jumps are free.
+		# Default: 64.0
+		# Range: 1.0 ~ 256.0
+		nexusFreeJumpRange = 64.0
+
+	[rift_dimension.anomaly]
+		#Whether anomalies appear in the Rift.
+		#Anything that enters one, a player or a whole ship, is thrown out to the Overworld.
+		anomalyEnabled = true
+		#How often (ticks) each player in the Rift has a chance to spawn a new anomaly nearby.
+		# Default: 100
+		# Range: 1 ~ 24000
+		anomalyCheckIntervalTicks = 100
+		#Chance (0 to 1) per check and player to spawn an anomaly. 0.02 every 100 ticks is about one every few minutes.
+		# Default: 0.02
+		# Range: 0.0 ~ 1.0
+		anomalySpawnChance = 0.02
+		#Seconds an anomaly lasts before it disappears.
+		# Default: 180
+		# Range: 5 ~ 86400
+		anomalyLifetimeSeconds = 180
+		#Size (blocks) of an anomaly.
+		# Default: 5
+		# Range: 1 ~ 64
+		anomalySize = 5
+		#Shortest distance (blocks) from the player at which an anomaly appears.
+		# Default: 48
+		# Range: 0 ~ 512
+		anomalyMinDistance = 48
+		#Longest distance (blocks) from the player at which an anomaly appears. Limited to the simulation distance.
+		# Default: 128
+		# Range: 1 ~ 512
+		anomalyMaxDistance = 128
+		#Highest number of anomalies in the Rift at the same time.
+		# Default: 3
+		# Range: 1 ~ 64
+		anomalyMaxActive = 3
+		#Whether anomalies throw players on foot out of the Rift. Ships are always thrown out, with everyone on board.
+		anomalyTeleportPlayers = true
+		#Where you land in the Overworld. false = the same X and Z as the anomaly.
+		#true = X and Z scaled by the Rift's 1:16 ratio, like a normal return jump.
+		anomalyScaleCoordinates = false
+		#When on, anomalies send you to a random dimension instead of the Overworld, never back into the Rift.
+		#Landing in other dimensions can be dangerous.
+		anomalyRandomDimension = false
+
+	[world.building_blocks]
+		#What happens when Diurnal and Nocturnal End Stone touch. OFF: nothing.
+		#EXPLODE: an explosion (see endStoneReactionExplosionPower).
+		#ANNIHILATE: blocks disappear without drops (see annihilationTarget).
+		#Allowed Values: OFF, EXPLODE, ANNIHILATE
+		endStoneReaction = "OFF"
+		#Explosion strength for EXPLODE (TNT is 4.0).
+		# Default: 4.0
+		# Range: 0.0 ~ 50.0
+		endStoneReactionExplosionPower = 4.0
+		#Which block disappears for ANNIHILATE: BOTH, only the DIURNAL one or only the NOCTURNAL one.
+		#Allowed Values: BOTH, DIURNAL, NOCTURNAL
+		annihilationTarget = "BOTH"
+		#How often (ticks) touching Diurnal and Nocturnal End Stone on ships is checked. 20 ticks = 1 second.
+		#Lower = faster reaction but more server load. Blocks that are not on ships react right away.
+		# Default: 10
+		# Range: 1 ~ 1200
+		endStoneCheckIntervalTicks = 10
+		#Whether Nocturnal End Stone slowly turns nearby End Stone into Dimming, then Gloaming, then Nocturnal End Stone.
+		#Left on, it spreads to all End Stone it can reach over time. Off = all four blocks stay as they are.
+		endStoneSpread = true
+		#How fast the corruption spreads (0 to 1). 1.0 = as fast as possible.
+		# Default: 0.2
+		# Range: 0.0 ~ 1.0
+		endStoneSpreadChance = 0.2
+
+	[world.nocturnal_feeding]
+		#Whether Nocturnal End Stone drains phase blight from nearby players and uses it to spread faster. Needs endStoneSpread.
+		nocturnalFeedingEnabled = true
+		#Radius (blocks) around the player for the drain and the faster spreading.
+		# Default: 6
+		# Range: 1 ~ 32
+		nocturnalFeedRadius = 6
+		#Seconds between drains. Longer = more phase blight builds up in between.
+		# Default: 2.0
+		# Range: 0.25 ~ 120.0
+		nocturnalFeedIntervalSeconds = 2.0
+		#Extra spreading per full bar (10 hearts) of drained phase blight. Higher = faster spreading.
+		# Default: 500
+		# Range: 1 ~ 1000000
+		nocturnalFeedStepsPerHeartBar = 500
+
+	[world.unstable_ingot]
+		#Whether carrying Unstable Noctite Ingots builds up phase blight.
+		unstableIngotBlight = true
+		#Number of carried ingots for the normal blight rate. Fewer ingots build it up slower, more build it up faster.
+		# Default: 64
+		# Range: 1 ~ 2304
+		unstableComfortAmount = 64
+		#Highest chance (0 to 1) per tick to phase-shift (teleport a short way) at full phase blight.
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		unstableMaxTeleportChance = 0.5
+		#Shortest phase-shift distance (blocks).
+		# Default: 0.25
+		# Range: 0.0 ~ 64.0
+		unstableMinJitterDistance = 0.25
+		#Longest phase-shift distance (blocks) when phase-shifting starts. It grows toward unstableMaxJitterDistance.
+		# Default: 1.0
+		# Range: 0.1 ~ 256.0
+		unstableJitterDistanceAtComfort = 1.0
+		#Longest phase-shift distance (blocks) at full phase blight.
+		# Default: 8.0
+		# Range: 0.25 ~ 256.0
+		unstableMaxJitterDistance = 8.0
+		#Seconds until phase blight is full while carrying unstableComfortAmount ingots.
+		# Default: 600
+		# Range: 1 ~ 86400
+		unstableBlightSecondsAtComfort = 600
+
+	[world.phase_blight]
+		#Phase blight (0 to 1) from which you start to phase-shift, after the blue hearts, nausea and slowness.
+		# Default: 0.85
+		# Range: 0.0 ~ 1.0
+		phaseBlightJitterAt = 0.85
+		#Phase blight (0 to 1) everyone on board gets from a jump within one dimension.
+		# Default: 0.15
+		# Range: 0.0 ~ 1.0
+		riftJumpBlight = 0.15
+		#Phase blight (0 to 1) everyone on board gets from a jump into another dimension.
+		# Default: 0.3
+		# Range: 0.0 ~ 1.0
+		riftJumpBlightInterdim = 0.3
+
+[visuals]
+	#Whether an outline of particles is drawn around the ship while a jump charges.
+	jumpShipOutline = false
+	#Order in which the Rift Engine auto-build places blocks.
+	#RANDOM: a new random order every time. BOTTOM_UP: from the bottom row up.
+	#Allowed Values: RANDOM, BOTTOM_UP
+	autoBuildOrder = "RANDOM"
+
+[worldgen]
+	#Where Noctite Ore generates. END_ONLY: only in the End.
+	#LOW: also a little in the Overworld. HIGH: also a lot in the Overworld.
+	#Allowed Values: END_ONLY, LOW, HIGH
+	noctiteOverworldSpawn = "END_ONLY"

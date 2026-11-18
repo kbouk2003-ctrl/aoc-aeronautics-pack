@@ -1,0 +1,111 @@
+["Biome Enable Settings"]
+	enableRedMeiForest = true
+	enableSnowGreetsSpring = true
+	enableHandongLayue = true
+	enableSpringRiver = true
+	enableLotusRiver = true
+	enableAutumnRiver = true
+	enableJiangtianMuxue = true
+	enablePenglai = true
+	enableMountMei = true
+	enableFragrantSnowSea = true
+	enablePeonySea = true
+	enablePeonyMeadows = true
+	enableEvergreenForest = true
+	enableLongevityForest = true
+	enableFlowersGrove = true
+	enableFlowersFields = true
+	enableCrabappleGrove = true
+	enableColoredForest = true
+	enableWutongForest = true
+	enablePeachBlossomSpring = true
+	enableApricotSpringPlateau = true
+	enableCamelliaValley = true
+	enableRedCamelliaValley = true
+	enablePinkCamelliaValley = true
+	enableRedHighlands = true
+	enableAzaleaForest = true
+	enableFurongGuo = true
+	enableYunmengMarsh = true
+	enableDesertPoplarWoods = true
+	enableTamariskFields = true
+	enableGoldCountry = true
+	enableChineseRoseFields = true
+	enableCrapeMyrtleGarden = true
+	enableDongliScenery = true
+	enableSweetgumWoods = true
+	enableChinaberryWoods = true
+	enableSnowWoods = true
+	enableMiscanthusFields = true
+	enableGinkgoForest = true
+	enableCropsGreen = true
+	enableLandOfAbundance = true
+	enablePinkLand = true
+	enablePurpleLand = true
+	enableWhiteLand = true
+	enableYellowLand = true
+	enablePurpleCloud = true
+	enableTenMileGallery = true
+	enableWisteriaValley = true
+	enableWhiteWisteriaValley = true
+	enableBlueWisteriaValley = true
+	enableZiyingCaves = true
+	enableSuyuCaves = true
+
+["Region Weight Settings"]
+	#Weight for main overworld biomes region
+	# Default: 6
+	# Range: 0 ~ 20
+	overworldBiomesWeight = 2
+	#Weight for second overworld biomes region
+	# Default: 5
+	# Range: 0 ~ 20
+	secondOverworldBiomesWeight = 2
+	#Weight for third overworld biomes region
+	# Default: 4
+	# Range: 0 ~ 20
+	thirdOverworldBiomesWeight = 1
+
+["Biome Effects Settings"]
+	enableFlowerBiomeEffects = true
+	enableLongevityForestEffects = true
+	enablePenglaiEffects = true
+	enableRedHighlandsEffects = true
+	enableRedHighlandsHurtEnemy = true
+	valueOfRedHighlandsHurtEnemy = 20.0
+	enableWutongBiomeHurtEnemy = true
+	enableCavesBiomeHurtEnemy = true
+	enablePeachBiomeHurtEnemy = true
+	enablePeachBiomeAutoCure = true
+	enableBiomeNoEnemy = true
+	enableBiomeSpeedCrop = true
+	enableModFoxSpawn = true
+
+["Particle Settings"]
+	particleDespawnOnGround = true
+
+["Weapon Config"]
+	#Damage multiplier for Camphor Wooden Sword
+	camphorSwordMultiplier = 4.0
+	#Damage multiplier for Chinese Parasol Wooden Sword
+	chineseParasolSwordMultiplier = 6.0
+	#Critical hit damage multiplier for Ziying tools
+	ziyingToolsMultiplier = 3.0
+	#Damage multiplier for Suyu tools
+	suyuToolsMultiplier = 1.5
+	#Base damage multiplier for Ziyu Yuanyang tools
+	ziyuYuanyangToolsBaseMultiplier = 1.25
+	#Critical hit damage multiplier for Ziyu Yuanyang tools
+	ziyuYuanyangToolsCritMultiplier = 3.0
+	#Damage multiplier for Zhuiyue Sword during full moon
+	zhuiyueSwordFullMoonMultiplier = 3.0
+	#Damage multiplier for Caiyun Sword in clear weather
+	caiyunSwordClearMultiplier = 2.0
+	#Damage multiplier for Caiyun Sword in rain (no thunder)
+	caiyunSwordRainMultiplier = 1.0
+	#Damage multiplier for Caiyun Sword in thunderstorm
+	caiyunSwordThunderMultiplier = 0.5
+	#Damage multiplier for Baihua Sword when player has a flower
+	baihuaSwordFlowerMultiplier = 5.0
+	#Damage multiplier for Baihua Sword in floral biomes
+	baihuaSwordFloralBiomeMultiplier = 9.0

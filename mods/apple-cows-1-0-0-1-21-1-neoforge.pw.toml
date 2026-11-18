@@ -1,0 +1,13 @@
+name = "Modern Apple Cows"
+filename = "apple_cows-1.0.1+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/h3VCF7si/versions/AkMWyskW/apple_cows-1.0.1%2B1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "c82851e083b5fd60b6be2eb2d605e92917c0e92dcd4abef9cae791f9318e8fec99aea6e296428ded57fb3d71c805fa9c6b607b6a88be7d2bf3ee77efd945f525"
+
+[update]
+[update.modrinth]
+mod-id = "h3VCF7si"
+version = "AkMWyskW"

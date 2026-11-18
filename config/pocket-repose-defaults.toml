@@ -1,0 +1,40 @@
+# Pocket Repose settings that new worlds start with.
+# Each world keeps its own copy in <world>/serverconfig/pocket-repose-server.toml.
+
+[pocket_dimension]
+# Hostile mobs spawn naturally inside pocket dimensions
+allowHostileMobSpawning = false
+# Passive mobs spawn naturally inside pocket dimensions
+allowPassiveMobSpawning = true
+# Players can set their spawn point with a bed inside pocket dimensions
+allowSetSpawnPoint = false
+# New pocket dimensions start with an island (otherwise a single grass block)
+spawnIsland = true
+# How loud a knock on a locked suitcase is inside its pocket dimension (0 to 10)
+knockVolume = 0.5
+
+[items]
+# Unlocked pocket blocks close behind players who enter them
+closeOnEntry = false
+# Locked pocket blocks close behind players who enter them
+closeOnLockedEntry = true
+# Pocket blocks can be entered from inside pocket dimensions
+allowRecursion = true
+# Pocket blocks can be entered in the Nether
+allowInNether = true
+# Pocket blocks can be entered in the End
+allowInEnd = true
+# Hostile mobs can be captured into pocket dimensions
+allowHostileMobCapture = false
+# Passive mobs can be captured into pocket dimensions
+allowPassiveMobCapture = true
+# Mobs that can never be captured, as entity ids, e.g. ["minecraft:villager"]
+captureBlacklist = []
+# Seconds before the Exit Keystone can be used again (0 to 600)
+exitKeystoneCooldown = 1.0
+# The Exit Keystone returns players to their spawn point from the Overworld
+exitKeystoneWorksInOverworld = false
+# The Exit Keystone returns players to their spawn point from the Nether
+exitKeystoneWorksInNether = true
+# The Exit Keystone returns players to their spawn point from the End
+exitKeystoneWorksInEnd = true

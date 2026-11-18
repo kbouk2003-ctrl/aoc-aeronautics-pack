@@ -1,0 +1,4 @@
+config/spark/
+config/crash_assistant/
+*.log
+*.bak

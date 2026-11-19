@@ -1699,6 +1699,34 @@
 		"&cAlways be ready to stop the reactor before it overheats.&r Ponder shows how each part fits."
 	]
 	chapter.47924A464AF3CFE8.title: " &aCreate Nuclear"
+	quest.14D0220D3DDCC38D.title: "&8The Factory Must Grow"
+	quest.14D0220D3DDCC38D.quest_subtitle: "Heavy industry for Create: steel, oil, engines and real electricity"
+	quest.14D0220D3DDCC38D.quest_desc: [
+		"&e1.&r Coke ovens make coal coke."
+		"&e2.&r A blast furnace turns iron and coke into &7steel&r."
+		"&e3.&r Steel unlocks pumpjacks, the distillation tower, engines and generators."
+		"Each section below is one part of the factory. Ponder explains every multiblock."
+	]
+	quest.10750B21BC4A1F1F.title: "New Ores"
+	quest.10750B21BC4A1F1F.quest_subtitle: "Lead, nickel and lithium ore spawn underground. Smelt or crush them like other ores"
+	quest.10750B21BC4A1F1F.quest_desc: [
+		"Mine the new ores underground and smelt or crush them."
+	]
+	quest.2826D35CFB2243A0.title: "&fAluminum"
+	quest.2826D35CFB2243A0.quest_subtitle: "Crush bauxite into powder, then refine it into aluminum in a &6Chemical Vat&r"
+	quest.2826D35CFB2243A0.quest_desc: [
+		"Aluminum goes into engines, spark plugs, turbines and the centrifuge."
+	]
+	quest.592B8DAC72A5362E.title: "Fireclay"
+	quest.592B8DAC72A5362E.quest_subtitle: "Found in underground veins. Fired into fireproof bricks"
+	quest.592B8DAC72A5362E.quest_desc: [
+		"Find fireclay veins underground and fire the balls into bricks."
+	]
+	quest.6C758B2D244FED28.title: "Constantan"
+	quest.6C758B2D244FED28.quest_subtitle: "&eMix&r copper and nickel. Used for heating wire and resistors"
+	quest.6C758B2D244FED28.quest_desc: [
+		"&eMix&r copper and nickel in a basin."
+	]
 	quest.4F8FF06FC5F13404.title: "&6Coke Ovens"
 	quest.4F8FF06FC5F13404.quest_subtitle: "Slowly bakes coal into &6coal coke&r. Build long rows of them"
 	quest.4F8FF06FC5F13404.quest_desc: [
@@ -1713,7 +1741,12 @@
 	quest.6DD02A9C15EA46D4.title: "Blast Stove"
 	quest.6DD02A9C15EA46D4.quest_subtitle: "Turns fuel (bottom) and air (side) into &cHot Air&r (top)"
 	quest.6DD02A9C15EA46D4.quest_desc: [
-		"It slowly builds up carbon dioxide that stalls it. Build a &6Smokestack&r or &6Exhaust&r nearby."
+		"It slowly builds up carbon dioxide that stalls it. Build a smokestack or exhaust nearby."
+	]
+	quest.63CB7B77FCE6AD64.title: "Clear the Air"
+	quest.63CB7B77FCE6AD64.quest_subtitle: "Smokestacks and exhausts get rid of the gases your machines make"
+	quest.63CB7B77FCE6AD64.quest_desc: [
+		"Place a smokestack or exhaust on top of machines that make gas, like the blast stove."
 	]
 	quest.49DC78F14CE8C549.title: "&6Blast Furnace"
 	quest.49DC78F14CE8C549.quest_subtitle: "A cylinder of fireproof bricks around the output, with one hatch for hot air"
@@ -1726,10 +1759,15 @@
 	quest.59221451D8311D29.quest_desc: [
 		"Steel and cast iron come out of the blast furnace. Most TFMG machines need them."
 	]
-	quest.63CB7B77FCE6AD64.title: "Clear the Air"
-	quest.63CB7B77FCE6AD64.quest_subtitle: "Smokestacks and exhausts get rid of the gases your machines make"
-	quest.63CB7B77FCE6AD64.quest_desc: [
-		"Place a smokestack or exhaust on top of machines that make gas, like the blast stove."
+	quest.4E62A63642A8FB52.title: "Heavy Plates"
+	quest.4E62A63642A8FB52.quest_subtitle: "&ePress&r steel three times in Sequenced Assembly"
+	quest.4E62A63642A8FB52.quest_desc: [
+		"Sequenced Assembly: press a steel ingot three times."
+	]
+	quest.22C3DF36A6AF7807.title: "Steel Mechanism"
+	quest.22C3DF36A6AF7807.quest_subtitle: "TFMG's precision mechanism. Built on a heavy plate in Sequenced Assembly"
+	quest.22C3DF36A6AF7807.quest_desc: [
+		"Sequenced Assembly on a heavy plate, like a precision mechanism."
 	]
 	quest.4601FAB2D4691A9C.title: "Surface Scanner"
 	quest.4601FAB2D4691A9C.quest_subtitle: "Helps find chunks with oil underground"
@@ -1754,7 +1792,7 @@
 		"A heat source under the tanks powers it. Oil goes into the controller."
 	]
 	quest.73AA660BE062D51A.title: "Fuels"
-	quest.73AA660BE062D51A.quest_subtitle: "Diesel, gasoline, kerosene, LPG and heavy oil all have their uses"
+	quest.73AA660BE062D51A.quest_subtitle: "Diesel, gasoline, kerosene, LPG, naphtha and heavy oil all have their uses"
 	quest.73AA660BE062D51A.quest_desc: [
 		"Each output of the tower gives a different fuel. Engines and generators burn them."
 	]
@@ -1763,26 +1801,50 @@
 	quest.6D42FB46A7BE3D82.quest_desc: [
 		"Pipe unwanted fluids into it to burn them off."
 	]
+	quest.41E115E5DB8FDA34.title: "Plastic"
+	quest.41E115E5DB8FDA34.quest_subtitle: "Cast from molten plastic. Used in pipes, electronics and Chemica"
+	quest.41E115E5DB8FDA34.quest_desc: [
+		"Made from refined oil products. JEI shows the process."
+	]
+	quest.65F0F0835991B914.title: "Asphalt"
+	quest.65F0F0835991B914.quest_subtitle: "Paved roads from oil by-products"
+	quest.65F0F0835991B914.quest_desc: [
+		"Mix asphalt from oil by-products and place it for roads."
+	]
 	quest.2B5F447A0076B9C0.title: "&cEngines"
-	quest.2B5F447A0076B9C0.quest_subtitle: "Burn fuel for serious rotational power. Large engines run on less refined fuels"
+	quest.2B5F447A0076B9C0.quest_subtitle: "Burn fuel for serious rotational power"
 	quest.2B5F447A0076B9C0.quest_desc: [
-		"Feed an engine fuel and it makes strong rotation. Ponder shows how to build each engine."
+		"Engines need cylinders, spark plugs and fuel. Ponder shows how to build each one."
+	]
+	quest.2A086C35DEC79A22.title: "Spark Plugs"
+	quest.2A086C35DEC79A22.quest_subtitle: "Spark plugs (aluminum and flint) go into engine cylinders"
+	quest.2A086C35DEC79A22.quest_desc: [
+		"Craft spark plugs in a Mechanical Crafter, then add them to engine cylinders."
+	]
+	quest.336440CD10209FA5.title: "&cLarge Engine"
+	quest.336440CD10209FA5.quest_subtitle: "Creates rotation from less refined fuels. Built in a Mechanical Crafter"
+	quest.336440CD10209FA5.quest_desc: [
+		"Build it in a Mechanical Crafter and feed it fuel."
+	]
+	quest.232C3B8BCB50E39A.title: "Turbos \\& Intakes"
+	quest.232C3B8BCB50E39A.quest_subtitle: "Feed engines more air for more power"
+	quest.232C3B8BCB50E39A.quest_desc: [
+		"Attach a turbo or air intake to your engine."
 	]
 	quest.4391E481FFBDB88B.title: "Oil Can"
 	quest.4391E481FFBDB88B.quest_subtitle: "Adds lubrication oil to engines"
 	quest.4391E481FFBDB88B.quest_desc: [
 		"Use it on engines to keep them lubricated."
 	]
-	quest.41E115E5DB8FDA34.title: "Plastic"
-	quest.41E115E5DB8FDA34.quest_subtitle: "Made from oil products. Used in pipes, electronics and Chemica"
-	quest.41E115E5DB8FDA34.quest_desc: [
-		"Made from refined oil products. JEI shows the process."
-	]
 	quest.224752829F981797.title: "&eElectricity"
 	quest.224752829F981797.quest_subtitle: "Generators make &evoltage&r and &epower&r; devices draw current based on their resistance"
 	quest.224752829F981797.quest_desc: [
-		"Components share a network group (group 0 by default). Change groups with the Electrician's Wrench."
-		"Ponder explains voltage, current and resistance step by step."
+		"Components share a network group (group 0 by default). Change groups with the Configuration Wrench."
+	]
+	quest.2ED5C9CA04FF74B0.title: "Winding Machine"
+	quest.2ED5C9CA04FF74B0.quest_subtitle: "Winds copper spools into coils, the core of motors and generators"
+	quest.2ED5C9CA04FF74B0.quest_desc: [
+		"Feed it copper spools and an unfinished coil."
 	]
 	quest.540AEC3C894B7E11.title: "Electric Motor"
 	quest.540AEC3C894B7E11.quest_subtitle: "Turns electricity back into rotation"
@@ -1794,15 +1856,25 @@
 	quest.79280CF6FAD72B1E.quest_desc: [
 		"Right-click an electric block to read its voltage, current and power."
 	]
+	quest.32E86E1A7FB17505.title: "Subnetworks"
+	quest.32E86E1A7FB17505.quest_subtitle: "A diode passes power one way; a potentiometer sets how much voltage gets through; a switch uses redstone"
+	quest.32E86E1A7FB17505.quest_desc: [
+		"Place a diode, potentiometer or switch between two parts of your network."
+	]
 	quest.24F3BC4171A3FBF2.title: "Storage and Transformers"
-	quest.24F3BC4171A3FBF2.quest_subtitle: "Accumulators store power; transformers change the voltage"
+	quest.24F3BC4171A3FBF2.quest_subtitle: "Accumulators store power; transformers change voltage by their coil ratio"
 	quest.24F3BC4171A3FBF2.quest_desc: [
 		"Accumulators store energy (in from the bottom, out from the top). Transformers change voltage."
 	]
 	quest.2B4E878E87977398.title: "Magnets"
-	quest.2B4E878E87977398.quest_subtitle: "Polarize magnetic alloy into magnets. Lightning might do something too..."
+	quest.2B4E878E87977398.quest_subtitle: "Mix nickel, silicon and steel into magnetic alloy, then polarize it. Lightning might do something too..."
 	quest.2B4E878E87977398.quest_desc: [
 		"Polarize magnetic alloy ingots into magnets. Used in generators and motors."
+	]
+	quest.4F53D9209A059145.title: "Electric Lights"
+	quest.4F53D9209A059145.quest_subtitle: "Bulbs, neon tubes and light panels run on your network"
+	quest.4F53D9209A059145.quest_desc: [
+		"Connect a light to a powered network."
 	]
 	quest.550626388F07CADE.title: "&dChemical Vat"
 	quest.550626388F07CADE.quest_subtitle: "A vat whose attachments decide what it does"
@@ -1816,48 +1888,166 @@
 	quest.53833183D7F819BF.quest_desc: [
 		"Place two electrode holders with copper electrodes on the vat. Power it to split fluids."
 	]
+	quest.6D8ADE00EC788EE4.title: "Sulfuric Acid"
+	quest.6D8ADE00EC788EE4.quest_subtitle: "Sulfur, saltpeter and water in the vat make sulfuric acid, used to etch circuit boards"
+	quest.6D8ADE00EC788EE4.quest_desc: [
+		"Put sulfur dust, saltpeter and water into the Chemical Vat."
+	]
+	quest.168BEEC4C4FDDBC1.title: "Circuit Boards"
+	quest.168BEEC4C4FDDBC1.quest_subtitle: "Etch a coated board in sulfuric acid, then finish it in Sequenced Assembly"
+	quest.168BEEC4C4FDDBC1.quest_desc: [
+		"Coat a board, etch it in sulfuric acid, then finish it with Deployers."
+	]
+	quest.4A2B89076F2F9119.title: "Electronics"
+	quest.4A2B89076F2F9119.quest_subtitle: "Transistors, capacitors and resistors for advanced machines"
+	quest.4A2B89076F2F9119.quest_desc: [
+		"Each part is made in Sequenced Assembly. JEI shows the steps."
+	]
 	quest.43F6D53DAD25175B.title: "Rebar Concrete"
 	quest.43F6D53DAD25175B.quest_subtitle: "Pump concrete into rebar with a hose. It sets as rebar concrete"
 	quest.43F6D53DAD25175B.quest_desc: [
 		"Place rebar where you want concrete, then pump liquid concrete through the hose."
 	]
-	quest.6107EB0ADF6579E5.title: "&dChemica: Catalysts"
-	quest.6107EB0ADF6579E5.quest_subtitle: "Chemica adds real-world chemistry on top of TFMG. Catalysts unlock many of its reactions"
+	quest.2E58C49AC7250B82.title: "Cement"
+	quest.2E58C49AC7250B82.quest_subtitle: "&eMix&r clay and limesand"
+	quest.2E58C49AC7250B82.quest_desc: [
+		"Mix clay and limesand in a basin."
+	]
+	quest.6C10A9FC01AEDCE1.title: "&cFlamethrower"
+	quest.6C10A9FC01AEDCE1.quest_subtitle: "Burns gases and fuels to shoot bursts of flame"
+	quest.6C10A9FC01AEDCE1.quest_desc: [
+		"Build it in a Mechanical Crafter and fill it with a burnable fluid."
+	]
+	quest.78784A749E1A629E.title: "Lithium Blade"
+	quest.78784A749E1A629E.quest_subtitle: "Lithium charges set the blade on fire and let it shoot hellfire bolts"
+	quest.78784A749E1A629E.quest_desc: [
+		"Craft the blade, then load it with lithium charges."
+	]
+	quest.158710D66D036871.title: "Boom"
+	quest.158710D66D036871.quest_subtitle: "Grenades and napalm potatoes. Load potatoes into the Advanced Potato Cannon"
+	quest.158710D66D036871.quest_desc: [
+		"Craft grenades from metal and powder. Napalm potatoes fire from the Advanced Potato Cannon."
+	]
+	chapter.1949416C1A5DDBB0.title: " &8The Factory Must Grow"
+	quest.6107EB0ADF6579E5.title: "&dReal-World Chemistry"
+	quest.6107EB0ADF6579E5.quest_subtitle: "Chemica adds real chemistry on top of TFMG. Most of it runs in the &6Chemical Vat&r"
 	quest.6107EB0ADF6579E5.quest_desc: [
+		"Finish TFMG's steel, distillation and Chemical Vat first."
+		"The path: new ores, then catalysts, then polymers and circuits, then carbon fiber and tough alloys."
 		"Use JEI on any Chemica item to follow its process chain."
 	]
 	quest.218B6E5B78F4C0D9.title: "New Ores"
-	quest.218B6E5B78F4C0D9.quest_subtitle: "Platinum, cobalt, chromite, molybdenum and more spawn underground"
+	quest.218B6E5B78F4C0D9.quest_subtitle: "Platinum, cobalt, chromite, molybdenum, antimony and more spawn underground"
 	quest.218B6E5B78F4C0D9.quest_desc: [
 		"Mine the new ores and process them like other Create ores."
 		"JEI shows each one."
 	]
-	quest.45056024A172F661.title: "Polymers"
-	quest.45056024A172F661.quest_subtitle: "PE, PVC, PTFE, nylon and epoxy"
+	quest.4D67F37FB65B9514.title: "Platinum"
+	quest.4D67F37FB65B9514.quest_subtitle: "Smelt raw platinum. Used for the best catalyst and platinum electrodes"
+	quest.4D67F37FB65B9514.quest_desc: [
+		"Mine platinum ore and smelt it."
+	]
+	quest.3F68807B93258168.title: "Base Metals"
+	quest.3F68807B93258168.quest_subtitle: "Smelt or crush the new ores into ingots"
+	quest.3F68807B93258168.quest_desc: [
+		"Smelt the raw ores, or crush them first for extra output."
+	]
+	quest.2F65D9A26489DB6F.title: "Graphite"
+	quest.2F65D9A26489DB6F.quest_subtitle: "Purify graphite flakes, then mix them with sucrose solution into graphite"
+	quest.2F65D9A26489DB6F.quest_desc: [
+		"Purify graphite flakes, then mix them with sucrose solution in a basin."
+	]
+	quest.6DB1AA64D7AE15E1.title: "Rutile"
+	quest.6DB1AA64D7AE15E1.quest_subtitle: "Higher-grade rutile crystals lead to titanium"
+	quest.6DB1AA64D7AE15E1.quest_desc: [
+		"Process rutile in the Chemical Vat to raise its grade (JEI shows each step)."
+	]
+	quest.7E258BF789ECC022.title: "&fTitanium"
+	quest.7E258BF789ECC022.quest_subtitle: "Cast from molten titanium. A key part of lightweight alloys"
+	quest.7E258BF789ECC022.quest_desc: [
+		"Melt high-grade rutile into molten titanium and cast it."
+	]
+	quest.2A8DF85A9B8FB6EE.title: "Labware"
+	quest.2A8DF85A9B8FB6EE.quest_subtitle: "&eCut&r glass into vials, cylinders and petri dishes"
+	quest.2A8DF85A9B8FB6EE.quest_desc: [
+		"&eCut&r glass with a Mechanical Saw."
+	]
+	quest.39D739C24F0BD7C9.title: "&dCatalysts"
+	quest.39D739C24F0BD7C9.quest_subtitle: "Catalysts unlock many reactions. The Iron Catalyst mixes iron dust, silver and sodium"
+	quest.39D739C24F0BD7C9.quest_desc: [
+		"&eMix&r the catalyst ingredients in a basin. JEI shows each one."
+	]
+	quest.1BBCDD93EFD30BF3.title: "Platinum Catalyst"
+	quest.1BBCDD93EFD30BF3.quest_subtitle: "&eMix&r platinum dust, iron nugget and coal dust"
+	quest.1BBCDD93EFD30BF3.quest_desc: [
+		"Mix platinum dust, an iron nugget and coal dust."
+	]
+	quest.21B11A8A1169FFA2.title: "Graphene"
+	quest.21B11A8A1169FFA2.quest_subtitle: "Purified graphite with water and oxygen in the Chemical Vat"
+	quest.21B11A8A1169FFA2.quest_desc: [
+		"Put purified graphite flakes in the Chemical Vat with water and oxygen."
+	]
+	quest.45056024A172F661.title: "&dPolymers"
+	quest.45056024A172F661.quest_subtitle: "PE, PVC, PTFE, nylon and epoxy, mostly cast from fluids made in the vat"
 	quest.45056024A172F661.quest_desc: [
 		"Made from oil products and chemicals in the Chemical Vat. Follow JEI from each sheet."
 	]
+	quest.2663F625B443B3BF.title: "PTFE"
+	quest.2663F625B443B3BF.quest_subtitle: "Fluorine, sulfuric acid, oxygen and ammonium persulfate in the vat"
+	quest.2663F625B443B3BF.quest_desc: [
+		"Run fluorine, sulfuric acid, oxygen and ammonium persulfate through the Chemical Vat."
+	]
+	quest.557B7DD441640AA9.title: "Nylon"
+	quest.557B7DD441640AA9.quest_subtitle: "Make nylon salt, melt it and cast nylon"
+	quest.557B7DD441640AA9.quest_desc: [
+		"Make nylon salt in the vat, then melt and cast it."
+	]
+	quest.3B070734D5ECE40B.title: "Conductive Paste"
+	quest.3B070734D5ECE40B.quest_subtitle: "Cut, press and fill polyethylene in Sequenced Assembly"
+	quest.3B070734D5ECE40B.quest_desc: [
+		"Sequenced Assembly: cut, press and fill a polyethylene sheet."
+	]
 	quest.43DDF224DB158410.title: "Electronic Circuits"
-	quest.43DDF224DB158410.quest_subtitle: "Etched circuit boards for advanced machines"
+	quest.43DDF224DB158410.quest_subtitle: "Etch a PVC board in sulfuric acid, then finish it in Sequenced Assembly"
 	quest.43DDF224DB158410.quest_desc: [
 		"Coat, etch and fill circuit boards. JEI shows each step."
 	]
-	quest.619869C9E9CA99E4.title: "Carbon Fiber"
-	quest.619869C9E9CA99E4.quest_subtitle: "Light, strong composite sheets"
-	quest.619869C9E9CA99E4.quest_desc: [
-		"Spin PAN fibers into carbon fiber, then press it into sheets."
-	]
-	quest.655296D2CF383BFF.title: "&dTough Alloys"
-	quest.655296D2CF383BFF.quest_subtitle: "The top of Chemica's material chain"
-	quest.655296D2CF383BFF.quest_desc: [
-		"Alloy the new metals with carbon fiber. The top tier of Chemica."
-	]
-	quest.352607F94C417CED.title: "Advanced Circuits"
-	quest.352607F94C417CED.quest_subtitle: "The best electronics Chemica can make"
+	quest.352607F94C417CED.title: "&dAdvanced Circuits"
+	quest.352607F94C417CED.quest_subtitle: "The epoxy version of the circuit: the best electronics Chemica can make"
 	quest.352607F94C417CED.quest_desc: [
 		"Upgrade electronic circuits with better boards and parts."
 	]
-	chapter.1949416C1A5DDBB0.title: " &8The Factory Must Grow &7\\& &dChemica"
+	quest.6E701B54CA3A9AFF.title: "PAN Fibers"
+	quest.6E701B54CA3A9AFF.quest_subtitle: "Compact PAN precursor into fibers, then stabilize them"
+	quest.6E701B54CA3A9AFF.quest_desc: [
+		"Compact PAN precursor fluid into fibers, then stabilize them."
+	]
+	quest.619869C9E9CA99E4.title: "Carbon Fiber"
+	quest.619869C9E9CA99E4.quest_subtitle: "Compact stabilized fibers under argon into strands, then mix them with epoxy resin into sheets"
+	quest.619869C9E9CA99E4.quest_desc: [
+		"Spin PAN fibers into carbon fiber, then press it into sheets."
+	]
+	quest.5B7A8D207BEC53AD.title: "Lightweight Alloy"
+	quest.5B7A8D207BEC53AD.quest_subtitle: "Aluminum, titanium and magnesium"
+	quest.5B7A8D207BEC53AD.quest_desc: [
+		"&eMix&r aluminum, titanium and magnesium ingots."
+	]
+	quest.3C69DF94A372C124.title: "Heat-Resistant Alloy"
+	quest.3C69DF94A372C124.quest_subtitle: "Netherite, tungsten and iridium"
+	quest.3C69DF94A372C124.quest_desc: [
+		"&eMix&r a netherite ingot with tungsten and iridium."
+	]
+	quest.655296D2CF383BFF.title: "&dAdvanced Composite Alloy"
+	quest.655296D2CF383BFF.quest_subtitle: "Vanadium, carbon fiber sheet and aluminum: the top of Chemica's material chain"
+	quest.655296D2CF383BFF.quest_desc: [
+		"Alloy the new metals with carbon fiber. The top tier of Chemica."
+	]
+	quest.1B70913E2CFFF599.title: "Better Engine Cylinders"
+	quest.1B70913E2CFFF599.quest_subtitle: "Engine cylinders for biodiesel, ethanol and high-octane or high-cetane fuels"
+	quest.1B70913E2CFFF599.quest_desc: [
+		"Each cylinder lets an engine burn a different Chemica fuel. JEI shows the recipes."
+	]
+	chapter.127C29BECBF5A3E2.title: " &dChemica"
 	quest.21291F5BE8BD1914.title: "Dirty Dusts"
 	quest.21291F5BE8BD1914.quest_subtitle: "Metallurgy ore processing starts by breaking ores into dirty dusts"
 	quest.21291F5BE8BD1914.quest_desc: [
@@ -2052,6 +2242,9 @@
 	]
 	quest.30F19F33356CE716.title: "Nest Locator"
 	quest.30F19F33356CE716.quest_subtitle: "&eSneak-right-click&r a nest (or a block like sand) to set it, then right-click to find that nest type"
+	quest.30F19F33356CE716.quest_desc: [
+		"Point it at a nest type, then follow it to the nearest nest of that kind."
+	]
 	quest.3360220BD3D9DA6C.title: "&6Honey Treats"
 	quest.3360220BD3D9DA6C.quest_subtitle: "Calm angry bees, grow babies faster, and lure new bees into empty nests"
 	quest.3360220BD3D9DA6C.quest_desc: [
@@ -2059,6 +2252,9 @@
 	]
 	quest.1A4809199FD6F9B7.title: "Slimy Bees"
 	quest.1A4809199FD6F9B7.quest_subtitle: "Slimy nests hide in swampy biomes"
+	quest.1A4809199FD6F9B7.quest_desc: [
+		"Search swamps with the Nest Locator set to a slimy nest."
+	]
 	quest.3A863B431D35CEBE.title: "&cBees of the Nether"
 	quest.3A863B431D35CEBE.quest_subtitle: "Quartz nests hold &fCrystalline Bees&r, the key parent for iron and gold"
 	quest.3A863B431D35CEBE.quest_desc: [
@@ -2066,12 +2262,24 @@
 	]
 	quest.30B4FCFE063F813E.title: "More Nether Nests"
 	quest.30B4FCFE063F813E.quest_subtitle: "Glowing, Ghostly and Magmatic Bees, each with their own preferred flowers"
+	quest.30B4FCFE063F813E.quest_desc: [
+		"Bring cages to the Nether and catch each new bee type."
+	]
 	quest.5594E6C400C27ACD.title: "&dEnder Bees"
 	quest.5594E6C400C27ACD.quest_subtitle: "End stone nests on the outer End islands. They pollinate chorus plants"
+	quest.5594E6C400C27ACD.quest_desc: [
+		"Fly out past the End's main island and search the outer islands."
+	]
 	quest.76F700D4DB260678.title: "Sugarbag Bee"
 	quest.76F700D4DB260678.quest_subtitle: "A tropical bee that makes an extra delicious comb"
+	quest.76F700D4DB260678.quest_desc: [
+		"Look in jungles and other warm, wet biomes."
+	]
 	quest.74741B82723AB57B.title: "JourBee"
 	quest.74741B82723AB57B.quest_subtitle: "Steer a &6Bumble Bee&r with a Treat on a Stick. It's not the destination..."
+	quest.74741B82723AB57B.quest_desc: [
+		"Catch a Bumble Bee, saddle up and steer it with the treat."
+	]
 	quest.5C32C8A6BCC66D00.title: "&6Advanced Beehive"
 	quest.5C32C8A6BCC66D00.quest_subtitle: "Look inside to watch your bees. No campfire needed, and it can be moved with bees inside"
 	quest.5C32C8A6BCC66D00.quest_desc: [
@@ -2079,8 +2287,14 @@
 	]
 	quest.442A88DF5DE4D181.title: "Expansion Box"
 	quest.442A88DF5DE4D181.quest_subtitle: "Raises a hive from &e3 to 5 bees&r. Place it on top of or next to the hive (one per hive)"
+	quest.442A88DF5DE4D181.quest_desc: [
+		"Place it on top of or beside your Advanced Beehive."
+	]
 	quest.2D98D759829951EA.title: "Honeycombs"
 	quest.2D98D759829951EA.quest_subtitle: "Each bee type makes its own resource comb. Compress combs into comb blocks for storage"
+	quest.2D98D759829951EA.quest_desc: [
+		"Bees in Advanced Beehives drop combs into the hive. Take them out by hand or with a hopper."
+	]
 	quest.7CA049D2D52AE51C.title: "Feeding Slab"
 	quest.7CA049D2D52AE51C.quest_subtitle: "Holds 3 flower blocks as a shared feeding spot"
 	quest.7CA049D2D52AE51C.quest_desc: [
@@ -2089,8 +2303,14 @@
 	]
 	quest.2765A1613CB2D075.title: "Bee Nest Helmet"
 	quest.2765A1613CB2D075.quest_subtitle: "Bees stop attacking you, and the nest's bees may defend you"
+	quest.2765A1613CB2D075.quest_desc: [
+		"Craft it from a diamond helmet and a bee nest. Wear it around your hives."
+	]
 	quest.6B4A216CC9290638.title: "Bee Jar"
 	quest.6B4A216CC9290638.quest_subtitle: "Display a caged bee. Insert the cage with a hopper or pipe"
+	quest.6B4A216CC9290638.quest_desc: [
+		"Fill it with a caged bee using a hopper or pipe."
+	]
 	quest.6B6570C59F9A51CB.title: "Night Shift"
 	quest.6B6570C59F9A51CB.quest_subtitle: "Leash a bee outside at night and it may become Nocturnal. Leash a nocturnal bee by day for Metaturnal (works all day)"
 	quest.6B6570C59F9A51CB.quest_desc: [
@@ -2103,12 +2323,24 @@
 	]
 	quest.47498CF279FA1490.title: "Waxing Up"
 	quest.47498CF279FA1490.quest_subtitle: "Wax goes into hives, cages and upgrades"
+	quest.47498CF279FA1490.quest_desc: [
+		"Wax comes out of the centrifuge along with honey and resources."
+	]
 	quest.5C4F75685BF9F1F6.title: "Bottler"
 	quest.5C4F75685BF9F1F6.quest_subtitle: "Bottles honey and other fluids. Put it next to a centrifuge to fill automatically"
+	quest.5C4F75685BF9F1F6.quest_desc: [
+		"Place it next to a centrifuge, or pump honey into its side, with empty bottles inside."
+	]
 	quest.77C2FD81B642782C.title: "Powered Centrifuge"
 	quest.77C2FD81B642782C.quest_subtitle: "Runs on FE and processes much faster"
+	quest.77C2FD81B642782C.quest_desc: [
+		"Power it with FE from a Honey Generator or any other source."
+	]
 	quest.7C8C2CAA2A77E9A4.title: "Honey Generator"
 	quest.7C8C2CAA2A77E9A4.quest_subtitle: "Burns honey into FE. Productivity upgrades use less honey, Speed upgrades make more power"
+	quest.7C8C2CAA2A77E9A4.quest_desc: [
+		"Pipe honey in, or put honey bottles, blocks or buckets in its GUI."
+	]
 	quest.39336BC79E57B3B5.title: "&dBreeding Chamber"
 	quest.39336BC79E57B3B5.quest_subtitle: "Load two parent bees, their breeding items, power and empty cages"
 	quest.39336BC79E57B3B5.quest_desc: [
@@ -2116,8 +2348,14 @@
 	]
 	quest.553DD210C3C19EB5.title: "BaBee Incubator"
 	quest.553DD210C3C19EB5.quest_subtitle: "Put a caged baby bee in with honey treats to grow it up fast"
+	quest.553DD210C3C19EB5.quest_desc: [
+		"Put a caged baby bee in with honey treats."
+	]
 	quest.1FA5C0915B37B4E7.title: "Catcher"
 	quest.1FA5C0915B37B4E7.quest_subtitle: "Load it with cages and it catches bees flying over it. Put a flower on top to attract them"
+	quest.1FA5C0915B37B4E7.quest_desc: [
+		"Load it with empty cages and place a flower or feeding slab on top."
+	]
 	quest.2912EBE8B5E7626D.title: "&fIron Bee"
 	quest.2912EBE8B5E7626D.quest_subtitle: "Crystalline Bee + Ashy Mining Bee"
 	quest.2912EBE8B5E7626D.quest_desc: [
@@ -2177,12 +2415,24 @@
 	]
 	quest.7EA3027E222D1791.title: "Quarry Bee"
 	quest.7EA3027E222D1791.quest_subtitle: "Nibbles stone, sand or gravel into stone chips. Craft chips back into blocks"
+	quest.7EA3027E222D1791.quest_desc: [
+		"Give a Quarry Bee a hive near stone, sand or gravel."
+	]
 	quest.7FE3263A88253BA6.title: "Lumber Bee"
 	quest.7FE3263A88253BA6.quest_subtitle: "Nibbles nearby wood into wood chips"
+	quest.7FE3263A88253BA6.quest_desc: [
+		"Give a Lumber Bee a hive near trees."
+	]
 	quest.5CADE398E070191D.title: "Bottling a Bee"
 	quest.5CADE398E070191D.quest_subtitle: "Bottler + piston: put the bee in the middle and pull the lever (keep empty bottles in the bottler)"
+	quest.5CADE398E070191D.quest_desc: [
+		"Place a Bottler with a piston pointing at it. Put the bee in the middle and pull the lever."
+	]
 	quest.418BAA5F8E0E1C75.title: "Gene Samples"
 	quest.418BAA5F8E0E1C75.quest_subtitle: "Centrifuge the bottled bee to separate its genes"
+	quest.418BAA5F8E0E1C75.quest_desc: [
+		"Put the bottled bee material into a centrifuge."
+	]
 	quest.412583672798CC1D.title: "&dGenetics"
 	quest.412583672798CC1D.quest_subtitle: "Put a gene on a honey treat and feed it to a bee to pass the trait on"
 	quest.412583672798CC1D.quest_desc: [
@@ -2191,14 +2441,29 @@
 	]
 	quest.7033D031B8AD2339.title: "&bUpgrades"
 	quest.7033D031B8AD2339.quest_subtitle: "Upgrades go into hives and machines"
+	quest.7033D031B8AD2339.quest_desc: [
+		"Craft an Upgrade Base, then turn it into the upgrade you want (JEI shows each)."
+	]
 	quest.22442C083EC179AB.title: "Productivity"
 	quest.22442C083EC179AB.quest_subtitle: "More combs per trip. Four tiers, Alpha to Omega"
+	quest.22442C083EC179AB.quest_desc: [
+		"Put it in an Advanced Beehive. Higher tiers stack up more combs."
+	]
 	quest.57122DC8E1BD63D4.title: "Speed"
 	quest.57122DC8E1BD63D4.quest_subtitle: "Bees work faster"
+	quest.57122DC8E1BD63D4.quest_desc: [
+		"Put it in a hive or machine to make it work faster."
+	]
 	quest.3429F0BCD07ADE58.title: "Simulator"
 	quest.3429F0BCD07ADE58.quest_subtitle: "Bees stay inside the hive. Much better for performance"
+	quest.3429F0BCD07ADE58.quest_desc: [
+		"Put it in an Advanced Beehive to keep bees inside. Great for big farms."
+	]
 	quest.407FBE2C390D057C.title: "Range, BaBee \\& Filter"
 	quest.407FBE2C390D057C.quest_subtitle: "Range for workers and catchers, BaBee for natural breeding in a hive, Filter to pick which bees"
+	quest.407FBE2C390D057C.quest_desc: [
+		"Range widens a worker bee's area, BaBee breeds new bees in the hive, Filter picks which bees a catcher takes."
+	]
 	quest.37619BF6A47D69B4.title: "&5Draconic Bees"
 	quest.37619BF6A47D69B4.quest_subtitle: "They live in obsidian pillars on the End's main island. A Dragon Egg Hive lets you harvest draconic combs"
 	quest.37619BF6A47D69B4.quest_desc: [
@@ -2539,14 +2804,29 @@
 	]
 	quest.71D2C72707A62B6E.title: "Roots and Leaves"
 	quest.71D2C72707A62B6E.quest_subtitle: "Mandrake Root builds brooms and brushes; Mugwort Leaves make the basic brush"
+	quest.71D2C72707A62B6E.quest_desc: [
+		"Right-click fully grown mandrake and mugwort plants."
+	]
 	quest.3CB1A19DC8142B54.title: "Sage Seeds"
 	quest.3CB1A19DC8142B54.quest_subtitle: "Break grass to find Sage Seeds, then plant them on farmland"
+	quest.3CB1A19DC8142B54.quest_desc: [
+		"Break tall grass until you find sage seeds."
+	]
 	quest.68C0729B066A0EE7.title: "Sage Harvest"
 	quest.68C0729B066A0EE7.quest_subtitle: "Sage cleanses an area of evil spirits once it is bundled and dried"
+	quest.68C0729B066A0EE7.quest_desc: [
+		"Plant the seeds on farmland and harvest when grown."
+	]
 	quest.4400A3DFD1C93093.title: "Witch Woods"
 	quest.4400A3DFD1C93093.quest_subtitle: "Willow, Witch Hazel and Mahogany logs. Each wood makes a different broom"
+	quest.4400A3DFD1C93093.quest_desc: [
+		"Willow grows in swamps; use a Dowsing Rod to find witch biomes."
+	]
 	quest.35807B6FC4C5900E.title: "Animal Fat"
 	quest.35807B6FC4C5900E.quest_subtitle: "Dropped by cows, pigs and sheep (Looting helps). Used for tallow and the Book of Shadows"
+	quest.35807B6FC4C5900E.quest_desc: [
+		"Kill cows, pigs or sheep."
+	]
 	quest.79AF31F2C27F34BE.title: "&2Mixing Cauldron"
 	quest.79AF31F2C27F34BE.quest_subtitle: "The heart of a witch's workshop"
 	quest.79AF31F2C27F34BE.quest_desc: [
@@ -2573,6 +2853,9 @@
 	]
 	quest.1A6AC5E60FB92122.title: "Wet Broom Brush"
 	quest.1A6AC5E60FB92122.quest_subtitle: "Brushes are made wet in the cauldron first, then dried"
+	quest.1A6AC5E60FB92122.quest_desc: [
+		"Make it in the Mixing Cauldron (JEI shows the ingredients)."
+	]
 	quest.7F4CDC2BB810D563.title: "Broom Brush"
 	quest.7F4CDC2BB810D563.quest_subtitle: "Dry the wet brush on a rack. The brush is what makes a broom fly"
 	quest.7F4CDC2BB810D563.quest_desc: [
@@ -2586,14 +2869,29 @@
 	]
 	quest.217EFC945E8CE1E8.title: "Enhanced Brush"
 	quest.217EFC945E8CE1E8.quest_subtitle: "Made with the four witch flowers. Lasts twice as long"
+	quest.217EFC945E8CE1E8.quest_desc: [
+		"Make a wet enhanced brush in the cauldron, then dry it on a rack."
+	]
 	quest.6429DE7D36989F59.title: "Moon Dust Brush"
 	quest.6429DE7D36989F59.quest_subtitle: "Faster, especially under a full moon"
+	quest.6429DE7D36989F59.quest_desc: [
+		"Make a wet moon dust brush in the cauldron, then dry it."
+	]
 	quest.123855EB973313EA.title: "Satchels"
 	quest.123855EB973313EA.quest_subtitle: "Small, Medium and Large add 9, 18 and 27 slots. Replacer swaps in a spare brush; Ender opens your ender chest"
+	quest.123855EB973313EA.quest_desc: [
+		"Craft satchels in the cauldron and put them in the broom's Satchel slot."
+	]
 	quest.18AAF256CD71B68B.title: "Broom Attachments"
 	quest.18AAF256CD71B68B.quest_subtitle: "Netherite Tip flies through lava and fire; Waterproof Tip keeps you seated underwater"
+	quest.18AAF256CD71B68B.quest_desc: [
+		"Craft attachments in the cauldron and put them in the broom's Misc slot."
+	]
 	quest.4B9196FCF9FADF06.title: "Broom Whistle"
 	quest.4B9196FCF9FADF06.quest_subtitle: "Bind it to your broom and blow it to call the broom to you"
+	quest.4B9196FCF9FADF06.quest_desc: [
+		"Craft it and bind it to your broom."
+	]
 	quest.2E012505314422C9.title: "Blood Sigil"
 	quest.2E012505314422C9.quest_subtitle: "Put it in the cauldron's sigil slot. Jump in three times to fill a bottle of blood"
 	quest.2E012505314422C9.quest_desc: [
@@ -2601,6 +2899,9 @@
 	]
 	quest.78932BE062527B22.title: "Dipper"
 	quest.78932BE062527B22.quest_subtitle: "&eSneak-right-click&r it onto the cauldron to dip items into the fluid below"
+	quest.78932BE062527B22.quest_desc: [
+		"Craft it in the cauldron, then sneak-right-click it onto the cauldron top."
+	]
 	quest.7D485E86DA305EAB.title: "Candles"
 	quest.7D485E86DA305EAB.quest_subtitle: "Dip string into tallow. Candles float around a lit altar and can carry potion effects"
 	quest.7D485E86DA305EAB.quest_desc: [
@@ -2613,6 +2914,9 @@
 	]
 	quest.6F8BBA69CAC26FDE.title: "Seed Mixture"
 	quest.6F8BBA69CAC26FDE.quest_subtitle: "Crows love it. Used to tame them"
+	quest.6F8BBA69CAC26FDE.quest_desc: [
+		"Grind seeds in the Pestle and Mortar."
+	]
 	quest.41E8B8A62D8BF3B5.title: "&8Crow Familiar"
 	quest.41E8B8A62D8BF3B5.quest_subtitle: "Tame a crow with seed mixture, then command it with the Crow Flute"
 	quest.41E8B8A62D8BF3B5.quest_desc: [
@@ -2625,16 +2929,34 @@
 	]
 	quest.140EB912847BCE6E.title: "Witchy Storage"
 	quest.140EB912847BCE6E.quest_subtitle: "Coffers keep their items when picked up; Herb Jars hold 1024 of one item"
+	quest.140EB912847BCE6E.quest_desc: [
+		"Craft them in the cauldron. Crows can keep them stocked."
+	]
 	quest.2746B3F84AB95677.title: "Selenite"
 	quest.2746B3F84AB95677.quest_subtitle: "Found in selenite geodes under jungles and swamps"
+	quest.2746B3F84AB95677.quest_desc: [
+		"Dig into selenite geodes under jungles and swamps."
+	]
 	quest.10A883473C3DA899.title: "Crystal Ball"
 	quest.10A883473C3DA899.quest_subtitle: "Shows the phase of the moon. Handy for making moon dust"
+	quest.10A883473C3DA899.quest_desc: [
+		"Craft it in a heated cauldron with selenite."
+	]
 	quest.16F8F7C9B4974B9C.title: "Infused Fabric"
 	quest.16F8F7C9B4974B9C.quest_subtitle: "Used for the witch armor and decorative fabric blocks"
+	quest.16F8F7C9B4974B9C.quest_desc: [
+		"Make it in the Mixing Cauldron."
+	]
 	quest.60D0A8B123FB02AD.title: "&5Witch's Attire"
 	quest.60D0A8B123FB02AD.quest_subtitle: "The full set gives perks. Each piece can be dyed"
+	quest.60D0A8B123FB02AD.quest_desc: [
+		"Craft the pieces from infused fabric and wear the whole set."
+	]
 	quest.1D88CA6B200B49CC.title: "Covens"
 	quest.1D88CA6B200B49CC.quest_subtitle: "Find a Dark Coven and a Witch Hut in the swamps"
+	quest.1D88CA6B200B49CC.quest_desc: [
+		"Use the Dowsing Rod set to swamps, then explore."
+	]
 	chapter.1E277457E6BC233C.title: " &2Hexerei"
 	quest.39AD1C9AF86DF37F.title: "&bGoo Science"
 	quest.39AD1C9AF86DF37F.quest_subtitle: "Everything in Just Dire Things comes from &6Goo&r turning blocks into new materials"
@@ -2651,10 +2973,19 @@
 	]
 	quest.477B789D93A10796.title: "&7Ferricore"
 	quest.477B789D93A10796.quest_subtitle: "Mine the Raw Ferricore Block and smelt the raw ferricore into ingots"
+	quest.477B789D93A10796.quest_desc: [
+		"Feed Primogel Goo, place an iron block next to it, wait, then mine the result."
+	]
 	quest.229455039B45885C.title: "&6Blazegold"
 	quest.229455039B45885C.quest_subtitle: "&6Blazebloom Goo&r (tier 2) turns a &6Gold Block&r into Raw Blazegold"
+	quest.229455039B45885C.quest_desc: [
+		"Craft Blazebloom Goo, feed it, and place a gold block next to it."
+	]
 	quest.46D4C5594182D07D.title: "&dCelestigem"
 	quest.46D4C5594182D07D.quest_subtitle: "&dVoidShimmer Goo&r (tier 3) turns a &bDiamond Block&r into Raw Celestigem"
+	quest.46D4C5594182D07D.quest_desc: [
+		"Craft VoidShimmer Goo, feed it, and place a diamond block next to it."
+	]
 	quest.477C6BED8D7CA850.title: "&5Eclipse Alloy"
 	quest.477C6BED8D7CA850.quest_subtitle: "&5Shadowpulse Goo&r (tier 4) turns a &8Netherite Block&r into Raw Eclipse Alloy"
 	quest.477C6BED8D7CA850.quest_desc: [
@@ -2667,10 +2998,19 @@
 	]
 	quest.2A1AE3B624877A3D.title: "Coal Generator"
 	quest.2A1AE3B624877A3D.quest_subtitle: "Burns any furnace fuel, but goo coals give far more power"
+	quest.2A1AE3B624877A3D.quest_desc: [
+		"Place it, add fuel, and connect machines that need FE."
+	]
 	quest.426B0FDA3C07660D.title: "Pocket Generator"
 	quest.426B0FDA3C07660D.quest_subtitle: "Keeps your powered tools and armor charged on the go. Feed it coal"
+	quest.426B0FDA3C07660D.quest_desc: [
+		"Open it and add coal or goo coals."
+	]
 	quest.51C2806E4730E161.title: "Energy Transmitter"
 	quest.51C2806E4730E161.quest_subtitle: "Sends power wirelessly to every machine in its area (with a small loss)"
+	quest.51C2806E4730E161.quest_desc: [
+		"Connect it to a generator and set its area."
+	]
 	quest.706DC3ED9A2BF837.title: "Ferricore Tools"
 	quest.706DC3ED9A2BF837.quest_subtitle: "Every material tier has tools and armor that take &eUpgrades&r"
 	quest.706DC3ED9A2BF837.quest_desc: [
@@ -2683,10 +3023,19 @@
 	]
 	quest.109B09B79E558570.title: "Tier Templates"
 	quest.109B09B79E558570.quest_subtitle: "Upgrade a tool to the next tier in a Smithing Table and keep its installed upgrades"
+	quest.109B09B79E558570.quest_desc: [
+		"Combine the tool, template and new material in a Smithing Table."
+	]
 	quest.65F4A8E9986F2E51.title: "Ferricore Armor"
 	quest.65F4A8E9986F2E51.quest_subtitle: "Blazegold armor repairs itself in lava; Celestigem and Eclipse armor run on FE"
+	quest.65F4A8E9986F2E51.quest_desc: [
+		"Craft the armor pieces from each tier's material."
+	]
 	quest.6E4ADC85952DB22D.title: "Ferricore Wrench"
 	quest.6E4ADC85952DB22D.quest_subtitle: "Rotates blocks and links Swappers together"
+	quest.6E4ADC85952DB22D.quest_desc: [
+		"Sneak-right-click two swappers to link them."
+	]
 	quest.5310F71C179CDC93.title: "Simple Machines"
 	quest.5310F71C179CDC93.quest_subtitle: "No power needed. They act on the block in front of them"
 	quest.5310F71C179CDC93.quest_desc: [
@@ -2694,26 +3043,59 @@
 	]
 	quest.386FBBEA3CEB93BC.title: "Advanced Machines"
 	quest.386FBBEA3CEB93BC.quest_subtitle: "Need power, but work over an area with filters. They also charge FE tools inside them"
+	quest.386FBBEA3CEB93BC.quest_desc: [
+		"Advanced machines need power and can affect an area. Set it in the UI."
+	]
 	quest.3C5F7DDF674BEB66.title: "Item Collector"
 	quest.3C5F7DDF674BEB66.quest_subtitle: "Vacuums up dropped items in an area into the inventory it faces"
+	quest.3C5F7DDF674BEB66.quest_desc: [
+		"Place it next to a chest and set its area."
+	]
 	quest.3AB2296E9E3AC9EE.title: "Experience Holder"
 	quest.3AB2296E9E3AC9EE.quest_subtitle: "Stores your experience levels"
+	quest.3AB2296E9E3AC9EE.quest_desc: [
+		"Put your levels in and take them out later."
+	]
 	quest.750186811B7F6AA0.title: "Settings Copier"
 	quest.750186811B7F6AA0.quest_subtitle: "&eSneak-right-click&r a machine to copy its settings, right-click another to paste"
+	quest.750186811B7F6AA0.quest_desc: [
+		"Sneak-right-click a machine to copy, right-click another to paste."
+	]
 	quest.186A1E1A2153F7F6.title: "Creature Catcher"
 	quest.186A1E1A2153F7F6.quest_subtitle: "Throw it at a mob to capture it; throw it again to release it"
+	quest.186A1E1A2153F7F6.quest_desc: [
+		"Throw it at a mob, then throw it again to release."
+	]
 	quest.20C65DCF0AF0B5F0.title: "Totem of Death Recall"
 	quest.20C65DCF0AF0B5F0.quest_subtitle: "Binds to where you die. Hold right-click to teleport back"
+	quest.20C65DCF0AF0B5F0.quest_desc: [
+		"Keep it in your inventory. After you die, hold right-click to return."
+	]
 	quest.1ECE48DEDA9C39AE.title: "Blazejet Wand"
 	quest.1ECE48DEDA9C39AE.quest_subtitle: "Right-click to air-burst yourself through the sky"
+	quest.1ECE48DEDA9C39AE.quest_desc: [
+		"Right-click to launch yourself."
+	]
 	quest.200FC7933FB55DB1.title: "Voidshift Wand"
 	quest.200FC7933FB55DB1.quest_subtitle: "Teleport short distances, even through walls"
+	quest.200FC7933FB55DB1.quest_desc: [
+		"Aim and use it to teleport through blocks."
+	]
 	quest.7C23FADC9F07CCB0.title: "&dPortal Gun"
 	quest.7C23FADC9F07CCB0.quest_subtitle: "Left click fires a blue portal, right click an orange one"
+	quest.7C23FADC9F07CCB0.quest_desc: [
+		"Left click and right click to place the two portals."
+	]
 	quest.45A86EB749ED98E3.title: "Polymorphic Fluid"
 	quest.45A86EB749ED98E3.quest_subtitle: "Drop a Polymorphic Catalyst into water. It is the base for every special fluid"
+	quest.45A86EB749ED98E3.quest_desc: [
+		"Drop a Polymorphic Catalyst into a water source."
+	]
 	quest.357EFD4CF821E62C.title: "Portal Fluid"
 	quest.357EFD4CF821E62C.quest_subtitle: "Fuels the Advanced Portal Gun. Stabilize it with VoidShimmer Goo or it breaks down outside the End"
+	quest.357EFD4CF821E62C.quest_desc: [
+		"Drop a Portal Fluid Catalyst into Polymorphic Fluid, then stabilize it with goo."
+	]
 	quest.3FC8E286F652252B.title: "Budding Time Crystal"
 	quest.3FC8E286F652252B.quest_subtitle: "Shadowpulse Goo turns a Budding Amethyst into a Budding Time Crystal"
 	quest.3FC8E286F652252B.quest_desc: [
@@ -2722,8 +3104,14 @@
 	]
 	quest.3198C9E871CC9300.title: "&5Time Crystals"
 	quest.3198C9E871CC9300.quest_subtitle: "Let buds fully grow before breaking them. Drop a crystal in Polymorphic Fluid for Time Fluid"
+	quest.3198C9E871CC9300.quest_desc: [
+		"Move the Budding Time Crystal through all three dimensions, then grow and harvest the buds."
+	]
 	quest.6DB29FF6E531D57D.title: "Time Wand"
 	quest.6DB29FF6E531D57D.quest_subtitle: "Speeds up time on blocks. Runs on FE and Time Fluid"
+	quest.6DB29FF6E531D57D.quest_desc: [
+		"Charge it with FE and Time Fluid, then use it on blocks."
+	]
 	chapter.6626E3F046DE9BAF.title: " &bJust Dire Things"
 	quest.588126E989FE5DAD.title: "&6Prehistoric Life"
 	quest.588126E989FE5DAD.quest_subtitle: "Dig up fossils, revive ancient creatures and tame dinosaurs"

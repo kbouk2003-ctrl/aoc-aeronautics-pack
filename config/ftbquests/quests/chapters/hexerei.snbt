@@ -25,7 +25,7 @@
 				type: "random"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "556D8FF4A73C5937"
 				type: "checkmark"
@@ -47,8 +47,8 @@
 				item: { count: 1, id: "hexerei:dowsing_rod" }
 				type: "item"
 			}]
-			x: 1.34d
-			y: -2.44d
+			x: 1.09d
+			y: -2.14d
 		}
 		{
 			dependencies: ["22FDBBD35DD48545"]
@@ -68,14 +68,14 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "66163F3C3C627BCF"
 				item: { components: { "ftbfiltersystem:filter": "or(item(hexerei:mandrake_flowers)item(hexerei:belladonna_flowers)item(hexerei:mugwort_flowers)item(hexerei:yellow_dock_flowers))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.40d
-			y: -2.80d
+			x: 2.90d
+			y: -2.50d
 		}
 		{
 			dependencies: ["10E054ED6297A270"]
@@ -95,8 +95,8 @@
 				item: { count: 1, id: "hexerei:mugwort_leaves" }
 				type: "item"
 			}]
-			x: 4.86d
-			y: -5.36d
+			x: 4.11d
+			y: -4.76d
 		}
 		{
 			dependencies: ["3B286A2EDF02A87D"]
@@ -112,8 +112,8 @@
 				item: { count: 1, id: "hexerei:sage_seed" }
 				type: "item"
 			}]
-			x: 1.94d
-			y: -1.64d
+			x: 1.69d
+			y: -1.49d
 		}
 		{
 			dependencies: ["3CB1A19DC8142B54"]
@@ -130,8 +130,8 @@
 				item: { count: 1, id: "hexerei:sage" }
 				type: "item"
 			}]
-			x: 3.76d
-			y: -1.76d
+			x: 3.26d
+			y: -1.61d
 		}
 		{
 			dependencies: ["3B286A2EDF02A87D"]
@@ -147,7 +147,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(hexerei:willow_log)item(hexerei:witch_hazel_log)item(hexerei:mahogany_log))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.82d
+			x: 1.57d
 			y: -0.12d
 		}
 		{
@@ -165,8 +165,8 @@
 				item: { count: 1, id: "hexerei:animal_fat" }
 				type: "item"
 			}]
-			x: 1.82d
-			y: 1.28d
+			x: 1.57d
+			y: 1.13d
 		}
 		{
 			dependencies: ["4400A3DFD1C93093"]
@@ -186,13 +186,13 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "68779DEE51CE3E19"
 				item: { count: 1, id: "hexerei:mixing_cauldron" }
 				type: "item"
 			}]
-			x: 3.40d
+			x: 2.90d
 			y: 0.00d
 		}
 		{
@@ -209,7 +209,7 @@
 				type: "random"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "1ED277FEADEE481D"
 				item: { count: 1, id: "hexerei:book_of_shadows" }
@@ -219,8 +219,8 @@
 				item: { count: 1, id: "hexerei:book_of_shadows_altar" }
 				type: "item"
 			}]
-			x: 5.22d
-			y: -4.32d
+			x: 4.47d
+			y: -3.87d
 		}
 		{
 			dependencies: ["10E054ED6297A270"]
@@ -236,8 +236,8 @@
 				item: { count: 1, id: "hexerei:herb_drying_rack" }
 				type: "item"
 			}]
-			x: 4.98d
-			y: -2.68d
+			x: 4.23d
+			y: -2.38d
 		}
 		{
 			dependencies: ["79AF31F2C27F34BE"]
@@ -253,8 +253,8 @@
 				item: { count: 1, id: "hexerei:pestle_and_mortar" }
 				type: "item"
 			}]
-			x: 5.10d
-			y: -1.40d
+			x: 4.35d
+			y: -1.25d
 		}
 		{
 			dependencies: ["79AF31F2C27F34BE", "71D2C72707A62B6E"]
@@ -270,8 +270,8 @@
 				item: { count: 1, id: "hexerei:wet_broom_brush" }
 				type: "item"
 			}]
-			x: 6.68d
-			y: -2.68d
+			x: 5.68d
+			y: -2.38d
 		}
 		{
 			dependencies: ["1A6AC5E60FB92122", "4E92DE08F9D99B07"]
@@ -287,14 +287,14 @@
 				type: "random"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "7DF41C0B057C4033"
 				item: { count: 1, id: "hexerei:broom_brush" }
 				type: "item"
 			}]
-			x: 8.50d
-			y: -0.70d
+			x: 7.25d
+			y: -0.63d
 		}
 		{
 			dependencies: ["7F4CDC2BB810D563"]
@@ -314,14 +314,14 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.3d
 			tasks: [{
 				id: "6298986D47A9A2B9"
 				item: { components: { "ftbfiltersystem:filter": "or(item(hexerei:willow_broom)item(hexerei:witch_hazel_broom)item(hexerei:mahogany_broom))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 10.20d
-			y: -0.70d
+			x: 8.70d
+			y: -0.63d
 		}
 		{
 			dependencies: ["7F4CDC2BB810D563"]
@@ -337,8 +337,8 @@
 				item: { count: 1, id: "hexerei:herb_enhanced_broom_brush" }
 				type: "item"
 			}]
-			x: 10.56d
-			y: 0.34d
+			x: 9.06d
+			y: 0.27d
 		}
 		{
 			dependencies: ["217EFC945E8CE1E8", "10A883473C3DA899"]
@@ -354,8 +354,8 @@
 				item: { count: 1, id: "hexerei:moon_dust_brush" }
 				type: "item"
 			}]
-			x: 12.02d
-			y: -2.22d
+			x: 10.27d
+			y: -2.00d
 		}
 		{
 			dependencies: ["772A109C3EAA419B"]
@@ -371,8 +371,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(hexerei:small_satchel)item(hexerei:medium_satchel)item(hexerei:large_satchel)item(hexerei:replacer_satchel)item(hexerei:ender_satchel))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 12.02d
-			y: -0.82d
+			x: 10.27d
+			y: -0.74d
 		}
 		{
 			dependencies: ["772A109C3EAA419B"]
@@ -388,8 +388,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(hexerei:broom_netherite_tip)item(hexerei:broom_waterproof_tip)item(hexerei:broom_seat)item(hexerei:gold_rings)item(hexerei:broom_keychain))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 11.78d
-			y: 0.82d
+			x: 10.03d
+			y: 0.74d
 		}
 		{
 			dependencies: ["772A109C3EAA419B"]
@@ -405,8 +405,8 @@
 				item: { count: 1, id: "hexerei:broom_whistle" }
 				type: "item"
 			}]
-			x: 12.14d
-			y: 1.86d
+			x: 10.39d
+			y: 1.64d
 		}
 		{
 			dependencies: ["79AF31F2C27F34BE"]
@@ -426,7 +426,7 @@
 				item: { count: 1, id: "hexerei:blood_bottle" }
 				type: "item"
 			}]
-			x: 5.34d
+			x: 4.59d
 			y: -0.24d
 		}
 		{
@@ -443,8 +443,8 @@
 				item: { count: 1, id: "hexerei:candle_dipper" }
 				type: "item"
 			}]
-			x: 5.22d
-			y: 1.28d
+			x: 4.47d
+			y: 1.13d
 		}
 		{
 			dependencies: ["78932BE062527B22"]
@@ -461,8 +461,8 @@
 				item: { count: 1, id: "hexerei:candle" }
 				type: "item"
 			}]
-			x: 6.68d
-			y: -1.28d
+			x: 5.68d
+			y: -1.13d
 		}
 		{
 			dependencies: ["68C0729B066A0EE7", "4E92DE08F9D99B07"]
@@ -478,7 +478,7 @@
 				type: "random"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "2C8D9335D03E4521"
 				item: { count: 1, id: "hexerei:dried_sage_bundle" }
@@ -488,7 +488,7 @@
 				item: { count: 1, id: "hexerei:sage_burning_plate" }
 				type: "item"
 			}]
-			x: 7.04d
+			x: 6.04d
 			y: -0.24d
 		}
 		{
@@ -506,8 +506,8 @@
 				item: { count: 1, id: "hexerei:seed_mixture" }
 				type: "item"
 			}]
-			x: 6.56d
-			y: 1.64d
+			x: 5.56d
+			y: 1.49d
 		}
 		{
 			dependencies: ["6F8BBA69CAC26FDE"]
@@ -523,14 +523,14 @@
 				type: "random"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "7E51D4D43A50209B"
 				item: { count: 1, id: "hexerei:crow_flute" }
 				type: "item"
 			}]
-			x: 8.74d
-			y: 0.46d
+			x: 7.49d
+			y: 0.39d
 		}
 		{
 			dependencies: ["3B286A2EDF02A87D"]
@@ -546,8 +546,8 @@
 				id: "5031140E1CFE6F20"
 				type: "checkmark"
 			}]
-			x: 1.46d
-			y: 3.04d
+			x: 1.21d
+			y: 2.74d
 		}
 		{
 			dependencies: ["79AF31F2C27F34BE"]
@@ -563,8 +563,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(hexerei:coffer)item(hexerei:herb_jar))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.86d
-			y: 3.04d
+			x: 4.11d
+			y: 2.74d
 		}
 		{
 			dependencies: ["22FDBBD35DD48545"]
@@ -581,8 +581,8 @@
 				item: { count: 1, id: "hexerei:selenite_shard" }
 				type: "item"
 			}]
-			x: 3.04d
-			y: 1.76d
+			x: 2.54d
+			y: 1.61d
 		}
 		{
 			dependencies: ["2746B3F84AB95677", "79AF31F2C27F34BE"]
@@ -598,8 +598,8 @@
 				item: { count: 1, id: "hexerei:crystal_ball" }
 				type: "item"
 			}]
-			x: 4.74d
-			y: 4.56d
+			x: 3.99d
+			y: 4.11d
 		}
 		{
 			dependencies: ["79AF31F2C27F34BE"]
@@ -616,8 +616,8 @@
 				item: { count: 1, id: "hexerei:infused_fabric" }
 				type: "item"
 			}]
-			x: 4.98d
-			y: 5.72d
+			x: 4.23d
+			y: 5.12d
 		}
 		{
 			dependencies: ["16F8F7C9B4974B9C"]
@@ -633,14 +633,14 @@
 				type: "random"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.3d
 			tasks: [{
 				id: "3BB1A0581D168E89"
 				item: { components: { "ftbfiltersystem:filter": "or(item(hexerei:witch_helmet)item(hexerei:witch_chestplate)item(hexerei:witch_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 7.04d
-			y: 2.56d
+			x: 6.04d
+			y: 2.26d
 		}
 		{
 			dependencies: ["22FDBBD35DD48545"]
@@ -660,8 +660,8 @@
 				structure: "hexerei:witch_hut"
 				type: "structure"
 			}]
-			x: 3.04d
-			y: 3.16d
+			x: 2.54d
+			y: 2.86d
 		}
 	]
 }

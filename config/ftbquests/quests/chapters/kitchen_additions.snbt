@@ -28,14 +28,14 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "369DD5B63362A163"
 				item: { count: 1, id: "kaleidoscope_cookery:iron_kitchen_knife" }
 				type: "item"
 			}]
 			x: 0.00d
-			y: 0.00d
+			y: -0.00d
 		}
 		{
 			dependencies: ["43DBB8B767D00D27"]
@@ -52,8 +52,8 @@
 				item: { count: 1, id: "kaleidoscope_cookery:chopping_board" }
 				type: "item"
 			}]
-			x: 2.56d
-			y: -4.34d
+			x: 2.16d
+			y: -3.72d
 		}
 		{
 			dependencies: ["43DBB8B767D00D27"]
@@ -71,8 +71,8 @@
 				item: { count: 1, id: "kaleidoscope_cookery:oil" }
 				type: "item"
 			}]
-			x: 2.56d
-			y: -2.38d
+			x: 2.16d
+			y: -2.04d
 		}
 		{
 			dependencies: ["43DBB8B767D00D27"]
@@ -93,8 +93,8 @@
 				item: { count: 1, id: "kaleidoscope_cookery:stove" }
 				type: "item"
 			}]
-			x: 2.56d
-			y: 0.63d
+			x: 2.16d
+			y: 0.54d
 		}
 		{
 			dependencies: ["67DB60CD946ADC82"]
@@ -114,14 +114,14 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "75FF62F974DEE4F7"
 				item: { count: 1, id: "kaleidoscope_cookery:pot" }
 				type: "item"
 			}]
-			x: 4.16d
-			y: -0.42d
+			x: 3.51d
+			y: -0.36d
 		}
 		{
 			dependencies: ["67DB60CD946ADC82"]
@@ -141,14 +141,14 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "638BE33BC3A96A27"
 				item: { count: 1, id: "kaleidoscope_cookery:stockpot" }
 				type: "item"
 			}]
-			x: 4.16d
-			y: 1.68d
+			x: 3.51d
+			y: 1.44d
 		}
 		{
 			dependencies: ["6FFC8ED3C24B0CF8"]
@@ -164,8 +164,8 @@
 				item: { count: 1, id: "kaleidoscope_cookery:borscht" }
 				type: "item"
 			}]
-			x: 5.76d
-			y: 0.98d
+			x: 4.86d
+			y: 0.84d
 		}
 		{
 			dependencies: ["325FAFA7D023AFF2"]
@@ -181,8 +181,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(kaleidoscope_cookery:steamer)item(kaleidoscope_cookery:millstone)item(kaleidoscope_cookery:shawarma_spit))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 5.76d
-			y: -0.42d
+			x: 4.86d
+			y: -0.36d
 		}
 		{
 			dependencies: ["43DBB8B767D00D27"]
@@ -199,8 +199,8 @@
 				item: { count: 1, id: "kaleidoscope_cookery:rice_panicle" }
 				type: "item"
 			}]
-			x: 2.56d
-			y: 4.34d
+			x: 2.16d
+			y: 3.72d
 		}
 		{
 			dependencies: ["6FFC8ED3C24B0CF8"]
@@ -220,14 +220,14 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.3d
 			tasks: [{
 				id: "66581AE2F622AB92"
 				item: { count: 1, id: "kaleidoscope_cookery:braised_beef_rice_bowl" }
 				type: "item"
 			}]
-			x: 5.76d
-			y: 2.38d
+			x: 4.86d
+			y: 2.04d
 		}
 		{
 			dependencies: ["43DBB8B767D00D27"]
@@ -248,7 +248,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "29515B417CDBB81B"
 				item: { count: 1, id: "ratatouille:oven" }
@@ -258,8 +258,8 @@
 				item: { count: 1, id: "ratatouille:oven_fan" }
 				type: "item"
 			}]
-			x: 8.32d
-			y: -2.24d
+			x: 7.02d
+			y: -1.92d
 		}
 		{
 			dependencies: ["3E41D98CFB4B0302"]
@@ -275,8 +275,8 @@
 				item: { count: 1, id: "ratatouille:thresher" }
 				type: "item"
 			}]
-			x: 9.92d
-			y: -4.34d
+			x: 8.37d
+			y: -3.72d
 		}
 		{
 			dependencies: ["3E41D98CFB4B0302"]
@@ -296,8 +296,8 @@
 				item: { count: 1, id: "ratatouille:irrigation_tower" }
 				type: "item"
 			}]
-			x: 9.92d
-			y: -2.94d
+			x: 8.37d
+			y: -2.52d
 		}
 		{
 			dependencies: ["5723F7EE695C02B8"]
@@ -317,8 +317,8 @@
 				item: { count: 1, id: "ratatouille:compost_tea_bottle" }
 				type: "item"
 			}]
-			x: 11.52d
-			y: -2.94d
+			x: 9.72d
+			y: -2.52d
 		}
 		{
 			dependencies: ["46434C96CE65B33C"]
@@ -338,8 +338,8 @@
 				item: { count: 1, id: "ratatouille:ripen_matter" }
 				type: "item"
 			}]
-			x: 13.12d
-			y: -2.94d
+			x: 11.07d
+			y: -2.52d
 		}
 		{
 			dependencies: ["3E41D98CFB4B0302"]
@@ -355,8 +355,8 @@
 				item: { count: 1, id: "ratatouille:sausage" }
 				type: "item"
 			}]
-			x: 9.92d
-			y: -1.54d
+			x: 8.37d
+			y: -1.32d
 		}
 		{
 			dependencies: ["3E41D98CFB4B0302"]
@@ -372,8 +372,8 @@
 				item: { count: 1, id: "ratatouille:chef_hat" }
 				type: "item"
 			}]
-			x: 9.92d
-			y: -0.14d
+			x: 8.37d
+			y: -0.12d
 		}
 		{
 			dependencies: ["43DBB8B767D00D27"]
@@ -394,14 +394,14 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "48646B99E0AF1EEF"
 				item: { components: { "ftbfiltersystem:filter": "or(item(overweight_farming:overweight_carrot_block)item(overweight_farming:overweight_potato_block)item(overweight_farming:overweight_beetroot_block)item(overweight_farming:overweight_onion_block)item(overweight_farming:overweight_cabbage_block)item(overweight_farming:overweight_apple_block))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 8.32d
-			y: 1.82d
+			x: 7.02d
+			y: 1.56d
 		}
 		{
 			dependencies: ["159AB46AE4279F5F"]
@@ -421,14 +421,14 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.3d
 			tasks: [{
 				id: "54B451E6E09781F9"
 				item: { count: 1, id: "overweight_farming:overweight_golden_apple_block" }
 				type: "item"
 			}]
-			x: 9.92d
-			y: 1.82d
+			x: 8.37d
+			y: 1.56d
 		}
 		{
 			dependencies: ["43DBB8B767D00D27"]
@@ -449,8 +449,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(beachparty:beach_chair)item(beachparty:beach_towel)item(beachparty:beach_parasol)item(beachparty:beach_sun_lounger))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 8.32d
-			y: 3.78d
+			x: 7.02d
+			y: 3.24d
 		}
 		{
 			dependencies: ["1EABFF3BD71ABDE5"]
@@ -466,8 +466,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(beachparty:coconut_cocktail)item(beachparty:honey_cocktail)item(beachparty:melon_cocktail)item(beachparty:cocoa_cocktail)item(beachparty:pumpkin_cocktail))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 9.92d
-			y: 3.78d
+			x: 8.37d
+			y: 3.24d
 		}
 		{
 			dependencies: ["14440E03C546758F"]
@@ -483,8 +483,8 @@
 				item: { count: 1, id: "beachparty:mini_fridge" }
 				type: "item"
 			}]
-			x: 11.52d
-			y: 3.78d
+			x: 9.72d
+			y: 3.24d
 		}
 	]
 }

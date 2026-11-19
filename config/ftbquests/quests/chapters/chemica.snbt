@@ -1,0 +1,480 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chemica"
+	group: "3B8AF43E1258A852"
+	icon: {
+		id: "chemica:platinum_catalyst"
+	}
+	id: "127C29BECBF5A3E2"
+	images: [ ]
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "chemica:platinum_catalyst" }
+			id: "6107EB0ADF6579E5"
+			rewards: [{
+				id: "436135198B3629C4"
+				type: "xp"
+				xp: 150
+			}, {
+				exclude_from_claim_all: true
+				id: "6F3A9DBB495898E3"
+				table_id: 5249651026717322459L
+				type: "random"
+			}, {
+				id: "420D4D38B1EA9D2D"
+				item: { count: 2, id: "chemica:platinum_ingot" }
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.1d
+			tasks: [{
+				id: "43D88069BC61E246"
+				type: "checkmark"
+			}]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["6107EB0ADF6579E5"]
+			hide_dependency_lines: true
+			id: "218B6E5B78F4C0D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D829103B5CF0AB9"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6D827A1C35CB8E6B"
+				item: { components: { "ftbfiltersystem:filter": "or(item(chemica:raw_platinum)item(chemica:raw_cobalt)item(chemica:raw_chromite)item(chemica:raw_molybdenum)item(chemica:raw_antimony))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.16d
+			y: -2.64d
+		}
+		{
+			dependencies: ["218B6E5B78F4C0D9"]
+			id: "4D67F37FB65B9514"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DF748B0FDCE8BBD"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 4L
+				id: "704880938A2B97CA"
+				item: { count: 1, id: "chemica:platinum_ingot" }
+				type: "item"
+			}]
+			x: 3.51d
+			y: -4.44d
+		}
+		{
+			dependencies: ["218B6E5B78F4C0D9"]
+			id: "3F68807B93258168"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FE6AFABD28C864C"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1B96EF81F6C08715"
+				item: { components: { "ftbfiltersystem:filter": "or(item(chemica:cobalt_ingot)item(chemica:chromium_ingot)item(chemica:tin_ingot)item(chemica:silver_ingot)item(chemica:molybdenum_ingot))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.51d
+			y: -3.24d
+		}
+		{
+			dependencies: ["218B6E5B78F4C0D9"]
+			id: "2F65D9A26489DB6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16ACAD94A47DE886"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3FA97613A35B7F6D"
+				item: { count: 1, id: "chemica:purified_graphite_flakes" }
+				type: "item"
+			}, {
+				id: "6FC649E0F6308A81"
+				item: { count: 1, id: "chemica:graphite_ingot" }
+				type: "item"
+			}]
+			x: 3.51d
+			y: -2.04d
+		}
+		{
+			dependencies: ["218B6E5B78F4C0D9"]
+			id: "6DB1AA64D7AE15E1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75E5A86D1E404A74"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3DC19D85E12745FE"
+				item: { components: { "ftbfiltersystem:filter": "or(item(chemica:rutile_crystal)item(chemica:medium_grade_rutile_crystal)item(chemica:high_grade_rutile_crystal))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.51d
+			y: -0.84d
+		}
+		{
+			dependencies: ["6DB1AA64D7AE15E1"]
+			id: "7E258BF789ECC022"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F0AAA49F0ED5730"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5F71DCE11CD590FE"
+				item: { count: 1, id: "chemica:titanium_ingot" }
+				type: "item"
+			}]
+			x: 4.86d
+			y: -0.84d
+		}
+		{
+			dependencies: ["6107EB0ADF6579E5"]
+			hide_dependency_lines: true
+			id: "2A8DF85A9B8FB6EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19BF48E673949FCC"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "208275BFBC0E59BC"
+				item: { components: { "ftbfiltersystem:filter": "or(item(chemica:glass_vial)item(chemica:graduated_cylinder)item(chemica:petri_dish))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.16d
+			y: 0.84d
+		}
+		{
+			dependencies: ["6107EB0ADF6579E5"]
+			hide_dependency_lines: true
+			id: "39D739C24F0BD7C9"
+			rewards: [{
+				id: "28CC44176FDE6F76"
+				type: "xp"
+				xp: 150
+			}, {
+				exclude_from_claim_all: true
+				id: "5EFB77A1336E938E"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.1d
+			tasks: [{
+				id: "3A8B2E74559C8689"
+				item: { components: { "ftbfiltersystem:filter": "or(item(chemica:iron_catalyst)item(chemica:copper_catalyst)item(chemica:nickel_catalyst)item(chemica:cobalt_catalyst)item(chemica:vanadium_catalyst))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.16d
+			y: 2.64d
+		}
+		{
+			dependencies: ["39D739C24F0BD7C9"]
+			id: "1BBCDD93EFD30BF3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3010BCE22871F79C"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1A2C6BF48C72E37F"
+				item: { count: 1, id: "chemica:platinum_catalyst" }
+				type: "item"
+			}]
+			x: 3.51d
+			y: 2.04d
+		}
+		{
+			dependencies: ["39D739C24F0BD7C9"]
+			id: "21B11A8A1169FFA2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "583FD8A9E0E92E31"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2BA930CDAF675334"
+				item: { count: 1, id: "chemica:electrochemically_exfoliated_graphene" }
+				type: "item"
+			}]
+			x: 3.51d
+			y: 3.24d
+		}
+		{
+			dependencies: ["6107EB0ADF6579E5"]
+			hide_dependency_lines: true
+			id: "45056024A172F661"
+			rewards: [{
+				id: "6CF236785EED3A19"
+				type: "xp"
+				xp: 150
+			}, {
+				exclude_from_claim_all: true
+				id: "4D6EC582FBF14294"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.1d
+			tasks: [{
+				id: "434BAAB788D22950"
+				item: { components: { "ftbfiltersystem:filter": "or(item(chemica:polyethylene_sheet)item(chemica:polyvinyl_chloride_sheet)item(chemica:polytetrafluoroethylene_sheet)item(chemica:nylon_ingot)item(chemica:cured_epoxy_sheet))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.02d
+			y: -2.64d
+		}
+		{
+			dependencies: ["45056024A172F661"]
+			id: "2663F625B443B3BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FCDE9C17B3F7968"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "51EDD648E1C23E6D"
+				item: { count: 1, id: "chemica:polytetrafluoroethylene_sheet" }
+				type: "item"
+			}]
+			x: 8.37d
+			y: -4.44d
+		}
+		{
+			dependencies: ["45056024A172F661"]
+			id: "557B7DD441640AA9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "759349ECECF600F6"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "35D547928BBDEDFF"
+				item: { count: 1, id: "chemica:nylon_salt" }
+				type: "item"
+			}, {
+				id: "303C7A68AE0A83E2"
+				item: { count: 1, id: "chemica:nylon_ingot" }
+				type: "item"
+			}]
+			x: 8.37d
+			y: -3.24d
+		}
+		{
+			dependencies: ["45056024A172F661"]
+			id: "3B070734D5ECE40B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "551EF21104F86396"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "400177CF20B914DC"
+				item: { count: 1, id: "chemica:conductive_paste" }
+				type: "item"
+			}]
+			x: 8.37d
+			y: -2.04d
+		}
+		{
+			dependencies: ["45056024A172F661"]
+			id: "43DDF224DB158410"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CECF018A30269FE"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "23155E99A356F7F3"
+				item: { count: 1, id: "chemica:etched_pvc_circuit_board" }
+				type: "item"
+			}, {
+				id: "246AA32A0AAC8990"
+				item: { count: 1, id: "chemica:electronic_circuit" }
+				type: "item"
+			}]
+			x: 8.37d
+			y: -0.84d
+		}
+		{
+			dependencies: ["43DDF224DB158410"]
+			id: "352607F94C417CED"
+			rewards: [{
+				id: "4B47E90A018119B1"
+				type: "xp"
+				xp: 300
+			}, {
+				exclude_from_claim_all: true
+				id: "56C25ECA1A2B829E"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "2DB48A3E19B61052"
+				item: { count: 1, id: "chemica:etched_epoxy_circuit_board" }
+				type: "item"
+			}, {
+				id: "59464DF360DA722C"
+				item: { count: 1, id: "chemica:advanced_circuit_board" }
+				type: "item"
+			}]
+			x: 9.72d
+			y: -0.84d
+		}
+		{
+			dependencies: ["6107EB0ADF6579E5"]
+			hide_dependency_lines: true
+			id: "6E701B54CA3A9AFF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "298FF79B9B2F33F3"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "60581842C3FCA93A"
+				item: { count: 1, id: "chemica:pan_fibers" }
+				type: "item"
+			}, {
+				id: "1284A0CE3857B90F"
+				item: { count: 1, id: "chemica:stabilized_fibers" }
+				type: "item"
+			}]
+			x: 7.02d
+			y: 2.04d
+		}
+		{
+			dependencies: ["6E701B54CA3A9AFF"]
+			id: "619869C9E9CA99E4"
+			rewards: [{
+				id: "2CB5BBE3E4E8171B"
+				type: "xp"
+				xp: 150
+			}, {
+				exclude_from_claim_all: true
+				id: "5BE5AF2F51B4B012"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.1d
+			tasks: [{
+				id: "23AF9885F3078EC5"
+				item: { count: 1, id: "chemica:carbon_fiber_strands" }
+				type: "item"
+			}, {
+				id: "33559890BC42266B"
+				item: { count: 1, id: "chemica:carbon_fiber_composite_sheet" }
+				type: "item"
+			}]
+			x: 8.37d
+			y: 2.04d
+		}
+		{
+			dependencies: ["619869C9E9CA99E4"]
+			id: "5B7A8D207BEC53AD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13CCE0F48AC5936C"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1BBA6E9720823CF4"
+				item: { count: 1, id: "chemica:lightweight_tough_alloy" }
+				type: "item"
+			}]
+			x: 9.72d
+			y: 0.84d
+		}
+		{
+			dependencies: ["619869C9E9CA99E4"]
+			id: "3C69DF94A372C124"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62BD98DB29DBF34F"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7756E7C19FB01178"
+				item: { count: 1, id: "chemica:heat_resistant_tough_alloy" }
+				type: "item"
+			}]
+			x: 9.72d
+			y: 2.04d
+		}
+		{
+			dependencies: ["619869C9E9CA99E4"]
+			id: "655296D2CF383BFF"
+			rewards: [{
+				id: "25D33330C79C8645"
+				type: "xp"
+				xp: 300
+			}, {
+				exclude_from_claim_all: true
+				id: "4B137ADF3C8F5FAA"
+				table_id: 5249651026717322459L
+				type: "random"
+			}, {
+				id: "25973CA977028F9C"
+				item: { count: 8, id: "chemica:carbon_fiber_composite_sheet" }
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "27F37CB85FA9D611"
+				item: { count: 1, id: "chemica:advanced_composite_tough_alloy" }
+				type: "item"
+			}]
+			x: 9.72d
+			y: 3.24d
+		}
+		{
+			dependencies: ["6107EB0ADF6579E5"]
+			hide_dependency_lines: true
+			id: "1B70913E2CFFF599"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "520B7C5460C586F5"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2A2C5270F3C7B526"
+				item: { components: { "ftbfiltersystem:filter": "or(item(chemica:biodiesel_engine_cylinder)item(chemica:ethanol_engine_cylinder)item(chemica:high_octane_engine_cylinder)item(chemica:high_cetane_engine_cylinder))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.02d
+			y: 4.44d
+		}
+	]
+}

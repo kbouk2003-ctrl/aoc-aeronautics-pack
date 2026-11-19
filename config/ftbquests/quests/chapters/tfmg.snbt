@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "tfmg_chemica"
+	filename: "tfmg"
 	group: "3B8AF43E1258A852"
 	icon: {
 		id: "tfmg:steel_distillation_controller"
@@ -12,6 +12,104 @@
 	quest_links: [ ]
 	quests: [
 		{
+			icon: { id: "tfmg:steel_ingot" }
+			id: "14D0220D3DDCC38D"
+			rewards: [{
+				id: "61E66D933321B114"
+				type: "xp"
+				xp: 150
+			}, {
+				exclude_from_claim_all: true
+				id: "29872C0261F25884"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.1d
+			tasks: [{
+				id: "5E368A541770799F"
+				type: "checkmark"
+			}]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["14D0220D3DDCC38D"]
+			hide_dependency_lines: true
+			id: "10750B21BC4A1F1F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22BF316F41AA2FA2"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4C4BDCD0F1F8C778"
+				item: { components: { "ftbfiltersystem:filter": "or(item(tfmg:raw_lead)item(tfmg:raw_nickel)item(tfmg:raw_lithium))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.16d
+			y: -4.08d
+		}
+		{
+			dependencies: ["10750B21BC4A1F1F"]
+			id: "2826D35CFB2243A0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F899D6E3347AB8D"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2DA0757A969C02AA"
+				item: { count: 1, id: "tfmg:bauxite_powder" }
+				type: "item"
+			}, {
+				id: "3868DED48E8FC5B9"
+				item: { count: 1, id: "tfmg:aluminum_ingot" }
+				type: "item"
+			}]
+			x: 3.51d
+			y: -5.28d
+		}
+		{
+			dependencies: ["10750B21BC4A1F1F"]
+			id: "592B8DAC72A5362E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5343C314E713576B"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 8L
+				id: "24D28633E9AD6540"
+				item: { count: 1, id: "tfmg:fireclay_ball" }
+				type: "item"
+			}]
+			x: 3.51d
+			y: -4.08d
+		}
+		{
+			dependencies: ["10750B21BC4A1F1F"]
+			id: "6C758B2D244FED28"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "651204893C90FAAD"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3B7B0BDDBE8A4C31"
+				item: { count: 1, id: "tfmg:constantan_ingot" }
+				type: "item"
+			}]
+			x: 3.51d
+			y: -2.88d
+		}
+		{
+			dependencies: ["14D0220D3DDCC38D"]
+			hide_dependency_lines: true
 			id: "4F8FF06FC5F13404"
 			rewards: [{
 				id: "6143AA1578721032"
@@ -28,7 +126,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "40F666AA013CCC52"
 				item: { count: 1, id: "tfmg:coke_oven" }
@@ -39,8 +137,8 @@
 				item: { count: 1, id: "tfmg:coal_coke" }
 				type: "item"
 			}]
-			x: 0.00d
-			y: 3.59d
+			x: 2.16d
+			y: -0.60d
 		}
 		{
 			dependencies: ["4F8FF06FC5F13404"]
@@ -57,11 +155,11 @@
 				item: { count: 1, id: "tfmg:fireproof_bricks" }
 				type: "item"
 			}]
-			x: 1.60d
-			y: 0.17d
+			x: 3.51d
+			y: -0.60d
 		}
 		{
-			dependencies: ["4F8FF06FC5F13404"]
+			dependencies: ["7D94DB3F4C56570D"]
 			id: "6DD02A9C15EA46D4"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -74,11 +172,28 @@
 				item: { count: 1, id: "tfmg:blast_stove" }
 				type: "item"
 			}]
-			x: 1.60d
-			y: 7.00d
+			x: 4.86d
+			y: -0.60d
 		}
 		{
-			dependencies: ["7D94DB3F4C56570D", "6DD02A9C15EA46D4"]
+			dependencies: ["6DD02A9C15EA46D4"]
+			id: "63CB7B77FCE6AD64"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E6B31DE5B728145"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2E399F825AFD35C7"
+				item: { components: { "ftbfiltersystem:filter": "or(item(tfmg:brick_smokestack)item(tfmg:concrete_smokestack)item(tfmg:metal_smokestack)item(tfmg:exhaust))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.21d
+			y: -1.20d
+		}
+		{
+			dependencies: ["6DD02A9C15EA46D4"]
 			id: "49DC78F14CE8C549"
 			rewards: [{
 				id: "105B612A2945EF78"
@@ -95,7 +210,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "5E009F3FDF1A8413"
 				item: { count: 1, id: "tfmg:blast_furnace_output" }
@@ -109,8 +224,8 @@
 				item: { count: 1, id: "tfmg:blast_furnace_reinforcement" }
 				type: "item"
 			}]
-			x: 3.20d
-			y: 0.17d
+			x: 6.21d
+			y: 0.00d
 		}
 		{
 			dependencies: ["49DC78F14CE8C549"]
@@ -130,7 +245,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				count: 16L
 				id: "3D6BAE4FC194C1D3"
@@ -142,28 +257,48 @@
 				item: { count: 1, id: "tfmg:cast_iron_ingot" }
 				type: "item"
 			}]
-			x: 4.80d
-			y: 0.17d
+			x: 7.56d
+			y: 0.00d
 		}
 		{
-			dependencies: ["6DD02A9C15EA46D4"]
-			id: "63CB7B77FCE6AD64"
+			dependencies: ["59221451D8311D29"]
+			id: "4E62A63642A8FB52"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "2E6B31DE5B728145"
+				id: "3E5FB31E2223204F"
 				table_id: 5001068052608706388L
 				type: "loot"
 			}]
 			tasks: [{
-				id: "2E399F825AFD35C7"
-				item: { components: { "ftbfiltersystem:filter": "or(item(tfmg:brick_smokestack)item(tfmg:concrete_smokestack)item(tfmg:metal_smokestack)item(tfmg:exhaust))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				count: 4L
+				id: "41C3F0388F0C12A1"
+				item: { count: 1, id: "tfmg:heavy_plate" }
 				type: "item"
 			}]
-			x: 3.20d
-			y: 7.00d
+			x: 8.91d
+			y: 0.00d
 		}
 		{
-			dependencies: ["59221451D8311D29"]
+			dependencies: ["4E62A63642A8FB52"]
+			id: "22C3DF36A6AF7807"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FBC844F1CD79B8F"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 2L
+				id: "6539F54EB63A4F8A"
+				item: { count: 1, id: "tfmg:steel_mechanism" }
+				type: "item"
+			}]
+			x: 10.26d
+			y: 0.00d
+		}
+		{
+			dependencies: ["14D0220D3DDCC38D"]
+			hide_dependency_lines: true
 			id: "4601FAB2D4691A9C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -176,8 +311,8 @@
 				item: { count: 1, id: "tfmg:surface_scanner" }
 				type: "item"
 			}]
-			x: 6.40d
-			y: -5.25d
+			x: 2.16d
+			y: 3.48d
 		}
 		{
 			dependencies: ["4601FAB2D4691A9C"]
@@ -197,7 +332,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "105612D610C6F9EB"
 				item: { count: 1, id: "tfmg:pumpjack_base" }
@@ -211,8 +346,8 @@
 				item: { count: 1, id: "tfmg:pumpjack_hammer" }
 				type: "item"
 			}]
-			x: 8.00d
-			y: -5.25d
+			x: 3.51d
+			y: 3.48d
 		}
 		{
 			dependencies: ["7131F7EEDFE79A57"]
@@ -228,8 +363,8 @@
 				item: { count: 1, id: "tfmg:crude_oil_bucket" }
 				type: "item"
 			}]
-			x: 9.60d
-			y: -5.25d
+			x: 4.86d
+			y: 3.48d
 		}
 		{
 			dependencies: ["1E883D1C2C1B6606"]
@@ -253,7 +388,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.3d
 			tasks: [{
 				id: "4E008AEAE6BC6A7B"
 				item: { count: 1, id: "tfmg:steel_distillation_controller" }
@@ -268,8 +403,8 @@
 				item: { count: 1, id: "tfmg:industrial_pipe" }
 				type: "item"
 			}]
-			x: 11.20d
-			y: -5.25d
+			x: 6.21d
+			y: 3.48d
 		}
 		{
 			dependencies: ["501FC86D82CCAD12"]
@@ -282,11 +417,11 @@
 			}]
 			tasks: [{
 				id: "541176507B646FA1"
-				item: { components: { "ftbfiltersystem:filter": "or(item(tfmg:diesel_bucket)item(tfmg:gasoline_bucket)item(tfmg:kerosene_bucket)item(tfmg:lpg_bucket)item(tfmg:heavy_oil_bucket))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(tfmg:diesel_bucket)item(tfmg:gasoline_bucket)item(tfmg:kerosene_bucket)item(tfmg:lpg_bucket)item(tfmg:heavy_oil_bucket)item(tfmg:naphtha_bucket))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 12.80d
-			y: -7.00d
+			x: 7.56d
+			y: 1.68d
 		}
 		{
 			dependencies: ["501FC86D82CCAD12"]
@@ -302,11 +437,48 @@
 				item: { count: 1, id: "tfmg:flarestack" }
 				type: "item"
 			}]
-			x: 12.80d
-			y: -5.60d
+			x: 7.56d
+			y: 2.88d
 		}
 		{
-			dependencies: ["73AA660BE062D51A"]
+			dependencies: ["501FC86D82CCAD12"]
+			id: "41E115E5DB8FDA34"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7709C33F5A6B7B21"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 8L
+				id: "14A0A1645B76A85C"
+				item: { count: 1, id: "tfmg:plastic_sheet" }
+				type: "item"
+			}]
+			x: 7.56d
+			y: 4.08d
+		}
+		{
+			dependencies: ["501FC86D82CCAD12"]
+			id: "65F0F0835991B914"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "410D1177968C466A"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 16L
+				id: "78685FDE7A1AECDD"
+				item: { count: 1, id: "tfmg:asphalt" }
+				type: "item"
+			}]
+			x: 7.56d
+			y: 5.28d
+		}
+		{
+			dependencies: ["22C3DF36A6AF7807"]
+			hide_dependency_lines: true
 			id: "2B5F447A0076B9C0"
 			rewards: [{
 				id: "5138358B04B2625C"
@@ -327,14 +499,79 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "13541F06605298EB"
-				item: { components: { "ftbfiltersystem:filter": "or(item(tfmg:regular_engine)item(tfmg:radial_engine)item(tfmg:large_engine)item(tfmg:turbine_engine)item(tfmg:simple_large_engine))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(tfmg:regular_engine)item(tfmg:radial_engine)item(tfmg:turbine_engine))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 14.40d
-			y: -7.00d
+			x: 12.42d
+			y: -3.48d
+		}
+		{
+			dependencies: ["2B5F447A0076B9C0"]
+			id: "2A086C35DEC79A22"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1175105ECBAE399D"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3ACCA30E40226E3D"
+				item: { count: 1, id: "tfmg:spark_plug" }
+				type: "item"
+			}, {
+				id: "2979D6C1104A8A6B"
+				item: { count: 1, id: "tfmg:engine_cylinder" }
+				type: "item"
+			}]
+			x: 13.77d
+			y: -5.28d
+		}
+		{
+			dependencies: ["2B5F447A0076B9C0"]
+			id: "336440CD10209FA5"
+			rewards: [{
+				id: "56A6A014EFF9F1F2"
+				type: "xp"
+				xp: 300
+			}, {
+				exclude_from_claim_all: true
+				id: "553E329A5FF370D7"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "203BD50A4A08F5A1"
+				item: { count: 1, id: "tfmg:large_engine" }
+				type: "item"
+			}, {
+				id: "632747C56420E170"
+				item: { count: 1, id: "tfmg:crankshaft" }
+				type: "item"
+			}]
+			x: 13.77d
+			y: -4.08d
+		}
+		{
+			dependencies: ["2B5F447A0076B9C0"]
+			id: "232C3B8BCB50E39A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A86B96659297555"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5052974BC9D9854E"
+				item: { components: { "ftbfiltersystem:filter": "or(item(tfmg:turbo)item(tfmg:golden_turbo)item(tfmg:air_intake))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 13.77d
+			y: -2.88d
 		}
 		{
 			dependencies: ["2B5F447A0076B9C0"]
@@ -350,29 +587,12 @@
 				item: { count: 1, id: "tfmg:oil_can" }
 				type: "item"
 			}]
-			x: 16.00d
-			y: -7.00d
+			x: 13.77d
+			y: -1.68d
 		}
 		{
-			dependencies: ["501FC86D82CCAD12"]
-			id: "41E115E5DB8FDA34"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7709C33F5A6B7B21"
-				table_id: 5001068052608706388L
-				type: "loot"
-			}]
-			tasks: [{
-				count: 8L
-				id: "14A0A1645B76A85C"
-				item: { count: 1, id: "tfmg:plastic_sheet" }
-				type: "item"
-			}]
-			x: 12.80d
-			y: -3.50d
-		}
-		{
-			dependencies: ["59221451D8311D29"]
+			dependencies: ["22C3DF36A6AF7807"]
+			hide_dependency_lines: true
 			id: "224752829F981797"
 			rewards: [{
 				id: "2B0DE59E3E9F21DD"
@@ -393,7 +613,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "4C280FA22C943326"
 				item: { count: 1, id: "tfmg:generator" }
@@ -407,11 +627,32 @@
 				item: { count: 1, id: "tfmg:copper_spool" }
 				type: "item"
 			}]
-			x: 6.40d
-			y: -0.00d
+			x: 12.42d
+			y: 2.40d
 		}
 		{
 			dependencies: ["224752829F981797"]
+			id: "2ED5C9CA04FF74B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69A6EE09E266639B"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "370834C98AE596B0"
+				item: { count: 1, id: "tfmg:winding_machine" }
+				type: "item"
+			}, {
+				id: "7DF4A504DB478283"
+				item: { count: 1, id: "tfmg:electromagnetic_coil" }
+				type: "item"
+			}]
+			x: 13.77d
+			y: 0.00d
+		}
+		{
+			dependencies: ["2ED5C9CA04FF74B0"]
 			id: "540AEC3C894B7E11"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -424,8 +665,8 @@
 				item: { count: 1, id: "tfmg:electric_motor" }
 				type: "item"
 			}]
-			x: 8.00d
-			y: -1.40d
+			x: 15.12d
+			y: 0.00d
 		}
 		{
 			dependencies: ["224752829F981797"]
@@ -441,8 +682,25 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(tfmg:voltmeter)item(tfmg:multimeter))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 8.00d
-			y: 0.00d
+			x: 13.77d
+			y: 1.80d
+		}
+		{
+			dependencies: ["79280CF6FAD72B1E"]
+			id: "32E86E1A7FB17505"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6343F89FD7129229"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "20E168B6D460AD1A"
+				item: { components: { "ftbfiltersystem:filter": "or(item(tfmg:electric_diode)item(tfmg:potentiometer)item(tfmg:electrical_switch))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 15.12d
+			y: 1.20d
 		}
 		{
 			dependencies: ["79280CF6FAD72B1E"]
@@ -462,8 +720,8 @@
 				item: { count: 1, id: "tfmg:transformer" }
 				type: "item"
 			}]
-			x: 9.60d
-			y: 0.00d
+			x: 15.12d
+			y: 2.40d
 		}
 		{
 			dependencies: ["224752829F981797"]
@@ -487,11 +745,29 @@
 				item: { count: 1, id: "tfmg:magnet" }
 				type: "item"
 			}]
-			x: 8.00d
-			y: 1.40d
+			x: 13.77d
+			y: 3.60d
+		}
+		{
+			dependencies: ["224752829F981797"]
+			id: "4F53D9209A059145"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "219BA8CED4F0E1E5"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "648827BD65CDFDC3"
+				item: { components: { "ftbfiltersystem:filter": "or(item(tfmg:light_bulb)item(tfmg:neon_tube)item(tfmg:modern_light)item(tfmg:circular_light)item(tfmg:aluminum_lamp))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 13.77d
+			y: 4.80d
 		}
 		{
 			dependencies: ["59221451D8311D29"]
+			hide_dependency_lines: true
 			id: "550626388F07CADE"
 			rewards: [{
 				id: "3D7DC8BC9F15C6C5"
@@ -508,7 +784,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "6607F37A2B2366CB"
 				item: { count: 1, id: "tfmg:cast_iron_chemical_vat" }
@@ -522,11 +798,11 @@
 				item: { count: 1, id: "tfmg:mixer_blade" }
 				type: "item"
 			}]
-			x: 6.40d
-			y: 3.50d
+			x: 17.28d
+			y: -4.68d
 		}
 		{
-			dependencies: ["550626388F07CADE", "224752829F981797"]
+			dependencies: ["550626388F07CADE"]
 			id: "53833183D7F819BF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -545,11 +821,67 @@
 				item: { count: 1, id: "tfmg:copper_electrode" }
 				type: "item"
 			}]
-			x: 8.00d
-			y: 2.80d
+			x: 18.63d
+			y: -5.28d
+		}
+		{
+			dependencies: ["550626388F07CADE"]
+			id: "6D8ADE00EC788EE4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34160D6BABCF3716"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3713A41C9D2BB153"
+				item: { count: 1, id: "tfmg:sulfur_dust" }
+				type: "item"
+			}]
+			x: 18.63d
+			y: -4.08d
+		}
+		{
+			dependencies: ["6D8ADE00EC788EE4"]
+			id: "168BEEC4C4FDDBC1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50E6E6C14BCE7B2F"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "38EBCF330D689CB9"
+				item: { count: 1, id: "tfmg:etched_circuit_board" }
+				type: "item"
+			}, {
+				id: "31C5C75555A58410"
+				item: { count: 1, id: "tfmg:circuit_board" }
+				type: "item"
+			}]
+			x: 19.98d
+			y: -4.08d
+		}
+		{
+			dependencies: ["168BEEC4C4FDDBC1"]
+			id: "4A2B89076F2F9119"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68DDE10B9C781722"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4B180351CEC9AF31"
+				item: { components: { "ftbfiltersystem:filter": "or(item(tfmg:transistor)item(tfmg:capacitor)item(tfmg:resistor))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 21.33d
+			y: -4.08d
 		}
 		{
 			dependencies: ["59221451D8311D29"]
+			hide_dependency_lines: true
 			id: "43F6D53DAD25175B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -567,147 +899,84 @@
 				item: { count: 1, id: "tfmg:rebar" }
 				type: "item"
 			}]
-			x: 6.40d
-			y: 5.60d
+			x: 17.28d
+			y: -2.40d
 		}
 		{
-			dependencies: ["550626388F07CADE"]
-			id: "6107EB0ADF6579E5"
+			dependencies: ["43F6D53DAD25175B"]
+			id: "2E58C49AC7250B82"
 			rewards: [{
-				id: "436135198B3629C4"
-				type: "xp"
-				xp: 150
+				exclude_from_claim_all: true
+				id: "5143C72425A2EF46"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 8L
+				id: "21EB97A3BF2B51D3"
+				item: { count: 1, id: "tfmg:cement" }
+				type: "item"
+			}]
+			x: 18.63d
+			y: -2.40d
+		}
+		{
+			dependencies: ["168BEEC4C4FDDBC1"]
+			hide_dependency_lines: true
+			id: "6C10A9FC01AEDCE1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C20D9E40565425C"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4543D346DA45E4FF"
+				item: { count: 1, id: "tfmg:flamethrower" }
+				type: "item"
+			}]
+			x: 21.33d
+			y: -1.20d
+		}
+		{
+			dependencies: ["168BEEC4C4FDDBC1"]
+			hide_dependency_lines: true
+			id: "78784A749E1A629E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26AE2CBE7BF7FAB5"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6091EA88D7DF94F3"
+				item: { count: 1, id: "tfmg:lithium_blade" }
+				type: "item"
 			}, {
-				exclude_from_claim_all: true
-				id: "6F3A9DBB495898E3"
-				table_id: 5249651026717322459L
-				type: "random"
-			}, {
-				id: "420D4D38B1EA9D2D"
-				item: { count: 2, id: "chemica:platinum_ingot" }
+				id: "29024A07292C4628"
+				item: { count: 1, id: "tfmg:lithium_charge" }
 				type: "item"
 			}]
-			shape: "gear"
-			size: 1.25d
-			tasks: [{
-				id: "43D88069BC61E246"
-				item: { components: { "ftbfiltersystem:filter": "or(item(chemica:iron_catalyst)item(chemica:copper_catalyst)item(chemica:nickel_catalyst)item(chemica:cobalt_catalyst)item(chemica:platinum_catalyst))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 8.00d
-			y: 4.20d
+			x: 21.33d
+			y: 0.00d
 		}
 		{
-			dependencies: ["6107EB0ADF6579E5"]
-			id: "218B6E5B78F4C0D9"
+			dependencies: ["59221451D8311D29"]
+			hide_dependency_lines: true
+			id: "158710D66D036871"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "7D829103B5CF0AB9"
+				id: "54C0855491D30625"
 				table_id: 5001068052608706388L
 				type: "loot"
 			}]
 			tasks: [{
-				id: "6D827A1C35CB8E6B"
-				item: { components: { "ftbfiltersystem:filter": "or(item(chemica:raw_platinum)item(chemica:raw_cobalt)item(chemica:raw_chromite)item(chemica:raw_molybdenum)item(chemica:raw_antimony))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "3C8F3B6D947B1891"
+				item: { components: { "ftbfiltersystem:filter": "or(item(tfmg:copper_grenade)item(tfmg:zinc_grenade)item(tfmg:thermite_grenade)item(tfmg:napalm_potato))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 9.60d
-			y: 4.20d
-		}
-		{
-			dependencies: ["6107EB0ADF6579E5", "41E115E5DB8FDA34"]
-			id: "45056024A172F661"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6CF236785EED3A19"
-				table_id: 5001068052608706388L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "434BAAB788D22950"
-				item: { components: { "ftbfiltersystem:filter": "or(item(chemica:polyethylene_sheet)item(chemica:polyvinyl_chloride_sheet)item(chemica:polytetrafluoroethylene_sheet)item(chemica:nylon_ingot)item(chemica:cured_epoxy_sheet))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 14.40d
-			y: -3.50d
-		}
-		{
-			dependencies: ["45056024A172F661"]
-			id: "43DDF224DB158410"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4CECF018A30269FE"
-				table_id: 5001068052608706388L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "23155E99A356F7F3"
-				item: { count: 1, id: "chemica:electronic_circuit" }
-				type: "item"
-			}]
-			x: 16.00d
-			y: -4.20d
-		}
-		{
-			dependencies: ["45056024A172F661"]
-			id: "619869C9E9CA99E4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2CB5BBE3E4E8171B"
-				table_id: 5001068052608706388L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "23AF9885F3078EC5"
-				item: { count: 1, id: "chemica:carbon_fiber_composite_sheet" }
-				type: "item"
-			}]
-			x: 16.00d
-			y: -2.80d
-		}
-		{
-			dependencies: ["218B6E5B78F4C0D9", "619869C9E9CA99E4"]
-			id: "655296D2CF383BFF"
-			rewards: [{
-				id: "25D33330C79C8645"
-				type: "xp"
-				xp: 300
-			}, {
-				exclude_from_claim_all: true
-				id: "4B137ADF3C8F5FAA"
-				table_id: 5249651026717322459L
-				type: "random"
-			}, {
-				id: "25973CA977028F9C"
-				item: { count: 8, id: "chemica:carbon_fiber_composite_sheet" }
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				id: "27F37CB85FA9D611"
-				item: { components: { "ftbfiltersystem:filter": "or(item(chemica:lightweight_tough_alloy)item(chemica:heat_resistant_tough_alloy)item(chemica:advanced_composite_tough_alloy))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 17.60d
-			y: -2.80d
-		}
-		{
-			dependencies: ["43DDF224DB158410"]
-			id: "352607F94C417CED"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4B47E90A018119B1"
-				table_id: 5001068052608706388L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "2DB48A3E19B61052"
-				item: { count: 1, id: "chemica:advanced_circuit_board" }
-				type: "item"
-			}]
-			x: 17.60d
-			y: -4.20d
+			x: 17.28d
+			y: 1.20d
 		}
 	]
 }

@@ -25,13 +25,13 @@
 				type: "random"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "5FA3C5ABDFB73C39"
 				type: "checkmark"
 			}]
 			x: 0.00d
-			y: -0.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["39AD1C9AF86DF37F"]
@@ -48,8 +48,8 @@
 				item: { count: 1, id: "justdirethings:gooblock_tier1" }
 				type: "item"
 			}]
-			x: 2.56d
-			y: -4.06d
+			x: 2.16d
+			y: -3.48d
 		}
 		{
 			dependencies: ["514A39D635A5FCA1"]
@@ -69,7 +69,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "74127B8516FD81EC"
 				item: { count: 1, id: "justdirethings:raw_ferricore" }
@@ -79,8 +79,8 @@
 				item: { count: 1, id: "justdirethings:ferricore_ingot" }
 				type: "item"
 			}]
-			x: 4.16d
-			y: -4.06d
+			x: 3.51d
+			y: -3.48d
 		}
 		{
 			dependencies: ["477B789D93A10796"]
@@ -104,8 +104,8 @@
 				item: { count: 1, id: "justdirethings:blazegold_ingot" }
 				type: "item"
 			}]
-			x: 5.76d
-			y: -4.06d
+			x: 4.86d
+			y: -3.48d
 		}
 		{
 			dependencies: ["229455039B45885C"]
@@ -125,7 +125,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "14A0D15E6DA97F63"
 				item: { count: 1, id: "justdirethings:gooblock_tier3" }
@@ -135,8 +135,8 @@
 				item: { count: 1, id: "justdirethings:celestigem" }
 				type: "item"
 			}]
-			x: 7.36d
-			y: -4.06d
+			x: 6.21d
+			y: -3.48d
 		}
 		{
 			dependencies: ["46D4C5594182D07D"]
@@ -156,7 +156,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.3d
 			tasks: [{
 				id: "4199330DBDC8CD17"
 				item: { count: 1, id: "justdirethings:gooblock_tier4" }
@@ -166,8 +166,8 @@
 				item: { count: 1, id: "justdirethings:eclipsealloy_ingot" }
 				type: "item"
 			}]
-			x: 8.96d
-			y: -4.06d
+			x: 7.56d
+			y: -3.48d
 		}
 		{
 			dependencies: ["514A39D635A5FCA1"]
@@ -188,8 +188,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:coal_t1)item(justdirethings:coal_t2)item(justdirethings:coal_t3)item(justdirethings:coal_t4))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.56d
-			y: -1.40d
+			x: 2.16d
+			y: -1.20d
 		}
 		{
 			dependencies: ["37A5CAC9B6DDF630"]
@@ -205,8 +205,8 @@
 				item: { count: 1, id: "justdirethings:generatort1" }
 				type: "item"
 			}]
-			x: 4.16d
-			y: -2.10d
+			x: 3.51d
+			y: -1.80d
 		}
 		{
 			dependencies: ["37A5CAC9B6DDF630"]
@@ -222,8 +222,8 @@
 				item: { count: 1, id: "justdirethings:pocket_generator" }
 				type: "item"
 			}]
-			x: 4.16d
-			y: -0.70d
+			x: 3.51d
+			y: -0.60d
 		}
 		{
 			dependencies: ["2A1AE3B624877A3D"]
@@ -239,8 +239,8 @@
 				item: { count: 1, id: "justdirethings:energytransmitter" }
 				type: "item"
 			}]
-			x: 5.76d
-			y: -2.10d
+			x: 4.86d
+			y: -1.80d
 		}
 		{
 			dependencies: ["477B789D93A10796"]
@@ -257,8 +257,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:ferricore_pickaxe)item(justdirethings:ferricore_sword)item(justdirethings:ferricore_axe)item(justdirethings:ferricore_shovel))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.56d
-			y: 1.26d
+			x: 2.16d
+			y: 1.08d
 		}
 		{
 			dependencies: ["706DC3ED9A2BF837"]
@@ -274,8 +274,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:upgrade_mobscanner)item(justdirethings:upgrade_hammer)item(justdirethings:upgrade_orescanner))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.16d
-			y: 1.26d
+			x: 3.51d
+			y: 1.08d
 		}
 		{
 			dependencies: ["40DD44376A8E5B92"]
@@ -291,8 +291,8 @@
 				item: { count: 1, id: "justdirethings:template_blazegold" }
 				type: "item"
 			}]
-			x: 5.76d
-			y: 1.26d
+			x: 4.86d
+			y: 1.08d
 		}
 		{
 			dependencies: ["477B789D93A10796"]
@@ -309,8 +309,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:ferricore_helmet)item(justdirethings:ferricore_chestplate)item(justdirethings:ferricore_leggings)item(justdirethings:ferricore_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.56d
-			y: 2.66d
+			x: 2.16d
+			y: 2.28d
 		}
 		{
 			dependencies: ["477B789D93A10796"]
@@ -327,8 +327,8 @@
 				item: { count: 1, id: "justdirethings:ferricore_wrench" }
 				type: "item"
 			}]
-			x: 2.56d
-			y: 4.06d
+			x: 2.16d
+			y: 3.48d
 		}
 		{
 			dependencies: ["477B789D93A10796"]
@@ -345,14 +345,14 @@
 				type: "random"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "5123A049B3E28F21"
 				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:blockbreakert1)item(justdirethings:blockplacert1)item(justdirethings:clickert1)item(justdirethings:droppert1)item(justdirethings:sensort1))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 11.52d
-			y: -1.96d
+			x: 9.72d
+			y: -1.68d
 		}
 		{
 			dependencies: ["5310F71C179CDC93"]
@@ -368,8 +368,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:blockbreakert2)item(justdirethings:blockplacert2)item(justdirethings:clickert2)item(justdirethings:droppert2)item(justdirethings:sensort2))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 13.12d
-			y: -4.06d
+			x: 11.07d
+			y: -3.48d
 		}
 		{
 			dependencies: ["5310F71C179CDC93"]
@@ -385,8 +385,8 @@
 				item: { count: 1, id: "justdirethings:itemcollector" }
 				type: "item"
 			}]
-			x: 13.12d
-			y: -2.66d
+			x: 11.07d
+			y: -2.28d
 		}
 		{
 			dependencies: ["5310F71C179CDC93"]
@@ -402,8 +402,8 @@
 				item: { count: 1, id: "justdirethings:experienceholder" }
 				type: "item"
 			}]
-			x: 13.12d
-			y: -1.26d
+			x: 11.07d
+			y: -1.08d
 		}
 		{
 			dependencies: ["5310F71C179CDC93"]
@@ -419,8 +419,8 @@
 				item: { count: 1, id: "justdirethings:machinesettingscopier" }
 				type: "item"
 			}]
-			x: 13.12d
-			y: 0.14d
+			x: 11.07d
+			y: 0.12d
 		}
 		{
 			dependencies: ["477B789D93A10796"]
@@ -437,8 +437,8 @@
 				item: { count: 1, id: "justdirethings:creaturecatcher" }
 				type: "item"
 			}]
-			x: 15.68d
-			y: -4.06d
+			x: 13.23d
+			y: -3.48d
 		}
 		{
 			dependencies: ["477B789D93A10796"]
@@ -455,8 +455,8 @@
 				item: { count: 1, id: "justdirethings:totem_of_death_recall" }
 				type: "item"
 			}]
-			x: 15.68d
-			y: -2.66d
+			x: 13.23d
+			y: -2.28d
 		}
 		{
 			dependencies: ["229455039B45885C"]
@@ -473,8 +473,8 @@
 				item: { count: 1, id: "justdirethings:blazejet_wand" }
 				type: "item"
 			}]
-			x: 17.28d
-			y: -1.26d
+			x: 14.58d
+			y: -1.08d
 		}
 		{
 			dependencies: ["1ECE48DEDA9C39AE"]
@@ -490,8 +490,8 @@
 				item: { count: 1, id: "justdirethings:voidshift_wand" }
 				type: "item"
 			}]
-			x: 18.88d
-			y: -1.26d
+			x: 15.93d
+			y: -1.08d
 		}
 		{
 			dependencies: ["46D4C5594182D07D"]
@@ -508,14 +508,14 @@
 				type: "random"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "5D4125AB4C615CF9"
 				item: { count: 1, id: "justdirethings:portalgun" }
 				type: "item"
 			}]
-			x: 18.88d
-			y: 0.14d
+			x: 15.93d
+			y: 0.12d
 		}
 		{
 			dependencies: ["229455039B45885C"]
@@ -536,8 +536,8 @@
 				item: { count: 1, id: "justdirethings:polymorphic_fluid_bucket" }
 				type: "item"
 			}]
-			x: 15.68d
-			y: 2.10d
+			x: 13.23d
+			y: 1.80d
 		}
 		{
 			dependencies: ["45A86EB749ED98E3"]
@@ -557,8 +557,8 @@
 				item: { count: 1, id: "justdirethings:portal_fluid_bucket" }
 				type: "item"
 			}]
-			x: 17.28d
-			y: 2.10d
+			x: 14.58d
+			y: 1.80d
 		}
 		{
 			dependencies: ["477C6BED8D7CA850"]
@@ -575,8 +575,8 @@
 				item: { count: 1, id: "justdirethings:time_crystal_budding_block" }
 				type: "item"
 			}]
-			x: 18.88d
-			y: 3.50d
+			x: 15.93d
+			y: 3.00d
 		}
 		{
 			dependencies: ["3FC8E286F652252B"]
@@ -592,7 +592,7 @@
 				type: "random"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.3d
 			tasks: [{
 				id: "3F8A58304E57270D"
 				item: { count: 1, id: "justdirethings:time_crystal" }
@@ -602,8 +602,8 @@
 				item: { count: 1, id: "justdirethings:time_fluid_bucket" }
 				type: "item"
 			}]
-			x: 20.48d
-			y: 3.50d
+			x: 17.28d
+			y: 3.00d
 		}
 		{
 			dependencies: ["3198C9E871CC9300"]
@@ -619,8 +619,8 @@
 				item: { count: 1, id: "justdirethings:time_wand" }
 				type: "item"
 			}]
-			x: 22.08d
-			y: 3.50d
+			x: 18.63d
+			y: 3.00d
 		}
 	]
 }

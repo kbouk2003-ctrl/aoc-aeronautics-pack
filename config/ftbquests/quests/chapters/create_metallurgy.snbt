@@ -28,14 +28,14 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "145A68BBFCF2FBAB"
 				item: { components: { "ftbfiltersystem:filter": "or(item(createmetallurgy:dirty_iron_dust)item(createmetallurgy:dirty_copper_dust)item(createmetallurgy:dirty_gold_dust)item(createmetallurgy:dirty_zinc_dust))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 0.00d
-			y: 1.75d
+			y: 1.50d
 		}
 		{
 			dependencies: ["21291F5BE8BD1914"]
@@ -51,8 +51,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(createmetallurgy:iron_dust)item(createmetallurgy:copper_dust)item(createmetallurgy:gold_dust))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.60d
-			y: 1.75d
+			x: 1.35d
+			y: 1.50d
 		}
 		{
 			dependencies: ["1D37E00E6BD05989"]
@@ -72,7 +72,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "690D5CA8FED0BFAE"
 				item: { count: 1, id: "createmetallurgy:foundry_basin" }
@@ -82,11 +82,12 @@
 				item: { count: 1, id: "createmetallurgy:foundry_lid" }
 				type: "item"
 			}]
-			x: 3.20d
-			y: -0.70d
+			x: 2.70d
+			y: -0.60d
 		}
 		{
 			dependencies: ["5A36972DAC0C380D"]
+			hide_dependency_lines: true
 			id: "102710C036D148C4"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -99,8 +100,8 @@
 				item: { count: 1, id: "createmetallurgy:faucet" }
 				type: "item"
 			}]
-			x: 4.80d
-			y: -4.20d
+			x: 4.05d
+			y: -3.60d
 		}
 		{
 			dependencies: ["102710C036D148C4"]
@@ -124,8 +125,8 @@
 				item: { count: 1, id: "createmetallurgy:casting_basin" }
 				type: "item"
 			}]
-			x: 6.40d
-			y: -4.20d
+			x: 5.40d
+			y: -3.60d
 		}
 		{
 			dependencies: ["5A36972DAC0C380D"]
@@ -142,8 +143,8 @@
 				item: { count: 1, id: "createmetallurgy:graphite" }
 				type: "item"
 			}]
-			x: 4.80d
-			y: -2.80d
+			x: 4.05d
+			y: -2.40d
 		}
 		{
 			dependencies: ["153E6D069E454068", "38572F9EE244D98A"]
@@ -159,8 +160,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(createmetallurgy:graphite_ingot_mold)item(createmetallurgy:graphite_plate_mold)item(createmetallurgy:graphite_gear_mold)item(createmetallurgy:graphite_rod_mold)item(createmetallurgy:graphite_nugget_mold))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 8.00d
-			y: -4.20d
+			x: 6.75d
+			y: -3.60d
 		}
 		{
 			dependencies: ["5A36972DAC0C380D"]
@@ -177,11 +178,12 @@
 				item: { count: 1, id: "createmetallurgy:coke" }
 				type: "item"
 			}]
-			x: 4.80d
+			x: 4.05d
 			y: 0.00d
 		}
 		{
 			dependencies: ["5A36972DAC0C380D"]
+			hide_dependency_lines: true
 			id: "74A6D6FE2CE446BF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -198,8 +200,8 @@
 				item: { count: 1, id: "createmetallurgy:sturdy_whisk" }
 				type: "item"
 			}]
-			x: 4.80d
-			y: 2.80d
+			x: 4.05d
+			y: 2.40d
 		}
 		{
 			dependencies: ["24A2721EC83DB70A", "74A6D6FE2CE446BF"]
@@ -219,14 +221,14 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				count: 4L
 				id: "5A91DF9AF1A9FB04"
 				item: { count: 1, id: "createmetallurgy:steel_ingot" }
 				type: "item"
 			}]
-			x: 6.40d
+			x: 5.40d
 			y: 0.00d
 		}
 		{
@@ -247,13 +249,13 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "41434D842DF8F0C2"
 				item: { count: 1, id: "createmetallurgy:industrial_crucible" }
 				type: "item"
 			}]
-			x: 8.00d
+			x: 6.75d
 			y: 0.00d
 		}
 		{
@@ -270,8 +272,8 @@
 				item: { count: 1, id: "createmetallurgy:gauge_attachment" }
 				type: "item"
 			}]
-			x: 9.60d
-			y: -1.40d
+			x: 8.10d
+			y: -1.20d
 		}
 		{
 			dependencies: ["3733E8C72C91CF0C"]
@@ -291,7 +293,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.3d
 			tasks: [{
 				id: "3B3D939E6AE1AC7F"
 				item: { count: 1, id: "createmetallurgy:raw_tungsten" }
@@ -301,7 +303,7 @@
 				item: { count: 1, id: "createmetallurgy:tungsten_ingot" }
 				type: "item"
 			}]
-			x: 9.60d
+			x: 8.10d
 			y: 0.00d
 		}
 		{
@@ -318,7 +320,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(createmetallurgy:tungsten_wire)item(createmetallurgy:tungsten_wire_spool)item(createmetallurgy:tungsten_sheet))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 11.20d
+			x: 9.45d
 			y: 0.00d
 		}
 		{
@@ -335,7 +337,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(createmetallurgy:white_light_bulb)item(createmetallurgy:yellow_light_bulb)item(createmetallurgy:red_light_bulb)item(createmetallurgy:blue_light_bulb)item(createmetallurgy:green_light_bulb))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 12.80d
+			x: 10.80d
 			y: 0.00d
 		}
 		{
@@ -356,8 +358,8 @@
 				item: { count: 1, id: "createmetallurgy:sandpaper_belt" }
 				type: "item"
 			}]
-			x: 3.20d
-			y: 4.20d
+			x: 2.70d
+			y: 3.60d
 		}
 		{
 			dependencies: ["3733E8C72C91CF0C"]
@@ -373,8 +375,8 @@
 				item: { count: 1, id: "createmetallurgy:obdurium_ingot" }
 				type: "item"
 			}]
-			x: 9.60d
-			y: 1.40d
+			x: 8.10d
+			y: 1.20d
 		}
 	]
 }

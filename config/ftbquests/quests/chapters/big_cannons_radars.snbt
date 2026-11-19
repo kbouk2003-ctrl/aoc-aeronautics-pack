@@ -28,14 +28,14 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "7A847858100C52C5"
 				item: { count: 1, id: "createbigcannons:cannon_mount" }
 				type: "item"
 			}]
 			x: 0.00d
-			y: 0.00d
+			y: -0.00d
 		}
 		{
 			dependencies: ["5B7C9793F7DC7810"]
@@ -56,8 +56,8 @@
 				item: { count: 1, id: "createbigcannons:log_cannon_chamber" }
 				type: "item"
 			}]
-			x: 2.56d
-			y: -4.93d
+			x: 2.16d
+			y: -1.59d
 		}
 		{
 			dependencies: ["7C22B6C2AA592D87"]
@@ -81,8 +81,8 @@
 				item: { count: 1, id: "createbigcannons:powder_charge" }
 				type: "item"
 			}]
-			x: 4.16d
-			y: -6.51d
+			x: 3.51d
+			y: -2.94d
 		}
 		{
 			dependencies: ["2D3D41C7BE828178"]
@@ -103,8 +103,8 @@
 				item: { count: 1, id: "createbigcannons:solid_shot" }
 				type: "item"
 			}]
-			x: 5.76d
-			y: -6.51d
+			x: 4.86d
+			y: -2.94d
 		}
 		{
 			dependencies: ["7C22B6C2AA592D87"]
@@ -128,11 +128,11 @@
 				item: { count: 1, id: "createbigcannons:worm" }
 				type: "item"
 			}]
-			x: 4.16d
-			y: -3.36d
+			x: 3.51d
+			y: -0.24d
 		}
 		{
-			dependencies: ["2027DAC1D2A54C44", "4413401EC0867BEF"]
+			dependencies: ["2027DAC1D2A54C44"]
 			id: "462F25AA71456250"
 			rewards: [{
 				id: "27EB3DEF34A84A35"
@@ -157,13 +157,13 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "345A394FEAA2A0D9"
 				type: "checkmark"
 			}]
-			x: 7.36d
-			y: -6.51d
+			x: 6.21d
+			y: -2.94d
 		}
 		{
 			dependencies: ["5B7C9793F7DC7810"]
@@ -185,8 +185,8 @@
 				item: { count: 1, id: "createbigcannons:cast_iron_ingot" }
 				type: "item"
 			}]
-			x: 2.56d
-			y: 0.35d
+			x: 2.16d
+			y: 2.94d
 		}
 		{
 			dependencies: ["7F8D58D89739F96C"]
@@ -206,8 +206,8 @@
 				item: { count: 1, id: "createbigcannons:basin_foundry_lid" }
 				type: "item"
 			}]
-			x: 4.16d
-			y: -0.70d
+			x: 3.51d
+			y: 2.04d
 		}
 		{
 			dependencies: ["5592FE1BEBEEE094"]
@@ -223,8 +223,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(createbigcannons:very_small_cast_mould)item(createbigcannons:small_cast_mould)item(createbigcannons:medium_cast_mould)item(createbigcannons:large_cast_mould)item(createbigcannons:very_large_cast_mould))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 5.76d
-			y: -0.70d
+			x: 4.86d
+			y: 2.04d
 		}
 		{
 			dependencies: ["7D6183F4AA41EB8C"]
@@ -240,8 +240,8 @@
 				item: { count: 1, id: "createbigcannons:unbored_cast_iron_cannon_barrel" }
 				type: "item"
 			}]
-			x: 7.36d
-			y: -0.70d
+			x: 6.21d
+			y: 2.04d
 		}
 		{
 			dependencies: ["231EE3E6E89DB76D"]
@@ -261,8 +261,8 @@
 				item: { count: 1, id: "createbigcannons:cannon_drill" }
 				type: "item"
 			}]
-			x: 8.96d
-			y: -0.70d
+			x: 7.56d
+			y: 2.04d
 		}
 		{
 			dependencies: ["6D1A79EB0A7BCE18"]
@@ -286,7 +286,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "7DCAFF57DF613FFD"
 				item: { count: 1, id: "createbigcannons:cast_iron_cannon_barrel" }
@@ -296,8 +296,8 @@
 				item: { count: 1, id: "createbigcannons:cast_iron_cannon_chamber" }
 				type: "item"
 			}]
-			x: 10.56d
-			y: -1.40d
+			x: 8.91d
+			y: 1.44d
 		}
 		{
 			dependencies: ["1515D9DB0BDE0E83"]
@@ -313,8 +313,8 @@
 				item: { count: 1, id: "createbigcannons:cast_iron_sliding_breech" }
 				type: "item"
 			}]
-			x: 12.16d
-			y: -1.40d
+			x: 10.26d
+			y: 1.44d
 		}
 		{
 			dependencies: ["462F25AA71456250"]
@@ -338,8 +338,8 @@
 				item: { count: 1, id: "createbigcannons:ram_head" }
 				type: "item"
 			}]
-			x: 8.96d
-			y: -7.56d
+			x: 7.56d
+			y: -3.84d
 		}
 		{
 			dependencies: ["462F25AA71456250"]
@@ -363,7 +363,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "557A9A98F92F2AFA"
 				item: { count: 1, id: "createbigcannons:he_shell" }
@@ -373,8 +373,8 @@
 				item: { count: 1, id: "createbigcannons:impact_fuze" }
 				type: "item"
 			}]
-			x: 8.96d
-			y: -5.46d
+			x: 7.56d
+			y: -2.04d
 		}
 		{
 			dependencies: ["22076ACFA598D40E"]
@@ -390,8 +390,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(createbigcannons:ap_shot)item(createbigcannons:ap_shell)item(createbigcannons:shrapnel_shell)item(createbigcannons:smoke_shell)item(createbigcannons:bag_of_grapeshot)item(createbigcannons:mortar_stone)item(createbigcannons:fluid_shell))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 10.56d
-			y: -6.16d
+			x: 8.91d
+			y: -2.64d
 		}
 		{
 			dependencies: ["22076ACFA598D40E"]
@@ -407,8 +407,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(createbigcannons:timed_fuze)item(createbigcannons:proximity_fuze)item(createbigcannons:delayed_impact_fuze)item(createbigcannons:inertia_fuze)item(createbigcannons:wired_fuze))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 10.56d
-			y: -4.76d
+			x: 8.91d
+			y: -1.44d
 		}
 		{
 			dependencies: ["7F8D58D89739F96C"]
@@ -429,8 +429,8 @@
 				item: { count: 1, id: "createbigcannons:steel_ingot" }
 				type: "item"
 			}]
-			x: 4.16d
-			y: 1.40d
+			x: 3.51d
+			y: 3.84d
 		}
 		{
 			dependencies: ["405F27C919EE80C1"]
@@ -450,8 +450,8 @@
 				item: { count: 1, id: "createbigcannons:cannon_builder" }
 				type: "item"
 			}]
-			x: 5.76d
-			y: 1.40d
+			x: 4.86d
+			y: 3.84d
 		}
 		{
 			dependencies: ["698D002F4C02C925"]
@@ -475,14 +475,14 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.3d
 			tasks: [{
 				id: "559C654C87B45ABF"
 				item: { count: 1, id: "createbigcannons:steel_cannon_barrel" }
 				type: "item"
 			}]
-			x: 7.36d
-			y: 1.40d
+			x: 6.21d
+			y: 3.84d
 		}
 		{
 			dependencies: ["6D1A79EB0A7BCE18"]
@@ -502,7 +502,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "20E0754A17178ED2"
 				item: { count: 1, id: "createbigcannons:cast_iron_autocannon_barrel" }
@@ -512,8 +512,8 @@
 				item: { count: 1, id: "createbigcannons:cast_iron_autocannon_breech" }
 				type: "item"
 			}]
-			x: 10.56d
-			y: 0.00d
+			x: 8.91d
+			y: 2.64d
 		}
 		{
 			dependencies: ["3C54B5711EBF6754"]
@@ -537,8 +537,8 @@
 				item: { count: 1, id: "createbigcannons:autocannon_ammo_container" }
 				type: "item"
 			}]
-			x: 12.16d
-			y: 0.00d
+			x: 10.26d
+			y: 2.64d
 		}
 		{
 			dependencies: ["5B7C9793F7DC7810"]
@@ -559,14 +559,14 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "5015FE7470ECF59D"
 				item: { count: 1, id: "create_radar:radar_bearing" }
 				type: "item"
 			}]
-			x: 2.56d
-			y: 6.16d
+			x: 12.42d
+			y: -1.44d
 		}
 		{
 			dependencies: ["56DD26192DFA02D0"]
@@ -586,8 +586,8 @@
 				item: { count: 1, id: "create_radar:radar_plate_block" }
 				type: "item"
 			}]
-			x: 4.16d
-			y: 6.16d
+			x: 13.77d
+			y: -1.44d
 		}
 		{
 			dependencies: ["725A536A6192B1C7"]
@@ -607,8 +607,8 @@
 				item: { count: 1, id: "create_radar:monitor" }
 				type: "item"
 			}]
-			x: 5.76d
-			y: 4.76d
+			x: 15.12d
+			y: -2.64d
 		}
 		{
 			dependencies: ["791787C67FE96649"]
@@ -625,8 +625,8 @@
 				item: { count: 1, id: "create_radar:data_link" }
 				type: "item"
 			}]
-			x: 7.36d
-			y: 4.76d
+			x: 16.47d
+			y: -2.64d
 		}
 		{
 			dependencies: ["4D7C3C14F7603397"]
@@ -650,7 +650,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "2F18F3960769CEA3"
 				item: { count: 1, id: "create_radar:network_filterer" }
@@ -660,8 +660,8 @@
 				item: { count: 1, id: "create_radar:target_filter_item" }
 				type: "item"
 			}]
-			x: 8.96d
-			y: 4.76d
+			x: 17.82d
+			y: -2.64d
 		}
 		{
 			dependencies: ["1711CA68EA91D376"]
@@ -681,8 +681,8 @@
 				item: { count: 1, id: "create_radar:auto_pitch_controller" }
 				type: "item"
 			}]
-			x: 10.56d
-			y: 3.36d
+			x: 19.17d
+			y: -3.84d
 		}
 		{
 			dependencies: ["56D9031F6EEF20D3"]
@@ -710,14 +710,14 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.3d
 			tasks: [{
 				id: "2435EDEE147CE49D"
 				item: { count: 1, id: "create_radar:fire_controller" }
 				type: "item"
 			}]
-			x: 12.16d
-			y: 3.36d
+			x: 20.52d
+			y: -3.84d
 		}
 		{
 			dependencies: ["1711CA68EA91D376"]
@@ -733,8 +733,8 @@
 				item: { count: 1, id: "create_radar:binoculars" }
 				type: "item"
 			}]
-			x: 10.56d
-			y: 4.76d
+			x: 19.17d
+			y: -2.64d
 		}
 		{
 			dependencies: ["725A536A6192B1C7"]
@@ -750,8 +750,8 @@
 				item: { count: 1, id: "create_radar:plane_radar" }
 				type: "item"
 			}]
-			x: 5.76d
-			y: 7.56d
+			x: 15.12d
+			y: -0.24d
 		}
 		{
 			dependencies: ["1711CA68EA91D376"]
@@ -767,8 +767,8 @@
 				item: { count: 1, id: "create_radar:identification_transponder" }
 				type: "item"
 			}]
-			x: 10.56d
-			y: 6.16d
+			x: 19.17d
+			y: -1.44d
 		}
 	]
 }

@@ -28,14 +28,14 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "6DFF29DCE7EBDC99"
 				item: { count: 1, id: "create_riftborne:raw_noctite" }
 				type: "item"
 			}]
 			x: 0.00d
-			y: -2.38d
+			y: -2.04d
 		}
 		{
 			dependencies: ["5A674F9EAFAC754D"]
@@ -55,8 +55,8 @@
 				item: { count: 1, id: "create_riftborne:unstable_noctite_ingot" }
 				type: "item"
 			}]
-			x: 1.60d
-			y: -2.38d
+			x: 1.35d
+			y: -2.04d
 		}
 		{
 			dependencies: ["1CD5A45BA4197925"]
@@ -77,8 +77,8 @@
 				item: { count: 1, id: "create_riftborne:noctite_ingot" }
 				type: "item"
 			}]
-			x: 3.20d
-			y: -2.38d
+			x: 2.70d
+			y: -2.04d
 		}
 		{
 			dependencies: ["7A075CED67D93919"]
@@ -95,8 +95,8 @@
 				item: { count: 1, id: "create_riftborne:noctite_casing" }
 				type: "item"
 			}]
-			x: 4.80d
-			y: -3.78d
+			x: 4.05d
+			y: -3.24d
 		}
 		{
 			dependencies: ["7A075CED67D93919"]
@@ -116,8 +116,8 @@
 				item: { count: 1, id: "create_riftborne:spatial_lens" }
 				type: "item"
 			}]
-			x: 4.80d
-			y: -2.38d
+			x: 4.05d
+			y: -2.04d
 		}
 		{
 			dependencies: ["7A075CED67D93919"]
@@ -137,14 +137,14 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "1CB8F4C55759D4F8"
 				item: { count: 1, id: "create_riftborne:stabilized_phase_fluid_bucket" }
 				type: "item"
 			}]
-			x: 4.80d
-			y: -0.98d
+			x: 4.05d
+			y: -0.84d
 		}
 		{
 			dependencies: ["6544CB147985FF81"]
@@ -160,8 +160,8 @@
 				item: { count: 1, id: "create_riftborne:phase_catalyst" }
 				type: "item"
 			}]
-			x: 6.40d
-			y: -0.98d
+			x: 5.40d
+			y: -0.84d
 		}
 		{
 			dependencies: ["2A2BDF4F084D2AEC", "742B421F404A74EE"]
@@ -182,8 +182,8 @@
 				item: { count: 1, id: "create_riftborne:rift_heart" }
 				type: "item"
 			}]
-			x: 1.60d
-			y: 1.68d
+			x: 1.35d
+			y: 1.44d
 		}
 		{
 			dependencies: ["499A8CA3E83298B9"]
@@ -207,7 +207,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.3d
 			tasks: [{
 				id: "442CF86EDD637DCD"
 				item: { count: 1, id: "create_riftborne:rift_engine_base" }
@@ -225,8 +225,8 @@
 				item: { count: 1, id: "create_riftborne:rift_engine_console" }
 				type: "item"
 			}]
-			x: 3.20d
-			y: 1.68d
+			x: 2.70d
+			y: 1.44d
 		}
 		{
 			dependencies: ["3DF753FD3B9DE27F"]
@@ -242,8 +242,8 @@
 				item: { count: 1, id: "create_riftborne:rift_anchor" }
 				type: "item"
 			}]
-			x: 4.80d
-			y: 0.98d
+			x: 4.05d
+			y: 0.84d
 		}
 		{
 			dependencies: ["6E9D53F18E974CC2"]
@@ -263,13 +263,13 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "344FF999727CCA45"
 				type: "checkmark"
 			}]
-			x: 6.40d
-			y: 0.98d
+			x: 5.40d
+			y: 0.84d
 		}
 		{
 			dependencies: ["7A96E37687ED9DC6", "6992D2AD13721BED"]
@@ -285,8 +285,8 @@
 				item: { count: 1, id: "create_riftborne:rift_engine_remote" }
 				type: "item"
 			}]
-			x: 8.00d
-			y: 0.98d
+			x: 6.75d
+			y: 0.84d
 		}
 		{
 			dependencies: ["3DF753FD3B9DE27F"]
@@ -302,8 +302,8 @@
 				item: { count: 1, id: "create_riftborne:corrupted_shard" }
 				type: "item"
 			}]
-			x: 4.80d
-			y: 2.38d
+			x: 4.05d
+			y: 2.04d
 		}
 		{
 			dependencies: ["558182DA942C5E0C"]
@@ -321,7 +321,7 @@
 				type: "item"
 			}]
 			x: 0.00d
-			y: 3.78d
+			y: 3.24d
 		}
 		{
 			dependencies: ["558182DA942C5E0C"]
@@ -338,8 +338,8 @@
 				item: { count: 1, id: "create_riftborne:phase_fluid_tank" }
 				type: "item"
 			}]
-			x: 10.56d
-			y: -1.68d
+			x: 8.91d
+			y: -1.44d
 		}
 		{
 			dependencies: ["3413DDB5C66A93B9"]
@@ -359,14 +359,14 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "73959693B89DA075"
 				item: { components: { "ftbfiltersystem:filter": "or(item(create_riftborne:item_slipgate)item(create_riftborne:fluid_slipgate))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 12.16d
-			y: -3.78d
+			x: 10.26d
+			y: -3.24d
 		}
 		{
 			dependencies: ["3413DDB5C66A93B9"]
@@ -382,8 +382,8 @@
 				item: { count: 1, id: "create_riftborne:phase_sticker" }
 				type: "item"
 			}]
-			x: 12.16d
-			y: -2.38d
+			x: 10.26d
+			y: -2.04d
 		}
 		{
 			dependencies: ["3413DDB5C66A93B9"]
@@ -403,7 +403,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "42A039FD85873F89"
 				item: { count: 1, id: "create_riftborne:stasis_core" }
@@ -413,8 +413,8 @@
 				item: { count: 1, id: "create_riftborne:stasis_field" }
 				type: "item"
 			}]
-			x: 12.16d
-			y: -0.98d
+			x: 10.26d
+			y: -0.84d
 		}
 		{
 			dependencies: ["3413DDB5C66A93B9"]
@@ -430,8 +430,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(create_riftborne:repulsor_field)item(create_riftborne:tether_winch)item(create_riftborne:pulse_drive)item(create_riftborne:hauler))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 12.16d
-			y: 0.42d
+			x: 10.26d
+			y: 0.36d
 		}
 		{
 			dependencies: ["6992D2AD13721BED"]
@@ -452,7 +452,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "62DA1BFBC7330718"
 				item: { count: 1, id: "create_riftborne:apex_base" }
@@ -466,8 +466,8 @@
 				item: { count: 1, id: "create_riftborne:apex_tap" }
 				type: "item"
 			}]
-			x: 10.56d
-			y: 2.38d
+			x: 8.91d
+			y: 2.04d
 		}
 		{
 			dependencies: ["7EFC83F69A99504C"]
@@ -487,8 +487,8 @@
 				item: { count: 1, id: "create_riftborne:rift_ichor_chunk" }
 				type: "item"
 			}]
-			x: 12.16d
-			y: 2.38d
+			x: 10.26d
+			y: 2.04d
 		}
 		{
 			dependencies: ["7CB6DCA0F0AD91F4"]
@@ -504,8 +504,8 @@
 				item: { count: 1, id: "create_riftborne:apex_nexus" }
 				type: "item"
 			}]
-			x: 13.76d
-			y: 2.38d
+			x: 11.61d
+			y: 2.04d
 		}
 		{
 			dependencies: ["40E2C64031BE733F"]
@@ -529,14 +529,14 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.3d
 			tasks: [{
 				id: "6C15057BC996F1B5"
 				item: { count: 1, id: "create_riftborne:primordium" }
 				type: "item"
 			}]
-			x: 15.36d
-			y: 2.38d
+			x: 12.96d
+			y: 2.04d
 		}
 	]
 }

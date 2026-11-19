@@ -29,7 +29,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "26A6C43C4B7EDB86"
 				type: "checkmark"
@@ -53,13 +53,13 @@
 				type: "random"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "3D9AE3FE5DE0793C"
 				type: "checkmark"
 			}]
-			x: 2.56d
-			y: -1.96d
+			x: 2.16d
+			y: -1.68d
 		}
 		{
 			dependencies: ["65B6AB3B8EFF26C4"]
@@ -96,8 +96,8 @@
 				to_observe: "naturalist:hedgehog"
 				type: "observation"
 			}]
-			x: 4.16d
-			y: -4.76d
+			x: 3.51d
+			y: -4.08d
 		}
 		{
 			dependencies: ["65B6AB3B8EFF26C4"]
@@ -134,8 +134,8 @@
 				to_observe: "naturalist:zebra"
 				type: "observation"
 			}]
-			x: 4.16d
-			y: -2.66d
+			x: 3.51d
+			y: -2.28d
 		}
 		{
 			dependencies: ["323BC79EEC1E37CF"]
@@ -166,8 +166,8 @@
 				to_observe: "naturalist:rhino"
 				type: "observation"
 			}]
-			x: 5.76d
-			y: -3.36d
+			x: 4.86d
+			y: -2.88d
 		}
 		{
 			dependencies: ["65B6AB3B8EFF26C4"]
@@ -192,8 +192,8 @@
 				to_observe: "naturalist:hippo"
 				type: "observation"
 			}]
-			x: 4.16d
-			y: -0.56d
+			x: 3.51d
+			y: -0.48d
 		}
 		{
 			dependencies: ["169FECF828A152B4"]
@@ -230,8 +230,8 @@
 				to_observe: "naturalist:dragonfly"
 				type: "observation"
 			}]
-			x: 5.76d
-			y: -4.76d
+			x: 4.86d
+			y: -4.08d
 		}
 		{
 			dependencies: ["323BC79EEC1E37CF"]
@@ -268,8 +268,8 @@
 				to_observe: "naturalist:ostrich"
 				type: "observation"
 			}]
-			x: 5.76d
-			y: -1.96d
+			x: 4.86d
+			y: -1.68d
 		}
 		{
 			dependencies: ["65B6AB3B8EFF26C4"]
@@ -306,8 +306,8 @@
 				to_observe: "naturalist:tortoise"
 				type: "observation"
 			}]
-			x: 4.16d
-			y: 0.84d
+			x: 3.51d
+			y: 0.72d
 		}
 		{
 			dependencies: ["73FF58389A3EAF29"]
@@ -344,8 +344,8 @@
 				to_observe: "naturalist:anglerfish"
 				type: "observation"
 			}]
-			x: 5.76d
-			y: -0.56d
+			x: 4.86d
+			y: -0.48d
 		}
 		{
 			dependencies: ["1AE8C763B9ED9200", "6683B14187F11AD3"]
@@ -366,7 +366,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.3d
 			tasks: [{
 				id: "31D0CB79D395172F"
 				observe_type: 5
@@ -374,8 +374,8 @@
 				to_observe: "naturalist:mammoth"
 				type: "observation"
 			}]
-			x: 7.36d
-			y: -3.36d
+			x: 6.21d
+			y: -2.88d
 		}
 		{
 			dependencies: ["43A0D75FDAE9BA05"]
@@ -396,7 +396,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.3d
 			tasks: [{
 				id: "5DFF1A60954D2594"
 				observe_type: 5
@@ -404,8 +404,8 @@
 				to_observe: "naturalist:whale"
 				type: "observation"
 			}]
-			x: 7.36d
-			y: -0.56d
+			x: 6.21d
+			y: -0.48d
 		}
 		{
 			dependencies: ["1DF94D340DBB5C04"]
@@ -423,7 +423,7 @@
 				type: "random"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "67BF46C75357E64E"
 				observe_type: 5
@@ -443,8 +443,8 @@
 				to_observe: "crittersandcompanions:red_panda"
 				type: "observation"
 			}]
-			x: 2.56d
-			y: 3.50d
+			x: 2.16d
+			y: 3.00d
 		}
 		{
 			dependencies: ["5A4BD384A84AB8DA"]
@@ -481,8 +481,8 @@
 				to_observe: "crittersandcompanions:leaf_insect"
 				type: "observation"
 			}]
-			x: 4.16d
-			y: 2.80d
+			x: 3.51d
+			y: 2.40d
 		}
 		{
 			dependencies: ["5A4BD384A84AB8DA"]
@@ -513,8 +513,8 @@
 				to_observe: "crittersandcompanions:dumbo_octopus"
 				type: "observation"
 			}]
-			x: 4.16d
-			y: 4.20d
+			x: 3.51d
+			y: 3.60d
 		}
 		{
 			dependencies: ["3BEE6BF6588329AA"]
@@ -551,8 +551,8 @@
 				to_observe: "crittersandcompanions:shima_enaga"
 				type: "observation"
 			}]
-			x: 5.76d
-			y: 2.80d
+			x: 4.86d
+			y: 2.40d
 		}
 		{
 			dependencies: ["1DF94D340DBB5C04"]
@@ -570,7 +570,7 @@
 				type: "random"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "30D8078B690A012C"
 				observe_type: 5
@@ -596,8 +596,8 @@
 				to_observe: "hybrid_aquatic:cuttlefish"
 				type: "observation"
 			}]
-			x: 9.92d
-			y: -2.66d
+			x: 8.37d
+			y: -2.28d
 		}
 		{
 			dependencies: ["77265A13D166CC50"]
@@ -618,7 +618,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "150F95DDE0352C2E"
 				observe_type: 5
@@ -638,8 +638,8 @@
 				to_observe: "hybrid_aquatic:great_white_shark"
 				type: "observation"
 			}]
-			x: 11.52d
-			y: -4.76d
+			x: 9.72d
+			y: -4.08d
 		}
 		{
 			dependencies: ["6D34A65356584470"]
@@ -670,8 +670,8 @@
 				to_observe: "hybrid_aquatic:giant_squid"
 				type: "observation"
 			}]
-			x: 13.12d
-			y: -4.76d
+			x: 11.07d
+			y: -4.08d
 		}
 		{
 			dependencies: ["77265A13D166CC50"]
@@ -702,8 +702,8 @@
 				to_observe: "hybrid_aquatic:coconut_crab"
 				type: "observation"
 			}]
-			x: 11.52d
-			y: -3.36d
+			x: 9.72d
+			y: -2.88d
 		}
 		{
 			dependencies: ["77265A13D166CC50"]
@@ -734,8 +734,8 @@
 				to_observe: "hybrid_aquatic:firework_jellyfish"
 				type: "observation"
 			}]
-			x: 11.52d
-			y: -1.96d
+			x: 9.72d
+			y: -1.68d
 		}
 		{
 			dependencies: ["77265A13D166CC50"]
@@ -772,8 +772,8 @@
 				to_observe: "hybrid_aquatic:crayfish"
 				type: "observation"
 			}]
-			x: 11.52d
-			y: -0.56d
+			x: 9.72d
+			y: -0.48d
 		}
 		{
 			dependencies: ["1DF94D340DBB5C04"]
@@ -791,7 +791,7 @@
 				type: "random"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "78A486889937C5F8"
 				observe_type: 5
@@ -817,8 +817,8 @@
 				to_observe: "hybrid_birds:puffin"
 				type: "observation"
 			}]
-			x: 9.92d
-			y: 2.10d
+			x: 8.37d
+			y: 1.80d
 		}
 		{
 			dependencies: ["42603B5DCB385E50"]
@@ -849,8 +849,8 @@
 				to_observe: "hybrid_birds:guinea_fowl"
 				type: "observation"
 			}]
-			x: 11.52d
-			y: 1.40d
+			x: 9.72d
+			y: 1.20d
 		}
 		{
 			dependencies: ["42603B5DCB385E50"]
@@ -875,8 +875,8 @@
 				to_observe: "hybrid_birds:albatross"
 				type: "observation"
 			}]
-			x: 11.52d
-			y: 2.80d
+			x: 9.72d
+			y: 2.40d
 		}
 		{
 			dependencies: ["1DF94D340DBB5C04"]
@@ -894,7 +894,7 @@
 				type: "random"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "2645B797323CFFAA"
 				observe_type: 5
@@ -914,8 +914,8 @@
 				to_observe: "fintastic:freshwater_shark"
 				type: "observation"
 			}]
-			x: 9.92d
-			y: 4.76d
+			x: 8.37d
+			y: 4.08d
 		}
 		{
 			dependencies: ["71C5BAB03723DA6D"]
@@ -952,8 +952,8 @@
 				to_observe: "fintastic:coelacanth"
 				type: "observation"
 			}]
-			x: 11.52d
-			y: 4.76d
+			x: 9.72d
+			y: 4.08d
 		}
 		{
 			dependencies: ["1DF94D340DBB5C04"]
@@ -971,7 +971,7 @@
 				type: "random"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "5F02C7D4997AEC80"
 				observe_type: 5
@@ -997,8 +997,8 @@
 				to_observe: "clutterbestiary:emperor_penguin"
 				type: "observation"
 			}]
-			x: 15.68d
-			y: -3.36d
+			x: 13.23d
+			y: -2.88d
 		}
 		{
 			dependencies: ["64E036CE9A1A7C4D"]
@@ -1029,8 +1029,8 @@
 				to_observe: "clutterbestiary:river_turtle"
 				type: "observation"
 			}]
-			x: 17.28d
-			y: -4.76d
+			x: 14.58d
+			y: -4.08d
 		}
 		{
 			dependencies: ["64E036CE9A1A7C4D"]
@@ -1067,8 +1067,8 @@
 				to_observe: "clutterbestiary:crocodile"
 				type: "observation"
 			}]
-			x: 17.28d
-			y: -3.36d
+			x: 14.58d
+			y: -2.88d
 		}
 		{
 			dependencies: ["64E036CE9A1A7C4D"]
@@ -1099,8 +1099,8 @@
 				to_observe: "clutterbestiary:ember_tortoise"
 				type: "observation"
 			}]
-			x: 17.28d
-			y: -1.96d
+			x: 14.58d
+			y: -1.68d
 		}
 		{
 			dependencies: ["461430091DFF58F9"]
@@ -1119,8 +1119,8 @@
 				to_observe: "clutterbestiary:chorus_beetle"
 				type: "observation"
 			}]
-			x: 18.88d
-			y: -1.96d
+			x: 15.93d
+			y: -1.68d
 		}
 		{
 			dependencies: ["1DF94D340DBB5C04"]
@@ -1138,13 +1138,13 @@
 				type: "random"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "63606CC7C5C982CC"
 				type: "checkmark"
 			}]
-			x: 15.68d
-			y: 1.40d
+			x: 13.23d
+			y: 1.20d
 		}
 		{
 			dependencies: ["1EB0E47EF79CEF7F"]
@@ -1162,8 +1162,8 @@
 				to_observe: "ribbits:ribbit"
 				type: "observation"
 			}]
-			x: 17.28d
-			y: -0.00d
+			x: 14.58d
+			y: 0.00d
 		}
 		{
 			dependencies: ["1EB0E47EF79CEF7F"]
@@ -1188,8 +1188,8 @@
 				to_observe: "apple_cows:golden_apple_cow"
 				type: "observation"
 			}]
-			x: 17.28d
-			y: 1.40d
+			x: 14.58d
+			y: 1.20d
 		}
 		{
 			dependencies: ["1EB0E47EF79CEF7F"]
@@ -1220,8 +1220,8 @@
 				to_observe: "mutated_items:redstone_bug"
 				type: "observation"
 			}]
-			x: 17.28d
-			y: 2.80d
+			x: 14.58d
+			y: 2.40d
 		}
 	]
 }

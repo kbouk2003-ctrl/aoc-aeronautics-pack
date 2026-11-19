@@ -28,17 +28,18 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "6F986756F4D96C5B"
 				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
 				type: "item"
 			}]
 			x: 0.00d
-			y: -1.92d
+			y: -1.65d
 		}
 		{
 			dependencies: ["2AF0CE75A76ADD58"]
+			hide_dependency_lines: true
 			id: "46A3E59E29C0FA25"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -51,8 +52,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:iron_backpack)item(sophisticatedbackpacks:gold_backpack)item(sophisticatedbackpacks:diamond_backpack)item(sophisticatedbackpacks:netherite_backpack))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.60d
-			y: -6.30d
+			x: 1.35d
+			y: -5.40d
 		}
 		{
 			dependencies: ["2AF0CE75A76ADD58"]
@@ -72,8 +73,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:upgrade_base" }
 				type: "item"
 			}]
-			x: 1.60d
-			y: -3.50d
+			x: 1.35d
+			y: -3.00d
 		}
 		{
 			dependencies: ["7566C26F7A6FAE2A"]
@@ -89,8 +90,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:pickup_upgrade)item(sophisticatedbackpacks:magnet_upgrade))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.20d
-			y: -4.90d
+			x: 2.70d
+			y: -4.20d
 		}
 		{
 			dependencies: ["7566C26F7A6FAE2A"]
@@ -106,8 +107,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:crafting_upgrade)item(sophisticatedbackpacks:feeding_upgrade)item(sophisticatedbackpacks:refill_upgrade)item(sophisticatedbackpacks:tool_swapper_upgrade))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.20d
-			y: -3.50d
+			x: 2.70d
+			y: -3.00d
 		}
 		{
 			dependencies: ["7566C26F7A6FAE2A"]
@@ -123,11 +124,12 @@
 				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_1" }
 				type: "item"
 			}]
-			x: 3.20d
-			y: -2.10d
+			x: 2.70d
+			y: -1.80d
 		}
 		{
 			dependencies: ["2AF0CE75A76ADD58"]
+			hide_dependency_lines: true
 			id: "7C48AC6DF60EFC85"
 			rewards: [{
 				id: "56C77E7AD556C39A"
@@ -144,14 +146,14 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "5459B9733B1D29E4"
 				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedstorage:barrel)item(sophisticatedstorage:chest))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.60d
-			y: 2.45d
+			x: 1.35d
+			y: 2.10d
 		}
 		{
 			dependencies: ["7C48AC6DF60EFC85"]
@@ -171,7 +173,7 @@
 				item: { count: 1, id: "sophisticatedstorage:basic_to_iron_tier_upgrade" }
 				type: "item"
 			}]
-			x: 3.20d
+			x: 2.70d
 			y: 0.00d
 		}
 		{
@@ -188,8 +190,8 @@
 				item: { count: 1, id: "sophisticatedstorage:limited_barrel_1" }
 				type: "item"
 			}]
-			x: 3.20d
-			y: 2.10d
+			x: 2.70d
+			y: 1.80d
 		}
 		{
 			dependencies: ["4508854F9063CCD9"]
@@ -205,8 +207,8 @@
 				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_1" }
 				type: "item"
 			}]
-			x: 4.80d
-			y: -0.70d
+			x: 4.05d
+			y: -0.60d
 		}
 		{
 			dependencies: ["4508854F9063CCD9"]
@@ -226,7 +228,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.3d
 			tasks: [{
 				id: "18DDB602DD5CBC9F"
 				item: { count: 1, id: "sophisticatedstorage:controller" }
@@ -236,8 +238,8 @@
 				item: { count: 1, id: "sophisticatedstorage:storage_link" }
 				type: "item"
 			}]
-			x: 4.80d
-			y: 0.70d
+			x: 4.05d
+			y: 0.60d
 		}
 		{
 			dependencies: ["7C48AC6DF60EFC85"]
@@ -253,8 +255,8 @@
 				item: { count: 1, id: "sophisticatedstorage:packing_tape" }
 				type: "item"
 			}]
-			x: 3.20d
-			y: 3.50d
+			x: 2.70d
+			y: 3.00d
 		}
 		{
 			dependencies: ["6E6B9DC685B2FBD9"]
@@ -270,8 +272,8 @@
 				item: { count: 1, id: "sophisticatedstorage:storage_tool" }
 				type: "item"
 			}]
-			x: 6.40d
-			y: 0.70d
+			x: 5.40d
+			y: 0.60d
 		}
 		{
 			dependencies: ["7C48AC6DF60EFC85"]
@@ -288,8 +290,8 @@
 				item: { count: 1, id: "labels:label" }
 				type: "item"
 			}]
-			x: 3.20d
-			y: 4.90d
+			x: 2.70d
+			y: 4.20d
 		}
 		{
 			id: "2DF0243FCA8DA187"
@@ -308,14 +310,14 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.25d
+			size: 1.1d
 			tasks: [{
 				id: "7CC86EB4BAD740BF"
 				item: { components: { "ftbfiltersystem:filter": "or(item(comforts:sleeping_bag_white)item(comforts:hammock_white))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 0.00d
-			y: 6.30d
+			y: 5.40d
 		}
 		{
 			dependencies: ["2DF0243FCA8DA187"]
@@ -331,8 +333,8 @@
 				item: { count: 1, id: "comforts:rope_and_nail" }
 				type: "item"
 			}]
-			x: 1.60d
-			y: 6.30d
+			x: 1.35d
+			y: 5.40d
 		}
 	]
 }

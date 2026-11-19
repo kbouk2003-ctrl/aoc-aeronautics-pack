@@ -3165,6 +3165,22 @@ file = "config/paxi/datapacks/aoc_log_fixes_by_claude/data/mechanical_botany/rec
 hash = "6beedea3b074ae2dcfe22d2ef0102ca68165c7f87e8b298e0fc24d4b4167647b"
 
 [[files]]
+file = "config/paxi/datapacks/aoc_log_fixes_by_claude/data/minecraft/recipe/cake.json"
+hash = "28ee9c83bc1e94fbc094d04aa6c9e4e7078f2cef7ea7f856c1159f9bd901c88b"
+
+[[files]]
+file = "config/paxi/datapacks/aoc_log_fixes_by_claude/data/minecraft/recipe/pumpkin_pie.json"
+hash = "0f7ded13d86dcdc50988e4084607097c78f335aa1cec20c5713d5ad2d4082802"
+
+[[files]]
+file = "config/paxi/datapacks/aoc_log_fixes_by_claude/data/naturalist/recipe/cake.json"
+hash = "6beedea3b074ae2dcfe22d2ef0102ca68165c7f87e8b298e0fc24d4b4167647b"
+
+[[files]]
+file = "config/paxi/datapacks/aoc_log_fixes_by_claude/data/naturalist/recipe/pumpkin_pie.json"
+hash = "6beedea3b074ae2dcfe22d2ef0102ca68165c7f87e8b298e0fc24d4b4167647b"
+
+[[files]]
 file = "config/paxi/datapacks/aoc_log_fixes_by_claude/data/totemfactory/recipe/ghast_tear.json"
 hash = "6beedea3b074ae2dcfe22d2ef0102ca68165c7f87e8b298e0fc24d4b4167647b"
 

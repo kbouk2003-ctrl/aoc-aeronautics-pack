@@ -33,7 +33,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "76AF420005595AF3"
 				type: "checkmark"
@@ -43,6 +43,7 @@
 		}
 		{
 			dependencies: ["38D6DE63325E6413"]
+			hide_dependency_lines: true
 			id: "22E2E4CAE2E08266"
 			rewards: [{
 				id: "1D388F6A2EDE821D"
@@ -59,17 +60,18 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "40A2B0D2D8256077"
 				item: { count: 1, id: "naturescompass:naturescompass" }
 				type: "item"
 			}]
-			x: 4.80d
-			y: 0.85d
+			x: 2.56d
+			y: 0.00d
 		}
 		{
 			dependencies: ["38D6DE63325E6413"]
+			hide_dependency_lines: true
 			id: "7FE38A976D6DC787"
 			rewards: [{
 				id: "60BFA66BAC7DDE4B"
@@ -86,17 +88,18 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "362F3AC15617D621"
 				item: { count: 1, id: "explorerscompass:explorerscompass" }
 				type: "item"
 			}]
-			x: -4.87d
-			y: 0.00d
+			x: 11.52d
+			y: -2.10d
 		}
 		{
 			dependencies: ["38D6DE63325E6413"]
+			hide_dependency_lines: true
 			icon: { id: "lootr:lootr_chest" }
 			id: "37D18E9128EA6F15"
 			rewards: [{
@@ -109,8 +112,8 @@
 				id: "30E6753F5D3660A1"
 				type: "checkmark"
 			}]
-			x: -0.85d
-			y: -4.80d
+			x: 11.52d
+			y: 4.06d
 		}
 		{
 			dependencies: ["22E2E4CAE2E08266"]
@@ -126,8 +129,8 @@
 				id: "7268C5832F610D33"
 				type: "biome"
 			}]
-			x: 1.19d
-			y: -6.77d
+			x: 4.16d
+			y: -6.30d
 		}
 		{
 			dependencies: ["22E2E4CAE2E08266"]
@@ -143,8 +146,8 @@
 				id: "4E8E84FB9A6743E6"
 				type: "biome"
 			}]
-			x: 3.44d
-			y: -5.95d
+			x: 4.16d
+			y: -4.90d
 		}
 		{
 			dependencies: ["22E2E4CAE2E08266"]
@@ -160,8 +163,8 @@
 				id: "7BC82CB66952B452"
 				type: "biome"
 			}]
-			x: 5.26d
-			y: -4.42d
+			x: 4.16d
+			y: -3.50d
 		}
 		{
 			dependencies: ["22E2E4CAE2E08266"]
@@ -177,8 +180,8 @@
 				id: "3A11BFC03B4B641E"
 				type: "biome"
 			}]
-			x: 6.46d
-			y: -2.35d
+			x: 4.16d
+			y: -2.10d
 		}
 		{
 			dependencies: ["22E2E4CAE2E08266"]
@@ -194,8 +197,8 @@
 				id: "2DE5C656592FC357"
 				type: "biome"
 			}]
-			x: 6.87d
-			y: 0.00d
+			x: 4.16d
+			y: -0.70d
 		}
 		{
 			dependencies: ["22E2E4CAE2E08266"]
@@ -211,8 +214,8 @@
 				id: "79DE1984AD879E83"
 				type: "biome"
 			}]
-			x: 6.46d
-			y: 2.35d
+			x: 4.16d
+			y: 0.70d
 		}
 		{
 			dependencies: ["22E2E4CAE2E08266"]
@@ -228,8 +231,8 @@
 				id: "5A821EE652C81C9A"
 				type: "biome"
 			}]
-			x: 5.26d
-			y: 4.42d
+			x: 4.16d
+			y: 2.10d
 		}
 		{
 			dependencies: ["22E2E4CAE2E08266"]
@@ -245,8 +248,8 @@
 				id: "5F6AF5C942AA0BD1"
 				type: "biome"
 			}]
-			x: 3.44d
-			y: 5.95d
+			x: 4.16d
+			y: 3.50d
 		}
 		{
 			dependencies: ["22E2E4CAE2E08266"]
@@ -262,8 +265,8 @@
 				id: "54AFC8FE332FF8EB"
 				type: "biome"
 			}]
-			x: 1.19d
-			y: 6.77d
+			x: 4.16d
+			y: 4.90d
 		}
 		{
 			dependencies: ["22E2E4CAE2E08266"]
@@ -283,7 +286,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				biome: "nullscape:void_barrens"
 				id: "145B3FB65397E2EE"
@@ -293,8 +296,8 @@
 				id: "3F4A47AB6991A857"
 				type: "biome"
 			}]
-			x: -1.19d
-			y: 6.77d
+			x: 4.16d
+			y: 6.30d
 		}
 		{
 			dependencies: ["4F0054BB38282CD4", "7AF1A969DA43931E", "36CF493E0AB29784", "4C64D60637E7331F", "176E50F222206C82", "1B08C0A85404FB35", "5388A05F39C77EE7", "345A84C02D80D802", "63F1FD87FBB93A57"]
@@ -316,13 +319,13 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
 				id: "5800C57908C958C6"
 				type: "checkmark"
 			}]
-			x: 1.54d
-			y: -8.74d
+			x: 5.76d
+			y: -6.30d
 		}
 		{
 			dependencies: ["7FE38A976D6DC787"]
@@ -338,8 +341,8 @@
 				structure: "#terralith:mage_towers"
 				type: "structure"
 			}]
-			x: -3.44d
-			y: 5.95d
+			x: 13.12d
+			y: -6.30d
 		}
 		{
 			dependencies: ["7FE38A976D6DC787"]
@@ -355,8 +358,8 @@
 				structure: "#terralith:fortified_villages"
 				type: "structure"
 			}]
-			x: -5.26d
-			y: 4.42d
+			x: 13.12d
+			y: -4.90d
 		}
 		{
 			dependencies: ["7FE38A976D6DC787"]
@@ -372,8 +375,8 @@
 				structure: "terralith:spire"
 				type: "structure"
 			}]
-			x: -6.46d
-			y: 2.35d
+			x: 13.12d
+			y: -3.50d
 		}
 		{
 			dependencies: ["7FE38A976D6DC787"]
@@ -389,8 +392,8 @@
 				structure: "structory:old_manor"
 				type: "structure"
 			}]
-			x: -6.87d
-			y: 0.00d
+			x: 13.12d
+			y: -2.10d
 		}
 		{
 			dependencies: ["7FE38A976D6DC787"]
@@ -406,8 +409,8 @@
 				structure: "structory:firetower"
 				type: "structure"
 			}]
-			x: -6.46d
-			y: -2.35d
+			x: 13.12d
+			y: -0.70d
 		}
 		{
 			dependencies: ["7FE38A976D6DC787"]
@@ -423,8 +426,8 @@
 				structure: "structory:graveyard"
 				type: "structure"
 			}]
-			x: -5.26d
-			y: -4.42d
+			x: 13.12d
+			y: 0.70d
 		}
 		{
 			dependencies: ["7FE38A976D6DC787"]
@@ -444,14 +447,14 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "1C5976269DCB558C"
 				structure: "#immersive_gateways:portal"
 				type: "structure"
 			}]
-			x: -3.44d
-			y: -5.95d
+			x: 13.12d
+			y: 2.10d
 		}
 		{
 			dependencies: ["1CCE02BE6C4CEE3A"]
@@ -467,8 +470,8 @@
 				structure: "nullscape:dragon_skeleton"
 				type: "structure"
 			}]
-			x: -1.54d
-			y: 8.74d
+			x: 5.76d
+			y: 6.30d
 		}
 		{
 			dependencies: ["3E5181C881FA5B51", "6F94CB102E20BA17", "38A094CF57376510", "22BC7CBECEC3DA94", "7AD46535B5DE1039", "71EAB4875A7AFAA3"]
@@ -490,16 +493,16 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
 				id: "72AC85DE7A96771F"
 				type: "checkmark"
 			}]
-			x: -4.44d
-			y: 7.68d
+			x: 14.72d
+			y: -6.30d
 		}
 		{
-			dependencies: ["1F330B29A3BBC473", "5BA43F969FD2E888"]
+			dependencies: ["1F330B29A3BBC473"]
 			hide_dependency_lines: true
 			id: "152BC6156B9160FE"
 			rewards: [{
@@ -517,7 +520,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
 				id: "2732698FAD1741E9"
 				item: { count: 1, id: "tempad:time_steel" }
@@ -527,8 +530,8 @@
 				item: { count: 1, id: "tempad:tempad" }
 				type: "item"
 			}]
-			x: 1.89d
-			y: -10.70d
+			x: 7.36d
+			y: -6.30d
 		}
 		{
 			dependencies: ["152BC6156B9160FE"]
@@ -544,8 +547,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(tempad:location_card)item(tempad:chronon_generator)item(tempad:timedoor_projector))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.23d
-			y: -12.67d
+			x: 8.96d
+			y: -6.30d
 		}
 	]
 }

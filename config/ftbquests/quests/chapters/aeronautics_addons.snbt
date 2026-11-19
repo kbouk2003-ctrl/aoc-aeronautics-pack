@@ -33,16 +33,17 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "3748F10D94AD7052"
 				type: "checkmark"
 			}]
 			x: 0.00d
-			y: 0.00d
+			y: -0.00d
 		}
 		{
 			dependencies: ["4487E5A470B5E765"]
+			hide_dependency_lines: true
 			id: "7DC39B88C3A26072"
 			rewards: [{
 				id: "63D86FA88E91EA8B"
@@ -59,14 +60,14 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "6795BA4936D8DD1C"
 				item: { components: { "ftbfiltersystem:filter": "or(item(aeroworks:control_desk)item(aeroworks:control_stand))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.66d
-			y: -4.29d
+			x: 2.56d
+			y: -3.92d
 		}
 		{
 			dependencies: ["7DC39B88C3A26072"]
@@ -82,8 +83,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(aeroworks:lever_module)item(aeroworks:wheel_module)item(aeroworks:joystick_module)item(aeroworks:yoke_module)item(aeroworks:throttle_quadrant_module)item(aeroworks:pedal_module)item(aeroworks:button_module)item(aeroworks:button_panel_module)item(aeroworks:button_keypad_module))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.21d
-			y: -6.49d
+			x: 4.16d
+			y: -4.62d
 		}
 		{
 			dependencies: ["7DC39B88C3A26072"]
@@ -99,11 +100,12 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(aeroworks:mechanical_servo)item(aeroworks:stepper_servo)item(aeroworks:gyroscope))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.47d
-			y: -5.61d
+			x: 4.16d
+			y: -3.22d
 		}
 		{
 			dependencies: ["4487E5A470B5E765"]
+			hide_dependency_lines: true
 			id: "60A5B126E7FAC9A8"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -125,8 +127,8 @@
 				item: { count: 1, id: "drivebywire:wire_cutter" }
 				type: "item"
 			}]
-			x: 4.12d
-			y: -2.05d
+			x: 2.56d
+			y: -0.56d
 		}
 		{
 			dependencies: ["60A5B126E7FAC9A8"]
@@ -142,8 +144,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(drivebywire:controller_hub)item(drivebywire:tweaked_controller_hub))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 5.27d
-			y: -3.98d
+			x: 4.16d
+			y: -1.26d
 		}
 		{
 			dependencies: ["60A5B126E7FAC9A8"]
@@ -159,11 +161,12 @@
 				item: { count: 1, id: "drivebywire:backup_block" }
 				type: "item"
 			}]
-			x: 6.35d
-			y: -1.81d
+			x: 4.16d
+			y: 0.14d
 		}
 		{
 			dependencies: ["4487E5A470B5E765"]
+			hide_dependency_lines: true
 			id: "770698375D87B0AE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -176,8 +179,8 @@
 				item: { count: 1, id: "tracks:track_mount" }
 				type: "item"
 			}]
-			x: 4.58d
-			y: 0.42d
+			x: 2.56d
+			y: 2.10d
 		}
 		{
 			dependencies: ["770698375D87B0AE"]
@@ -197,7 +200,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "1673A49BAC79A04E"
 				item: { count: 1, id: "tracks:suspension_track" }
@@ -207,8 +210,8 @@
 				item: { count: 1, id: "tracks:track_drive_wheel" }
 				type: "item"
 			}]
-			x: 6.57d
-			y: 0.61d
+			x: 4.16d
+			y: 2.10d
 		}
 		{
 			dependencies: ["1C14E3235F6C232A"]
@@ -224,11 +227,12 @@
 				item: { count: 1, id: "tracks:suspension_key" }
 				type: "item"
 			}]
-			x: 8.56d
-			y: 0.79d
+			x: 5.76d
+			y: 2.10d
 		}
 		{
 			dependencies: ["4487E5A470B5E765"]
+			hide_dependency_lines: true
 			id: "42F212E0846C55F6"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -241,8 +245,8 @@
 				item: { count: 1, id: "linearbearing:linear_bearing" }
 				type: "item"
 			}]
-			x: 3.67d
-			y: 2.77d
+			x: 8.32d
+			y: -3.92d
 		}
 		{
 			dependencies: ["42F212E0846C55F6"]
@@ -258,8 +262,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(linearbearing:torsional_anchor)item(linearbearing:magnetic_port)item(linearbearing:redstone_converter)item(linearbearing:slippery_copycat))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 5.91d
-			y: 2.94d
+			x: 9.92d
+			y: -4.62d
 		}
 		{
 			dependencies: ["42F212E0846C55F6"]
@@ -275,11 +279,12 @@
 				item: { count: 1, id: "linearbearing:gyroscopic_gearbox" }
 				type: "item"
 			}]
-			x: 4.45d
-			y: 4.88d
+			x: 9.92d
+			y: -3.22d
 		}
 		{
 			dependencies: ["4487E5A470B5E765"]
+			hide_dependency_lines: true
 			id: "631FE19803FE6ACA"
 			rewards: [{
 				id: "13D661D61653A46A"
@@ -296,7 +301,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "7D93A73B95A5E6A8"
 				item: { count: 1, id: "create_kart:chassie" }
@@ -315,8 +320,8 @@
 				item: { count: 1, id: "create_kart:siege" }
 				type: "item"
 			}]
-			x: 1.66d
-			y: 4.29d
+			x: 8.32d
+			y: -1.26d
 		}
 		{
 			dependencies: ["631FE19803FE6ACA"]
@@ -336,11 +341,12 @@
 				item: { count: 1, id: "create_kart:super_ice" }
 				type: "item"
 			}]
-			x: 2.38d
-			y: 6.15d
+			x: 9.92d
+			y: -1.26d
 		}
 		{
 			dependencies: ["4487E5A470B5E765"]
+			hide_dependency_lines: true
 			id: "2BB1FAF24BAF40EF"
 			rewards: [{
 				id: "6339D9E4D03E0BCC"
@@ -357,7 +363,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "718675551BAE9621"
 				item: { count: 1, id: "aeronautics_utility_objects:hydraulic_rod" }
@@ -367,8 +373,8 @@
 				item: { count: 1, id: "aeronautics_utility_objects:hydraulic_regulator" }
 				type: "item"
 			}]
-			x: -0.85d
-			y: 4.52d
+			x: 8.32d
+			y: 1.40d
 		}
 		{
 			dependencies: ["2BB1FAF24BAF40EF"]
@@ -384,8 +390,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(aeronautics_utility_objects:universal_joint_rod)item(aeronautics_utility_objects:universal_joint_rod2)item(aeronautics_utility_objects:brass_universal_joint))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.00d
-			y: 6.60d
+			x: 9.92d
+			y: 0.70d
 		}
 		{
 			dependencies: ["2BB1FAF24BAF40EF"]
@@ -401,11 +407,12 @@
 				item: { count: 1, id: "aeronautics_utility_objects:damping_stress_bearing" }
 				type: "item"
 			}]
-			x: -2.38d
-			y: 6.15d
+			x: 9.92d
+			y: 2.10d
 		}
 		{
 			dependencies: ["4487E5A470B5E765"]
+			hide_dependency_lines: true
 			id: "3BE55608577361CF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -419,11 +426,12 @@
 				item: { count: 1, id: "createtransmission:transmission_chain" }
 				type: "item"
 			}]
-			x: -3.10d
-			y: 3.40d
+			x: 8.32d
+			y: 4.06d
 		}
 		{
 			dependencies: ["4487E5A470B5E765"]
+			hide_dependency_lines: true
 			id: "4A280853246EEE08"
 			rewards: [{
 				id: "79C03414E359CDFC"
@@ -444,14 +452,14 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "5882CD12500BA975"
 				item: { count: 1, id: "create_aeronautics_toolgun:magnetic_gun" }
 				type: "item"
 			}]
-			x: -4.12d
-			y: 2.05d
+			x: 12.48d
+			y: -4.62d
 		}
 		{
 			dependencies: ["4A280853246EEE08"]
@@ -467,8 +475,8 @@
 				item: { count: 1, id: "create_aeronautics_toolgun:survival_structure_tool" }
 				type: "item"
 			}]
-			x: -5.91d
-			y: 2.94d
+			x: 14.08d
+			y: -4.62d
 		}
 		{
 			dependencies: ["7A5066A7E217E3F0"]
@@ -484,11 +492,12 @@
 				item: { count: 1, id: "create_aeronautics_toolgun:portable_structure_container" }
 				type: "item"
 			}]
-			x: -7.70d
-			y: 3.83d
+			x: 15.68d
+			y: -4.62d
 		}
 		{
 			dependencies: ["4487E5A470B5E765"]
+			hide_dependency_lines: true
 			id: "1D3CD000706C0C39"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -505,8 +514,8 @@
 				item: { count: 1, id: "create_aeronautics_throwable_rope_connector:rope_connector_launcher" }
 				type: "item"
 			}]
-			x: -4.58d
-			y: 0.42d
+			x: 12.48d
+			y: -2.66d
 		}
 		{
 			dependencies: ["1D3CD000706C0C39"]
@@ -522,11 +531,12 @@
 				item: { count: 1, id: "create_aeronautics_throwable_rope_connector:mounted_rope_launcher" }
 				type: "item"
 			}]
-			x: -6.57d
-			y: 0.61d
+			x: 14.08d
+			y: -2.66d
 		}
 		{
 			dependencies: ["4487E5A470B5E765"]
+			hide_dependency_lines: true
 			id: "1BB4787019AA68E6"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -539,11 +549,12 @@
 				item: { count: 1, id: "aeroclaims:claim_block" }
 				type: "item"
 			}]
-			x: -4.42d
-			y: -1.26d
+			x: 12.48d
+			y: -0.70d
 		}
 		{
 			dependencies: ["4487E5A470B5E765"]
+			hide_dependency_lines: true
 			id: "7C36AC287724FCA7"
 			rewards: [{
 				id: "1504A747C760E87E"
@@ -560,7 +571,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "17A2F64A75C47D06"
 				item: { count: 1, id: "createornithopterglider:wing_mesh" }
@@ -570,11 +581,12 @@
 				item: { count: 1, id: "createornithopterglider:ornithopterglider" }
 				type: "item"
 			}]
-			x: -3.67d
-			y: -2.77d
+			x: 12.48d
+			y: 1.26d
 		}
 		{
 			dependencies: ["4487E5A470B5E765"]
+			hide_dependency_lines: true
 			id: "3202B3169AC7D75E"
 			rewards: [{
 				id: "1C54DAF65DE0FCA3"
@@ -591,7 +603,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				count: 2L
 				id: "43A71D25ED65C05A"
@@ -606,8 +618,8 @@
 				item: { count: 1, id: "simulatedcoasters:coaster_cart" }
 				type: "item"
 			}]
-			x: -1.66d
-			y: -4.29d
+			x: 12.48d
+			y: 3.92d
 		}
 		{
 			dependencies: ["3202B3169AC7D75E"]
@@ -623,8 +635,8 @@
 				item: { count: 1, id: "simulatedcoasters:rivet" }
 				type: "item"
 			}]
-			x: -3.47d
-			y: -5.61d
+			x: 14.08d
+			y: 3.22d
 		}
 		{
 			dependencies: ["3202B3169AC7D75E"]
@@ -644,8 +656,8 @@
 				item: { count: 1, id: "coastersengineered:linear_motor_controller" }
 				type: "item"
 			}]
-			x: -1.21d
-			y: -6.49d
+			x: 14.08d
+			y: 4.62d
 		}
 		{
 			dependencies: ["1602A6E3AB3C7525"]
@@ -661,8 +673,8 @@
 				item: { count: 1, id: "coastersengineered:coaster_observer" }
 				type: "item"
 			}]
-			x: -1.58d
-			y: -8.45d
+			x: 15.68d
+			y: 4.62d
 		}
 	]
 }

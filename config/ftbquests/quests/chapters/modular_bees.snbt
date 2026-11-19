@@ -28,7 +28,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				count: 4L
 				id: "3D11DF5922F8DB68"
@@ -36,7 +36,7 @@
 				type: "item"
 			}]
 			x: 0.00d
-			y: 2.06d
+			y: 1.92d
 		}
 		{
 			dependencies: ["6EE161CDE9AB1111"]
@@ -56,14 +56,14 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "18FD4D8F726C7903"
 				item: { count: 1, id: "modularbees:modular_beehive_core" }
 				type: "item"
 			}]
-			x: 2.00d
-			y: 0.38d
+			x: 1.60d
+			y: 0.35d
 		}
 		{
 			dependencies: ["54E97286C99E5C98"]
@@ -80,8 +80,8 @@
 				item: { count: 1, id: "modularbees:modular_beehive_part" }
 				type: "item"
 			}]
-			x: 4.00d
-			y: 0.38d
+			x: 3.20d
+			y: 0.35d
 		}
 		{
 			dependencies: ["6087A1DCF5904DFE"]
@@ -101,8 +101,8 @@
 				item: { count: 1, id: "modularbees:modular_beehive_alveary" }
 				type: "item"
 			}]
-			x: 6.00d
-			y: -1.50d
+			x: 4.80d
+			y: -1.40d
 		}
 		{
 			dependencies: ["6087A1DCF5904DFE"]
@@ -118,8 +118,8 @@
 				item: { count: 1, id: "modularbees:modular_beehive_feeder" }
 				type: "item"
 			}]
-			x: 6.00d
-			y: 2.25d
+			x: 4.80d
+			y: 2.10d
 		}
 		{
 			dependencies: ["1A66AE7D962E63BE"]
@@ -135,8 +135,8 @@
 				item: { count: 1, id: "modularbees:modular_export" }
 				type: "item"
 			}]
-			x: 8.00d
-			y: -3.75d
+			x: 6.40d
+			y: -3.50d
 		}
 		{
 			dependencies: ["1A66AE7D962E63BE"]
@@ -156,8 +156,8 @@
 				item: { count: 1, id: "modularbees:honey_jelly" }
 				type: "item"
 			}]
-			x: 8.00d
-			y: -2.25d
+			x: 6.40d
+			y: -2.10d
 		}
 		{
 			dependencies: ["49BF6ED619E56F24"]
@@ -177,7 +177,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "655AF86E7A728533"
 				item: { count: 1, id: "modularbees:modular_beehive_overclocker" }
@@ -187,8 +187,8 @@
 				item: { count: 1, id: "modularbees:electrode_copper" }
 				type: "item"
 			}]
-			x: 10.00d
-			y: -3.75d
+			x: 8.00d
+			y: -3.50d
 		}
 		{
 			dependencies: ["2F0A4E8B974F0BFA"]
@@ -208,8 +208,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(modularbees:electrode_iron)item(modularbees:electrode_gold)item(modularbees:electrode_netherite))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 12.00d
-			y: -3.75d
+			x: 9.60d
+			y: -3.50d
 		}
 		{
 			dependencies: ["1A66AE7D962E63BE"]
@@ -225,8 +225,8 @@
 				item: { count: 1, id: "modularbees:modular_beehive_stacker" }
 				type: "item"
 			}]
-			x: 8.00d
-			y: -0.75d
+			x: 6.40d
+			y: -0.70d
 		}
 		{
 			dependencies: ["3B86E195EF4EB4AD"]
@@ -242,8 +242,8 @@
 				item: { count: 1, id: "modularbees:modular_dragon_hive" }
 				type: "item"
 			}]
-			x: 8.00d
-			y: 2.25d
+			x: 6.40d
+			y: 2.10d
 		}
 		{
 			dependencies: ["6EE161CDE9AB1111"]
@@ -263,14 +263,14 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "2F0CF7A37F083D04"
 				item: { count: 1, id: "modularbees:modular_centrifuge_core" }
 				type: "item"
 			}]
-			x: 2.00d
-			y: 3.75d
+			x: 1.60d
+			y: 3.50d
 		}
 		{
 			dependencies: ["521A1F5B59448BAA"]
@@ -287,8 +287,8 @@
 				item: { count: 1, id: "modularbees:modular_centrifuge_part" }
 				type: "item"
 			}]
-			x: 4.00d
-			y: 3.75d
+			x: 3.20d
+			y: 3.50d
 		}
 		{
 			dependencies: ["55A7B8DCD24DA828"]
@@ -308,8 +308,8 @@
 				item: { count: 1, id: "modularbees:modular_centrifuge_export" }
 				type: "item"
 			}]
-			x: 6.00d
-			y: 3.75d
+			x: 4.80d
+			y: 3.50d
 		}
 		{
 			dependencies: ["764A3CAF41705034"]
@@ -329,14 +329,14 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
 				id: "29631F2759A16F88"
 				item: { components: { "ftbfiltersystem:filter": "or(item(modularbees:modular_centrifuge_gearbox)item(modularbees:modular_centrifuge_heater)item(modularbees:modular_centrifuge_overclocker))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 8.00d
-			y: 3.75d
+			x: 6.40d
+			y: 3.50d
 		}
 		{
 			dependencies: ["1A66AE7D962E63BE"]
@@ -352,8 +352,8 @@
 				item: { count: 1, id: "modularbees:bee_extractor" }
 				type: "item"
 			}]
-			x: 8.00d
-			y: 0.75d
+			x: 6.40d
+			y: 0.70d
 		}
 	]
 }

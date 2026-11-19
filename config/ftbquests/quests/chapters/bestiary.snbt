@@ -29,7 +29,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "26A6C43C4B7EDB86"
 				type: "checkmark"
@@ -39,44 +39,30 @@
 		}
 		{
 			dependencies: ["1DF94D340DBB5C04"]
-			icon: { id: "naturalist:lion_spawn_egg" }
-			id: "323BC79EEC1E37CF"
+			hide_dependency_lines: true
+			icon: { id: "naturalist:bear_spawn_egg" }
+			id: "65B6AB3B8EFF26C4"
 			rewards: [{
+				id: "43ED17AA6CA3625D"
+				type: "xp"
+				xp: 150
+			}, {
 				exclude_from_claim_all: true
-				id: "2FBF739F9720E422"
-				table_id: 5001068052608706388L
-				type: "loot"
+				id: "413680A3686DCFC0"
+				table_id: 5249651026717322459L
+				type: "random"
 			}]
+			shape: "gear"
+			size: 1.25d
 			tasks: [{
-				id: "422EB4B2FB56E0D6"
-				observe_type: 5
-				timer: 0L
-				to_observe: "naturalist:lion"
-				type: "observation"
-			}, {
-				id: "1E02450AFB4AEF12"
-				observe_type: 5
-				timer: 0L
-				to_observe: "naturalist:elephant"
-				type: "observation"
-			}, {
-				id: "5655E18932E49687"
-				observe_type: 5
-				timer: 0L
-				to_observe: "naturalist:giraffe"
-				type: "observation"
-			}, {
-				id: "6890F662BC3CADC0"
-				observe_type: 5
-				timer: 0L
-				to_observe: "naturalist:zebra"
-				type: "observation"
+				id: "3D9AE3FE5DE0793C"
+				type: "checkmark"
 			}]
-			x: 0.84d
-			y: -3.14d
+			x: 2.56d
+			y: -1.96d
 		}
 		{
-			dependencies: ["1DF94D340DBB5C04"]
+			dependencies: ["65B6AB3B8EFF26C4"]
 			icon: { id: "naturalist:bear_spawn_egg" }
 			id: "169FECF828A152B4"
 			rewards: [{
@@ -110,40 +96,46 @@
 				to_observe: "naturalist:hedgehog"
 				type: "observation"
 			}]
-			x: 2.30d
-			y: -2.30d
+			x: 4.16d
+			y: -4.76d
 		}
 		{
-			dependencies: ["1DF94D340DBB5C04"]
-			icon: { id: "naturalist:alligator_spawn_egg" }
-			id: "73FF58389A3EAF29"
+			dependencies: ["65B6AB3B8EFF26C4"]
+			icon: { id: "naturalist:lion_spawn_egg" }
+			id: "323BC79EEC1E37CF"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "7F084A6F3269298A"
+				id: "2FBF739F9720E422"
 				table_id: 5001068052608706388L
 				type: "loot"
 			}]
 			tasks: [{
-				id: "28E423A06510A014"
+				id: "422EB4B2FB56E0D6"
 				observe_type: 5
 				timer: 0L
-				to_observe: "naturalist:alligator"
+				to_observe: "naturalist:lion"
 				type: "observation"
 			}, {
-				id: "620CE0B1E0782FC5"
+				id: "1E02450AFB4AEF12"
 				observe_type: 5
 				timer: 0L
-				to_observe: "naturalist:hippo"
+				to_observe: "naturalist:elephant"
 				type: "observation"
 			}, {
-				id: "485C679E0F9A2EB8"
+				id: "5655E18932E49687"
 				observe_type: 5
 				timer: 0L
-				to_observe: "ribbits:ribbit"
+				to_observe: "naturalist:giraffe"
+				type: "observation"
+			}, {
+				id: "6890F662BC3CADC0"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:zebra"
 				type: "observation"
 			}]
-			x: 3.14d
-			y: -0.84d
+			x: 4.16d
+			y: -2.66d
 		}
 		{
 			dependencies: ["323BC79EEC1E37CF"]
@@ -174,8 +166,34 @@
 				to_observe: "naturalist:rhino"
 				type: "observation"
 			}]
-			x: 1.36d
-			y: -5.07d
+			x: 5.76d
+			y: -3.36d
+		}
+		{
+			dependencies: ["65B6AB3B8EFF26C4"]
+			icon: { id: "naturalist:alligator_spawn_egg" }
+			id: "73FF58389A3EAF29"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F084A6F3269298A"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "28E423A06510A014"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:alligator"
+				type: "observation"
+			}, {
+				id: "620CE0B1E0782FC5"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:hippo"
+				type: "observation"
+			}]
+			x: 4.16d
+			y: -0.56d
 		}
 		{
 			dependencies: ["169FECF828A152B4"]
@@ -212,19 +230,200 @@
 				to_observe: "naturalist:dragonfly"
 				type: "observation"
 			}]
-			x: 3.71d
-			y: -3.71d
+			x: 5.76d
+			y: -4.76d
 		}
 		{
-			dependencies: ["1DF94D340DBB5C04"]
-			icon: { id: "crittersandcompanions:ferret_spawn_egg" }
-			id: "5A4BD384A84AB8DA"
+			dependencies: ["323BC79EEC1E37CF"]
+			icon: { id: "naturalist:desert_scorpion_spawn_egg" }
+			id: "54D378CEC3AAAF77"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "3E648E432476F069"
+				id: "229ECDFD14ED4647"
 				table_id: 5001068052608706388L
 				type: "loot"
 			}]
+			tasks: [{
+				id: "3A394F3AABF7095D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:desert_scorpion"
+				type: "observation"
+			}, {
+				id: "256A37031D475F8A"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:lizard"
+				type: "observation"
+			}, {
+				id: "35ED1D0624F07521"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:vulture"
+				type: "observation"
+			}, {
+				id: "3A42C02EC9A73A25"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:ostrich"
+				type: "observation"
+			}]
+			x: 5.76d
+			y: -1.96d
+		}
+		{
+			dependencies: ["65B6AB3B8EFF26C4"]
+			icon: { id: "naturalist:capybara_spawn_egg" }
+			id: "634EC4F39505BCC1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59951844D285C452"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2058B58FD7CC99B0"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:capybara"
+				type: "observation"
+			}, {
+				id: "2172B6F327E4DCAC"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:duck"
+				type: "observation"
+			}, {
+				id: "664CF9EECEE6F209"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:turkey"
+				type: "observation"
+			}, {
+				id: "22B842228D3F8E41"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:tortoise"
+				type: "observation"
+			}]
+			x: 4.16d
+			y: 0.84d
+		}
+		{
+			dependencies: ["73FF58389A3EAF29"]
+			icon: { id: "naturalist:great_white_shark_spawn_egg" }
+			id: "43A0D75FDAE9BA05"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A5B73AC19DF867B"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "28E1DE72F46D100C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:great_white_shark"
+				type: "observation"
+			}, {
+				id: "2DCF684841B42166"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:ray"
+				type: "observation"
+			}, {
+				id: "51AAFA8D78B9259C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:crab"
+				type: "observation"
+			}, {
+				id: "4453CB9B83AB2344"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:anglerfish"
+				type: "observation"
+			}]
+			x: 5.76d
+			y: -0.56d
+		}
+		{
+			dependencies: ["1AE8C763B9ED9200", "6683B14187F11AD3"]
+			icon: { id: "naturalist:mammoth_spawn_egg" }
+			id: "69BEA7AA9EF89893"
+			rewards: [{
+				id: "20BB309203F5BC61"
+				type: "xp"
+				xp: 300
+			}, {
+				exclude_from_claim_all: true
+				id: "1D5669E95C562818"
+				table_id: 5249651026717322459L
+				type: "random"
+			}, {
+				id: "1475EC40CCB8FC27"
+				item: { count: 2, id: "minecraft:golden_apple" }
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "31D0CB79D395172F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:mammoth"
+				type: "observation"
+			}]
+			x: 7.36d
+			y: -3.36d
+		}
+		{
+			dependencies: ["43A0D75FDAE9BA05"]
+			icon: { id: "naturalist:whale_spawn_egg" }
+			id: "598FD0F4EEF15E20"
+			rewards: [{
+				id: "78BF0FAC8506162B"
+				type: "xp"
+				xp: 300
+			}, {
+				exclude_from_claim_all: true
+				id: "1C4FB6F18A7BA7C2"
+				table_id: 5249651026717322459L
+				type: "random"
+			}, {
+				id: "2DEA959CBB230C2A"
+				item: { count: 2, id: "minecraft:golden_apple" }
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5DFF1A60954D2594"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:whale"
+				type: "observation"
+			}]
+			x: 7.36d
+			y: -0.56d
+		}
+		{
+			dependencies: ["1DF94D340DBB5C04"]
+			hide_dependency_lines: true
+			icon: { id: "crittersandcompanions:ferret_spawn_egg" }
+			id: "5A4BD384A84AB8DA"
+			rewards: [{
+				id: "3E648E432476F069"
+				type: "xp"
+				xp: 150
+			}, {
+				exclude_from_claim_all: true
+				id: "592BA81DA7E72885"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "67BF46C75357E64E"
 				observe_type: 5
@@ -244,8 +443,8 @@
 				to_observe: "crittersandcompanions:red_panda"
 				type: "observation"
 			}]
-			x: 2.81d
-			y: 1.62d
+			x: 2.56d
+			y: 3.50d
 		}
 		{
 			dependencies: ["5A4BD384A84AB8DA"]
@@ -282,8 +481,8 @@
 				to_observe: "crittersandcompanions:leaf_insect"
 				type: "observation"
 			}]
-			x: 5.07d
-			y: 1.36d
+			x: 4.16d
+			y: 2.80d
 		}
 		{
 			dependencies: ["5A4BD384A84AB8DA"]
@@ -314,89 +513,64 @@
 				to_observe: "crittersandcompanions:dumbo_octopus"
 				type: "observation"
 			}]
-			x: 3.71d
-			y: 3.71d
+			x: 4.16d
+			y: 4.20d
 		}
 		{
-			dependencies: ["1DF94D340DBB5C04"]
-			icon: { id: "hybrid_birds:peacock_spawn_egg" }
-			id: "42603B5DCB385E50"
+			dependencies: ["3BEE6BF6588329AA"]
+			icon: { id: "crittersandcompanions:roly_poly_spawn_egg" }
+			id: "1C6D38F31C38C3FD"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "4E39CA6FF2A791C3"
+				id: "5EA66ACBC5A906E1"
 				table_id: 5001068052608706388L
 				type: "loot"
 			}]
 			tasks: [{
-				id: "78A486889937C5F8"
+				id: "777FDE6A854D729E"
 				observe_type: 5
 				timer: 0L
-				to_observe: "hybrid_birds:peacock"
+				to_observe: "crittersandcompanions:roly_poly"
 				type: "observation"
 			}, {
-				id: "5FFCB32B2CE54314"
+				id: "38F306F78B479DDA"
 				observe_type: 5
 				timer: 0L
-				to_observe: "hybrid_birds:swan"
+				to_observe: "crittersandcompanions:stick_bug"
 				type: "observation"
 			}, {
-				id: "10BDCADE49616A76"
+				id: "1F96660E63A58EEC"
 				observe_type: 5
 				timer: 0L
-				to_observe: "hybrid_birds:pelican"
+				to_observe: "crittersandcompanions:weevil"
 				type: "observation"
 			}, {
-				id: "49E698430182E124"
+				id: "3EEDA33ED14FB541"
 				observe_type: 5
 				timer: 0L
-				to_observe: "hybrid_birds:puffin"
+				to_observe: "crittersandcompanions:shima_enaga"
 				type: "observation"
 			}]
-			x: 0.84d
-			y: 3.14d
-		}
-		{
-			dependencies: ["42603B5DCB385E50"]
-			icon: { id: "hybrid_birds:rooster_spawn_egg" }
-			id: "1ADBD35F33DAC5B3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "62CA3CF6BAD0AD63"
-				table_id: 5001068052608706388L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "223F9C6DD573E300"
-				observe_type: 5
-				timer: 0L
-				to_observe: "hybrid_birds:rooster"
-				type: "observation"
-			}, {
-				id: "4C09D3151BAED8D1"
-				observe_type: 5
-				timer: 0L
-				to_observe: "hybrid_birds:goose"
-				type: "observation"
-			}, {
-				id: "41F6781DF328EED3"
-				observe_type: 5
-				timer: 0L
-				to_observe: "hybrid_birds:guinea_fowl"
-				type: "observation"
-			}]
-			x: 1.36d
-			y: 5.07d
+			x: 5.76d
+			y: 2.80d
 		}
 		{
 			dependencies: ["1DF94D340DBB5C04"]
+			hide_dependency_lines: true
 			icon: { id: "hybrid_aquatic:clownfish_spawn_egg" }
 			id: "77265A13D166CC50"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "2EF3CF08019087AD"
-				table_id: 5001068052608706388L
-				type: "loot"
+				type: "xp"
+				xp: 150
+			}, {
+				exclude_from_claim_all: true
+				id: "1D0B24DA75A683B0"
+				table_id: 5249651026717322459L
+				type: "random"
 			}]
+			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "30D8078B690A012C"
 				observe_type: 5
@@ -407,17 +581,23 @@
 				id: "223472CB789F12C0"
 				observe_type: 5
 				timer: 0L
-				to_observe: "clutterbestiary:seahorse"
+				to_observe: "hybrid_aquatic:boxfish"
 				type: "observation"
 			}, {
 				id: "28B9F86D038F2C9E"
 				observe_type: 5
 				timer: 0L
-				to_observe: "clutterbestiary:manta_ray"
+				to_observe: "hybrid_aquatic:damselfish"
+				type: "observation"
+			}, {
+				id: "606148B81D7C258D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "hybrid_aquatic:cuttlefish"
 				type: "observation"
 			}]
-			x: -1.62d
-			y: 2.81d
+			x: 9.92d
+			y: -2.66d
 		}
 		{
 			dependencies: ["77265A13D166CC50"]
@@ -438,7 +618,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "150F95DDE0352C2E"
 				observe_type: 5
@@ -458,8 +638,8 @@
 				to_observe: "hybrid_aquatic:great_white_shark"
 				type: "observation"
 			}]
-			x: -1.36d
-			y: 5.07d
+			x: 11.52d
+			y: -4.76d
 		}
 		{
 			dependencies: ["6D34A65356584470"]
@@ -490,8 +670,8 @@
 				to_observe: "hybrid_aquatic:giant_squid"
 				type: "observation"
 			}]
-			x: -1.88d
-			y: 7.00d
+			x: 13.12d
+			y: -4.76d
 		}
 		{
 			dependencies: ["77265A13D166CC50"]
@@ -522,19 +702,199 @@
 				to_observe: "hybrid_aquatic:coconut_crab"
 				type: "observation"
 			}]
-			x: -3.71d
-			y: 3.71d
+			x: 11.52d
+			y: -3.36d
 		}
 		{
-			dependencies: ["1DF94D340DBB5C04"]
-			icon: { id: "fintastic:arapaima_spawn_egg" }
-			id: "71C5BAB03723DA6D"
+			dependencies: ["77265A13D166CC50"]
+			icon: { id: "hybrid_aquatic:box_jellyfish_spawn_egg" }
+			id: "607A029DE1F97EEB"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "6230AD484ABD7FC2"
+				id: "45B76B36D9716A63"
 				table_id: 5001068052608706388L
 				type: "loot"
 			}]
+			tasks: [{
+				id: "395FFBCA6C2A5C02"
+				observe_type: 5
+				timer: 0L
+				to_observe: "hybrid_aquatic:box_jellyfish"
+				type: "observation"
+			}, {
+				id: "3664A135B828A7FF"
+				observe_type: 5
+				timer: 0L
+				to_observe: "hybrid_aquatic:crown_jellyfish"
+				type: "observation"
+			}, {
+				id: "18A5B0485E6A3259"
+				observe_type: 5
+				timer: 0L
+				to_observe: "hybrid_aquatic:firework_jellyfish"
+				type: "observation"
+			}]
+			x: 11.52d
+			y: -1.96d
+		}
+		{
+			dependencies: ["77265A13D166CC50"]
+			icon: { id: "hybrid_aquatic:goldfish_spawn_egg" }
+			id: "6F8095727F533056"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43937549517FFC27"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "64F7C6BF115AD4B5"
+				observe_type: 5
+				timer: 0L
+				to_observe: "hybrid_aquatic:goldfish"
+				type: "observation"
+			}, {
+				id: "3DA1C6AB8DA450E0"
+				observe_type: 5
+				timer: 0L
+				to_observe: "hybrid_aquatic:carp"
+				type: "observation"
+			}, {
+				id: "7092D39615137D1F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "hybrid_aquatic:betta"
+				type: "observation"
+			}, {
+				id: "17187C79A55A4AF1"
+				observe_type: 5
+				timer: 0L
+				to_observe: "hybrid_aquatic:crayfish"
+				type: "observation"
+			}]
+			x: 11.52d
+			y: -0.56d
+		}
+		{
+			dependencies: ["1DF94D340DBB5C04"]
+			hide_dependency_lines: true
+			icon: { id: "hybrid_birds:peacock_spawn_egg" }
+			id: "42603B5DCB385E50"
+			rewards: [{
+				id: "4E39CA6FF2A791C3"
+				type: "xp"
+				xp: 150
+			}, {
+				exclude_from_claim_all: true
+				id: "5446CAE95DA3674C"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "78A486889937C5F8"
+				observe_type: 5
+				timer: 0L
+				to_observe: "hybrid_birds:peacock"
+				type: "observation"
+			}, {
+				id: "5FFCB32B2CE54314"
+				observe_type: 5
+				timer: 0L
+				to_observe: "hybrid_birds:swan"
+				type: "observation"
+			}, {
+				id: "10BDCADE49616A76"
+				observe_type: 5
+				timer: 0L
+				to_observe: "hybrid_birds:pelican"
+				type: "observation"
+			}, {
+				id: "49E698430182E124"
+				observe_type: 5
+				timer: 0L
+				to_observe: "hybrid_birds:puffin"
+				type: "observation"
+			}]
+			x: 9.92d
+			y: 2.10d
+		}
+		{
+			dependencies: ["42603B5DCB385E50"]
+			icon: { id: "hybrid_birds:rooster_spawn_egg" }
+			id: "1ADBD35F33DAC5B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62CA3CF6BAD0AD63"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "223F9C6DD573E300"
+				observe_type: 5
+				timer: 0L
+				to_observe: "hybrid_birds:rooster"
+				type: "observation"
+			}, {
+				id: "4C09D3151BAED8D1"
+				observe_type: 5
+				timer: 0L
+				to_observe: "hybrid_birds:goose"
+				type: "observation"
+			}, {
+				id: "41F6781DF328EED3"
+				observe_type: 5
+				timer: 0L
+				to_observe: "hybrid_birds:guinea_fowl"
+				type: "observation"
+			}]
+			x: 11.52d
+			y: 1.40d
+		}
+		{
+			dependencies: ["42603B5DCB385E50"]
+			icon: { id: "hybrid_birds:seagull_spawn_egg" }
+			id: "4DD60D433D2EB370"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25A0EEA790E5EDFE"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7C480F932C54D104"
+				observe_type: 5
+				timer: 0L
+				to_observe: "hybrid_birds:seagull"
+				type: "observation"
+			}, {
+				id: "4F4CE012381031DE"
+				observe_type: 5
+				timer: 0L
+				to_observe: "hybrid_birds:albatross"
+				type: "observation"
+			}]
+			x: 11.52d
+			y: 2.80d
+		}
+		{
+			dependencies: ["1DF94D340DBB5C04"]
+			hide_dependency_lines: true
+			icon: { id: "fintastic:arapaima_spawn_egg" }
+			id: "71C5BAB03723DA6D"
+			rewards: [{
+				id: "6230AD484ABD7FC2"
+				type: "xp"
+				xp: 150
+			}, {
+				exclude_from_claim_all: true
+				id: "437EF7EB7CA10F13"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "2645B797323CFFAA"
 				observe_type: 5
@@ -554,19 +914,64 @@
 				to_observe: "fintastic:freshwater_shark"
 				type: "observation"
 			}]
-			x: -3.14d
-			y: 0.84d
+			x: 9.92d
+			y: 4.76d
 		}
 		{
-			dependencies: ["1DF94D340DBB5C04"]
-			icon: { id: "clutterbestiary:beaver_spawn_egg" }
-			id: "64E036CE9A1A7C4D"
+			dependencies: ["71C5BAB03723DA6D"]
+			icon: { id: "fintastic:pleco_spawn_egg" }
+			id: "7843D0CDF70D7B87"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "25305B6A3DA38A2C"
+				id: "7F530B5949AA9D9F"
 				table_id: 5001068052608706388L
 				type: "loot"
 			}]
+			tasks: [{
+				id: "50FA22D5FD7295BD"
+				observe_type: 5
+				timer: 0L
+				to_observe: "fintastic:pleco"
+				type: "observation"
+			}, {
+				id: "5B7DC34B8AEDEA16"
+				observe_type: 5
+				timer: 0L
+				to_observe: "fintastic:minnow"
+				type: "observation"
+			}, {
+				id: "501A1A9DE42B9C91"
+				observe_type: 5
+				timer: 0L
+				to_observe: "fintastic:gourami"
+				type: "observation"
+			}, {
+				id: "1FD0E020F3653721"
+				observe_type: 5
+				timer: 0L
+				to_observe: "fintastic:coelacanth"
+				type: "observation"
+			}]
+			x: 11.52d
+			y: 4.76d
+		}
+		{
+			dependencies: ["1DF94D340DBB5C04"]
+			hide_dependency_lines: true
+			icon: { id: "clutterbestiary:beaver_spawn_egg" }
+			id: "64E036CE9A1A7C4D"
+			rewards: [{
+				id: "25305B6A3DA38A2C"
+				type: "xp"
+				xp: 150
+			}, {
+				exclude_from_claim_all: true
+				id: "25F49A6F414CC8C0"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.25d
 			tasks: [{
 				id: "5F02C7D4997AEC80"
 				observe_type: 5
@@ -592,8 +997,78 @@
 				to_observe: "clutterbestiary:emperor_penguin"
 				type: "observation"
 			}]
-			x: -3.14d
-			y: -0.84d
+			x: 15.68d
+			y: -3.36d
+		}
+		{
+			dependencies: ["64E036CE9A1A7C4D"]
+			icon: { id: "clutterbestiary:seahorse_spawn_egg" }
+			id: "3B4651D6EB774625"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EAA3C8D3819442B"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1FB8625731CA231C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "clutterbestiary:seahorse"
+				type: "observation"
+			}, {
+				id: "5F27F7A2AA9F5BE2"
+				observe_type: 5
+				timer: 0L
+				to_observe: "clutterbestiary:manta_ray"
+				type: "observation"
+			}, {
+				id: "240ABA0E1784EC81"
+				observe_type: 5
+				timer: 0L
+				to_observe: "clutterbestiary:river_turtle"
+				type: "observation"
+			}]
+			x: 17.28d
+			y: -4.76d
+		}
+		{
+			dependencies: ["64E036CE9A1A7C4D"]
+			icon: { id: "clutterbestiary:coati_spawn_egg" }
+			id: "10EFF7EBE5E6EC89"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "286BD4C0CEED2A31"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "45AD562224827C1A"
+				observe_type: 5
+				timer: 0L
+				to_observe: "clutterbestiary:coati"
+				type: "observation"
+			}, {
+				id: "4C6A74A2D9178C9E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "clutterbestiary:stoat"
+				type: "observation"
+			}, {
+				id: "315C98B9083ADDE2"
+				observe_type: 5
+				timer: 0L
+				to_observe: "clutterbestiary:woodpecker"
+				type: "observation"
+			}, {
+				id: "6AAB3B94F21DE66A"
+				observe_type: 5
+				timer: 0L
+				to_observe: "clutterbestiary:crocodile"
+				type: "observation"
+			}]
+			x: 17.28d
+			y: -3.36d
 		}
 		{
 			dependencies: ["64E036CE9A1A7C4D"]
@@ -624,8 +1099,8 @@
 				to_observe: "clutterbestiary:ember_tortoise"
 				type: "observation"
 			}]
-			x: -5.07d
-			y: -1.36d
+			x: 17.28d
+			y: -1.96d
 		}
 		{
 			dependencies: ["461430091DFF58F9"]
@@ -644,11 +1119,54 @@
 				to_observe: "clutterbestiary:chorus_beetle"
 				type: "observation"
 			}]
-			x: -7.00d
-			y: -1.88d
+			x: 18.88d
+			y: -1.96d
 		}
 		{
 			dependencies: ["1DF94D340DBB5C04"]
+			hide_dependency_lines: true
+			icon: { id: "minecraft:lily_pad" }
+			id: "1EB0E47EF79CEF7F"
+			rewards: [{
+				id: "45FACBB506E9301A"
+				type: "xp"
+				xp: 150
+			}, {
+				exclude_from_claim_all: true
+				id: "11D26E5786F0B6FD"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "63606CC7C5C982CC"
+				type: "checkmark"
+			}]
+			x: 15.68d
+			y: 1.40d
+		}
+		{
+			dependencies: ["1EB0E47EF79CEF7F"]
+			id: "1FBC281AE1413288"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6635010892FA1B26"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1695C5B1C2B0C901"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ribbits:ribbit"
+				type: "observation"
+			}]
+			x: 17.28d
+			y: -0.00d
+		}
+		{
+			dependencies: ["1EB0E47EF79CEF7F"]
 			icon: { id: "apple_cows:apple_cow_spawn_egg" }
 			id: "1AA9079A4F9BD9A4"
 			rewards: [{
@@ -670,11 +1188,11 @@
 				to_observe: "apple_cows:golden_apple_cow"
 				type: "observation"
 			}]
-			x: -2.30d
-			y: -2.30d
+			x: 17.28d
+			y: 1.40d
 		}
 		{
-			dependencies: ["1DF94D340DBB5C04"]
+			dependencies: ["1EB0E47EF79CEF7F"]
 			icon: { id: "mutated_items:furnace_golem_spawn_egg" }
 			id: "2F027CF8E2BF9D23"
 			rewards: [{
@@ -702,68 +1220,8 @@
 				to_observe: "mutated_items:redstone_bug"
 				type: "observation"
 			}]
-			x: -0.84d
-			y: -3.14d
-		}
-		{
-			dependencies: ["1AE8C763B9ED9200", "6683B14187F11AD3"]
-			icon: { id: "naturalist:mammoth_spawn_egg" }
-			id: "69BEA7AA9EF89893"
-			rewards: [{
-				id: "20BB309203F5BC61"
-				type: "xp"
-				xp: 300
-			}, {
-				exclude_from_claim_all: true
-				id: "1D5669E95C562818"
-				table_id: 5249651026717322459L
-				type: "random"
-			}, {
-				id: "1475EC40CCB8FC27"
-				item: { count: 2, id: "minecraft:golden_apple" }
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 2.0d
-			tasks: [{
-				id: "31D0CB79D395172F"
-				observe_type: 5
-				timer: 0L
-				to_observe: "naturalist:mammoth"
-				type: "observation"
-			}]
-			x: 1.88d
-			y: -7.00d
-		}
-		{
-			dependencies: ["5259181495539FEE"]
-			icon: { id: "naturalist:whale_spawn_egg" }
-			id: "598FD0F4EEF15E20"
-			rewards: [{
-				id: "78BF0FAC8506162B"
-				type: "xp"
-				xp: 300
-			}, {
-				exclude_from_claim_all: true
-				id: "1C4FB6F18A7BA7C2"
-				table_id: 5249651026717322459L
-				type: "random"
-			}, {
-				id: "2DEA959CBB230C2A"
-				item: { count: 2, id: "minecraft:golden_apple" }
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 2.0d
-			tasks: [{
-				id: "5DFF1A60954D2594"
-				observe_type: 5
-				timer: 0L
-				to_observe: "naturalist:whale"
-				type: "observation"
-			}]
-			x: -2.39d
-			y: 8.93d
+			x: 17.28d
+			y: 2.80d
 		}
 	]
 }

@@ -28,17 +28,18 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "6502621AF17AC164"
 				item: { count: 1, id: "createnuclear:raw_uranium" }
 				type: "item"
 			}]
 			x: 0.00d
-			y: 0.38d
+			y: -0.00d
 		}
 		{
 			dependencies: ["159CDB4C3D9EC20C"]
+			hide_dependency_lines: true
 			id: "57473503FCD3E466"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -52,11 +53,12 @@
 				item: { count: 1, id: "createnuclear:uranium_powder" }
 				type: "item"
 			}]
-			x: 2.00d
-			y: -6.00d
+			x: 2.56d
+			y: -3.36d
 		}
 		{
 			dependencies: ["159CDB4C3D9EC20C"]
+			hide_dependency_lines: true
 			id: "40A4A7914E2394B8"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -73,8 +75,8 @@
 				item: { count: 1, id: "createnuclear:lead_ingot" }
 				type: "item"
 			}]
-			x: 2.00d
-			y: -3.00d
+			x: 2.56d
+			y: 0.00d
 		}
 		{
 			dependencies: ["40A4A7914E2394B8"]
@@ -94,14 +96,14 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "5426CB5C91D26C9E"
 				item: { components: { "ftbfiltersystem:filter": "or(item(createnuclear:default_anti_radiation_helmet)item(createnuclear:default_anti_radiation_chestplate)item(createnuclear:default_anti_radiation_leggings)item(createnuclear:default_anti_radiation_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.00d
-			y: -3.75d
+			x: 4.16d
+			y: -0.70d
 		}
 		{
 			dependencies: ["40A4A7914E2394B8"]
@@ -118,11 +120,12 @@
 				item: { count: 1, id: "createnuclear:reinforced_glass" }
 				type: "item"
 			}]
-			x: 4.00d
-			y: -2.25d
+			x: 4.16d
+			y: 0.70d
 		}
 		{
 			dependencies: ["159CDB4C3D9EC20C"]
+			hide_dependency_lines: true
 			id: "6F037EB3488A783E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -136,8 +139,8 @@
 				item: { count: 1, id: "createnuclear:coal_dust" }
 				type: "item"
 			}]
-			x: 2.00d
-			y: 2.25d
+			x: 9.92d
+			y: -1.26d
 		}
 		{
 			dependencies: ["6F037EB3488A783E"]
@@ -158,8 +161,8 @@
 				item: { count: 1, id: "createnuclear:steel_ingot" }
 				type: "item"
 			}]
-			x: 4.00d
-			y: 0.75d
+			x: 11.52d
+			y: -2.66d
 		}
 		{
 			dependencies: ["6F037EB3488A783E"]
@@ -176,8 +179,8 @@
 				item: { count: 1, id: "createnuclear:graphene" }
 				type: "item"
 			}]
-			x: 4.00d
-			y: 3.75d
+			x: 11.52d
+			y: 0.14d
 		}
 		{
 			dependencies: ["57473503FCD3E466"]
@@ -197,8 +200,8 @@
 				item: { count: 1, id: "createnuclear:enriched_yellowcake" }
 				type: "item"
 			}]
-			x: 4.00d
-			y: -6.75d
+			x: 4.16d
+			y: -4.06d
 		}
 		{
 			dependencies: ["57473503FCD3E466"]
@@ -214,11 +217,12 @@
 				item: { count: 1, id: "createnuclear:enriching_campfire" }
 				type: "item"
 			}]
-			x: 4.00d
-			y: -5.25d
+			x: 4.16d
+			y: -2.66d
 		}
 		{
 			dependencies: ["159CDB4C3D9EC20C"]
+			hide_dependency_lines: true
 			id: "4CEDC7DDF4C8FF1B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -232,8 +236,8 @@
 				item: { count: 1, id: "createnuclear:nitrate" }
 				type: "item"
 			}]
-			x: 2.00d
-			y: 5.25d
+			x: 9.92d
+			y: 2.10d
 		}
 		{
 			dependencies: ["4CEDC7DDF4C8FF1B"]
@@ -253,8 +257,8 @@
 				item: { count: 1, id: "createnuclear:cooled_nitrogen_concentrate" }
 				type: "item"
 			}]
-			x: 4.00d
-			y: 5.25d
+			x: 11.52d
+			y: 2.10d
 		}
 		{
 			dependencies: ["4A33B09D920E8014"]
@@ -274,17 +278,17 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "4886EA52967E1E6D"
 				item: { count: 1, id: "createnuclear:nitrogen_bucket" }
 				type: "item"
 			}]
-			x: 6.00d
-			y: 5.25d
+			x: 13.12d
+			y: 2.10d
 		}
 		{
-			dependencies: ["5F8CBC3CA31E8AB1", "11754104B301F59E", "64270596AD65C1E2"]
+			dependencies: ["5F8CBC3CA31E8AB1"]
 			hide_dependency_lines: true
 			id: "694C01A21F8B0B65"
 			rewards: [{
@@ -302,7 +306,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "35E4F5301209F1EE"
 				item: { count: 1, id: "createnuclear:uranium_rod" }
@@ -312,11 +316,12 @@
 				item: { count: 1, id: "createnuclear:graphite_rod" }
 				type: "item"
 			}]
-			x: 6.00d
-			y: -6.75d
+			x: 5.76d
+			y: -4.06d
 		}
 		{
 			dependencies: ["159CDB4C3D9EC20C"]
+			hide_dependency_lines: true
 			id: "5E65865C791DC3EA"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -333,11 +338,11 @@
 				item: { count: 1, id: "createnuclear:thorium_dust" }
 				type: "item"
 			}]
-			x: 2.00d
-			y: 6.75d
+			x: 9.92d
+			y: 4.06d
 		}
 		{
-			dependencies: ["5E65865C791DC3EA", "694C01A21F8B0B65"]
+			dependencies: ["694C01A21F8B0B65"]
 			id: "2E47C72CFFC89F4F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -358,11 +363,11 @@
 				item: { count: 1, id: "createnuclear:thorium_rod" }
 				type: "item"
 			}]
-			x: 8.00d
-			y: -6.75d
+			x: 7.36d
+			y: -4.06d
 		}
 		{
-			dependencies: ["64270596AD65C1E2", "7D70EDF96835FDB9"]
+			dependencies: ["64270596AD65C1E2"]
 			id: "14DBA6F6DFD13E92"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -385,8 +390,8 @@
 				item: { count: 1, id: "createnuclear:reactor_frame" }
 				type: "item"
 			}]
-			x: 6.00d
-			y: 0.75d
+			x: 13.12d
+			y: -2.66d
 		}
 		{
 			dependencies: ["14DBA6F6DFD13E92"]
@@ -406,7 +411,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "5E5881071EC1F4BB"
 				item: { count: 1, id: "createnuclear:reactor_controller" }
@@ -420,8 +425,8 @@
 				item: { count: 1, id: "createnuclear:reactor_cooler" }
 				type: "item"
 			}]
-			x: 8.00d
-			y: 0.75d
+			x: 14.72d
+			y: -2.66d
 		}
 		{
 			dependencies: ["340A317C76DEE79A"]
@@ -437,11 +442,11 @@
 				item: { count: 1, id: "createnuclear:reactor_blueprint_item" }
 				type: "item"
 			}]
-			x: 10.00d
-			y: -0.75d
+			x: 16.32d
+			y: -4.06d
 		}
 		{
-			dependencies: ["340A317C76DEE79A", "205A6546613934ED"]
+			dependencies: ["340A317C76DEE79A"]
 			hide_dependency_lines: true
 			id: "55F858B3FBD8456E"
 			rewards: [{
@@ -463,8 +468,8 @@
 				item: { count: 1, id: "createnuclear:reactor_output" }
 				type: "item"
 			}]
-			x: 10.00d
-			y: 0.75d
+			x: 16.32d
+			y: -2.66d
 		}
 		{
 			dependencies: ["340A317C76DEE79A"]
@@ -480,11 +485,11 @@
 				item: { count: 1, id: "createnuclear:reactor_alarm" }
 				type: "item"
 			}]
-			x: 10.00d
-			y: 2.25d
+			x: 16.32d
+			y: -1.26d
 		}
 		{
-			dependencies: ["55F858B3FBD8456E", "4E148D954DE3AF01", "694C01A21F8B0B65"]
+			dependencies: ["55F858B3FBD8456E", "4E148D954DE3AF01"]
 			hide_dependency_lines: true
 			icon: { id: "createnuclear:reactor_core" }
 			id: "29C232FDC9C11FC3"
@@ -507,13 +512,13 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
 				id: "3F0F06A6876429FA"
 				type: "checkmark"
 			}]
-			x: 12.00d
-			y: 0.75d
+			x: 17.92d
+			y: -2.66d
 		}
 	]
 }

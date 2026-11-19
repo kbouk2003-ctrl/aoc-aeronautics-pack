@@ -29,16 +29,17 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "34072A3E700987F3"
 				type: "checkmark"
 			}]
 			x: 0.00d
-			y: -1.88d
+			y: 0.00d
 		}
 		{
 			dependencies: ["588126E989FE5DAD"]
+			hide_dependency_lines: true
 			id: "38EBD7ABD9576794"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -51,8 +52,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(unusual_prehistory:common_fossil_bed)item(unusual_prehistory:uncommon_fossil_bed)item(unusual_prehistory:rare_fossil_bed)item(unusual_prehistory:unusual_fossil_bed))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.00d
-			y: -6.00d
+			x: 2.56d
+			y: -3.50d
 		}
 		{
 			dependencies: ["38EBD7ABD9576794"]
@@ -68,8 +69,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(unusual_prehistory:dirt_matrix)item(unusual_prehistory:sand_matrix)item(unusual_prehistory:gravel_matrix)item(unusual_prehistory:mud_matrix)item(unusual_prehistory:red_sand_matrix)item(unusual_prehistory:snow_matrix))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.00d
-			y: -6.00d
+			x: 4.16d
+			y: -3.50d
 		}
 		{
 			dependencies: ["7AAD2D2E87F59D35"]
@@ -85,8 +86,8 @@
 				item: { count: 1, id: "unusual_prehistory:spiral_fossil" }
 				type: "item"
 			}]
-			x: 6.00d
-			y: -6.75d
+			x: 5.76d
+			y: -4.20d
 		}
 		{
 			dependencies: ["196C6B8C73861819"]
@@ -106,7 +107,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "6DC1B442F8401261"
 				item: { count: 1, id: "unusual_prehistory:transmogrifier" }
@@ -116,8 +117,8 @@
 				item: { count: 1, id: "unusual_prehistory:organic_ooze" }
 				type: "item"
 			}]
-			x: 8.00d
-			y: -6.75d
+			x: 7.36d
+			y: -4.20d
 		}
 		{
 			dependencies: ["1E76576DFEEDC784"]
@@ -136,8 +137,8 @@
 				to_observe: "unusual_prehistory:ammonite"
 				type: "observation"
 			}]
-			x: 10.00d
-			y: -6.75d
+			x: 8.96d
+			y: -4.20d
 		}
 		{
 			dependencies: ["7AAD2D2E87F59D35"]
@@ -153,11 +154,12 @@
 				item: { count: 1, id: "unusual_prehistory:gargantuan_fossil" }
 				type: "item"
 			}]
-			x: 6.00d
-			y: -5.25d
+			x: 5.76d
+			y: -2.80d
 		}
 		{
 			dependencies: ["588126E989FE5DAD"]
+			hide_dependency_lines: true
 			id: "20C8CEC028999859"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -174,8 +176,8 @@
 				item: { count: 1, id: "pelagic_prehistory:ancient_sediment_fossil" }
 				type: "item"
 			}]
-			x: 2.00d
-			y: -3.75d
+			x: 2.56d
+			y: -0.84d
 		}
 		{
 			dependencies: ["20C8CEC028999859"]
@@ -195,7 +197,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "457A234CB0F349AA"
 				item: { count: 1, id: "pelagic_prehistory:analyzer" }
@@ -205,8 +207,8 @@
 				item: { count: 1, id: "pelagic_prehistory:fossil" }
 				type: "item"
 			}]
-			x: 4.00d
-			y: -3.75d
+			x: 4.16d
+			y: -0.84d
 		}
 		{
 			dependencies: ["536C6497DBDF9F81"]
@@ -222,8 +224,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(pelagic_prehistory:dunkleosteus_vial)item(pelagic_prehistory:plesiosaurus_vial)item(pelagic_prehistory:pliosaurus_vial)item(pelagic_prehistory:spinosaurus_vial)item(pelagic_prehistory:henodus_vial)item(pelagic_prehistory:lepidotes_vial)item(pelagic_prehistory:cladoselache_vial)item(pelagic_prehistory:shonisaurus_vial))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 6.00d
-			y: -3.75d
+			x: 5.76d
+			y: -0.84d
 		}
 		{
 			dependencies: ["50B6EF6B44D4CDEF"]
@@ -239,14 +241,14 @@
 				type: "random"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "170FE175D8C561FF"
 				item: { count: 1, id: "pelagic_prehistory:infuser" }
 				type: "item"
 			}]
-			x: 8.00d
-			y: -3.75d
+			x: 7.36d
+			y: -0.84d
 		}
 		{
 			dependencies: ["48B3B960BFEB85C3"]
@@ -267,7 +269,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
 				id: "6EC3C012AE7B76B1"
 				observe_type: 5
@@ -281,11 +283,12 @@
 				to_observe: "pelagic_prehistory:plesiosaurus"
 				type: "observation"
 			}]
-			x: 10.00d
-			y: -3.75d
+			x: 8.96d
+			y: -0.84d
 		}
 		{
 			dependencies: ["588126E989FE5DAD"]
+			hide_dependency_lines: true
 			id: "10CA679C3108E992"
 			rewards: [{
 				id: "55AB1477D74691FC"
@@ -302,7 +305,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "4E27561068BA2530"
 				observe_type: 5
@@ -310,8 +313,8 @@
 				to_observe: "ec_ad:archie"
 				type: "observation"
 			}]
-			x: 2.00d
-			y: 2.25d
+			x: 11.52d
+			y: 0.00d
 		}
 		{
 			dependencies: ["10CA679C3108E992"]
@@ -330,8 +333,8 @@
 				to_observe: "ec_ad:therimoss"
 				type: "observation"
 			}]
-			x: 4.00d
-			y: -2.25d
+			x: 13.12d
+			y: -4.20d
 		}
 		{
 			dependencies: ["10CA679C3108E992"]
@@ -350,8 +353,8 @@
 				to_observe: "ec_ad:lushsaur"
 				type: "observation"
 			}]
-			x: 4.00d
-			y: -0.75d
+			x: 13.12d
+			y: -2.80d
 		}
 		{
 			dependencies: ["10CA679C3108E992"]
@@ -370,8 +373,8 @@
 				to_observe: "ec_ad:coralosaur"
 				type: "observation"
 			}]
-			x: 4.00d
-			y: 0.75d
+			x: 13.12d
+			y: -1.40d
 		}
 		{
 			dependencies: ["10CA679C3108E992"]
@@ -390,8 +393,8 @@
 				to_observe: "ec_ad:obsidiceratops"
 				type: "observation"
 			}]
-			x: 4.00d
-			y: 2.25d
+			x: 13.12d
+			y: 0.00d
 		}
 		{
 			dependencies: ["10CA679C3108E992"]
@@ -410,8 +413,8 @@
 				to_observe: "ec_ad:sculkraptor"
 				type: "observation"
 			}]
-			x: 4.00d
-			y: 3.75d
+			x: 13.12d
+			y: 1.40d
 		}
 		{
 			dependencies: ["5294A259174418A1"]
@@ -430,8 +433,8 @@
 				to_observe: "ec_ad:sculksaur"
 				type: "observation"
 			}]
-			x: 6.00d
-			y: 3.75d
+			x: 14.72d
+			y: 1.40d
 		}
 		{
 			dependencies: ["10CA679C3108E992"]
@@ -450,8 +453,8 @@
 				to_observe: "ec_ad:chorusoatl"
 				type: "observation"
 			}]
-			x: 4.00d
-			y: 5.25d
+			x: 13.12d
+			y: 2.80d
 		}
 		{
 			dependencies: ["1828C61A52A95B9C", "1E44AAC1F1C67836"]
@@ -467,8 +470,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(ec_ad:therimoss_egg)item(ec_ad:lushsaur_egg)item(ec_ad:obsidiceratops_egg)item(ec_ad:chorusoatl_egg)item(ec_ad:sculkraptor_egg))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 6.00d
-			y: -2.25d
+			x: 14.72d
+			y: -4.20d
 		}
 		{
 			dependencies: ["687993285B2BFB28"]
@@ -488,14 +491,14 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
 				id: "59E94D9A31B2F369"
 				item: { components: { "ftbfiltersystem:filter": "or(item(ec_ad:lushsaur_chestplate)item(ec_ad:coralosaur_chestplate)item(ec_ad:obsidiceratops_chestplate)item(ec_ad:chorusoatl_chestplate)item(ec_ad:sculksaur_chestplate)item(ec_ad:lush_mace)item(ec_ad:chorus_scythe)item(ec_ad:sculk_bow)item(ec_ad:rib_bow))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 8.00d
-			y: -2.25d
+			x: 16.32d
+			y: -4.20d
 		}
 		{
 			dependencies: ["10CA679C3108E992"]
@@ -511,8 +514,8 @@
 				item: { count: 1, id: "ec_ad:amber" }
 				type: "item"
 			}]
-			x: 4.00d
-			y: 6.75d
+			x: 13.12d
+			y: 4.20d
 		}
 	]
 }

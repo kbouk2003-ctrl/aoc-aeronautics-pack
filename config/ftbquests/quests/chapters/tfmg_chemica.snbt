@@ -28,7 +28,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "40F666AA013CCC52"
 				item: { count: 1, id: "tfmg:coke_oven" }
@@ -40,7 +40,7 @@
 				type: "item"
 			}]
 			x: 0.00d
-			y: 0.00d
+			y: 3.59d
 		}
 		{
 			dependencies: ["4F8FF06FC5F13404"]
@@ -57,8 +57,8 @@
 				item: { count: 1, id: "tfmg:fireproof_bricks" }
 				type: "item"
 			}]
-			x: 2.00d
-			y: -0.88d
+			x: 1.60d
+			y: 0.17d
 		}
 		{
 			dependencies: ["4F8FF06FC5F13404"]
@@ -74,8 +74,8 @@
 				item: { count: 1, id: "tfmg:blast_stove" }
 				type: "item"
 			}]
-			x: 2.00d
-			y: 0.88d
+			x: 1.60d
+			y: 7.00d
 		}
 		{
 			dependencies: ["7D94DB3F4C56570D", "6DD02A9C15EA46D4"]
@@ -95,7 +95,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "5E009F3FDF1A8413"
 				item: { count: 1, id: "tfmg:blast_furnace_output" }
@@ -109,8 +109,8 @@
 				item: { count: 1, id: "tfmg:blast_furnace_reinforcement" }
 				type: "item"
 			}]
-			x: 4.00d
-			y: -0.88d
+			x: 3.20d
+			y: 0.17d
 		}
 		{
 			dependencies: ["49DC78F14CE8C549"]
@@ -130,7 +130,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				count: 16L
 				id: "3D6BAE4FC194C1D3"
@@ -142,8 +142,8 @@
 				item: { count: 1, id: "tfmg:cast_iron_ingot" }
 				type: "item"
 			}]
-			x: 6.00d
-			y: 0.00d
+			x: 4.80d
+			y: 0.17d
 		}
 		{
 			dependencies: ["6DD02A9C15EA46D4"]
@@ -159,8 +159,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(tfmg:brick_smokestack)item(tfmg:concrete_smokestack)item(tfmg:metal_smokestack)item(tfmg:exhaust))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.00d
-			y: 0.88d
+			x: 3.20d
+			y: 7.00d
 		}
 		{
 			dependencies: ["59221451D8311D29"]
@@ -176,8 +176,8 @@
 				item: { count: 1, id: "tfmg:surface_scanner" }
 				type: "item"
 			}]
-			x: 8.00d
-			y: -2.63d
+			x: 6.40d
+			y: -5.25d
 		}
 		{
 			dependencies: ["4601FAB2D4691A9C"]
@@ -197,7 +197,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "105612D610C6F9EB"
 				item: { count: 1, id: "tfmg:pumpjack_base" }
@@ -211,8 +211,8 @@
 				item: { count: 1, id: "tfmg:pumpjack_hammer" }
 				type: "item"
 			}]
-			x: 10.00d
-			y: -4.38d
+			x: 8.00d
+			y: -5.25d
 		}
 		{
 			dependencies: ["7131F7EEDFE79A57"]
@@ -228,8 +228,8 @@
 				item: { count: 1, id: "tfmg:crude_oil_bucket" }
 				type: "item"
 			}]
-			x: 12.00d
-			y: -1.75d
+			x: 9.60d
+			y: -5.25d
 		}
 		{
 			dependencies: ["1E883D1C2C1B6606"]
@@ -253,7 +253,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
 				id: "4E008AEAE6BC6A7B"
 				item: { count: 1, id: "tfmg:steel_distillation_controller" }
@@ -268,8 +268,8 @@
 				item: { count: 1, id: "tfmg:industrial_pipe" }
 				type: "item"
 			}]
-			x: 14.00d
-			y: 0.00d
+			x: 11.20d
+			y: -5.25d
 		}
 		{
 			dependencies: ["501FC86D82CCAD12"]
@@ -285,8 +285,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(tfmg:diesel_bucket)item(tfmg:gasoline_bucket)item(tfmg:kerosene_bucket)item(tfmg:lpg_bucket)item(tfmg:heavy_oil_bucket))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 16.00d
-			y: -1.75d
+			x: 12.80d
+			y: -7.00d
 		}
 		{
 			dependencies: ["501FC86D82CCAD12"]
@@ -302,8 +302,8 @@
 				item: { count: 1, id: "tfmg:flarestack" }
 				type: "item"
 			}]
-			x: 16.00d
-			y: 0.00d
+			x: 12.80d
+			y: -5.60d
 		}
 		{
 			dependencies: ["73AA660BE062D51A"]
@@ -327,14 +327,14 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "13541F06605298EB"
 				item: { components: { "ftbfiltersystem:filter": "or(item(tfmg:regular_engine)item(tfmg:radial_engine)item(tfmg:large_engine)item(tfmg:turbine_engine)item(tfmg:simple_large_engine))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 18.00d
-			y: -0.88d
+			x: 14.40d
+			y: -7.00d
 		}
 		{
 			dependencies: ["2B5F447A0076B9C0"]
@@ -350,8 +350,8 @@
 				item: { count: 1, id: "tfmg:oil_can" }
 				type: "item"
 			}]
-			x: 20.00d
-			y: -1.75d
+			x: 16.00d
+			y: -7.00d
 		}
 		{
 			dependencies: ["501FC86D82CCAD12"]
@@ -368,8 +368,8 @@
 				item: { count: 1, id: "tfmg:plastic_sheet" }
 				type: "item"
 			}]
-			x: 16.00d
-			y: 1.75d
+			x: 12.80d
+			y: -3.50d
 		}
 		{
 			dependencies: ["59221451D8311D29"]
@@ -393,7 +393,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "4C280FA22C943326"
 				item: { count: 1, id: "tfmg:generator" }
@@ -407,8 +407,8 @@
 				item: { count: 1, id: "tfmg:copper_spool" }
 				type: "item"
 			}]
-			x: 8.00d
-			y: -0.88d
+			x: 6.40d
+			y: -0.00d
 		}
 		{
 			dependencies: ["224752829F981797"]
@@ -424,8 +424,8 @@
 				item: { count: 1, id: "tfmg:electric_motor" }
 				type: "item"
 			}]
-			x: 10.00d
-			y: -2.63d
+			x: 8.00d
+			y: -1.40d
 		}
 		{
 			dependencies: ["224752829F981797"]
@@ -441,8 +441,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(tfmg:voltmeter)item(tfmg:multimeter))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 10.00d
-			y: -0.88d
+			x: 8.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["79280CF6FAD72B1E"]
@@ -462,7 +462,7 @@
 				item: { count: 1, id: "tfmg:transformer" }
 				type: "item"
 			}]
-			x: 12.00d
+			x: 9.60d
 			y: 0.00d
 		}
 		{
@@ -487,8 +487,8 @@
 				item: { count: 1, id: "tfmg:magnet" }
 				type: "item"
 			}]
-			x: 10.00d
-			y: 0.88d
+			x: 8.00d
+			y: 1.40d
 		}
 		{
 			dependencies: ["59221451D8311D29"]
@@ -508,7 +508,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "6607F37A2B2366CB"
 				item: { count: 1, id: "tfmg:cast_iron_chemical_vat" }
@@ -522,8 +522,8 @@
 				item: { count: 1, id: "tfmg:mixer_blade" }
 				type: "item"
 			}]
-			x: 8.00d
-			y: 0.88d
+			x: 6.40d
+			y: 3.50d
 		}
 		{
 			dependencies: ["550626388F07CADE", "224752829F981797"]
@@ -545,8 +545,8 @@
 				item: { count: 1, id: "tfmg:copper_electrode" }
 				type: "item"
 			}]
-			x: 10.00d
-			y: 2.63d
+			x: 8.00d
+			y: 2.80d
 		}
 		{
 			dependencies: ["59221451D8311D29"]
@@ -567,8 +567,8 @@
 				item: { count: 1, id: "tfmg:rebar" }
 				type: "item"
 			}]
-			x: 8.00d
-			y: 2.63d
+			x: 6.40d
+			y: 5.60d
 		}
 		{
 			dependencies: ["550626388F07CADE"]
@@ -588,14 +588,14 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.25d
 			tasks: [{
 				id: "43D88069BC61E246"
 				item: { components: { "ftbfiltersystem:filter": "or(item(chemica:iron_catalyst)item(chemica:copper_catalyst)item(chemica:nickel_catalyst)item(chemica:cobalt_catalyst)item(chemica:platinum_catalyst))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 10.00d
-			y: 4.38d
+			x: 8.00d
+			y: 4.20d
 		}
 		{
 			dependencies: ["6107EB0ADF6579E5"]
@@ -611,8 +611,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(chemica:raw_platinum)item(chemica:raw_cobalt)item(chemica:raw_chromite)item(chemica:raw_molybdenum)item(chemica:raw_antimony))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 12.00d
-			y: 1.75d
+			x: 9.60d
+			y: 4.20d
 		}
 		{
 			dependencies: ["6107EB0ADF6579E5", "41E115E5DB8FDA34"]
@@ -628,8 +628,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(chemica:polyethylene_sheet)item(chemica:polyvinyl_chloride_sheet)item(chemica:polytetrafluoroethylene_sheet)item(chemica:nylon_ingot)item(chemica:cured_epoxy_sheet))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 18.00d
-			y: 0.88d
+			x: 14.40d
+			y: -3.50d
 		}
 		{
 			dependencies: ["45056024A172F661"]
@@ -645,8 +645,8 @@
 				item: { count: 1, id: "chemica:electronic_circuit" }
 				type: "item"
 			}]
-			x: 20.00d
-			y: 0.00d
+			x: 16.00d
+			y: -4.20d
 		}
 		{
 			dependencies: ["45056024A172F661"]
@@ -662,8 +662,8 @@
 				item: { count: 1, id: "chemica:carbon_fiber_composite_sheet" }
 				type: "item"
 			}]
-			x: 20.00d
-			y: 1.75d
+			x: 16.00d
+			y: -2.80d
 		}
 		{
 			dependencies: ["218B6E5B78F4C0D9", "619869C9E9CA99E4"]
@@ -683,14 +683,14 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
 				id: "27F37CB85FA9D611"
 				item: { components: { "ftbfiltersystem:filter": "or(item(chemica:lightweight_tough_alloy)item(chemica:heat_resistant_tough_alloy)item(chemica:advanced_composite_tough_alloy))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 22.00d
-			y: -0.88d
+			x: 17.60d
+			y: -2.80d
 		}
 		{
 			dependencies: ["43DDF224DB158410"]
@@ -706,8 +706,8 @@
 				item: { count: 1, id: "chemica:advanced_circuit_board" }
 				type: "item"
 			}]
-			x: 22.00d
-			y: 0.88d
+			x: 17.60d
+			y: -4.20d
 		}
 	]
 }

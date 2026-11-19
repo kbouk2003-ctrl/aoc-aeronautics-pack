@@ -1,0 +1,667 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hexerei"
+	group: "3007F5F02BA780CD"
+	icon: {
+		id: "hexerei:willow_broom"
+	}
+	id: "1E277457E6BC233C"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "hexerei:book_of_shadows" }
+			id: "3B286A2EDF02A87D"
+			rewards: [{
+				id: "7F43063B9B8DAE18"
+				type: "xp"
+				xp: 150
+			}, {
+				exclude_from_claim_all: true
+				id: "7197811603F82F3E"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "556D8FF4A73C5937"
+				type: "checkmark"
+			}]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["3B286A2EDF02A87D"]
+			id: "22FDBBD35DD48545"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63876E720381CB61"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6F40BA8013AF5F73"
+				item: { count: 1, id: "hexerei:dowsing_rod" }
+				type: "item"
+			}]
+			x: 1.34d
+			y: -2.44d
+		}
+		{
+			dependencies: ["22FDBBD35DD48545"]
+			id: "10E054ED6297A270"
+			rewards: [{
+				id: "3AA3B4C0EBD21E00"
+				type: "xp"
+				xp: 150
+			}, {
+				exclude_from_claim_all: true
+				id: "4FD613C4CC80778E"
+				table_id: 5249651026717322459L
+				type: "random"
+			}, {
+				id: "3F478BABFBD571A6"
+				item: { count: 4, id: "hexerei:sage" }
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "66163F3C3C627BCF"
+				item: { components: { "ftbfiltersystem:filter": "or(item(hexerei:mandrake_flowers)item(hexerei:belladonna_flowers)item(hexerei:mugwort_flowers)item(hexerei:yellow_dock_flowers))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.40d
+			y: -2.80d
+		}
+		{
+			dependencies: ["10E054ED6297A270"]
+			id: "71D2C72707A62B6E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7166381E8FAF16B6"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7E32DB6D07699A79"
+				item: { count: 1, id: "hexerei:mandrake_root" }
+				type: "item"
+			}, {
+				id: "68BEEEB45E8BE71D"
+				item: { count: 1, id: "hexerei:mugwort_leaves" }
+				type: "item"
+			}]
+			x: 4.86d
+			y: -5.36d
+		}
+		{
+			dependencies: ["3B286A2EDF02A87D"]
+			id: "3CB1A19DC8142B54"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5265B1FA6CAEAE52"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "27E0DCC261F6C435"
+				item: { count: 1, id: "hexerei:sage_seed" }
+				type: "item"
+			}]
+			x: 1.94d
+			y: -1.64d
+		}
+		{
+			dependencies: ["3CB1A19DC8142B54"]
+			id: "68C0729B066A0EE7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48816F5A80CC5D05"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 4L
+				id: "3A3215B766BA06E6"
+				item: { count: 1, id: "hexerei:sage" }
+				type: "item"
+			}]
+			x: 3.76d
+			y: -1.76d
+		}
+		{
+			dependencies: ["3B286A2EDF02A87D"]
+			id: "4400A3DFD1C93093"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E7573FBC03C6A1A"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5076151F5DF7826B"
+				item: { components: { "ftbfiltersystem:filter": "or(item(hexerei:willow_log)item(hexerei:witch_hazel_log)item(hexerei:mahogany_log))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.82d
+			y: -0.12d
+		}
+		{
+			dependencies: ["3B286A2EDF02A87D"]
+			id: "35807B6FC4C5900E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "799017A1A97C270D"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 4L
+				id: "1F85563F374B8E06"
+				item: { count: 1, id: "hexerei:animal_fat" }
+				type: "item"
+			}]
+			x: 1.82d
+			y: 1.28d
+		}
+		{
+			dependencies: ["4400A3DFD1C93093"]
+			id: "79AF31F2C27F34BE"
+			rewards: [{
+				id: "120C60114FD5E4A6"
+				type: "xp"
+				xp: 150
+			}, {
+				exclude_from_claim_all: true
+				id: "128188601E98A4AD"
+				table_id: 5249651026717322459L
+				type: "random"
+			}, {
+				id: "38FE73D9326B89D3"
+				item: { count: 8, id: "minecraft:glass_bottle" }
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "68779DEE51CE3E19"
+				item: { count: 1, id: "hexerei:mixing_cauldron" }
+				type: "item"
+			}]
+			x: 3.40d
+			y: 0.00d
+		}
+		{
+			dependencies: ["35807B6FC4C5900E", "79AF31F2C27F34BE"]
+			id: "3A38C238BE8FD2A2"
+			rewards: [{
+				id: "3D87918EF4C2C28A"
+				type: "xp"
+				xp: 150
+			}, {
+				exclude_from_claim_all: true
+				id: "3854557CAA7CAB54"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "1ED277FEADEE481D"
+				item: { count: 1, id: "hexerei:book_of_shadows" }
+				type: "item"
+			}, {
+				id: "3598AA264A344C82"
+				item: { count: 1, id: "hexerei:book_of_shadows_altar" }
+				type: "item"
+			}]
+			x: 5.22d
+			y: -4.32d
+		}
+		{
+			dependencies: ["10E054ED6297A270"]
+			id: "4E92DE08F9D99B07"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AD068CF8C826AAD"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1D353286774B1C4F"
+				item: { count: 1, id: "hexerei:herb_drying_rack" }
+				type: "item"
+			}]
+			x: 4.98d
+			y: -2.68d
+		}
+		{
+			dependencies: ["79AF31F2C27F34BE"]
+			id: "7FEFB32527A6D60C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E6733C49B77536F"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "52E012672B775C6A"
+				item: { count: 1, id: "hexerei:pestle_and_mortar" }
+				type: "item"
+			}]
+			x: 5.10d
+			y: -1.40d
+		}
+		{
+			dependencies: ["79AF31F2C27F34BE", "71D2C72707A62B6E"]
+			id: "1A6AC5E60FB92122"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DC6778A28821659"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "125A91D593C6AFD7"
+				item: { count: 1, id: "hexerei:wet_broom_brush" }
+				type: "item"
+			}]
+			x: 6.68d
+			y: -2.68d
+		}
+		{
+			dependencies: ["1A6AC5E60FB92122", "4E92DE08F9D99B07"]
+			id: "7F4CDC2BB810D563"
+			rewards: [{
+				id: "558901CC8294FC58"
+				type: "xp"
+				xp: 150
+			}, {
+				exclude_from_claim_all: true
+				id: "114348D4F6684852"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "7DF41C0B057C4033"
+				item: { count: 1, id: "hexerei:broom_brush" }
+				type: "item"
+			}]
+			x: 8.50d
+			y: -0.70d
+		}
+		{
+			dependencies: ["7F4CDC2BB810D563"]
+			id: "772A109C3EAA419B"
+			rewards: [{
+				id: "799BB3B69D8A26DB"
+				type: "xp"
+				xp: 300
+			}, {
+				exclude_from_claim_all: true
+				id: "70A504EFD7DA0621"
+				table_id: 5249651026717322459L
+				type: "random"
+			}, {
+				id: "26771B5323228708"
+				item: { count: 1, id: "hexerei:broom_brush" }
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "6298986D47A9A2B9"
+				item: { components: { "ftbfiltersystem:filter": "or(item(hexerei:willow_broom)item(hexerei:witch_hazel_broom)item(hexerei:mahogany_broom))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 10.20d
+			y: -0.70d
+		}
+		{
+			dependencies: ["7F4CDC2BB810D563"]
+			id: "217EFC945E8CE1E8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C3344D3412E97A4"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2427AB584BCAAD72"
+				item: { count: 1, id: "hexerei:herb_enhanced_broom_brush" }
+				type: "item"
+			}]
+			x: 10.56d
+			y: 0.34d
+		}
+		{
+			dependencies: ["217EFC945E8CE1E8", "10A883473C3DA899"]
+			id: "6429DE7D36989F59"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7099A004337480A0"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "171A6F5FC54A5ACA"
+				item: { count: 1, id: "hexerei:moon_dust_brush" }
+				type: "item"
+			}]
+			x: 12.02d
+			y: -2.22d
+		}
+		{
+			dependencies: ["772A109C3EAA419B"]
+			id: "123855EB973313EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3714A96E1D64A4F4"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3D288A4989DAE56A"
+				item: { components: { "ftbfiltersystem:filter": "or(item(hexerei:small_satchel)item(hexerei:medium_satchel)item(hexerei:large_satchel)item(hexerei:replacer_satchel)item(hexerei:ender_satchel))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 12.02d
+			y: -0.82d
+		}
+		{
+			dependencies: ["772A109C3EAA419B"]
+			id: "18AAF256CD71B68B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EDBDDEA68F7A0DA"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "23A53E02981DEAD9"
+				item: { components: { "ftbfiltersystem:filter": "or(item(hexerei:broom_netherite_tip)item(hexerei:broom_waterproof_tip)item(hexerei:broom_seat)item(hexerei:gold_rings)item(hexerei:broom_keychain))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 11.78d
+			y: 0.82d
+		}
+		{
+			dependencies: ["772A109C3EAA419B"]
+			id: "4B9196FCF9FADF06"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A20FB6476581E77"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6933EB7AA3006512"
+				item: { count: 1, id: "hexerei:broom_whistle" }
+				type: "item"
+			}]
+			x: 12.14d
+			y: 1.86d
+		}
+		{
+			dependencies: ["79AF31F2C27F34BE"]
+			id: "2E012505314422C9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F97C4712D8729B3"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7ABB55DC5CE44149"
+				item: { count: 1, id: "hexerei:blood_sigil" }
+				type: "item"
+			}, {
+				id: "7AB714562A052D58"
+				item: { count: 1, id: "hexerei:blood_bottle" }
+				type: "item"
+			}]
+			x: 5.34d
+			y: -0.24d
+		}
+		{
+			dependencies: ["79AF31F2C27F34BE", "35807B6FC4C5900E"]
+			id: "78932BE062527B22"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BF73B4BBF609FE4"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4BBCE6F37F094FF7"
+				item: { count: 1, id: "hexerei:candle_dipper" }
+				type: "item"
+			}]
+			x: 5.22d
+			y: 1.28d
+		}
+		{
+			dependencies: ["78932BE062527B22"]
+			id: "7D485E86DA305EAB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "369AE2C42CDD33AA"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 4L
+				id: "6DD5A521A052613E"
+				item: { count: 1, id: "hexerei:candle" }
+				type: "item"
+			}]
+			x: 6.68d
+			y: -1.28d
+		}
+		{
+			dependencies: ["68C0729B066A0EE7", "4E92DE08F9D99B07"]
+			id: "3804E5BA4A68DF98"
+			rewards: [{
+				id: "2ACBA7F4C4213BC4"
+				type: "xp"
+				xp: 150
+			}, {
+				exclude_from_claim_all: true
+				id: "4B0BC98801131A43"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "2C8D9335D03E4521"
+				item: { count: 1, id: "hexerei:dried_sage_bundle" }
+				type: "item"
+			}, {
+				id: "227AF605DDCF21AB"
+				item: { count: 1, id: "hexerei:sage_burning_plate" }
+				type: "item"
+			}]
+			x: 7.04d
+			y: -0.24d
+		}
+		{
+			dependencies: ["7FEFB32527A6D60C"]
+			id: "6F8BBA69CAC26FDE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1879CFA23466D8D0"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 4L
+				id: "29E9AC18BB8406B0"
+				item: { count: 1, id: "hexerei:seed_mixture" }
+				type: "item"
+			}]
+			x: 6.56d
+			y: 1.64d
+		}
+		{
+			dependencies: ["6F8BBA69CAC26FDE"]
+			id: "41E8B8A62D8BF3B5"
+			rewards: [{
+				id: "14EFD6BE2EB2BC08"
+				type: "xp"
+				xp: 150
+			}, {
+				exclude_from_claim_all: true
+				id: "102475759CE88521"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "7E51D4D43A50209B"
+				item: { count: 1, id: "hexerei:crow_flute" }
+				type: "item"
+			}]
+			x: 8.74d
+			y: 0.46d
+		}
+		{
+			dependencies: ["3B286A2EDF02A87D"]
+			icon: { id: "hexerei:courier_letter" }
+			id: "2A5F7D2C0DD5B62A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FF6FC9F94C79F43"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5031140E1CFE6F20"
+				type: "checkmark"
+			}]
+			x: 1.46d
+			y: 3.04d
+		}
+		{
+			dependencies: ["79AF31F2C27F34BE"]
+			id: "140EB912847BCE6E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F8176AB78083AF5"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2379DC426BCFA58F"
+				item: { components: { "ftbfiltersystem:filter": "or(item(hexerei:coffer)item(hexerei:herb_jar))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.86d
+			y: 3.04d
+		}
+		{
+			dependencies: ["22FDBBD35DD48545"]
+			id: "2746B3F84AB95677"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "265EE106E0190590"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 4L
+				id: "2EE5076094780DD4"
+				item: { count: 1, id: "hexerei:selenite_shard" }
+				type: "item"
+			}]
+			x: 3.04d
+			y: 1.76d
+		}
+		{
+			dependencies: ["2746B3F84AB95677", "79AF31F2C27F34BE"]
+			id: "10A883473C3DA899"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "374064A13BEBFA00"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7173AAC6E436E83F"
+				item: { count: 1, id: "hexerei:crystal_ball" }
+				type: "item"
+			}]
+			x: 4.74d
+			y: 4.56d
+		}
+		{
+			dependencies: ["79AF31F2C27F34BE"]
+			id: "16F8F7C9B4974B9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76AC4AC7D0140D75"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 4L
+				id: "3113F934982305D8"
+				item: { count: 1, id: "hexerei:infused_fabric" }
+				type: "item"
+			}]
+			x: 4.98d
+			y: 5.72d
+		}
+		{
+			dependencies: ["16F8F7C9B4974B9C"]
+			id: "60D0A8B123FB02AD"
+			rewards: [{
+				id: "2270B96B88542A95"
+				type: "xp"
+				xp: 300
+			}, {
+				exclude_from_claim_all: true
+				id: "5388C83721F6CC21"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3BB1A0581D168E89"
+				item: { components: { "ftbfiltersystem:filter": "or(item(hexerei:witch_helmet)item(hexerei:witch_chestplate)item(hexerei:witch_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.04d
+			y: 2.56d
+		}
+		{
+			dependencies: ["22FDBBD35DD48545"]
+			id: "1D88CA6B200B49CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "596E5C2A06DE1968"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4650E87698E60622"
+				structure: "hexerei:dark_coven"
+				type: "structure"
+			}, {
+				id: "5832974B043CF421"
+				structure: "hexerei:witch_hut"
+				type: "structure"
+			}]
+			x: 3.04d
+			y: 3.16d
+		}
+	]
+}

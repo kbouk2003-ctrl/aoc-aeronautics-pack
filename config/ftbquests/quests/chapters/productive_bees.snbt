@@ -743,6 +743,7 @@
 		}
 		{
 			dependencies: ["42C8BBC8C094CED6"]
+			icon: { id: "minecraft:wooden_pickaxe" }
 			id: "7EA3027E222D1791"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -751,16 +752,15 @@
 				type: "loot"
 			}]
 			tasks: [{
-				count: 9L
 				id: "1A70FD5371C449A2"
-				item: { count: 1, id: "productivebees:stone_chip" }
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 11.07d
 			y: 4.08d
 		}
 		{
 			dependencies: ["42C8BBC8C094CED6"]
+			icon: { id: "minecraft:wooden_axe" }
 			id: "7FE3263A88253BA6"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -769,10 +769,8 @@
 				type: "loot"
 			}]
 			tasks: [{
-				count: 9L
 				id: "779348F827721740"
-				item: { count: 1, id: "productivebees:wood_chip" }
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 11.07d
 			y: 5.28d
@@ -814,6 +812,7 @@
 		}
 		{
 			dependencies: ["418BAA5F8E0E1C75"]
+			icon: { id: "productivebees:gene_indexer" }
 			id: "412583672798CC1D"
 			rewards: [{
 				id: "69BEBABF3A7FF241"

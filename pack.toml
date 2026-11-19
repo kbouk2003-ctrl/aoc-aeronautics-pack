@@ -1,12 +1,12 @@
 name = "All of Create Aeronautics - Custom"
 author = "xTheAncientOne"
-version = "1.0.19"
+version = "1.0.20"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "bb6efa2d8fb6f4a6b97f1d566a715adbcbaac9564b16fc59029d46e07856128a"
+hash = "21cfa5c7e19e253a3d1910a4d84de3fb73311bf62d77ab0a705b3ddc6f32c259"
 
 [versions]
 minecraft = "1.21.1"

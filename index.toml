@@ -1198,7 +1198,7 @@ hash = "8875e71ba73a27f960d9fb1ff5fb0dc1a5f18e863b333f2bdd60c03c01e80a90"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/productive_bees.snbt"
-hash = "602e9b554ab983bbd3fa8176e265a4a6e1f25837b4654d901a3f8319fe15bbb0"
+hash = "90bc088b58bd6e84216e185763060552fd0ff855e32ce827715507d77a158f11"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/propulsion.snbt"

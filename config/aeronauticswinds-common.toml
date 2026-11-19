@@ -367,9 +367,9 @@
 	#Damage entities that linger in freezing water, and expose them to frostbite.
 	enableHypothermiaDamage = true
 	#Enable glass-roofed and heated greenhouse climate protection for crops.
-	enableGreenhouses = true
+	enableGreenhouses = false
 	#Players resting in a sealed greenhouse warmer than 30 C slowly regenerate, like in a sauna.
-	enableGreenhouseSauna = true
+	enableGreenhouseSauna = false
 	#Let tagged heat and cooling sources convert nearby water between plain, hot, steaming, cold and chilled. Sources and rates are data-driven through the aeronauticswinds heat/cooling tags.
 	enableThermalFluidConversion = true
 	#Ticks between thermal conversion passes. Each pass may move a position one step along the ladder, so this is how fast water heats or chills.

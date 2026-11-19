@@ -94,7 +94,7 @@
 	#.
 	#.
 	#When enabled, certain items may emit radiation affecting players and nearby entities. Disable to turn off radiation effects without removing items.
-	enabled_item_radiation = true
+	enabled_item_radiation = false
 	#.
 	#Minimum radiation value required to apply Radiation I. Values below this do not apply effects.
 	# Default: 10

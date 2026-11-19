@@ -86,7 +86,7 @@ hash = "62666d642876e692ae82c160755a514436e7e1eb51d85ef6deb3a103a549322d"
 
 [[files]]
 file = "config/aeronauticswinds-common.toml"
-hash = "6dba2b4a0417dec2e10f52d0fa28bb5bc9d619baebaba29a3e5b0cc60da08c47"
+hash = "4f448bc5c35ad6e1e137c84233cc2ded8a76c120fc5480ffc299c19798abf35d"
 
 [[files]]
 file = "config/aeroworks-client.toml"
@@ -626,7 +626,7 @@ hash = "63419ce6dbd93b999823307b534b7f363706bfc049c9b6a9fb6c6434e5e5afae"
 
 [[files]]
 file = "config/createnuclear-server.toml"
-hash = "241118cca5d7049216074fb45474b7a7f965507d55ee45162605f831c0e9cf89"
+hash = "a5f13cb823b1eb3a68e6309119815a4f20ea64f109d2466db301b8588da5607d"
 
 [[files]]
 file = "config/createornithopterglider-common.toml"

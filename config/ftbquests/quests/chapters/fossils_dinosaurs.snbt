@@ -17,12 +17,16 @@
 			rewards: [{
 				id: "6ABBB36579BBBABA"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "506CB33F572DDBF7"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "7C434109320ED813"
+				item: { count: 1, id: "minecraft:brush" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -90,12 +94,16 @@
 			rewards: [{
 				id: "5A2655F88AF7CF65"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "3E84B252B7AFB592"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "58631657913902B2"
+				item: { count: 4, id: "unusual_prehistory:organic_ooze" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -175,12 +183,16 @@
 			rewards: [{
 				id: "1154B761D9AAA418"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "3AE575243CF383A2"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "4F643E898C1AD6B1"
+				item: { count: 4, id: "pelagic_prehistory:ancient_sediment_fossil" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -219,7 +231,7 @@
 			rewards: [{
 				id: "5754C4FBC61381C9"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "3EA56004BA27DE94"
@@ -243,12 +255,16 @@
 			rewards: [{
 				id: "55F0781736847E92"
 				type: "xp"
-				xp: 200
+				xp: 300
 			}, {
 				exclude_from_claim_all: true
 				id: "521C428818156781"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "3134CD81DD949550"
+				item: { count: 1, id: "minecraft:heart_of_the_sea" }
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 2.0d
@@ -274,12 +290,16 @@
 			rewards: [{
 				id: "55AB1477D74691FC"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "5E021AD3C624CC47"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "3A822B49B6D3ACA9"
+				item: { count: 1, id: "ec_ad:guidebook" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -456,12 +476,16 @@
 			rewards: [{
 				id: "10E485EE4722362E"
 				type: "xp"
-				xp: 200
+				xp: 300
 			}, {
 				exclude_from_claim_all: true
 				id: "343BF71EA3C8792D"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "770C2DCEFCEAE15D"
+				item: { count: 16, id: "ec_ad:amber" }
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 2.0d

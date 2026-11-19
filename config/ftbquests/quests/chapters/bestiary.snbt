@@ -17,12 +17,16 @@
 			rewards: [{
 				id: "1B6A24E640DD4161"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "50BAABC79113FF3E"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "4BB966B340F4C9F8"
+				item: { count: 1, id: "minecraft:spyglass" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -422,12 +426,16 @@
 			rewards: [{
 				id: "62BAE8FEBABF1221"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "68CDD9EC5EC47A64"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "78EAC4D300872A37"
+				item: { count: 16, id: "minecraft:cooked_cod" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -704,12 +712,16 @@
 			rewards: [{
 				id: "20BB309203F5BC61"
 				type: "xp"
-				xp: 200
+				xp: 300
 			}, {
 				exclude_from_claim_all: true
 				id: "1D5669E95C562818"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "1475EC40CCB8FC27"
+				item: { count: 2, id: "minecraft:golden_apple" }
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 2.0d
@@ -730,12 +742,16 @@
 			rewards: [{
 				id: "78BF0FAC8506162B"
 				type: "xp"
-				xp: 200
+				xp: 300
 			}, {
 				exclude_from_claim_all: true
 				id: "1C4FB6F18A7BA7C2"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "2DEA959CBB230C2A"
+				item: { count: 2, id: "minecraft:golden_apple" }
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 2.0d

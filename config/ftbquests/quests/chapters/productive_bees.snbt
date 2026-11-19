@@ -17,12 +17,20 @@
 			rewards: [{
 				id: "4897A8EC51731F77"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "1AA37AE772BC9797"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "6FF6FB3765193F83"
+				item: { count: 4, id: "productivebees:bee_cage" }
+				type: "item"
+			}, {
+				id: "203262B40D041DD8"
+				item: { count: 8, id: "productivebees:honey_treat" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -41,6 +49,10 @@
 				id: "6A27F76E0E9E76AD"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "3343628D47D518C8"
+				item: { count: 4, id: "productivebees:honey_treat" }
+				type: "item"
 			}]
 			tasks: [{
 				id: "5CE5E38DDF570544"
@@ -91,12 +103,16 @@
 			rewards: [{
 				id: "47AA92D926B53EB3"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "40F8CB86E18F6054"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "451BC82F174F5C03"
+				item: { count: 1, id: "productivebees:sturdy_bee_cage" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -115,12 +131,16 @@
 			rewards: [{
 				id: "6E740A21CAA444D9"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "16C9A3F93A58C110"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "772DC5F253EA9BED"
+				item: { count: 4, id: "productivebees:bee_cage" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -140,6 +160,10 @@
 				id: "528FC91B61C07BB1"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "3B2363CB528E3237"
+				item: { count: 16, id: "productivebees:wax" }
+				type: "item"
 			}]
 			tasks: [{
 				id: "2BB5516F2E592219"
@@ -191,12 +215,16 @@
 			rewards: [{
 				id: "55F0B4D908BA0BFD"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "1860FA0CE963D0AD"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "3BED0E9A4D3FCD79"
+				item: { count: 16, id: "productivebees:honey_treat" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -266,12 +294,20 @@
 			rewards: [{
 				id: "12E8A555EF191592"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "7015F67B2786D19F"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "2D79C40B79CFD18E"
+				item: { count: 16, id: "productivebees:honey_treat" }
+				type: "item"
+			}, {
+				id: "45C5468786158635"
+				item: { count: 4, id: "productivebees:bee_cage" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -326,6 +362,10 @@
 				id: "2F9D92332E41F932"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "6D0BCD75FC81DDE8"
+				item: { count: 4, id: "productivebees:bee_cage" }
+				type: "item"
 			}]
 			tasks: [{
 				id: "67F0F5BE69A31825"
@@ -374,12 +414,16 @@
 			rewards: [{
 				id: "3B33DC39213CAB9E"
 				type: "xp"
-				xp: 200
+				xp: 300
 			}, {
 				exclude_from_claim_all: true
 				id: "54F71A431068668B"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "18289F77D3C7EB27"
+				item: { count: 8, id: "productivebees:draconic_dust" }
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 2.0d
@@ -401,7 +445,7 @@
 			rewards: [{
 				id: "4773E35998D0ECB9"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "60551A2037252605"
@@ -478,6 +522,10 @@
 				id: "69BEBABF3A7FF241"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "1C9750FBB7AD5706"
+				item: { count: 16, id: "productivebees:honey_treat" }
+				type: "item"
 			}]
 			tasks: [{
 				id: "4CF3DEF857B86271"

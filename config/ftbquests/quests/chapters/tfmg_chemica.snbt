@@ -16,12 +16,16 @@
 			rewards: [{
 				id: "6143AA1578721032"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "395E8EC853F46A3B"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "3D9FA41FBA7F4490"
+				item: { count: 16, id: "tfmg:coal_coke" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -79,12 +83,16 @@
 			rewards: [{
 				id: "105B612A2945EF78"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "5E9A165E34CAA770"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "5D00883A0272DF42"
+				item: { count: 32, id: "tfmg:fireproof_bricks" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -110,12 +118,16 @@
 			rewards: [{
 				id: "49072AC52A26506D"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "2CDE990DD9F86D2E"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "599AA0D2813C465D"
+				item: { count: 16, id: "tfmg:steel_ingot" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -173,12 +185,16 @@
 			rewards: [{
 				id: "22EF05D9127FCB7A"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "172D72DD85A71A92"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "504C2220A5EC073D"
+				item: { count: 16, id: "tfmg:industrial_pipe" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -221,12 +237,20 @@
 			rewards: [{
 				id: "6D9FF8AB7C0B79CB"
 				type: "xp"
-				xp: 200
+				xp: 300
 			}, {
 				exclude_from_claim_all: true
 				id: "7DDC58F198F0AD50"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "7B5263D25054C97C"
+				item: { count: 2, id: "tfmg:diesel_bucket" }
+				type: "item"
+			}, {
+				id: "7582CB2F88858D29"
+				item: { count: 2, id: "tfmg:gasoline_bucket" }
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 2.0d
@@ -287,12 +311,20 @@
 			rewards: [{
 				id: "5138358B04B2625C"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "60E0B18CB962BCE5"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "3F27771223070F9E"
+				item: { count: 1, id: "tfmg:oil_can" }
+				type: "item"
+			}, {
+				id: "77F7D00087FABDFE"
+				item: { count: 2, id: "tfmg:diesel_bucket" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -345,12 +377,20 @@
 			rewards: [{
 				id: "2B0DE59E3E9F21DD"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "3764770D27B08F95"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "3A66D660E4255153"
+				item: { count: 8, id: "tfmg:copper_spool" }
+				type: "item"
+			}, {
+				id: "17A16C5527DE2DA4"
+				item: { count: 4, id: "tfmg:cable_connector" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -456,12 +496,16 @@
 			rewards: [{
 				id: "3D7DC8BC9F15C6C5"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "1ACD8C8035A2165A"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "3E1A7E44C1C1B49F"
+				item: { count: 2, id: "tfmg:copper_electrode" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -532,12 +576,16 @@
 			rewards: [{
 				id: "436135198B3629C4"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "6F3A9DBB495898E3"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "420D4D38B1EA9D2D"
+				item: { count: 2, id: "chemica:platinum_ingot" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -623,12 +671,16 @@
 			rewards: [{
 				id: "25D33330C79C8645"
 				type: "xp"
-				xp: 200
+				xp: 300
 			}, {
 				exclude_from_claim_all: true
 				id: "4B137ADF3C8F5FAA"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "25973CA977028F9C"
+				item: { count: 8, id: "chemica:carbon_fiber_composite_sheet" }
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 2.0d

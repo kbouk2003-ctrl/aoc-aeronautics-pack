@@ -1094,6 +1094,8 @@
 	quest.7D9A83C03F09B32D.quest_subtitle: "Closes a &bCold Room&r. A closed, cooled room lets its machines go past &6&lCreate&r's speed limit"
 	quest.7D9A83C03F09B32D.title: "Craft Cold Wall"
 	task.2580903E68006A2E.title: "Welcome To FrostWork"
+	chapter_group.3007F5F02BA780CD.title: "&5&l&nAdventure \\& Magic"
+	chapter_group.2E7DE7DF3538D0B0.title: "&2&l&nWildlife"
 	quest.5B7C9793F7DC7810.title: "&6Cannon Mount"
 	quest.5B7C9793F7DC7810.quest_subtitle: "Every big cannon sits on a &6Cannon Mount&r to be assembled, aimed and fired"
 	quest.5B7C9793F7DC7810.quest_desc: [
@@ -1140,9 +1142,7 @@
 	quest.6D1A79EB0A7BCE18.title: "&6Cannon Drill"
 	quest.6D1A79EB0A7BCE18.quest_subtitle: "Bores out cast cannon blocks"
 	quest.6D1A79EB0A7BCE18.quest_desc: [
-		"Needs &erotation&r and &bwater&r, and uses more water the faster it spins."
-		"Its speed must &ematch the lathe&r spinning the cannon block."
-		"Boring drops scrap you can recycle."
+		"Set the cannon block spinning on a lathe, point the drill at it, and run both at the same speed."
 	]
 	quest.1515D9DB0BDE0E83.title: "A Real Cannon"
 	quest.1515D9DB0BDE0E83.quest_subtitle: "&6Cast Iron&r barrels and chambers hold far more powder than logs"
@@ -1271,7 +1271,7 @@
 	quest.2BE331FCF202EB41.title: "&bSlipgates"
 	quest.2BE331FCF202EB41.quest_subtitle: "Teleport items or fluids to a linked gate on the same frequency, even across dimensions"
 	quest.2BE331FCF202EB41.quest_desc: [
-		"Run them on Stabilized Phase Fluid and every item arrives safely."
+		"Place two gates and give them the same frequency. Whatever goes into one comes out the other, even in another dimension."
 	]
 	quest.32BC428A06F9B7B5.title: "Phase Sticker"
 	quest.32BC428A06F9B7B5.quest_subtitle: "Each redstone pulse locks or releases your ship in place, even in midair"
@@ -1285,7 +1285,7 @@
 	quest.7EFC83F69A99504C.title: "&6A.P.E.X. Unit"
 	quest.7EFC83F69A99504C.quest_subtitle: "Cages an anomaly and turns it into rotation with a huge stress capacity"
 	quest.7EFC83F69A99504C.quest_desc: [
-		"&eSneak-right-click&r the Base with a Wrench to build the whole unit from your inventory."
+		"Run it up to &elevel 9&r for the Nexus chain. Check its stress output with Goggles."
 	]
 	quest.7CB6DCA0F0AD91F4.title: "Rift Ichor"
 	quest.7CB6DCA0F0AD91F4.quest_subtitle: "At level 9, an &6Anomaly Manipulator&r below the anomaly collects &dRift Ichor Chunks&r"
@@ -1325,6 +1325,9 @@
 	quest.20DF7575772D5E75.quest_subtitle: "Saves cable links into schematics and restores them when the ship comes back"
 	quest.770698375D87B0AE.title: "&6Track Mount"
 	quest.770698375D87B0AE.quest_subtitle: "&eRight-click&r it with track parts to attach suspension tracks or drive wheels"
+	quest.770698375D87B0AE.quest_desc: [
+		"Hold track parts and &eright-click&r the mount. Several mounts in a row make one long tread."
+	]
 	quest.1C14E3235F6C232A.title: "Tank Treads"
 	quest.1C14E3235F6C232A.quest_subtitle: "Tracked ground travel for heavy vehicles"
 	quest.4F4D0FF61C9C516F.title: "Suspension Key"
@@ -1338,8 +1341,7 @@
 	quest.631FE19803FE6ACA.title: "&cGo-Karts"
 	quest.631FE19803FE6ACA.quest_subtitle: "Karts are built by &eSequenced Assembly&r: Deployers above a Depot or Belt"
 	quest.631FE19803FE6ACA.quest_desc: [
-		"Start with a &6Kart Chassis&r on the Depot, then deploy the parts in order, starting with 4 Wheels."
-		"&eSneak-right-click&r a kart with dye to recolour it."
+		"Tip: set up the Deployers once and you can mass-produce karts for races."
 	]
 	quest.426043C08F6938F3.title: "Track Day"
 	quest.426043C08F6938F3.quest_subtitle: "Glue Applicators replace a floor block and coat kart wheels: grip or slide like ice"
@@ -1358,6 +1360,9 @@
 	quest.4A280853246EEE08.quest_subtitle: "Drag physical structures up to 24 blocks away. Loses durability while holding"
 	quest.7A5066A7E217E3F0.title: "Structure Tool"
 	quest.7A5066A7E217E3F0.quest_subtitle: "Save, weld, move, rotate and disconnect physical structures. Switch modes with &eTab&r"
+	quest.7A5066A7E217E3F0.quest_desc: [
+		"Tab switches modes. This survival version can save, weld, move, rotate and disconnect, but not load or delete."
+	]
 	quest.2E3E3781BFF083BA.title: "Ship in a Bottle"
 	quest.2E3E3781BFF083BA.quest_subtitle: "Stores one whole physical structure inside an item"
 	quest.1D3CD000706C0C39.title: "&6Rope Launcher"
@@ -1366,6 +1371,9 @@
 	quest.13E92C3933678534.quest_subtitle: "A rope launcher you can build onto a ship"
 	quest.1BB4787019AA68E6.title: "&6AeroClaims"
 	quest.1BB4787019AA68E6.quest_subtitle: "Claim your build. Open the menu to activate the claim and check its owner"
+	quest.1BB4787019AA68E6.quest_desc: [
+		"Place the Claim Block on your build and open its menu to activate the claim."
+	]
 	quest.7C36AC287724FCA7.title: "&eOrnithopter Glider"
 	quest.7C36AC287724FCA7.quest_subtitle: "A flapping-wing glider made with &eMechanical Crafting&r"
 	quest.3202B3169AC7D75E.title: "&dRoller Coasters"
@@ -1390,6 +1398,9 @@
 	quest.57473503FCD3E466.quest_subtitle: "&eCrush&r raw uranium. Can be fully automated"
 	quest.40A4A7914E2394B8.title: "&7Lead"
 	quest.40A4A7914E2394B8.quest_subtitle: "Mine lead ore and smelt it. Lead keeps the radiation in"
+	quest.40A4A7914E2394B8.quest_desc: [
+		"&cRadiation is real here.&r Craft the anti-radiation suit before you handle a lot of uranium."
+	]
 	quest.59B08375072097FB.title: "&eAnti-Radiation Suit"
 	quest.59B08375072097FB.quest_subtitle: "Protects you from radiation. You can dye it any color"
 	quest.7D70EDF96835FDB9.title: "Reinforced Glass"
@@ -1426,6 +1437,9 @@
 	quest.340A317C76DEE79A.quest_subtitle: "The controller runs it, the core harnesses it, the cooler keeps it in check"
 	quest.4E148D954DE3AF01.title: "Reactor Blueprint"
 	quest.4E148D954DE3AF01.quest_subtitle: "Design the layout of rods inside your reactor"
+	quest.4E148D954DE3AF01.quest_desc: [
+		"Plan where uranium, graphite and thorium rods go before you load fuel. Ponder shows how the blueprint is used."
+	]
 	quest.55F858B3FBD8456E.title: "Inputs and Outputs"
 	quest.55F858B3FBD8456E.quest_subtitle: "Feed in rods and liquid coolant, and take out the energy"
 	quest.26E98AB955905859.title: "&cReactor Alarm"
@@ -1461,6 +1475,9 @@
 	quest.63CB7B77FCE6AD64.quest_subtitle: "Smokestacks and exhausts get rid of the gases your machines make"
 	quest.4601FAB2D4691A9C.title: "Surface Scanner"
 	quest.4601FAB2D4691A9C.quest_subtitle: "Helps find chunks with oil underground"
+	quest.4601FAB2D4691A9C.quest_desc: [
+		"Walk around with it to find chunks that have oil underground, then build the pumpjack there."
+	]
 	quest.7131F7EEDFE79A57.title: "&8Pumpjack"
 	quest.7131F7EEDFE79A57.quest_subtitle: "Pumps crude oil out of oil chunks"
 	quest.1E883D1C2C1B6606.title: "Crude Oil"
@@ -1526,6 +1543,9 @@
 	chapter.1949416C1A5DDBB0.title: " &8The Factory Must Grow &7\\& &dChemica"
 	quest.21291F5BE8BD1914.title: "Dirty Dusts"
 	quest.21291F5BE8BD1914.quest_subtitle: "Metallurgy ore processing starts by breaking ores into dirty dusts"
+	quest.21291F5BE8BD1914.quest_desc: [
+		"Crush raw ores to get dirty dusts. Washing and melting them gives more metal than smelting."
+	]
 	quest.1D37E00E6BD05989.title: "Washed Dusts"
 	quest.1D37E00E6BD05989.quest_subtitle: "&eWash&r dirty dusts with a fan through water. Clean dusts melt into more metal"
 	quest.5A36972DAC0C380D.title: "&6Foundry"
@@ -1611,6 +1631,9 @@
 	]
 	quest.65D6BDFE1858450B.title: "Solitary Nests"
 	quest.65D6BDFE1858450B.quest_subtitle: "Wild bees live in &6nests&r all over the world. Pick one up or craft one"
+	quest.65D6BDFE1858450B.quest_desc: [
+		"Different nests attract different bees: stone, sand, wood and more. Match the nest to the bee you want."
+	]
 	quest.30F19F33356CE716.title: "Nest Locator"
 	quest.30F19F33356CE716.quest_subtitle: "Points you toward the nearest nest of the kind you set it to"
 	quest.3360220BD3D9DA6C.title: "&6Honey Treats"
@@ -1780,7 +1803,6 @@
 	quest.38A2EB0A33BB572F.title: "Mini Fridge"
 	quest.38A2EB0A33BB572F.quest_subtitle: "Keep your drinks cool"
 	chapter.7CD79BECD400764D.title: " &6World Kitchen"
-	chapter_group.3007F5F02BA780CD.title: "&5&l&nAdventure \\& Magic"
 	quest.7EFAC13C0485C0D1.title: "&dTreasure Hunting"
 	quest.7EFAC13C0485C0D1.quest_subtitle: "Dungeons, ruins and chests hide magical gear you can't craft"
 	quest.7EFAC13C0485C0D1.quest_desc: [
@@ -1814,6 +1836,9 @@
 	]
 	quest.6A19AFDA06D228F9.title: "Monster Parts"
 	quest.6A19AFDA06D228F9.quest_subtitle: "Hunt mobs for their rare drops"
+	quest.6A19AFDA06D228F9.quest_desc: [
+		"Each part comes from a specific mob. JEI shows which mob drops what."
+	]
 	quest.56082B9D37863398.title: "Alkahestry"
 	quest.56082B9D37863398.quest_subtitle: "The Tome of Alkahestry turns redstone into copies of common items"
 	quest.46ECBC68EB046941.title: "Staffs and Rods"
@@ -1843,6 +1868,9 @@
 	quest.7FEFB32527A6D60C.quest_subtitle: "Grind dried herbs into blends"
 	quest.79AF31F2C27F34BE.title: "&2Mixing Cauldron"
 	quest.79AF31F2C27F34BE.quest_subtitle: "The heart of a witch's workshop. Mix fluids and ingredients into magic"
+	quest.79AF31F2C27F34BE.quest_desc: [
+		"JEI lists every mixing recipe and the ingredients each one needs."
+	]
 	quest.3A38C238BE8FD2A2.title: "Book of Shadows"
 	quest.3A38C238BE8FD2A2.quest_subtitle: "Hexerei's guide book. Read it on its altar"
 	quest.2746B3F84AB95677.title: "Selenite"
@@ -1888,7 +1916,6 @@
 	quest.3198C9E871CC9300.title: "Time Crystal"
 	quest.3198C9E871CC9300.quest_subtitle: "A late-game crystal for the strangest Dire Things"
 	chapter.1E277457E6BC233C.title: " &2Hexerei &7\\& &bJust Dire Things"
-	chapter_group.2E7DE7DF3538D0B0.title: "&2&l&nWildlife"
 	quest.588126E989FE5DAD.title: "&6Prehistoric Life"
 	quest.588126E989FE5DAD.quest_subtitle: "Dig up fossils, revive ancient creatures and tame dinosaurs"
 	quest.588126E989FE5DAD.quest_desc: [
@@ -1896,6 +1923,9 @@
 	]
 	quest.38EBD7ABD9576794.title: "Fossil Beds"
 	quest.38EBD7ABD9576794.quest_subtitle: "Found underground in four rarities: common, uncommon, rare and unusual"
+	quest.38EBD7ABD9576794.quest_desc: [
+		"Rarer beds hold rarer creatures. Look for them while caving."
+	]
 	quest.7AAD2D2E87F59D35.title: "Fossil Matrix"
 	quest.7AAD2D2E87F59D35.quest_subtitle: "Matrix blocks hold fossils. Check JEI for how to get them out"
 	quest.196C6B8C73861819.title: "Spiral Fossil"
@@ -1934,6 +1964,9 @@
 	quest.654E055EFCBE3682.quest_subtitle: "Found in &dThe End&r"
 	quest.687993285B2BFB28.title: "Dino Eggs"
 	quest.687993285B2BFB28.quest_subtitle: "Earn a dinosaur's trust to tame it, and collect its eggs"
+	quest.687993285B2BFB28.quest_desc: [
+		"Every dinosaur earns trust differently. Archie's Guidebook explains each one."
+	]
 	quest.46687AD574E589A0.title: "&2Dinosaur Gear"
 	quest.46687AD574E589A0.quest_subtitle: "Craft armor and weapons from what each dinosaur drops"
 	quest.1F73488E0E7AE333.title: "Amber"

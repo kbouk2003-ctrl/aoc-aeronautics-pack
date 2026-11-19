@@ -16,12 +16,16 @@
 			rewards: [{
 				id: "5EB87EBFC525E342"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "65ADBBF2780DDB94"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "4C17817929E59920"
+				item: { count: 4, id: "kaleidoscope_cookery:oil" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -76,6 +80,10 @@
 				id: "3ED3A520818ABDF2"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "602EED2883C78508"
+				item: { count: 16, id: "minecraft:charcoal" }
+				type: "item"
 			}]
 			tasks: [{
 				id: "33E324A0B5C33FD0"
@@ -91,12 +99,16 @@
 			rewards: [{
 				id: "672E33FE1EDA17C4"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "5B4F6AA65DAEED0D"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "79B5F6A593A8A02D"
+				item: { count: 8, id: "kaleidoscope_cookery:oil" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -114,12 +126,16 @@
 			rewards: [{
 				id: "2FCE0E61AB0208BD"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "2FA40ABB34BB8135"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "34929877BFCC5592"
+				item: { count: 16, id: "minecraft:bowl" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -188,12 +204,16 @@
 			rewards: [{
 				id: "50F67B30223929EE"
 				type: "xp"
-				xp: 200
+				xp: 300
 			}, {
 				exclude_from_claim_all: true
 				id: "2ED345EA5F573E68"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "2DE647A10D366E60"
+				item: { count: 16, id: "minecraft:golden_carrot" }
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 2.0d
@@ -211,12 +231,16 @@
 			rewards: [{
 				id: "185201B52930EE1F"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "1A5611A83D0CFFE2"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "5D9F5AEE1B2510F1"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -257,6 +281,10 @@
 				id: "756E630321423E3B"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "5DA31F695BFC112E"
+				item: { count: 4, id: "ratatouille:compost_tea_bottle" }
+				type: "item"
 			}]
 			tasks: [{
 				id: "534AC10F5FA0E1A1"
@@ -348,12 +376,16 @@
 			rewards: [{
 				id: "3C42533B92608EDB"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "19320579D266574C"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "4FECB452EB4F581C"
+				item: { count: 32, id: "minecraft:bone_meal" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -371,12 +403,16 @@
 			rewards: [{
 				id: "1861BDC805BEE1D0"
 				type: "xp"
-				xp: 200
+				xp: 300
 			}, {
 				exclude_from_claim_all: true
 				id: "7CC7B23E6DF71926"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "2F722CB4277BA446"
+				item: { count: 4, id: "minecraft:golden_apple" }
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 2.0d
@@ -396,6 +432,10 @@
 				id: "3145B210A206A0DD"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "292D49ABB3CFB900"
+				item: { count: 4, id: "beachparty:coconut" }
+				type: "item"
 			}]
 			tasks: [{
 				id: "3B630A619C7FE767"

@@ -16,12 +16,16 @@
 			rewards: [{
 				id: "65859D0415568469"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "45DC31EB84272FFF"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "210794480BCED603"
+				item: { count: 16, id: "modularbees:scented_plank" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -40,12 +44,16 @@
 			rewards: [{
 				id: "6819395A242C3B16"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "3250950DD311CCB0"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "5E7B2AC819EB8091"
+				item: { count: 20, id: "modularbees:modular_beehive_part" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -83,6 +91,10 @@
 				id: "2954C07D589D9421"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "27766EB252AF5988"
+				item: { count: 5, id: "productivebees:bee_cage" }
+				type: "item"
 			}]
 			tasks: [{
 				id: "262713A9BAE344C0"
@@ -153,12 +165,16 @@
 			rewards: [{
 				id: "68EC3A3087C7A015"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "29EE770CAAB7B295"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "368B0209FC724D09"
+				item: { count: 1, id: "modularbees:electrode_iron" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -182,6 +198,10 @@
 				id: "51D38A5F39154B86"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "106932776CE442CB"
+				item: { count: 1, id: "modularbees:electrode_gold" }
+				type: "item"
 			}]
 			tasks: [{
 				id: "237976A7DBBB8296"
@@ -231,12 +251,16 @@
 			rewards: [{
 				id: "5F94090284138DA7"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "19C478F5F4B56F84"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "3BB0F7A22E871E71"
+				item: { count: 20, id: "modularbees:modular_centrifuge_part" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -293,12 +317,16 @@
 			rewards: [{
 				id: "5CDF7FA75876D4F7"
 				type: "xp"
-				xp: 200
+				xp: 300
 			}, {
 				exclude_from_claim_all: true
 				id: "1D5818887E768355"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "4838AB0E3D523FDD"
+				item: { count: 1, id: "modularbees:electrode_netherite" }
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 2.0d

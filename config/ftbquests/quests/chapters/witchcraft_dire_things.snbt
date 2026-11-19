@@ -16,12 +16,16 @@
 			rewards: [{
 				id: "3AA3B4C0EBD21E00"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "4FD613C4CC80778E"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "3F478BABFBD571A6"
+				item: { count: 4, id: "hexerei:sage" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -73,12 +77,16 @@
 			rewards: [{
 				id: "120C60114FD5E4A6"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "128188601E98A4AD"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "38FE73D9326B89D3"
+				item: { count: 8, id: "minecraft:glass_bottle" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -135,12 +143,16 @@
 			rewards: [{
 				id: "799BB3B69D8A26DB"
 				type: "xp"
-				xp: 200
+				xp: 300
 			}, {
 				exclude_from_claim_all: true
 				id: "70A504EFD7DA0621"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "26771B5323228708"
+				item: { count: 1, id: "hexerei:broom_brush" }
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 2.0d
@@ -225,12 +237,16 @@
 			rewards: [{
 				id: "282825CB01B615D4"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "2BE51177254D743E"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "158018F61E1B6D84"
+				item: { count: 8, id: "justdirethings:raw_ferricore" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -288,6 +304,10 @@
 				id: "2A194A2F754C57FA"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "3AB6923CBF7542FC"
+				item: { count: 16, id: "justdirethings:coal_t1" }
+				type: "item"
 			}]
 			tasks: [{
 				id: "1EFA5DD47951B2D0"
@@ -311,12 +331,16 @@
 			rewards: [{
 				id: "738F4E379CAC1FC6"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "4A66A76D020953A3"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "6AF5A31DB67B88C1"
+				item: { count: 2, id: "justdirethings:celestigem" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -338,12 +362,16 @@
 			rewards: [{
 				id: "3CC5B2A829C21436"
 				type: "xp"
-				xp: 200
+				xp: 300
 			}, {
 				exclude_from_claim_all: true
 				id: "7C8E98A093841F14"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "7B96F62F8E2F5C01"
+				item: { count: 2, id: "justdirethings:eclipsealloy_ingot" }
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 2.0d
@@ -371,6 +399,10 @@
 				id: "2A06114340748601"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "5E4C9BF1E100EF68"
+				item: { count: 16, id: "justdirethings:coal_t1" }
+				type: "item"
 			}]
 			tasks: [{
 				id: "2941F0CB92C02557"

@@ -17,12 +17,20 @@
 			rewards: [{
 				id: "66A814F07EF8247E"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "2D44BD803AE74E5F"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "2F038E35F2CF3B28"
+				item: { count: 2, id: "create:precision_mechanism" }
+				type: "item"
+			}, {
+				id: "3796A75BCD6B45DC"
+				item: { count: 8, id: "create:brass_ingot" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -39,12 +47,16 @@
 			rewards: [{
 				id: "63D86FA88E91EA8B"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "7C19FDE9DDCD5716"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "4628A3C4654879F9"
+				item: { count: 4, id: "create:redstone_link" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -98,6 +110,10 @@
 				id: "1CD96717313249A8"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "733A66FD71AB4A5B"
+				item: { count: 16, id: "drivebywire:wire" }
+				type: "item"
 			}]
 			tasks: [{
 				count: 8L
@@ -169,12 +185,16 @@
 			rewards: [{
 				id: "217A3B4FAC0197B8"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "3D3DB175796689C2"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "6C40D6346E285CC9"
+				item: { count: 8, id: "create:belt_connector" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -264,12 +284,16 @@
 			rewards: [{
 				id: "13D661D61653A46A"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "4DDE65934F92CAE7"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "31B2BBC880971E5B"
+				item: { count: 2, id: "create_kart:super_ice" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -321,12 +345,16 @@
 			rewards: [{
 				id: "6339D9E4D03E0BCC"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "718626378A6A97B7"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "189039F6ACA74B6E"
+				item: { count: 2, id: "aeronautics_utility_objects:hydraulic_rod" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -400,12 +428,20 @@
 			rewards: [{
 				id: "79C03414E359CDFC"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "1CFEB2C0FCE0961D"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "43C1858811B03449"
+				item: { count: 8, id: "create:brass_ingot" }
+				type: "item"
+			}, {
+				id: "13B1C06DC8D42A56"
+				item: { count: 4, id: "create:electron_tube" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -512,12 +548,16 @@
 			rewards: [{
 				id: "1504A747C760E87E"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "3E80DD25051BE681"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "243B1AD41D2E5243"
+				item: { count: 4, id: "minecraft:phantom_membrane" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -539,12 +579,16 @@
 			rewards: [{
 				id: "1C54DAF65DE0FCA3"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "38BFF9B8485D8C09"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "2987C789AAD4DBCA"
+				item: { count: 4, id: "simulatedcoasters:coaster_anchorpoint" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d

@@ -16,12 +16,16 @@
 			rewards: [{
 				id: "1B8C07905D74EE5D"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "27B70727404F8E63"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "18D4505B3B65DAD5"
+				item: { count: 4, id: "createmetallurgy:graphite" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -56,12 +60,16 @@
 			rewards: [{
 				id: "71816A92681BDE11"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "6C304B9EC18DE1E2"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "388107B17F4BB2FB"
+				item: { count: 16, id: "createmetallurgy:coke" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -102,6 +110,10 @@
 				id: "17A32040FFAC7A4E"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "3AC3F2BE46DF8597"
+				item: { count: 1, id: "createmetallurgy:graphite_ingot_mold" }
+				type: "item"
 			}]
 			tasks: [{
 				id: "1268FDD19EB9DC58"
@@ -195,12 +207,16 @@
 			rewards: [{
 				id: "5530633ACF4D8C38"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "714D01E2FDAB92D3"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "6C9AD022CE1E91AA"
+				item: { count: 8, id: "createmetallurgy:steel_ingot" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -219,12 +235,16 @@
 			rewards: [{
 				id: "26B39D0CB2D31841"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "2D9B8BFB51566B70"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "4379D3F93B2BC831"
+				item: { count: 16, id: "createmetallurgy:refractory_mortar" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -259,12 +279,16 @@
 			rewards: [{
 				id: "6D16881C7FAD536D"
 				type: "xp"
-				xp: 200
+				xp: 300
 			}, {
 				exclude_from_claim_all: true
 				id: "5ABF266604C5D90E"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "6DA632344A3BC0AD"
+				item: { count: 8, id: "createmetallurgy:tungsten_ingot" }
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 2.0d

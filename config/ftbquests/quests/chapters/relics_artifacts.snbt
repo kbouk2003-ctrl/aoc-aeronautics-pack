@@ -17,12 +17,20 @@
 			rewards: [{
 				id: "4873BDC1DE41D32F"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "4B066F6DF9E0343C"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "23AB6ADA2E34F9FB"
+				item: { count: 32, id: "minecraft:torch" }
+				type: "item"
+			}, {
+				id: "29EB5CAEB27A623D"
+				item: { count: 16, id: "minecraft:cooked_beef" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -39,12 +47,16 @@
 			rewards: [{
 				id: "6CDBF235E42AB187"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "1CAA9A20B253AD08"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "4035172A0D589653"
+				item: { count: 2, id: "relics:relic_experience_bottle" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -81,6 +93,10 @@
 				id: "5AB6C19FE24E30A8"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "6DD086C05CC9B381"
+				item: { count: 4, id: "relics:relic_experience_bottle" }
+				type: "item"
 			}]
 			tasks: [{
 				count: 3L
@@ -97,12 +113,16 @@
 			rewards: [{
 				id: "193E9EB63F0CC0A8"
 				type: "xp"
-				xp: 200
+				xp: 300
 			}, {
 				exclude_from_claim_all: true
 				id: "6CD1260B3E5B7125"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "2D881E588B169D94"
+				item: { count: 8, id: "relics:relic_experience_bottle" }
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 2.0d
@@ -137,12 +157,16 @@
 			rewards: [{
 				id: "7B836007FD54E0D5"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "719064E1A780A170"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "4E76042646532BE3"
+				item: { count: 1, id: "minecraft:golden_apple" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -163,6 +187,10 @@
 				id: "7EDD5C464BE11F03"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "1BAE1438C6337D8B"
+				item: { count: 16, id: "minecraft:experience_bottle" }
+				type: "item"
 			}]
 			tasks: [{
 				entity: "artifacts:mimic"
@@ -181,6 +209,10 @@
 				id: "5AB6FA3FA1BB2B4E"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "3B760D2027F6A79F"
+				item: { count: 2, id: "minecraft:golden_apple" }
+				type: "item"
 			}]
 			tasks: [{
 				count: 5L
@@ -214,12 +246,20 @@
 			rewards: [{
 				id: "1919575DD49DE820"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "11F2F4A655503A59"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "6BC88DF78597ACED"
+				item: { count: 8, id: "minecraft:nether_wart" }
+				type: "item"
+			}, {
+				id: "263D131E62610CB6"
+				item: { count: 8, id: "minecraft:glass_bottle" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -314,12 +354,16 @@
 			rewards: [{
 				id: "164927F305C396E1"
 				type: "xp"
-				xp: 200
+				xp: 300
 			}, {
 				exclude_from_claim_all: true
 				id: "5520453E4D02BEEC"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "630DC228962D0458"
+				item: { count: 4, id: "minecraft:golden_apple" }
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 2.0d
@@ -337,12 +381,16 @@
 			rewards: [{
 				id: "2BD4D9B346F27B90"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "7FA615E76C6D5B02"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "3616CC632D51734D"
+				item: { count: 16, id: "irons_artifice:blackpowder" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -366,6 +414,10 @@
 				id: "6AE51A721D2F8265"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "212FA3C252DA0A0A"
+				item: { count: 32, id: "irons_artifice:bullet" }
+				type: "item"
 			}]
 			tasks: [{
 				id: "7222EE55BA0170EB"
@@ -405,6 +457,10 @@
 				id: "3378AD0B76067DE1"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "2129FE1E7807DAB5"
+				item: { count: 32, id: "irons_artifice:bullet" }
+				type: "item"
 			}]
 			tasks: [{
 				id: "3DF92D3FE0C7B45A"
@@ -420,12 +476,16 @@
 			rewards: [{
 				id: "3F68C0C258C28B0F"
 				type: "xp"
-				xp: 200
+				xp: 300
 			}, {
 				exclude_from_claim_all: true
 				id: "2558A4900C81A7EE"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "5637C2F8926133FD"
+				item: { count: 1, id: "irons_artifice:bullet_box" }
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 2.0d

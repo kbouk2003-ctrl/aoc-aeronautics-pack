@@ -16,12 +16,16 @@
 			rewards: [{
 				id: "266CF48517195050"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "6F38CE6FF03549E6"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "796C68B6500A3BB0"
+				item: { count: 4, id: "create_riftborne:raw_noctite" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -41,6 +45,10 @@
 				id: "6BB8D342D2ADECC2"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "6F16758C24316BEF"
+				item: { count: 4, id: "create:sturdy_sheet" }
+				type: "item"
 			}]
 			tasks: [{
 				id: "5A83249CBEFA1BEF"
@@ -58,6 +66,10 @@
 				id: "785BDBA06C583FA0"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "54B53047A78EA03F"
+				item: { count: 2, id: "create_riftborne:noctite_ingot" }
+				type: "item"
 			}]
 			tasks: [{
 				count: 4L
@@ -113,12 +125,16 @@
 			rewards: [{
 				id: "1C3D3B5BACACBCD7"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "5836458D2A4281CC"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "4270D69871BC9680"
+				item: { count: 2, id: "create_riftborne:phasing_stew" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -155,6 +171,10 @@
 				id: "67F15EA4D2AEDB0C"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "4C65F7A7EBCE9629"
+				item: { count: 8, id: "create_riftborne:noctite_casing" }
+				type: "item"
 			}]
 			tasks: [{
 				id: "6A3D76D5D8607DD4"
@@ -170,12 +190,20 @@
 			rewards: [{
 				id: "210A51FF7CBA9385"
 				type: "xp"
-				xp: 200
+				xp: 300
 			}, {
 				exclude_from_claim_all: true
 				id: "1D2F59F8A8459DDB"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "1FA03F6D38BBEDD5"
+				item: { count: 2, id: "create_riftborne:stabilized_phase_fluid_bucket" }
+				type: "item"
+			}, {
+				id: "79119BE6EA504862"
+				item: { count: 8, id: "create_riftborne:shulkie" }
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 2.0d
@@ -222,12 +250,16 @@
 			rewards: [{
 				id: "466C98085DF60043"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "182D68C1387B2411"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "7EC4D1686657AB65"
+				item: { count: 2, id: "create_riftborne:stabilized_phase_fluid_bucket" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -312,12 +344,16 @@
 			rewards: [{
 				id: "44761B82EC54554B"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "3B4D57607C7BABAC"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "7BB5CFF6A10D1AF6"
+				item: { count: 1, id: "create_riftborne:stabilized_phase_fluid_bucket" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -352,12 +388,16 @@
 			rewards: [{
 				id: "7205081CEA1F8F2E"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "6CE716A6DAF040D8"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "6C13F712F7AED8FC"
+				item: { count: 2, id: "create_riftborne:phase_catalyst" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -396,12 +436,16 @@
 			rewards: [{
 				id: "29D5223F7FB6817E"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "585AF25860326996"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "6A333EC59F282E9B"
+				item: { count: 16, id: "create_riftborne:noctite_casing" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -465,12 +509,20 @@
 			rewards: [{
 				id: "1F77882B81BB4A23"
 				type: "xp"
-				xp: 200
+				xp: 300
 			}, {
 				exclude_from_claim_all: true
 				id: "56A546134B69EB8A"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "175CAC2791D11D44"
+				item: { count: 1, id: "create_riftborne:primordium" }
+				type: "item"
+			}, {
+				id: "4C6D9B800DBF039C"
+				item: { count: 1, id: "create_riftborne:shulker_cake" }
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 2.0d

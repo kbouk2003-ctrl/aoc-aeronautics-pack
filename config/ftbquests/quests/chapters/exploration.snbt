@@ -17,12 +17,20 @@
 			rewards: [{
 				id: "4223D1A5522C7FE6"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "5192CF825DF8192D"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "648B00D2B22416EF"
+				item: { count: 4, id: "minecraft:map" }
+				type: "item"
+			}, {
+				id: "71431B50275030C1"
+				item: { count: 16, id: "minecraft:cooked_beef" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -39,12 +47,16 @@
 			rewards: [{
 				id: "1D388F6A2EDE821D"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "1D3D2CA1CFDD8F92"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "102601C89DFB6814"
+				item: { count: 4, id: "minecraft:ender_pearl" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -62,12 +74,16 @@
 			rewards: [{
 				id: "60BFA66BAC7DDE4B"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "75393E7496D530A3"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "55E06FED2CFE74E2"
+				item: { count: 32, id: "minecraft:torch" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -255,12 +271,16 @@
 			rewards: [{
 				id: "67F3DAAF7D8160BF"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "11E225DFFB49B497"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "48140ABA9A575979"
+				item: { count: 16, id: "minecraft:ender_pearl" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -284,12 +304,16 @@
 			rewards: [{
 				id: "46CE60B2BE0BD66A"
 				type: "xp"
-				xp: 200
+				xp: 300
 			}, {
 				exclude_from_claim_all: true
 				id: "3C117B76C4410961"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "17F9FE18081EC041"
+				item: { count: 8, id: "minecraft:diamond" }
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 2.0d
@@ -408,12 +432,16 @@
 			rewards: [{
 				id: "2BDB4F21FCB2E242"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "418762BE88A25DE2"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "1027E65F98965098"
+				item: { count: 4, id: "minecraft:ender_pearl" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -450,12 +478,16 @@
 			rewards: [{
 				id: "293C2C08DCC0A4FD"
 				type: "xp"
-				xp: 200
+				xp: 300
 			}, {
 				exclude_from_claim_all: true
 				id: "50B1D491F8D79669"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "53905E4DFBFD3CC7"
+				item: { count: 8, id: "minecraft:diamond" }
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 2.0d
@@ -473,12 +505,16 @@
 			rewards: [{
 				id: "69221710B707304C"
 				type: "xp"
-				xp: 200
+				xp: 300
 			}, {
 				exclude_from_claim_all: true
 				id: "4A8694503C3C776C"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "2B13CE5F48D32367"
+				item: { count: 4, id: "tempad:location_card" }
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 2.0d

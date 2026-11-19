@@ -16,12 +16,16 @@
 			rewards: [{
 				id: "263AA5DFA9196E12"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "72393ED0E41810E1"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "2C106470EBA4F7D3"
+				item: { count: 8, id: "createbigcannons:cast_iron_ingot" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -41,6 +45,10 @@
 				id: "324AF9CD99ABEE50"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "370735A88F3B73D4"
+				item: { count: 4, id: "createbigcannons:packed_gunpowder" }
+				type: "item"
 			}]
 			tasks: [{
 				id: "4FEB51BA6DC63E5F"
@@ -58,6 +66,10 @@
 				id: "6B404C93FECDDA30"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "4004699C3C9EEAF9"
+				item: { count: 4, id: "createbigcannons:empty_powder_charge" }
+				type: "item"
 			}]
 			tasks: [{
 				id: "5400D78CF31343F7"
@@ -79,6 +91,10 @@
 				id: "3D98A2DEB6B4BBD5"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "2A1B55F6B485FC4B"
+				item: { count: 4, id: "createbigcannons:powder_charge" }
+				type: "item"
 			}]
 			tasks: [{
 				count: 2L
@@ -97,6 +113,10 @@
 				id: "19CDFA9BEC027E95"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "1C85AAFA06B257C0"
+				item: { count: 2, id: "createbigcannons:solid_shot" }
+				type: "item"
 			}]
 			tasks: [{
 				id: "748DC6024AAE62DD"
@@ -116,12 +136,24 @@
 			rewards: [{
 				id: "27EB3DEF34A84A35"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "79E4AB46D4471363"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "4C5ED5A8360DF6DB"
+				item: { count: 2, id: "createbigcannons:he_shell" }
+				type: "item"
+			}, {
+				id: "54D7FFB6787B3D75"
+				item: { count: 2, id: "createbigcannons:impact_fuze" }
+				type: "item"
+			}, {
+				id: "76FA87333757B271"
+				item: { count: 6, id: "createbigcannons:powder_charge" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -140,6 +172,10 @@
 				id: "5072FB97C9702F82"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "6ACFC0765A3EB95D"
+				item: { count: 16, id: "createbigcannons:casting_sand" }
+				type: "item"
 			}]
 			tasks: [{
 				count: 8L
@@ -158,6 +194,10 @@
 				id: "18293272FC9E14E1"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "4713F02BE6F09F9B"
+				item: { count: 16, id: "createbigcannons:cast_iron_ingot" }
+				type: "item"
 			}]
 			tasks: [{
 				id: "4CFD9C633333F54B"
@@ -209,6 +249,10 @@
 				id: "1B643BF27CD56A82"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "7C5AC46B09748BC1"
+				item: { count: 1, id: "minecraft:water_bucket" }
+				type: "item"
 			}]
 			tasks: [{
 				id: "77642DC079867952"
@@ -224,12 +268,20 @@
 			rewards: [{
 				id: "68560BAD47A5D5D6"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "607F39B9D431E18D"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "10DBE040270FDBB9"
+				item: { count: 8, id: "createbigcannons:powder_charge" }
+				type: "item"
+			}, {
+				id: "21AD169E12AEA0FD"
+				item: { count: 4, id: "createbigcannons:solid_shot" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -270,6 +322,10 @@
 				id: "70B11AF7FFE92550"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "690558635F162E02"
+				item: { count: 16, id: "create:piston_extension_pole" }
+				type: "item"
 			}]
 			tasks: [{
 				id: "512E4FB85829CDF9"
@@ -289,12 +345,20 @@
 			rewards: [{
 				id: "658F4C17AE418625"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "69DD2BA34F2F8B81"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "75F8221B5BB6DDFC"
+				item: { count: 2, id: "createbigcannons:timed_fuze" }
+				type: "item"
+			}, {
+				id: "170A17CCC160D508"
+				item: { count: 2, id: "createbigcannons:he_shell" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -352,6 +416,10 @@
 				id: "1F536B9B84F7DDFD"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "17468FA14B455B2F"
+				item: { count: 8, id: "createbigcannons:steel_ingot" }
+				type: "item"
 			}]
 			tasks: [{
 				count: 8L
@@ -370,6 +438,10 @@
 				id: "19F0160324F1453E"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "619CDDD30DDA34EC"
+				item: { count: 16, id: "createbigcannons:steel_ingot" }
+				type: "item"
 			}]
 			tasks: [{
 				id: "2D4221796123FE7E"
@@ -385,12 +457,20 @@
 			rewards: [{
 				id: "13BC803A22F8EBE6"
 				type: "xp"
-				xp: 200
+				xp: 300
 			}, {
 				exclude_from_claim_all: true
 				id: "3F2B3B6BA23D3BCE"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "1CC86D9CE9CA44D3"
+				item: { count: 4, id: "createbigcannons:nethersteel_ingot" }
+				type: "item"
+			}, {
+				id: "367F2A3C27BC6C76"
+				item: { count: 2, id: "createbigcannons:big_cartridge" }
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 2.0d
@@ -408,12 +488,16 @@
 			rewards: [{
 				id: "6A2BEF6FBEFDF740"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "6B8FDE81BCA66140"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "14673C9D42F46D74"
+				item: { count: 16, id: "createbigcannons:ap_autocannon_round" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -437,6 +521,10 @@
 				id: "63FF766CF0C2AFC2"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "3969C9A9D1250F0F"
+				item: { count: 32, id: "createbigcannons:flak_autocannon_round" }
+				type: "item"
 			}]
 			tasks: [{
 				id: "529197FE35D9C546"
@@ -456,12 +544,16 @@
 			rewards: [{
 				id: "2AD1A9AC7132B2B0"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "6FEB5DA73AEB8E81"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "7E16E6F198BDFB15"
+				item: { count: 4, id: "create_radar:radar_plate_block" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -502,6 +594,10 @@
 				id: "53050E3FC50DA4F9"
 				table_id: 5001068052608706388L
 				type: "loot"
+			}, {
+				id: "79B9486E2864D9F5"
+				item: { count: 2, id: "create_radar:data_link" }
+				type: "item"
 			}]
 			tasks: [{
 				id: "441C3533610C666D"
@@ -535,12 +631,20 @@
 			rewards: [{
 				id: "6945EE8F37584472"
 				type: "xp"
-				xp: 100
+				xp: 150
 			}, {
 				exclude_from_claim_all: true
 				id: "559D162F9E30FFAF"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "2F6CD5966A41627A"
+				item: { count: 1, id: "create_radar:radar_filter_item" }
+				type: "item"
+			}, {
+				id: "7452385ED7A0E3D2"
+				item: { count: 1, id: "create_radar:ident_filter_item" }
+				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -583,12 +687,24 @@
 			rewards: [{
 				id: "7EAEECD6EFE9FA95"
 				type: "xp"
-				xp: 200
+				xp: 300
 			}, {
 				exclude_from_claim_all: true
 				id: "28B8C9C6D6DC323B"
 				table_id: 5249651026717322459L
 				type: "random"
+			}, {
+				id: "4FB70FF66B45BC10"
+				item: { count: 8, id: "createbigcannons:he_shell" }
+				type: "item"
+			}, {
+				id: "4D6E67B68F4D644F"
+				item: { count: 4, id: "createbigcannons:proximity_fuze" }
+				type: "item"
+			}, {
+				id: "119E9D25E01D5391"
+				item: { count: 16, id: "createbigcannons:powder_charge" }
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 2.0d

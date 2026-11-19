@@ -81,14 +81,6 @@ file = "config/aeronautics_utility_objects-server.toml"
 hash = "edea082f1cc16fd1ceff50c9a7166ae98e8e1239346a47b157d5055355542af7"
 
 [[files]]
-file = "config/aeronauticswinds-client.toml"
-hash = "62666d642876e692ae82c160755a514436e7e1eb51d85ef6deb3a103a549322d"
-
-[[files]]
-file = "config/aeronauticswinds-common.toml"
-hash = "4f448bc5c35ad6e1e137c84233cc2ded8a76c120fc5480ffc299c19798abf35d"
-
-[[files]]
 file = "config/aeroworks-client.toml"
 hash = "628087ba57e5d8428a316f39a43d521fdae4b676a37aed81eedca9a91239db4a"
 
@@ -3385,10 +3377,6 @@ file = "config/rubberworks-server.toml"
 hash = "afd33439c1a5310470612749bc23274a2ade7cece27de369c525a1a1f7467ce5"
 
 [[files]]
-file = "config/rustling_leaves-client.toml"
-hash = "9a4acafff4ec6547f5a26f0567c70ce101b92d33d77a8fa1d2cce491d7aa15f6"
-
-[[files]]
 file = "config/rutile-client.toml"
 hash = "0e3cd4e9aeb544ccacfe5c3206367c0faf5295b794a460d8c2afe3e506f07f75"
 
@@ -4257,11 +4245,6 @@ metafile = true
 [[files]]
 file = "mods/create-aquatic-ambitions-1-21-1-2-0-4.pw.toml"
 hash = "ad732ada7e42c44f0d5eaf45f5edfb7e90bc615ba6e50a3bb974250dfb36e83f"
-metafile = true
-
-[[files]]
-file = "mods/create-atmospherics-2-0-0-oceans-e638ce3.pw.toml"
-hash = "1b68a8cba16699309b9398e664d7816c0f5bc95bd43dda2d03d0c8ab26b86919"
 metafile = true
 
 [[files]]
@@ -5282,11 +5265,6 @@ metafile = true
 [[files]]
 file = "mods/rubberworks-neoforge-1-21-1-1-1-4.pw.toml"
 hash = "3ef96727bf30f2c68391795d6de334dee6483df925a98a7cbf7e64c92e6e4d23"
-metafile = true
-
-[[files]]
-file = "mods/rustling-leaves-neoforge-1-21-1-2-8-1.pw.toml"
-hash = "24ff0402bd1c82ad2eb19d5ce963dae1e5d9e84fc8cca20bf0e332295e938e9a"
 metafile = true
 
 [[files]]

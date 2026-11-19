@@ -1033,10 +1033,6 @@ file = "config/foundation-common.toml"
 hash = "8286e24b051f6483f8e5dbaaad53f58a4a81ea4db509219160902d6c733dec80"
 
 [[files]]
-file = "config/fowlplay.json5"
-hash = "df535929aef08bf4febf6d10371f763b0ad7fd77e85c1230c4750500cc0c67cd"
-
-[[files]]
 file = "config/frostworks-client.toml"
 hash = "980dd99680e27de5a3c0b8e47ea699c72c7449012a02af2d0e035e7b7b977a08"
 
@@ -3741,10 +3737,6 @@ file = "config/ultraterraforged/client.json"
 hash = "7959474f61a96bbc3053edcbcbc00054c8b53505eafbdce5cb733b00174dad47"
 
 [[files]]
-file = "config/variantsandventures.json"
-hash = "68f0caa77d68772eeef01f670f26a57fb6eda3cc0a0eb4789044ace90558ccef"
-
-[[files]]
 file = "config/vista-client.toml"
 hash = "03053ea4f3c5073435ff46c48bb969c9a6d0835a2c02c4e5ba65400c12eca7f6"
 
@@ -4687,11 +4679,6 @@ hash = "f47dd1d4183be4788913c741f48620094c89bc8b556852d15ca48818a9f0a17d"
 metafile = true
 
 [[files]]
-file = "mods/fowlplay-1-2-3-1-21-1-neoforge.pw.toml"
-hash = "549e72a053da13a50404bd0901b75ce25c6045e778d5a89afcf58e9b5e1945f5"
-metafile = true
-
-[[files]]
 file = "mods/framework-neoforge-1-21-1-0-13-11.pw.toml"
 hash = "dd0153bc05a3ffc8592dfaf35b4e8014127e6e1b352d7c18462d49a1ed7a5035"
 metafile = true
@@ -5317,6 +5304,11 @@ hash = "e354ae7f3c7c1955b8670a1d95c80ab14ac2b3f8a5ca2fa6d2e8bd9cf290a67f"
 metafile = true
 
 [[files]]
+file = "mods/servercore.pw.toml"
+hash = "33454564d216f62d011ac78fc0aa2a49977ac1161f10f4accb1d33a9934969df"
+metafile = true
+
+[[files]]
 file = "mods/shtreimel-neoforge-1-21-1-0-7-0.pw.toml"
 hash = "7e22ebbb44c9ec91821304e1ad06ffefd7477f7163bd9dbb617004de6f6805d1"
 metafile = true
@@ -5432,6 +5424,11 @@ hash = "3c4da8a221086153d491104bba4fd8796dac92d5c3e0b2dc111a6c5d53b65484"
 metafile = true
 
 [[files]]
+file = "mods/structure-layout-optimizer.pw.toml"
+hash = "3661ea8cde82e3d8a692344c4a9f8d31ad487e86f99d47a8b1189ff4eab71eeb"
+metafile = true
+
+[[files]]
 file = "mods/structureessentials-1-21-1-5-1.pw.toml"
 hash = "7eef3e77e4800e7d58cf79919e67b7f4ed10db8ed66e54aca64340657639168e"
 metafile = true
@@ -5509,11 +5506,6 @@ metafile = true
 [[files]]
 file = "mods/unusual-prehistory-2-1-21-1-2-0-0-beta3.pw.toml"
 hash = "46847a40cdabfcdea168f2689c9db88cd82b8a1bc823e283e13230f8fe1bc987"
-metafile = true
-
-[[files]]
-file = "mods/variantsandventures-neoforge-1-0-30-mc1-21-1.pw.toml"
-hash = "43617b75841f752c123f45701c7f3d6f99275815f13e821c4fe14dd62ce8154e"
 metafile = true
 
 [[files]]

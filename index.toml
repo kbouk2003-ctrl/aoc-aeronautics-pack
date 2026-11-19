@@ -4279,6 +4279,11 @@ hash = "50f0fe22bec82ed6336a259931394271a1ebb71bb77e682ee233d96134305ccd"
 metafile = true
 
 [[files]]
+file = "mods/cosmetic-armor-reworked-forked.pw.toml"
+hash = "73e116801531549145f651f170b8857793d36e5a0d18b90b7b1acd392c788228"
+metafile = true
+
+[[files]]
 file = "mods/crashassistant-neoforge-1-20-6-1-21-4-1-11-12.pw.toml"
 hash = "f13994485d9005720181e64c20c8b20204edea6749030877fdcbe0b6fd6de443"
 metafile = true

@@ -4089,6 +4089,11 @@ hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
 metafile = true
 
 [[files]]
+file = "mods/chunky.pw.toml"
+hash = "68cc51e721e993a8b7a2cbaf45369933b22b07a9c82327ab14757ee10684aa81"
+metafile = true
+
+[[files]]
 file = "mods/clientcrafting-1-21-2-1.pw.toml"
 hash = "c4222841169214cd4db3ee2347e3d41a0eb9451e6b09f80d0e2739f25b5ddd44"
 metafile = true

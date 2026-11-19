@@ -273,10 +273,6 @@ file = "config/chunky/tasks/minecraft/overworld.properties"
 hash = "785ab2b8db11815bce96ed57b3d40a106e8a6c096d206b200d7e300abc866aff"
 
 [[files]]
-file = "config/clavis.yaml"
-hash = "3d783af59134dd957a81977c6d1d0d4e4a82c4c9546cf71743f2c3305247ed2b"
-
-[[files]]
 file = "config/climbable_ropes-client.toml"
 hash = "f9bfb0bbfc40e8bf7069010c6d1d5c9536b493377fb9ec3529338d7a0e35f5ab"
 
@@ -4098,11 +4094,6 @@ metafile = true
 [[files]]
 file = "mods/chunky-neoforge-1-4-23.pw.toml"
 hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
-metafile = true
-
-[[files]]
-file = "mods/clavis-neoforge-0-2-13-1-21-1.pw.toml"
-hash = "e23bbe0380f7a11a679106e06dee17ac7a6f88dd22a290d8b8824351161f0dae"
 metafile = true
 
 [[files]]

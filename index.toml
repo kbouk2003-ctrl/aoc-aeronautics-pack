@@ -3953,11 +3953,6 @@ hash = "716d930feff599bf9ce732e05979fbae8025dc8a3c13ccf4f1cb207a70883bc6"
 metafile = true
 
 [[files]]
-file = "mods/arcane-abilities-0-2-8.pw.toml"
-hash = "3a04f27e80cec45873e7befbb3a250c5d89122fc83cc41fb8dd90a28624cf05a"
-metafile = true
-
-[[files]]
 file = "mods/architectury-13-0-11-neoforge.pw.toml"
 hash = "187eafde5974beee1263538b462b7b8fe2fc8948c5d413980d9796d55928580b"
 metafile = true
@@ -5218,8 +5213,8 @@ hash = "acf72896a02eac09daddf6d5f1c8a6db2c34b5d5ab3be6157d76fe174fccd132"
 metafile = true
 
 [[files]]
-file = "mods/relics-1-21-1-0-10-7-8.pw.toml"
-hash = "373d6893cd8876f79d1a07c0d2c60a044b78e6be3a3818c42bff5630256b3d11"
+file = "mods/relics-1-21-1-0-12-11.pw.toml"
+hash = "98ae27f0381f08ada1be2336d2afc106d8cfa99057e6262556570e5877d9b094"
 metafile = true
 
 [[files]]

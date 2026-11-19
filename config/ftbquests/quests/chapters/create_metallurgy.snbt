@@ -1,0 +1,356 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_metallurgy"
+	group: "78A51F76210E9975"
+	icon: {
+		id: "createmetallurgy:foundry_basin"
+	}
+	id: "5EA262AC46B7380A"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "21291F5BE8BD1914"
+			rewards: [{
+				id: "1B8C07905D74EE5D"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "27B70727404F8E63"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "145A68BBFCF2FBAB"
+				item: { components: { "ftbfiltersystem:filter": "or(item(createmetallurgy:dirty_iron_dust)item(createmetallurgy:dirty_copper_dust)item(createmetallurgy:dirty_gold_dust)item(createmetallurgy:dirty_zinc_dust))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.00d
+			y: 1.88d
+		}
+		{
+			dependencies: ["21291F5BE8BD1914"]
+			id: "1D37E00E6BD05989"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55435B8CC70063AB"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "54770554EDB71D6D"
+				item: { components: { "ftbfiltersystem:filter": "or(item(createmetallurgy:iron_dust)item(createmetallurgy:copper_dust)item(createmetallurgy:gold_dust))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.00d
+			y: 1.88d
+		}
+		{
+			dependencies: ["1D37E00E6BD05989"]
+			id: "5A36972DAC0C380D"
+			rewards: [{
+				id: "71816A92681BDE11"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "6C304B9EC18DE1E2"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "690D5CA8FED0BFAE"
+				item: { count: 1, id: "createmetallurgy:foundry_basin" }
+				type: "item"
+			}, {
+				id: "7D6D6A4FABB4292B"
+				item: { count: 1, id: "createmetallurgy:foundry_lid" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: -0.75d
+		}
+		{
+			dependencies: ["5A36972DAC0C380D"]
+			id: "102710C036D148C4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13F249324D7C0ED6"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6A233C2FFF0268E0"
+				item: { count: 1, id: "createmetallurgy:faucet" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: -4.50d
+		}
+		{
+			dependencies: ["102710C036D148C4"]
+			id: "38572F9EE244D98A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17A32040FFAC7A4E"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1268FDD19EB9DC58"
+				item: { count: 1, id: "createmetallurgy:casting_table" }
+				type: "item"
+			}, {
+				id: "60D161EEB011DD66"
+				item: { count: 1, id: "createmetallurgy:casting_basin" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: -4.50d
+		}
+		{
+			dependencies: ["5A36972DAC0C380D"]
+			id: "153E6D069E454068"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7006F3E9EBDB8B77"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 4L
+				id: "123A8F03628FFF97"
+				item: { count: 1, id: "createmetallurgy:graphite" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: -3.00d
+		}
+		{
+			dependencies: ["153E6D069E454068", "38572F9EE244D98A"]
+			id: "39C4EBD28442F939"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EABD3214D139F93"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "519F088FEC09EE48"
+				item: { components: { "ftbfiltersystem:filter": "or(item(createmetallurgy:graphite_ingot_mold)item(createmetallurgy:graphite_plate_mold)item(createmetallurgy:graphite_gear_mold)item(createmetallurgy:graphite_rod_mold)item(createmetallurgy:graphite_nugget_mold))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 10.00d
+			y: -4.50d
+		}
+		{
+			dependencies: ["5A36972DAC0C380D"]
+			id: "24A2721EC83DB70A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77726944F70F6DEF"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 8L
+				id: "21DCCEC1C5179734"
+				item: { count: 1, id: "createmetallurgy:coke" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["5A36972DAC0C380D"]
+			id: "74A6D6FE2CE446BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55455A585645EEBD"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4D569C17431A89A4"
+				item: { count: 1, id: "createmetallurgy:foundry_mixer" }
+				type: "item"
+			}, {
+				id: "28ED5CD0FFCCAD94"
+				item: { count: 1, id: "createmetallurgy:sturdy_whisk" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: 3.00d
+		}
+		{
+			dependencies: ["24A2721EC83DB70A", "74A6D6FE2CE446BF"]
+			id: "278E76A0C6256D70"
+			rewards: [{
+				id: "5530633ACF4D8C38"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "714D01E2FDAB92D3"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "5A91DF9AF1A9FB04"
+				item: { count: 1, id: "createmetallurgy:steel_ingot" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["278E76A0C6256D70"]
+			id: "3733E8C72C91CF0C"
+			rewards: [{
+				id: "26B39D0CB2D31841"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "2D9B8BFB51566B70"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "41434D842DF8F0C2"
+				item: { count: 1, id: "createmetallurgy:industrial_crucible" }
+				type: "item"
+			}]
+			x: 10.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["3733E8C72C91CF0C"]
+			id: "309A50A0385FACEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "238E8E9FA3A639A3"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "716583B57F86B2AB"
+				item: { count: 1, id: "createmetallurgy:gauge_attachment" }
+				type: "item"
+			}]
+			x: 12.00d
+			y: -1.50d
+		}
+		{
+			dependencies: ["3733E8C72C91CF0C"]
+			id: "210F3A4AA8A79650"
+			rewards: [{
+				id: "6D16881C7FAD536D"
+				type: "xp"
+				xp: 200
+			}, {
+				exclude_from_claim_all: true
+				id: "5ABF266604C5D90E"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "3B3D939E6AE1AC7F"
+				item: { count: 1, id: "createmetallurgy:raw_tungsten" }
+				type: "item"
+			}, {
+				id: "576D6F6CF983A3C7"
+				item: { count: 1, id: "createmetallurgy:tungsten_ingot" }
+				type: "item"
+			}]
+			x: 12.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["210F3A4AA8A79650"]
+			id: "699EB62CAB771B65"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5177BEF8E6C88F24"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "491EB27537EF827D"
+				item: { components: { "ftbfiltersystem:filter": "or(item(createmetallurgy:tungsten_wire)item(createmetallurgy:tungsten_wire_spool)item(createmetallurgy:tungsten_sheet))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 14.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["699EB62CAB771B65"]
+			id: "7BD274911F7D79E8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "535A44CE346568E9"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "553E875325D33137"
+				item: { components: { "ftbfiltersystem:filter": "or(item(createmetallurgy:white_light_bulb)item(createmetallurgy:yellow_light_bulb)item(createmetallurgy:red_light_bulb)item(createmetallurgy:blue_light_bulb)item(createmetallurgy:green_light_bulb))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 16.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["1D37E00E6BD05989"]
+			id: "1BA2C3A09C21852D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CC0BEE4DF56FADE"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7FEEF2754F7BA824"
+				item: { count: 1, id: "createmetallurgy:mechanical_belt_grinder" }
+				type: "item"
+			}, {
+				id: "6FA7E0A59337D4C7"
+				item: { count: 1, id: "createmetallurgy:sandpaper_belt" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: 4.50d
+		}
+		{
+			dependencies: ["3733E8C72C91CF0C"]
+			id: "68804B14FB26C79D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "629B4A25A09C4D82"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2D5885ED5A962ACD"
+				item: { count: 1, id: "createmetallurgy:obdurium_ingot" }
+				type: "item"
+			}]
+			x: 12.00d
+			y: 1.50d
+		}
+	]
+}

@@ -1,0 +1,314 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage_qol"
+	group: "78A51F76210E9975"
+	icon: {
+		id: "sophisticatedbackpacks:backpack"
+	}
+	id: "6BE1BA3E4F3F27B6"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2AF0CE75A76ADD58"
+			rewards: [{
+				id: "77E483F5DB45231E"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "3C2B2654EC9BAA12"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6F986756F4D96C5B"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: 0.00d
+			y: -2.06d
+		}
+		{
+			dependencies: ["2AF0CE75A76ADD58"]
+			id: "46A3E59E29C0FA25"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "303823E5A45A6685"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7D01BC60156CEDAA"
+				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:iron_backpack)item(sophisticatedbackpacks:gold_backpack)item(sophisticatedbackpacks:diamond_backpack)item(sophisticatedbackpacks:netherite_backpack))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.00d
+			y: -6.75d
+		}
+		{
+			dependencies: ["2AF0CE75A76ADD58"]
+			id: "7566C26F7A6FAE2A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "660B601CFA2FF8F0"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7CBEA98A4C3110A9"
+				item: { count: 1, id: "sophisticatedbackpacks:upgrade_base" }
+				type: "item"
+			}]
+			x: 2.00d
+			y: -3.75d
+		}
+		{
+			dependencies: ["7566C26F7A6FAE2A"]
+			id: "77C282784F9CB83E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "116A833618570F4D"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "515CCFDB11537F53"
+				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:pickup_upgrade)item(sophisticatedbackpacks:magnet_upgrade))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: -5.25d
+		}
+		{
+			dependencies: ["7566C26F7A6FAE2A"]
+			id: "443661805397240B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52B95BA01A77F66A"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3715D0E3EC7CF01A"
+				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:crafting_upgrade)item(sophisticatedbackpacks:feeding_upgrade)item(sophisticatedbackpacks:refill_upgrade)item(sophisticatedbackpacks:tool_swapper_upgrade))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: -3.75d
+		}
+		{
+			dependencies: ["7566C26F7A6FAE2A"]
+			id: "38E8D84CDDB63F92"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E32EE5237D2BD8B"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3CD6800F6A4EC97B"
+				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_1" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: -2.25d
+		}
+		{
+			dependencies: ["2AF0CE75A76ADD58"]
+			id: "7C48AC6DF60EFC85"
+			rewards: [{
+				id: "56C77E7AD556C39A"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "1FAF30DE7069D946"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5459B9733B1D29E4"
+				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedstorage:barrel)item(sophisticatedstorage:chest))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.00d
+			y: 2.63d
+		}
+		{
+			dependencies: ["7C48AC6DF60EFC85"]
+			id: "4508854F9063CCD9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "390A0E3D87D90670"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1BCED31F6BF8E664"
+				item: { count: 1, id: "sophisticatedstorage:basic_to_iron_tier_upgrade" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["7C48AC6DF60EFC85"]
+			id: "790E9984708E8833"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "659011A7D48D6C04"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "20DF63C5893FE14A"
+				item: { count: 1, id: "sophisticatedstorage:limited_barrel_1" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: 2.25d
+		}
+		{
+			dependencies: ["4508854F9063CCD9"]
+			id: "190212168D08D74A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24DEAFC61F65056D"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5D510F95F2555AB4"
+				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_1" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: -0.75d
+		}
+		{
+			dependencies: ["4508854F9063CCD9"]
+			id: "6E6B9DC685B2FBD9"
+			rewards: [{
+				id: "4F3661A3802E36AC"
+				type: "xp"
+				xp: 200
+			}, {
+				exclude_from_claim_all: true
+				id: "1BEA24C1A89A3245"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "18DDB602DD5CBC9F"
+				item: { count: 1, id: "sophisticatedstorage:controller" }
+				type: "item"
+			}, {
+				id: "2D0E4CCAC0A65BDB"
+				item: { count: 1, id: "sophisticatedstorage:storage_link" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: 0.75d
+		}
+		{
+			dependencies: ["7C48AC6DF60EFC85"]
+			id: "57FE60CEED092D92"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5367E6900BAD9AFA"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6A3C8858CD8DD5E1"
+				item: { count: 1, id: "sophisticatedstorage:packing_tape" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: 3.75d
+		}
+		{
+			dependencies: ["6E6B9DC685B2FBD9"]
+			id: "70FB89B3BD62CA55"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DB275F02EF0A2DB"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "384CCFCC05F1B272"
+				item: { count: 1, id: "sophisticatedstorage:storage_tool" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: 0.75d
+		}
+		{
+			dependencies: ["7C48AC6DF60EFC85"]
+			id: "77D5ABDF2CB3D162"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DF3840D3710351E"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 4L
+				id: "41BC5D3C44FD5CB2"
+				item: { count: 1, id: "labels:label" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: 5.25d
+		}
+		{
+			id: "2DF0243FCA8DA187"
+			rewards: [{
+				id: "7AA28877969DBE63"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "6B0AD5A4231647C6"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7CC86EB4BAD740BF"
+				item: { components: { "ftbfiltersystem:filter": "or(item(comforts:sleeping_bag_white)item(comforts:hammock_white))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.00d
+			y: 6.75d
+		}
+		{
+			dependencies: ["2DF0243FCA8DA187"]
+			id: "23334AE341F10619"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6252345646F07EE5"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1FE9F851C6B93A25"
+				item: { count: 1, id: "comforts:rope_and_nail" }
+				type: "item"
+			}]
+			x: 2.00d
+			y: 6.75d
+		}
+	]
+}

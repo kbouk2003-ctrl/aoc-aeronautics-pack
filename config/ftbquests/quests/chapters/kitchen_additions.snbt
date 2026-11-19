@@ -1,0 +1,443 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "kitchen_additions"
+	group: "0ED9F00893D42C69"
+	icon: {
+		id: "kaleidoscope_cookery:pot"
+	}
+	id: "7CD79BECD400764D"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "43DBB8B767D00D27"
+			rewards: [{
+				id: "5EB87EBFC525E342"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "65ADBBF2780DDB94"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "369DD5B63362A163"
+				item: { count: 1, id: "kaleidoscope_cookery:iron_kitchen_knife" }
+				type: "item"
+			}]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["43DBB8B767D00D27"]
+			id: "27C2B07345F503EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64D7F745D097137A"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "66F8593B48E33C08"
+				item: { count: 1, id: "kaleidoscope_cookery:chopping_board" }
+				type: "item"
+			}]
+			x: 0.84d
+			y: -3.14d
+		}
+		{
+			dependencies: ["43DBB8B767D00D27"]
+			id: "248D9DE0B3FF348A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "545F95A7ECA3DF5E"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 4L
+				id: "40A6DD92C71964E2"
+				item: { count: 1, id: "kaleidoscope_cookery:oil" }
+				type: "item"
+			}]
+			x: 2.30d
+			y: -2.30d
+		}
+		{
+			dependencies: ["43DBB8B767D00D27"]
+			id: "67DB60CD946ADC82"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3ED3A520818ABDF2"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "33E324A0B5C33FD0"
+				item: { count: 1, id: "kaleidoscope_cookery:stove" }
+				type: "item"
+			}]
+			x: 3.22d
+			y: 0.42d
+		}
+		{
+			dependencies: ["67DB60CD946ADC82", "248D9DE0B3FF348A"]
+			id: "325FAFA7D023AFF2"
+			rewards: [{
+				id: "672E33FE1EDA17C4"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "5B4F6AA65DAEED0D"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "75FF62F974DEE4F7"
+				item: { count: 1, id: "kaleidoscope_cookery:pot" }
+				type: "item"
+			}]
+			x: 5.07d
+			y: -1.36d
+		}
+		{
+			dependencies: ["67DB60CD946ADC82"]
+			id: "6FFC8ED3C24B0CF8"
+			rewards: [{
+				id: "2FCE0E61AB0208BD"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "2FA40ABB34BB8135"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "638BE33BC3A96A27"
+				item: { count: 1, id: "kaleidoscope_cookery:stockpot" }
+				type: "item"
+			}]
+			x: 4.54d
+			y: 2.62d
+		}
+		{
+			dependencies: ["6FFC8ED3C24B0CF8"]
+			id: "799EC478A8A07D8B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23DCA4DE8AAB8AFD"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "732CDCB4739BE8C1"
+				item: { count: 1, id: "kaleidoscope_cookery:borscht" }
+				type: "item"
+			}]
+			x: 7.00d
+			y: 1.88d
+		}
+		{
+			dependencies: ["325FAFA7D023AFF2"]
+			id: "2BC78DC9C27A23EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D0E9707C461BA51"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5E7694F1FE33955F"
+				item: { components: { "ftbfiltersystem:filter": "or(item(kaleidoscope_cookery:steamer)item(kaleidoscope_cookery:millstone)item(kaleidoscope_cookery:shawarma_spit))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.00d
+			y: -1.88d
+		}
+		{
+			dependencies: ["43DBB8B767D00D27"]
+			id: "5B01C8878A223ECA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C980474CC2FACEA"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6EC32BA7741D348E"
+				item: { count: 1, id: "kaleidoscope_cookery:rice_panicle" }
+				type: "item"
+			}]
+			x: 0.84d
+			y: 3.14d
+		}
+		{
+			dependencies: ["5B01C8878A223ECA", "6FFC8ED3C24B0CF8"]
+			id: "67BB3345CD68522E"
+			rewards: [{
+				id: "50F67B30223929EE"
+				type: "xp"
+				xp: 200
+			}, {
+				exclude_from_claim_all: true
+				id: "2ED345EA5F573E68"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "66581AE2F622AB92"
+				item: { count: 1, id: "kaleidoscope_cookery:braised_beef_rice_bowl" }
+				type: "item"
+			}]
+			x: 5.12d
+			y: 5.12d
+		}
+		{
+			dependencies: ["43DBB8B767D00D27"]
+			id: "3E41D98CFB4B0302"
+			rewards: [{
+				id: "185201B52930EE1F"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "1A5611A83D0CFFE2"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "29515B417CDBB81B"
+				item: { count: 1, id: "ratatouille:oven" }
+				type: "item"
+			}, {
+				id: "7C0352F0C83AA617"
+				item: { count: 1, id: "ratatouille:oven_fan" }
+				type: "item"
+			}]
+			x: -2.81d
+			y: 1.62d
+		}
+		{
+			dependencies: ["3E41D98CFB4B0302"]
+			id: "59563BE22A815D24"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EE166529AC00529"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "136A884E1E7A8338"
+				item: { count: 1, id: "ratatouille:thresher" }
+				type: "item"
+			}]
+			x: -1.36d
+			y: 5.07d
+		}
+		{
+			dependencies: ["3E41D98CFB4B0302"]
+			id: "5723F7EE695C02B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "756E630321423E3B"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "534AC10F5FA0E1A1"
+				item: { count: 1, id: "ratatouille:irrigation_tower" }
+				type: "item"
+			}]
+			x: -3.71d
+			y: 3.71d
+		}
+		{
+			dependencies: ["5723F7EE695C02B8"]
+			id: "46434C96CE65B33C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FF1F8372D8259B1"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6AAEA7B745F79241"
+				item: { count: 1, id: "ratatouille:compost_tower" }
+				type: "item"
+			}, {
+				id: "4A78BD7C3EF8B1ED"
+				item: { count: 1, id: "ratatouille:compost_tea_bottle" }
+				type: "item"
+			}]
+			x: -5.12d
+			y: 5.12d
+		}
+		{
+			dependencies: ["46434C96CE65B33C"]
+			id: "4B713FC1EB11CA77"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31188902836FCA02"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6F08E52D2AF1232A"
+				item: { count: 1, id: "ratatouille:spreader" }
+				type: "item"
+			}, {
+				id: "124964894039D3C3"
+				item: { count: 1, id: "ratatouille:ripen_matter" }
+				type: "item"
+			}]
+			x: -6.54d
+			y: 6.54d
+		}
+		{
+			dependencies: ["3E41D98CFB4B0302"]
+			id: "22910CECB2E118B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5990BDE99C92A73C"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "15110301D3E2F4CB"
+				item: { count: 1, id: "ratatouille:sausage" }
+				type: "item"
+			}]
+			x: -5.07d
+			y: 1.36d
+		}
+		{
+			dependencies: ["3E41D98CFB4B0302"]
+			id: "36545C8D7632CFF0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7166DBE277A652B7"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7EBB44F718DAEE90"
+				item: { count: 1, id: "ratatouille:chef_hat" }
+				type: "item"
+			}]
+			x: -5.07d
+			y: -1.36d
+		}
+		{
+			dependencies: ["43DBB8B767D00D27"]
+			id: "159AB46AE4279F5F"
+			rewards: [{
+				id: "3C42533B92608EDB"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "19320579D266574C"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "48646B99E0AF1EEF"
+				item: { components: { "ftbfiltersystem:filter": "or(item(overweight_farming:overweight_carrot_block)item(overweight_farming:overweight_potato_block)item(overweight_farming:overweight_beetroot_block)item(overweight_farming:overweight_onion_block)item(overweight_farming:overweight_cabbage_block)item(overweight_farming:overweight_apple_block))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.30d
+			y: -2.30d
+		}
+		{
+			dependencies: ["159AB46AE4279F5F"]
+			id: "4D837017BAB6A943"
+			rewards: [{
+				id: "1861BDC805BEE1D0"
+				type: "xp"
+				xp: 200
+			}, {
+				exclude_from_claim_all: true
+				id: "7CC7B23E6DF71926"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "54B451E6E09781F9"
+				item: { count: 1, id: "overweight_farming:overweight_golden_apple_block" }
+				type: "item"
+			}]
+			x: -3.71d
+			y: -3.71d
+		}
+		{
+			dependencies: ["43DBB8B767D00D27"]
+			id: "1EABFF3BD71ABDE5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3145B210A206A0DD"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3B630A619C7FE767"
+				item: { components: { "ftbfiltersystem:filter": "or(item(beachparty:beach_chair)item(beachparty:beach_towel)item(beachparty:beach_parasol)item(beachparty:beach_sun_lounger))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.84d
+			y: -3.14d
+		}
+		{
+			dependencies: ["1EABFF3BD71ABDE5"]
+			id: "14440E03C546758F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64210BA4005D3204"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "15020B55C4714644"
+				item: { components: { "ftbfiltersystem:filter": "or(item(beachparty:coconut_cocktail)item(beachparty:honey_cocktail)item(beachparty:melon_cocktail)item(beachparty:cocoa_cocktail)item(beachparty:pumpkin_cocktail))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.36d
+			y: -5.07d
+		}
+		{
+			dependencies: ["14440E03C546758F"]
+			id: "38A2EB0A33BB572F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "521A206FB51A434B"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "12926D892310FDAE"
+				item: { count: 1, id: "beachparty:mini_fridge" }
+				type: "item"
+			}]
+			x: -1.88d
+			y: -7.00d
+		}
+	]
+}

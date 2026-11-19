@@ -1,0 +1,181 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "frostworks"
+	group: "3B8AF43E1258A852"
+	icon: {
+		id: "frostworks:cryo_infuser"
+	}
+	id: "63DB18A4DE887E59"
+	images: [ ]
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3A0463C854B8A030"]
+			id: "1B2D2DF74B057AED"
+			tasks: [{
+				id: "299B3C5375440FED"
+				item: { count: 1, id: "frostworks:cold_dried_kelp" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["76735B9D6D5FCFC2"]
+			id: "20226A40E3632D80"
+			tasks: [{
+				id: "7739C8E50C1B2A35"
+				item: { count: 1, id: "frostworks:frosium_bucket" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0D0C4F619F6DA58D"]
+			id: "7A452BE80472B0E5"
+			tasks: [{
+				id: "63BB0235C3AB9A40"
+				item: { count: 1, id: "frostworks:compressor" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7D9A83C03F09B32D"]
+			id: "101D5B1E4F333861"
+			tasks: [{
+				id: "145370299EAE6DA3"
+				item: { count: 1, id: "frostworks:vent" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1B2D2DF74B057AED"]
+			id: "6C09CF7FD767F6AA"
+			tasks: [{
+				id: "11680A65FC8B993E"
+				item: { count: 1, id: "frostworks:insulated_door" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7CFFBD8B545C5BE3"]
+			id: "1CC3CF3DA825E447"
+			tasks: [{
+				id: "5C0EA0DE9C06BE47"
+				item: { count: 1, id: "frostworks:expander" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3A0463C854B8A030"
+				"7A452BE80472B0E5"
+			]
+			id: "7CFFBD8B545C5BE3"
+			tasks: [{
+				id: "064E652B59724D9B"
+				item: { count: 1, id: "frostworks:cold_iron_sheet" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7CFFBD8B545C5BE3"]
+			id: "4294E362D168ABD6"
+			tasks: [{
+				id: "725D35CF7429445A"
+				item: { count: 1, id: "frostworks:reservoir" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D0C4F619F6DA58D"]
+			id: "3A0463C854B8A030"
+			tasks: [{
+				id: "1FAE0986A9ADE591"
+				item: { count: 1, id: "frostworks:cryo_infuser" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7CFFBD8B545C5BE3"]
+			id: "7D9A83C03F09B32D"
+			tasks: [{
+				id: "2298FAB3DA989674"
+				item: { count: 1, id: "frostworks:cold_wall" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7D9A83C03F09B32D"]
+			id: "76735B9D6D5FCFC2"
+			tasks: [{
+				id: "5AC7D65B0FC488F6"
+				item: { count: 1, id: "frostworks:column_base" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1F800E2FBB67F59E"]
+			id: "0D0C4F619F6DA58D"
+			tasks: [{
+				id: "24C4B51DC42365E9"
+				item: { count: 1, id: "create:iron_sheet" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["403532A419123617"]
+			id: "1F800E2FBB67F59E"
+			tasks: [{
+				id: "6BDD3FB5AB65AE3F"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4F12514EC6E1165E"]
+			id: "403532A419123617"
+			tasks: [{
+				id: "03B66D24AB8075BD"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			id: "4F12514EC6E1165E"
+			tasks: [{
+				id: "2580903E68006A2E"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 6.5d
+		}
+	]
+}

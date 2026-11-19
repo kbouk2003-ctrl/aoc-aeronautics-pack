@@ -1,0 +1,495 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "productive_bees"
+	group: "0ED9F00893D42C69"
+	icon: {
+		id: "productivebees:advanced_oak_beehive"
+	}
+	id: "7AAE8A8FD9D47C6C"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "productivebees:advanced_oak_beehive" }
+			id: "23D34C74E8DDCCEF"
+			rewards: [{
+				id: "4897A8EC51731F77"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "1AA37AE772BC9797"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2A8C9AF8881F1002"
+				type: "checkmark"
+			}]
+			x: 0.00d
+			y: -2.25d
+		}
+		{
+			dependencies: ["23D34C74E8DDCCEF"]
+			id: "65D6BDFE1858450B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A27F76E0E9E76AD"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5CE5E38DDF570544"
+				item: { components: { "ftbfiltersystem:filter": "or(item(productivebees:oak_wood_nest)item(productivebees:stone_nest)item(productivebees:sand_nest)item(productivebees:coarse_dirt_nest)item(productivebees:bumble_bee_nest))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.00d
+			y: -9.75d
+		}
+		{
+			dependencies: ["65D6BDFE1858450B"]
+			id: "30F19F33356CE716"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "425CCC6D608FD63D"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "17FD8FB7187067C4"
+				item: { count: 1, id: "productivebees:nest_locator" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: -10.50d
+		}
+		{
+			dependencies: ["65D6BDFE1858450B"]
+			id: "3360220BD3D9DA6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AEE0743FCEA5067"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 4L
+				id: "23E7CF0DE7D6E4F9"
+				item: { count: 1, id: "productivebees:honey_treat" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: -9.00d
+		}
+		{
+			dependencies: ["23D34C74E8DDCCEF"]
+			id: "377DD7EDE1C9DB80"
+			rewards: [{
+				id: "47AA92D926B53EB3"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "40F8CB86E18F6054"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "6DE3E19BE7ECD5A8"
+				item: { count: 1, id: "productivebees:bee_cage" }
+				type: "item"
+			}]
+			x: 2.00d
+			y: 5.25d
+		}
+		{
+			dependencies: ["377DD7EDE1C9DB80"]
+			id: "5C32C8A6BCC66D00"
+			rewards: [{
+				id: "6E740A21CAA444D9"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "16C9A3F93A58C110"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "69E7CA15597BED43"
+				item: { count: 1, id: "productivebees:advanced_oak_beehive" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["5C32C8A6BCC66D00"]
+			id: "442A88DF5DE4D181"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "528FC91B61C07BB1"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2BB5516F2E592219"
+				item: { count: 1, id: "productivebees:expansion_box_oak" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: -7.50d
+		}
+		{
+			dependencies: ["5C32C8A6BCC66D00"]
+			id: "7CA049D2D52AE51C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6753D1A4F556AFC1"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6090897449AD622E"
+				item: { count: 1, id: "productivebees:feeder" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: -6.00d
+		}
+		{
+			dependencies: ["5C32C8A6BCC66D00"]
+			icon: { id: "minecraft:honeycomb" }
+			id: "2D98D759829951EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50E462655EB6CA14"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 8L
+				id: "2F439B0613E33E0A"
+				item: { count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: -2.63d
+		}
+		{
+			dependencies: ["2D98D759829951EA"]
+			id: "3D723ACE42430878"
+			rewards: [{
+				id: "55F0B4D908BA0BFD"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "1860FA0CE963D0AD"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6DA801A66079E750"
+				item: { count: 1, id: "productivebees:centrifuge" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: -3.75d
+		}
+		{
+			dependencies: ["3D723ACE42430878", "7C8C2CAA2A77E9A4"]
+			id: "77C2FD81B642782C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5705856ADECA9A20"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5DFAD550F38DE55E"
+				item: { components: { "ftbfiltersystem:filter": "or(item(productivebees:powered_centrifuge)item(productivebees:heated_centrifuge))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 10.00d
+			y: -4.50d
+		}
+		{
+			dependencies: ["2D98D759829951EA"]
+			id: "7C8C2CAA2A77E9A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37152B5943936AC4"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "73804DB91A3AACF0"
+				item: { count: 1, id: "productivebees:honey_generator" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: -1.50d
+		}
+		{
+			dependencies: ["3D723ACE42430878"]
+			id: "47498CF279FA1490"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A4393DB6EBFF558"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 16L
+				id: "661428A44B868934"
+				item: { count: 1, id: "productivebees:wax" }
+				type: "item"
+			}]
+			x: 10.00d
+			y: -3.00d
+		}
+		{
+			dependencies: ["5C32C8A6BCC66D00", "3360220BD3D9DA6C"]
+			id: "39336BC79E57B3B5"
+			rewards: [{
+				id: "12E8A555EF191592"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "7015F67B2786D19F"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "72946E2C1DF609CE"
+				item: { count: 1, id: "productivebees:breeding_chamber" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: 2.25d
+		}
+		{
+			dependencies: ["39336BC79E57B3B5"]
+			id: "553DD210C3C19EB5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "142A6841EB8FC59F"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2CDE93B14676FBA1"
+				item: { count: 1, id: "productivebees:incubator" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["377DD7EDE1C9DB80"]
+			id: "1FA5C0915B37B4E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "167BF0CBAE8BD045"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1BD808A19899D45B"
+				item: { count: 1, id: "productivebees:catcher" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: 10.50d
+		}
+		{
+			dependencies: ["39336BC79E57B3B5"]
+			icon: { id: "productivebees:bee_cage" }
+			id: "42C8BBC8C094CED6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F9D92332E41F932"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "67F0F5BE69A31825"
+				type: "checkmark"
+			}]
+			x: 8.00d
+			y: 1.50d
+		}
+		{
+			dependencies: ["30F19F33356CE716"]
+			id: "3A863B431D35CEBE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5555E65B5A96665C"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7DC0CB2F54F423FE"
+				item: { count: 1, id: "productivebees:nether_quartz_nest" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: -10.50d
+		}
+		{
+			dependencies: ["3360220BD3D9DA6C"]
+			id: "74741B82723AB57B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1ED49B286969B5DE"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4043EC595C9881AF"
+				item: { count: 1, id: "productivebees:treat_on_a_stick" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: -9.00d
+		}
+		{
+			dependencies: ["39336BC79E57B3B5"]
+			id: "37619BF6A47D69B4"
+			rewards: [{
+				id: "3B33DC39213CAB9E"
+				type: "xp"
+				xp: 200
+			}, {
+				exclude_from_claim_all: true
+				id: "54F71A431068668B"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "437D0E1351BDA432"
+				item: { count: 1, id: "productivebees:inactive_dragon_egg" }
+				type: "item"
+			}, {
+				id: "3EC28658CDB8C7FE"
+				item: { count: 1, id: "productivebees:dragon_egg_hive" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: 3.00d
+		}
+		{
+			dependencies: ["5C32C8A6BCC66D00"]
+			id: "7033D031B8AD2339"
+			rewards: [{
+				id: "4773E35998D0ECB9"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "60551A2037252605"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 2L
+				id: "46F0C8CE18132F84"
+				item: { count: 1, id: "productivelib:upgrade_base" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: 7.50d
+		}
+		{
+			dependencies: ["7033D031B8AD2339"]
+			id: "22442C083EC179AB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A00B5307E2465F2"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "61ED3FFAF9C7E7B9"
+				item: { components: { "ftbfiltersystem:filter": "or(item(productivelib:upgrade_productivity)item(productivelib:upgrade_productivity_2)item(productivelib:upgrade_productivity_3)item(productivelib:upgrade_productivity_4))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: 6.00d
+		}
+		{
+			dependencies: ["7033D031B8AD2339"]
+			id: "57122DC8E1BD63D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67FB4E48D46AA54C"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6E9A602EBF12ADCA"
+				item: { components: { "ftbfiltersystem:filter": "or(item(productivelib:upgrade_time)item(productivelib:upgrade_time_2))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: 7.50d
+		}
+		{
+			dependencies: ["7033D031B8AD2339"]
+			id: "3429F0BCD07ADE58"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23B42239A3998550"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "77BE6652836A19C4"
+				item: { count: 1, id: "productivelib:upgrade_simulator" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: 9.00d
+		}
+		{
+			dependencies: ["39336BC79E57B3B5"]
+			id: "412583672798CC1D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69BEBABF3A7FF241"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4CF3DEF857B86271"
+				item: { count: 1, id: "productivebees:gene_indexer" }
+				type: "item"
+			}, {
+				id: "675BB4094990F712"
+				item: { count: 1, id: "productivebees:honey_treat_genetic" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: 4.50d
+		}
+	]
+}

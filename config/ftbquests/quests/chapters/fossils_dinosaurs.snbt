@@ -1,0 +1,494 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fossils_dinosaurs"
+	group: "2E7DE7DF3538D0B0"
+	icon: {
+		id: "ec_ad:lushsaur_egg"
+	}
+	id: "211F0C386E6B10B8"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "unusual_prehistory:fossilized_skull" }
+			id: "588126E989FE5DAD"
+			rewards: [{
+				id: "6ABBB36579BBBABA"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "506CB33F572DDBF7"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "34072A3E700987F3"
+				type: "checkmark"
+			}]
+			x: 0.00d
+			y: -1.88d
+		}
+		{
+			dependencies: ["588126E989FE5DAD"]
+			id: "38EBD7ABD9576794"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64C74FABC870C18C"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "392C76070341FC18"
+				item: { components: { "ftbfiltersystem:filter": "or(item(unusual_prehistory:common_fossil_bed)item(unusual_prehistory:uncommon_fossil_bed)item(unusual_prehistory:rare_fossil_bed)item(unusual_prehistory:unusual_fossil_bed))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.00d
+			y: -6.00d
+		}
+		{
+			dependencies: ["38EBD7ABD9576794"]
+			id: "7AAD2D2E87F59D35"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F1DB8474E6DD530"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "159909716191684F"
+				item: { components: { "ftbfiltersystem:filter": "or(item(unusual_prehistory:dirt_matrix)item(unusual_prehistory:sand_matrix)item(unusual_prehistory:gravel_matrix)item(unusual_prehistory:mud_matrix)item(unusual_prehistory:red_sand_matrix)item(unusual_prehistory:snow_matrix))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: -6.00d
+		}
+		{
+			dependencies: ["7AAD2D2E87F59D35"]
+			id: "196C6B8C73861819"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CCEF6B64D671F45"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5B98E77D7C9834DF"
+				item: { count: 1, id: "unusual_prehistory:spiral_fossil" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: -6.75d
+		}
+		{
+			dependencies: ["196C6B8C73861819"]
+			id: "1E76576DFEEDC784"
+			rewards: [{
+				id: "5A2655F88AF7CF65"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "3E84B252B7AFB592"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6DC1B442F8401261"
+				item: { count: 1, id: "unusual_prehistory:transmogrifier" }
+				type: "item"
+			}, {
+				id: "459934928A0CFF12"
+				item: { count: 1, id: "unusual_prehistory:organic_ooze" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: -6.75d
+		}
+		{
+			dependencies: ["1E76576DFEEDC784"]
+			icon: { id: "unusual_prehistory:ammonite_spawn_egg" }
+			id: "6A0C1772EA946F4C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F71F2491B54F35F"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2CEB42D6BE088DFC"
+				observe_type: 5
+				timer: 0L
+				to_observe: "unusual_prehistory:ammonite"
+				type: "observation"
+			}]
+			x: 10.00d
+			y: -6.75d
+		}
+		{
+			dependencies: ["7AAD2D2E87F59D35"]
+			id: "62847191FAFD8FAE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65BB1C0B6D17AFE3"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "40B1B429ABE7572B"
+				item: { count: 1, id: "unusual_prehistory:gargantuan_fossil" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: -5.25d
+		}
+		{
+			dependencies: ["588126E989FE5DAD"]
+			id: "20C8CEC028999859"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1735A788FAC6C1E9"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7B6C62C9E23B161E"
+				item: { count: 1, id: "pelagic_prehistory:ancient_sediment" }
+				type: "item"
+			}, {
+				id: "36F0F4AB5FD17B95"
+				item: { count: 1, id: "pelagic_prehistory:ancient_sediment_fossil" }
+				type: "item"
+			}]
+			x: 2.00d
+			y: -3.75d
+		}
+		{
+			dependencies: ["20C8CEC028999859"]
+			id: "536C6497DBDF9F81"
+			rewards: [{
+				id: "1154B761D9AAA418"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "3AE575243CF383A2"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "457A234CB0F349AA"
+				item: { count: 1, id: "pelagic_prehistory:analyzer" }
+				type: "item"
+			}, {
+				id: "3A19DECFA1AAB7A0"
+				item: { count: 1, id: "pelagic_prehistory:fossil" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: -3.75d
+		}
+		{
+			dependencies: ["536C6497DBDF9F81"]
+			id: "50B6EF6B44D4CDEF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6606549FE0CE3007"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "50797D26E52B7524"
+				item: { components: { "ftbfiltersystem:filter": "or(item(pelagic_prehistory:dunkleosteus_vial)item(pelagic_prehistory:plesiosaurus_vial)item(pelagic_prehistory:pliosaurus_vial)item(pelagic_prehistory:spinosaurus_vial)item(pelagic_prehistory:henodus_vial)item(pelagic_prehistory:lepidotes_vial)item(pelagic_prehistory:cladoselache_vial)item(pelagic_prehistory:shonisaurus_vial))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: -3.75d
+		}
+		{
+			dependencies: ["50B6EF6B44D4CDEF"]
+			id: "48B3B960BFEB85C3"
+			rewards: [{
+				id: "5754C4FBC61381C9"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "3EA56004BA27DE94"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "170FE175D8C561FF"
+				item: { count: 1, id: "pelagic_prehistory:infuser" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: -3.75d
+		}
+		{
+			dependencies: ["48B3B960BFEB85C3"]
+			icon: { id: "pelagic_prehistory:dunkleosteus_spawn_egg" }
+			id: "5915C161D8B8A9E0"
+			rewards: [{
+				id: "55F0781736847E92"
+				type: "xp"
+				xp: 200
+			}, {
+				exclude_from_claim_all: true
+				id: "521C428818156781"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6EC3C012AE7B76B1"
+				observe_type: 5
+				timer: 0L
+				to_observe: "pelagic_prehistory:dunkleosteus"
+				type: "observation"
+			}, {
+				id: "616275A63E9BDDE7"
+				observe_type: 5
+				timer: 0L
+				to_observe: "pelagic_prehistory:plesiosaurus"
+				type: "observation"
+			}]
+			x: 10.00d
+			y: -3.75d
+		}
+		{
+			dependencies: ["588126E989FE5DAD"]
+			id: "10CA679C3108E992"
+			rewards: [{
+				id: "55AB1477D74691FC"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "5E021AD3C624CC47"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "4E27561068BA2530"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ec_ad:archie"
+				type: "observation"
+			}]
+			x: 2.00d
+			y: 2.25d
+		}
+		{
+			dependencies: ["10CA679C3108E992"]
+			icon: { id: "ec_ad:therimoss_spawn_egg" }
+			id: "1828C61A52A95B9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3308D35C986ADB0C"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3E9F817A8390B250"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ec_ad:therimoss"
+				type: "observation"
+			}]
+			x: 4.00d
+			y: -2.25d
+		}
+		{
+			dependencies: ["10CA679C3108E992"]
+			icon: { id: "ec_ad:lushsaur_spawn_egg" }
+			id: "1E44AAC1F1C67836"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "219BC00E5D972DD2"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4C4D3C47093794BF"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ec_ad:lushsaur"
+				type: "observation"
+			}]
+			x: 4.00d
+			y: -0.75d
+		}
+		{
+			dependencies: ["10CA679C3108E992"]
+			icon: { id: "ec_ad:coralosaur_spawn_egg" }
+			id: "13456E53C81843AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "640AB9830BA5A8FB"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4C826F951E5B2BE2"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ec_ad:coralosaur"
+				type: "observation"
+			}]
+			x: 4.00d
+			y: 0.75d
+		}
+		{
+			dependencies: ["10CA679C3108E992"]
+			icon: { id: "ec_ad:obsidiceratops_spawn_egg" }
+			id: "68AD1D7F9A3EC0D7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E6B7EF7BC966DAB"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "283497790E238F27"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ec_ad:obsidiceratops"
+				type: "observation"
+			}]
+			x: 4.00d
+			y: 2.25d
+		}
+		{
+			dependencies: ["10CA679C3108E992"]
+			icon: { id: "ec_ad:sculkraptor_spawn_egg" }
+			id: "5294A259174418A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26825CCA0C7B63DA"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "57A5A321BF2DB7DF"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ec_ad:sculkraptor"
+				type: "observation"
+			}]
+			x: 4.00d
+			y: 3.75d
+		}
+		{
+			dependencies: ["5294A259174418A1"]
+			icon: { id: "ec_ad:sculksaur_spawn_egg" }
+			id: "7AF69DA82C2382BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "662DEDB12E3B6598"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1A2E239E633B8F85"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ec_ad:sculksaur"
+				type: "observation"
+			}]
+			x: 6.00d
+			y: 3.75d
+		}
+		{
+			dependencies: ["10CA679C3108E992"]
+			icon: { id: "ec_ad:chorusoatl_spawn_egg" }
+			id: "654E055EFCBE3682"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59A7C8F7BD2EF842"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2D5DB0FD9C9253B1"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ec_ad:chorusoatl"
+				type: "observation"
+			}]
+			x: 4.00d
+			y: 5.25d
+		}
+		{
+			dependencies: ["1828C61A52A95B9C", "1E44AAC1F1C67836"]
+			id: "687993285B2BFB28"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "726B1575FACACFC8"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "222C76C749A689C7"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ec_ad:therimoss_egg)item(ec_ad:lushsaur_egg)item(ec_ad:obsidiceratops_egg)item(ec_ad:chorusoatl_egg)item(ec_ad:sculkraptor_egg))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: -2.25d
+		}
+		{
+			dependencies: ["687993285B2BFB28"]
+			id: "46687AD574E589A0"
+			rewards: [{
+				id: "10E485EE4722362E"
+				type: "xp"
+				xp: 200
+			}, {
+				exclude_from_claim_all: true
+				id: "343BF71EA3C8792D"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "59E94D9A31B2F369"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ec_ad:lushsaur_chestplate)item(ec_ad:coralosaur_chestplate)item(ec_ad:obsidiceratops_chestplate)item(ec_ad:chorusoatl_chestplate)item(ec_ad:sculksaur_chestplate)item(ec_ad:lush_mace)item(ec_ad:chorus_scythe)item(ec_ad:sculk_bow)item(ec_ad:rib_bow))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: -2.25d
+		}
+		{
+			dependencies: ["10CA679C3108E992"]
+			id: "1F73488E0E7AE333"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49B938294196FEC3"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "210504C77DAA91ED"
+				item: { count: 1, id: "ec_ad:amber" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: 6.75d
+		}
+	]
+}

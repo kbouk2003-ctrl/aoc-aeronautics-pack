@@ -1,0 +1,331 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "modular_bees"
+	group: "0ED9F00893D42C69"
+	icon: {
+		id: "modularbees:modular_beehive_core"
+	}
+	id: "2A855CC7E9B761C4"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6EE161CDE9AB1111"
+			rewards: [{
+				id: "65859D0415568469"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "45DC31EB84272FFF"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "3D11DF5922F8DB68"
+				item: { count: 1, id: "modularbees:scented_plank" }
+				type: "item"
+			}]
+			x: 0.00d
+			y: 2.06d
+		}
+		{
+			dependencies: ["6EE161CDE9AB1111"]
+			id: "54E97286C99E5C98"
+			rewards: [{
+				id: "6819395A242C3B16"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "3250950DD311CCB0"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "18FD4D8F726C7903"
+				item: { count: 1, id: "modularbees:modular_beehive_core" }
+				type: "item"
+			}]
+			x: 2.00d
+			y: 0.38d
+		}
+		{
+			dependencies: ["54E97286C99E5C98"]
+			id: "6087A1DCF5904DFE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "479EFF7989EDB6B2"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 20L
+				id: "362FA6821FBA4986"
+				item: { count: 1, id: "modularbees:modular_beehive_part" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: 0.38d
+		}
+		{
+			dependencies: ["6087A1DCF5904DFE"]
+			id: "1A66AE7D962E63BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2954C07D589D9421"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "262713A9BAE344C0"
+				item: { count: 1, id: "modularbees:modular_beehive_alveary" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: -1.50d
+		}
+		{
+			dependencies: ["6087A1DCF5904DFE"]
+			id: "3B86E195EF4EB4AD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43F06A91508EE83B"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2E341AEE252C543F"
+				item: { count: 1, id: "modularbees:modular_beehive_feeder" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: 2.25d
+		}
+		{
+			dependencies: ["1A66AE7D962E63BE"]
+			id: "49BF6ED619E56F24"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F31105A54271DB0"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "39A343A6B7853182"
+				item: { count: 1, id: "modularbees:modular_export" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: -3.75d
+		}
+		{
+			dependencies: ["1A66AE7D962E63BE"]
+			id: "6830C5754496CB50"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FACB2F536374D19"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "31C4991E696CFAA0"
+				item: { count: 1, id: "modularbees:modular_treater" }
+				type: "item"
+			}, {
+				id: "1A6F0C2262DD6EA6"
+				item: { count: 1, id: "modularbees:honey_jelly" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: -2.25d
+		}
+		{
+			dependencies: ["49BF6ED619E56F24"]
+			id: "2F0A4E8B974F0BFA"
+			rewards: [{
+				id: "68EC3A3087C7A015"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "29EE770CAAB7B295"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "655AF86E7A728533"
+				item: { count: 1, id: "modularbees:modular_beehive_overclocker" }
+				type: "item"
+			}, {
+				id: "7E10145757FDA8AB"
+				item: { count: 1, id: "modularbees:electrode_copper" }
+				type: "item"
+			}]
+			x: 10.00d
+			y: -3.75d
+		}
+		{
+			dependencies: ["2F0A4E8B974F0BFA"]
+			id: "624A0F4076DC91A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51D38A5F39154B86"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "237976A7DBBB8296"
+				item: { components: { "ftbfiltersystem:filter": "or(item(modularbees:electrode_iron)item(modularbees:electrode_gold)item(modularbees:electrode_netherite))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 12.00d
+			y: -3.75d
+		}
+		{
+			dependencies: ["1A66AE7D962E63BE"]
+			id: "2FE5470FAD9F7C35"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65A5D002015FA838"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5A747BB2A585F36F"
+				item: { count: 1, id: "modularbees:modular_beehive_stacker" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: -0.75d
+		}
+		{
+			dependencies: ["3B86E195EF4EB4AD"]
+			id: "3623AD0A9ABCEB6E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55535C9A62445C4B"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "570546BE9C6E01E4"
+				item: { count: 1, id: "modularbees:modular_dragon_hive" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: 2.25d
+		}
+		{
+			dependencies: ["6EE161CDE9AB1111"]
+			id: "521A1F5B59448BAA"
+			rewards: [{
+				id: "5F94090284138DA7"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "19C478F5F4B56F84"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2F0CF7A37F083D04"
+				item: { count: 1, id: "modularbees:modular_centrifuge_core" }
+				type: "item"
+			}]
+			x: 2.00d
+			y: 3.75d
+		}
+		{
+			dependencies: ["521A1F5B59448BAA"]
+			id: "55A7B8DCD24DA828"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "788E69D50BA3971C"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 20L
+				id: "5CCC3706BA909AF1"
+				item: { count: 1, id: "modularbees:modular_centrifuge_part" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: 3.75d
+		}
+		{
+			dependencies: ["55A7B8DCD24DA828"]
+			id: "764A3CAF41705034"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3512718D18FEEBAC"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3E4DE1812D101FF5"
+				item: { count: 1, id: "modularbees:modular_centrifuge_import" }
+				type: "item"
+			}, {
+				id: "15F9C0D76CE06AD1"
+				item: { count: 1, id: "modularbees:modular_centrifuge_export" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: 3.75d
+		}
+		{
+			dependencies: ["764A3CAF41705034"]
+			id: "6454930D1801CE8B"
+			rewards: [{
+				id: "5CDF7FA75876D4F7"
+				type: "xp"
+				xp: 200
+			}, {
+				exclude_from_claim_all: true
+				id: "1D5818887E768355"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "29631F2759A16F88"
+				item: { components: { "ftbfiltersystem:filter": "or(item(modularbees:modular_centrifuge_gearbox)item(modularbees:modular_centrifuge_heater)item(modularbees:modular_centrifuge_overclocker))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: 3.75d
+		}
+		{
+			dependencies: ["1A66AE7D962E63BE"]
+			id: "1E98C4B3E4937BAD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "680CFD24F3B0005D"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "74DC6EF9F1492BD5"
+				item: { count: 1, id: "modularbees:bee_extractor" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: 0.75d
+		}
+	]
+}

@@ -1,0 +1,483 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_nuclear"
+	group: "3B8AF43E1258A852"
+	icon: {
+		id: "createnuclear:reactor_core"
+	}
+	id: "47924A464AF3CFE8"
+	images: [ ]
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			id: "159CDB4C3D9EC20C"
+			rewards: [{
+				id: "16B44A9AE334CCAD"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "37D2A5F938DF7F42"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6502621AF17AC164"
+				item: { count: 1, id: "createnuclear:raw_uranium" }
+				type: "item"
+			}]
+			x: 0.00d
+			y: 0.38d
+		}
+		{
+			dependencies: ["159CDB4C3D9EC20C"]
+			id: "57473503FCD3E466"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DD6B6E949B3BA0D"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 4L
+				id: "455138B4E97C0C93"
+				item: { count: 1, id: "createnuclear:uranium_powder" }
+				type: "item"
+			}]
+			x: 2.00d
+			y: -6.00d
+		}
+		{
+			dependencies: ["159CDB4C3D9EC20C"]
+			id: "40A4A7914E2394B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60A128D22500738D"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "63B91276BD399DD7"
+				item: { count: 1, id: "createnuclear:raw_lead" }
+				type: "item"
+			}, {
+				id: "4E0D296DEACD7E02"
+				item: { count: 1, id: "createnuclear:lead_ingot" }
+				type: "item"
+			}]
+			x: 2.00d
+			y: -3.00d
+		}
+		{
+			dependencies: ["40A4A7914E2394B8"]
+			id: "59B08375072097FB"
+			rewards: [{
+				id: "3A065516A438C645"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "3698154CD022EBD6"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5426CB5C91D26C9E"
+				item: { components: { "ftbfiltersystem:filter": "or(item(createnuclear:default_anti_radiation_helmet)item(createnuclear:default_anti_radiation_chestplate)item(createnuclear:default_anti_radiation_leggings)item(createnuclear:default_anti_radiation_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: -3.75d
+		}
+		{
+			dependencies: ["40A4A7914E2394B8"]
+			id: "7D70EDF96835FDB9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "329CB6AFCC968FCA"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 8L
+				id: "7F16A5C349EB8812"
+				item: { count: 1, id: "createnuclear:reinforced_glass" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: -2.25d
+		}
+		{
+			dependencies: ["159CDB4C3D9EC20C"]
+			id: "6F037EB3488A783E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BD1DFF81F9BE0A9"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 8L
+				id: "65CA96C03D9F2EA0"
+				item: { count: 1, id: "createnuclear:coal_dust" }
+				type: "item"
+			}]
+			x: 2.00d
+			y: 2.25d
+		}
+		{
+			dependencies: ["6F037EB3488A783E"]
+			id: "64270596AD65C1E2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62FDFCC73C27C767"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 8L
+				id: "77BB6A0C4450728D"
+				item: { count: 1, id: "createnuclear:steel_ingot" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6F037EB3488A783E"]
+			id: "11754104B301F59E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F43EC7C17EF8590"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 4L
+				id: "4DE78FDF257498D5"
+				item: { count: 1, id: "createnuclear:graphene" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: 3.75d
+		}
+		{
+			dependencies: ["57473503FCD3E466"]
+			id: "5F8CBC3CA31E8AB1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1483D98D4F3FF7DD"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6A119E4468A0A303"
+				item: { count: 1, id: "createnuclear:yellowcake" }
+				type: "item"
+			}, {
+				id: "339C2E1D35839CC4"
+				item: { count: 1, id: "createnuclear:enriched_yellowcake" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: -6.75d
+		}
+		{
+			dependencies: ["57473503FCD3E466"]
+			id: "41CCB51DB9A9E9EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40031BF9DF54BAA9"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4C3240ED23BB8D0F"
+				item: { count: 1, id: "createnuclear:enriching_campfire" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: -5.25d
+		}
+		{
+			dependencies: ["159CDB4C3D9EC20C"]
+			id: "4CEDC7DDF4C8FF1B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E350B0E9394D807"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 4L
+				id: "6238CB856ED9AEB0"
+				item: { count: 1, id: "createnuclear:nitrate" }
+				type: "item"
+			}]
+			x: 2.00d
+			y: 5.25d
+		}
+		{
+			dependencies: ["4CEDC7DDF4C8FF1B"]
+			id: "4A33B09D920E8014"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "509F663C8F529898"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2DE6E05B8FC85F94"
+				item: { count: 1, id: "createnuclear:nitrogen_concentrate" }
+				type: "item"
+			}, {
+				id: "465F93E2D2E687CF"
+				item: { count: 1, id: "createnuclear:cooled_nitrogen_concentrate" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: 5.25d
+		}
+		{
+			dependencies: ["4A33B09D920E8014"]
+			id: "205A6546613934ED"
+			rewards: [{
+				id: "3A8D567B4643EED8"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "3FDA9F57BE9F5186"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "4886EA52967E1E6D"
+				item: { count: 1, id: "createnuclear:nitrogen_bucket" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: 5.25d
+		}
+		{
+			dependencies: ["5F8CBC3CA31E8AB1", "11754104B301F59E", "64270596AD65C1E2"]
+			hide_dependency_lines: true
+			id: "694C01A21F8B0B65"
+			rewards: [{
+				id: "387B7C1A572460FE"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "2159A763B9C80924"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "35E4F5301209F1EE"
+				item: { count: 1, id: "createnuclear:uranium_rod" }
+				type: "item"
+			}, {
+				id: "125E0565DEC06FB8"
+				item: { count: 1, id: "createnuclear:graphite_rod" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: -6.75d
+		}
+		{
+			dependencies: ["159CDB4C3D9EC20C"]
+			id: "5E65865C791DC3EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35D253D2C67A13FA"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3329725E8D356459"
+				item: { count: 1, id: "createnuclear:raw_thorium" }
+				type: "item"
+			}, {
+				id: "77840F851638502A"
+				item: { count: 1, id: "createnuclear:thorium_dust" }
+				type: "item"
+			}]
+			x: 2.00d
+			y: 6.75d
+		}
+		{
+			dependencies: ["5E65865C791DC3EA", "694C01A21F8B0B65"]
+			id: "2E47C72CFFC89F4F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "190B37C285BEC6A9"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6CDF2F928740434E"
+				item: { count: 1, id: "createnuclear:thorium_bucket" }
+				type: "item"
+			}, {
+				id: "30E56F651C2A7270"
+				item: { count: 1, id: "createnuclear:thorium_ingot" }
+				type: "item"
+			}, {
+				id: "7759111E81561921"
+				item: { count: 1, id: "createnuclear:thorium_rod" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: -6.75d
+		}
+		{
+			dependencies: ["64270596AD65C1E2", "7D70EDF96835FDB9"]
+			id: "14DBA6F6DFD13E92"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33843B233AEC35BA"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 16L
+				id: "4B007ECFA970D243"
+				item: { count: 1, id: "createnuclear:reactor_casing" }
+				type: "item"
+			}, {
+				count: 16L
+				id: "68322CC249C00FB5"
+				item: { count: 1, id: "createnuclear:reactor_frame" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: 0.75d
+		}
+		{
+			dependencies: ["14DBA6F6DFD13E92"]
+			id: "340A317C76DEE79A"
+			rewards: [{
+				id: "476D1FD9E27BE1B0"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "2B11EAD130E209B6"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5E5881071EC1F4BB"
+				item: { count: 1, id: "createnuclear:reactor_controller" }
+				type: "item"
+			}, {
+				id: "1EE252CCE0DDD65B"
+				item: { count: 1, id: "createnuclear:reactor_core" }
+				type: "item"
+			}, {
+				id: "3ED9CBA6930E2AE0"
+				item: { count: 1, id: "createnuclear:reactor_cooler" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: 0.75d
+		}
+		{
+			dependencies: ["340A317C76DEE79A"]
+			id: "4E148D954DE3AF01"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24594370F0FBE54A"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5C71459DB2FF9488"
+				item: { count: 1, id: "createnuclear:reactor_blueprint_item" }
+				type: "item"
+			}]
+			x: 10.00d
+			y: -0.75d
+		}
+		{
+			dependencies: ["340A317C76DEE79A", "205A6546613934ED"]
+			hide_dependency_lines: true
+			id: "55F858B3FBD8456E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "157B939D7FEE468B"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4888513C49CE6AFF"
+				item: { count: 1, id: "createnuclear:reactor_rod_input" }
+				type: "item"
+			}, {
+				id: "3788D1C7AF04D313"
+				item: { count: 1, id: "createnuclear:reactor_fluid_input" }
+				type: "item"
+			}, {
+				id: "456E78DEBA5EA413"
+				item: { count: 1, id: "createnuclear:reactor_output" }
+				type: "item"
+			}]
+			x: 10.00d
+			y: 0.75d
+		}
+		{
+			dependencies: ["340A317C76DEE79A"]
+			id: "26E98AB955905859"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76F15387CDA70888"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "46F2C15662FD24B7"
+				item: { count: 1, id: "createnuclear:reactor_alarm" }
+				type: "item"
+			}]
+			x: 10.00d
+			y: 2.25d
+		}
+		{
+			dependencies: ["55F858B3FBD8456E", "4E148D954DE3AF01", "694C01A21F8B0B65"]
+			hide_dependency_lines: true
+			icon: { id: "createnuclear:reactor_core" }
+			id: "29C232FDC9C11FC3"
+			rewards: [{
+				id: "4220FDD0D28BB054"
+				type: "xp"
+				xp: 200
+			}, {
+				exclude_from_claim_all: true
+				id: "3DAC699932ACD69A"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "3F0F06A6876429FA"
+				type: "checkmark"
+			}]
+			x: 12.00d
+			y: 0.75d
+		}
+	]
+}

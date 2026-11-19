@@ -1,0 +1,624 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aeronautics_addons"
+	group: "408D0BD6C358F867"
+	icon: {
+		id: "aeroworks:control_desk"
+	}
+	id: "2FEAD1B31F2FE955"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "aeronautics:levitite" }
+			id: "4487E5A470B5E765"
+			rewards: [{
+				id: "66A814F07EF8247E"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "2D44BD803AE74E5F"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "3748F10D94AD7052"
+				type: "checkmark"
+			}]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["4487E5A470B5E765"]
+			id: "7DC39B88C3A26072"
+			rewards: [{
+				id: "63D86FA88E91EA8B"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "7C19FDE9DDCD5716"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6795BA4936D8DD1C"
+				item: { components: { "ftbfiltersystem:filter": "or(item(aeroworks:control_desk)item(aeroworks:control_stand))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.66d
+			y: -4.29d
+		}
+		{
+			dependencies: ["7DC39B88C3A26072"]
+			id: "60D383B73FEB9246"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B77200CE4219775"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2ABE715C54055A11"
+				item: { components: { "ftbfiltersystem:filter": "or(item(aeroworks:lever_module)item(aeroworks:wheel_module)item(aeroworks:joystick_module)item(aeroworks:yoke_module)item(aeroworks:throttle_quadrant_module)item(aeroworks:pedal_module)item(aeroworks:button_module)item(aeroworks:button_panel_module)item(aeroworks:button_keypad_module))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.21d
+			y: -6.49d
+		}
+		{
+			dependencies: ["7DC39B88C3A26072"]
+			id: "73A456AB6899E83E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19245E2916603B7C"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5E679DC9128824F4"
+				item: { components: { "ftbfiltersystem:filter": "or(item(aeroworks:mechanical_servo)item(aeroworks:stepper_servo)item(aeroworks:gyroscope))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.47d
+			y: -5.61d
+		}
+		{
+			dependencies: ["4487E5A470B5E765"]
+			id: "60A5B126E7FAC9A8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CD96717313249A8"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 8L
+				id: "36EDAED7C5A20527"
+				item: { count: 1, id: "drivebywire:wire" }
+				type: "item"
+			}, {
+				id: "14165069327977D4"
+				item: { count: 1, id: "drivebywire:wire_cutter" }
+				type: "item"
+			}]
+			x: 4.12d
+			y: -2.05d
+		}
+		{
+			dependencies: ["60A5B126E7FAC9A8"]
+			id: "4BF0A81685432AFB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14A042DC18D50F89"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "750F9C157A75BC10"
+				item: { components: { "ftbfiltersystem:filter": "or(item(drivebywire:controller_hub)item(drivebywire:tweaked_controller_hub))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.27d
+			y: -3.98d
+		}
+		{
+			dependencies: ["60A5B126E7FAC9A8"]
+			id: "20DF7575772D5E75"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C76A17BC5BD8680"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "23287B8A3D08E023"
+				item: { count: 1, id: "drivebywire:backup_block" }
+				type: "item"
+			}]
+			x: 6.35d
+			y: -1.81d
+		}
+		{
+			dependencies: ["4487E5A470B5E765"]
+			id: "770698375D87B0AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "195AFCF101C97450"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "271C889465DA1204"
+				item: { count: 1, id: "tracks:track_mount" }
+				type: "item"
+			}]
+			x: 4.58d
+			y: 0.42d
+		}
+		{
+			dependencies: ["770698375D87B0AE"]
+			id: "1C14E3235F6C232A"
+			rewards: [{
+				id: "217A3B4FAC0197B8"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "3D3DB175796689C2"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1673A49BAC79A04E"
+				item: { count: 1, id: "tracks:suspension_track" }
+				type: "item"
+			}, {
+				id: "4EA30FA0B224EFFF"
+				item: { count: 1, id: "tracks:track_drive_wheel" }
+				type: "item"
+			}]
+			x: 6.57d
+			y: 0.61d
+		}
+		{
+			dependencies: ["1C14E3235F6C232A"]
+			id: "4F4D0FF61C9C516F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25CA36C0C32627F0"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6FFA2E5315211C14"
+				item: { count: 1, id: "tracks:suspension_key" }
+				type: "item"
+			}]
+			x: 8.56d
+			y: 0.79d
+		}
+		{
+			dependencies: ["4487E5A470B5E765"]
+			id: "42F212E0846C55F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EDD1F0F94EE5F96"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "554414464216E184"
+				item: { count: 1, id: "linearbearing:linear_bearing" }
+				type: "item"
+			}]
+			x: 3.67d
+			y: 2.77d
+		}
+		{
+			dependencies: ["42F212E0846C55F6"]
+			id: "79D5B48262415F5B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5413414B5B151ECF"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6C8ACAAA8746895A"
+				item: { components: { "ftbfiltersystem:filter": "or(item(linearbearing:torsional_anchor)item(linearbearing:magnetic_port)item(linearbearing:redstone_converter)item(linearbearing:slippery_copycat))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.91d
+			y: 2.94d
+		}
+		{
+			dependencies: ["42F212E0846C55F6"]
+			id: "6A0A613C3F7BE02D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "438D0AC3DD949D93"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "42D18EAEFB3056BD"
+				item: { count: 1, id: "linearbearing:gyroscopic_gearbox" }
+				type: "item"
+			}]
+			x: 4.45d
+			y: 4.88d
+		}
+		{
+			dependencies: ["4487E5A470B5E765"]
+			id: "631FE19803FE6ACA"
+			rewards: [{
+				id: "13D661D61653A46A"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "4DDE65934F92CAE7"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7D93A73B95A5E6A8"
+				item: { count: 1, id: "create_kart:chassie" }
+				type: "item"
+			}, {
+				id: "66D054550F753C63"
+				item: { count: 1, id: "create_kart:kart_motor" }
+				type: "item"
+			}, {
+				count: 4L
+				id: "2CE42978C70E0CA7"
+				item: { count: 1, id: "create_kart:roue" }
+				type: "item"
+			}, {
+				id: "2A740D1749CC1F15"
+				item: { count: 1, id: "create_kart:siege" }
+				type: "item"
+			}]
+			x: 1.66d
+			y: 4.29d
+		}
+		{
+			dependencies: ["631FE19803FE6ACA"]
+			id: "426043C08F6938F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "680A05BAF91498BB"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5DE2F3082195BFB5"
+				item: { count: 1, id: "create_kart:glue_applicator" }
+				type: "item"
+			}, {
+				id: "4CEDE0736AB5E444"
+				item: { count: 1, id: "create_kart:super_ice" }
+				type: "item"
+			}]
+			x: 2.38d
+			y: 6.15d
+		}
+		{
+			dependencies: ["4487E5A470B5E765"]
+			id: "2BB1FAF24BAF40EF"
+			rewards: [{
+				id: "6339D9E4D03E0BCC"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "718626378A6A97B7"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "718675551BAE9621"
+				item: { count: 1, id: "aeronautics_utility_objects:hydraulic_rod" }
+				type: "item"
+			}, {
+				id: "1FFA9389C71EC8FE"
+				item: { count: 1, id: "aeronautics_utility_objects:hydraulic_regulator" }
+				type: "item"
+			}]
+			x: -0.85d
+			y: 4.52d
+		}
+		{
+			dependencies: ["2BB1FAF24BAF40EF"]
+			id: "578BB6B7C7A78B6B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4433782488CB7326"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5B3CD340F591E0F6"
+				item: { components: { "ftbfiltersystem:filter": "or(item(aeronautics_utility_objects:universal_joint_rod)item(aeronautics_utility_objects:universal_joint_rod2)item(aeronautics_utility_objects:brass_universal_joint))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.00d
+			y: 6.60d
+		}
+		{
+			dependencies: ["2BB1FAF24BAF40EF"]
+			id: "1BC68CCB937878EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F831E8F48E696CF"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5152FE6500E28D01"
+				item: { count: 1, id: "aeronautics_utility_objects:damping_stress_bearing" }
+				type: "item"
+			}]
+			x: -2.38d
+			y: 6.15d
+		}
+		{
+			dependencies: ["4487E5A470B5E765"]
+			id: "3BE55608577361CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6278DCC6E6BFDC1E"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 4L
+				id: "5DAEE399A0011308"
+				item: { count: 1, id: "createtransmission:transmission_chain" }
+				type: "item"
+			}]
+			x: -3.10d
+			y: 3.40d
+		}
+		{
+			dependencies: ["4487E5A470B5E765"]
+			id: "4A280853246EEE08"
+			rewards: [{
+				id: "79C03414E359CDFC"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "1CFEB2C0FCE0961D"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5882CD12500BA975"
+				item: { count: 1, id: "create_aeronautics_toolgun:magnetic_gun" }
+				type: "item"
+			}]
+			x: -4.12d
+			y: 2.05d
+		}
+		{
+			dependencies: ["4A280853246EEE08"]
+			id: "7A5066A7E217E3F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71B59CA4C836C123"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4D67659D61F60D47"
+				item: { count: 1, id: "create_aeronautics_toolgun:survival_structure_tool" }
+				type: "item"
+			}]
+			x: -5.91d
+			y: 2.94d
+		}
+		{
+			dependencies: ["7A5066A7E217E3F0"]
+			id: "2E3E3781BFF083BA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "754523697B59E6C7"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "31145579C5CDA2C1"
+				item: { count: 1, id: "create_aeronautics_toolgun:portable_structure_container" }
+				type: "item"
+			}]
+			x: -7.70d
+			y: 3.83d
+		}
+		{
+			dependencies: ["4487E5A470B5E765"]
+			id: "1D3CD000706C0C39"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FF6CD5F1AA87103"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6CF006C0272F0DE2"
+				item: { count: 1, id: "create_aeronautics_throwable_rope_connector:throwable_rope_connector" }
+				type: "item"
+			}, {
+				id: "78A2BAAB3C469E09"
+				item: { count: 1, id: "create_aeronautics_throwable_rope_connector:rope_connector_launcher" }
+				type: "item"
+			}]
+			x: -4.58d
+			y: 0.42d
+		}
+		{
+			dependencies: ["1D3CD000706C0C39"]
+			id: "13E92C3933678534"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78188163536CC929"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "38F6FE260847B840"
+				item: { count: 1, id: "create_aeronautics_throwable_rope_connector:mounted_rope_launcher" }
+				type: "item"
+			}]
+			x: -6.57d
+			y: 0.61d
+		}
+		{
+			dependencies: ["4487E5A470B5E765"]
+			id: "1BB4787019AA68E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C8132521C6507AB"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4E78ADAD6FB6A30A"
+				item: { count: 1, id: "aeroclaims:claim_block" }
+				type: "item"
+			}]
+			x: -4.42d
+			y: -1.26d
+		}
+		{
+			dependencies: ["4487E5A470B5E765"]
+			id: "7C36AC287724FCA7"
+			rewards: [{
+				id: "1504A747C760E87E"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "3E80DD25051BE681"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "17A2F64A75C47D06"
+				item: { count: 1, id: "createornithopterglider:wing_mesh" }
+				type: "item"
+			}, {
+				id: "641ED1279E3E40C8"
+				item: { count: 1, id: "createornithopterglider:ornithopterglider" }
+				type: "item"
+			}]
+			x: -3.67d
+			y: -2.77d
+		}
+		{
+			dependencies: ["4487E5A470B5E765"]
+			id: "3202B3169AC7D75E"
+			rewards: [{
+				id: "1C54DAF65DE0FCA3"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "38BFF9B8485D8C09"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 2L
+				id: "43A71D25ED65C05A"
+				item: { count: 1, id: "simulatedcoasters:coaster_anchorpoint" }
+				type: "item"
+			}, {
+				id: "7BCAC77C58F69E93"
+				item: { count: 1, id: "simulatedcoasters:coaster_track" }
+				type: "item"
+			}, {
+				id: "3E6F5F6F42C2F1A1"
+				item: { count: 1, id: "simulatedcoasters:coaster_cart" }
+				type: "item"
+			}]
+			x: -1.66d
+			y: -4.29d
+		}
+		{
+			dependencies: ["3202B3169AC7D75E"]
+			id: "546E0DA597827983"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "603DEEF77E0F3423"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4E548330016C11FE"
+				item: { count: 1, id: "simulatedcoasters:rivet" }
+				type: "item"
+			}]
+			x: -3.47d
+			y: -5.61d
+		}
+		{
+			dependencies: ["3202B3169AC7D75E"]
+			id: "1602A6E3AB3C7525"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56AEF0D01BCF1E68"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2E5F3D6ADCF2627B"
+				item: { count: 1, id: "coastersengineered:linear_motor" }
+				type: "item"
+			}, {
+				id: "6931B40AAA33B5C5"
+				item: { count: 1, id: "coastersengineered:linear_motor_controller" }
+				type: "item"
+			}]
+			x: -1.21d
+			y: -6.49d
+		}
+		{
+			dependencies: ["1602A6E3AB3C7525"]
+			id: "10441FCC4B56B1AA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51BAAB6EC104FDCE"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "599758D0A7A60A57"
+				item: { count: 1, id: "coastersengineered:coaster_observer" }
+				type: "item"
+			}]
+			x: -1.58d
+			y: -8.45d
+		}
+	]
+}

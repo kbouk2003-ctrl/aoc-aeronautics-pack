@@ -1,0 +1,486 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "riftborne"
+	group: "408D0BD6C358F867"
+	icon: {
+		id: "create_riftborne:rift_engine_core"
+	}
+	id: "44FD3934E90E5AB1"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5A674F9EAFAC754D"
+			rewards: [{
+				id: "266CF48517195050"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "6F38CE6FF03549E6"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6DFF29DCE7EBDC99"
+				item: { count: 1, id: "create_riftborne:raw_noctite" }
+				type: "item"
+			}]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["5A674F9EAFAC754D"]
+			id: "1CD5A45BA4197925"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BB8D342D2ADECC2"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5A83249CBEFA1BEF"
+				item: { count: 1, id: "create_riftborne:unstable_noctite_ingot" }
+				type: "item"
+			}]
+			x: 2.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["1CD5A45BA4197925"]
+			id: "7A075CED67D93919"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "785BDBA06C583FA0"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 4L
+				id: "1D0F5198247468AD"
+				item: { count: 1, id: "create_riftborne:noctite_ingot" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["7A075CED67D93919"]
+			id: "558182DA942C5E0C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D1806FB350E8E9F"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 8L
+				id: "35DCD1BBF67047B4"
+				item: { count: 1, id: "create_riftborne:noctite_casing" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["7A075CED67D93919"]
+			id: "742B421F404A74EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45AF550966D03DE7"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "659D1B66E10A4830"
+				item: { count: 1, id: "create_riftborne:resonance_coil" }
+				type: "item"
+			}, {
+				id: "3DE42ACE7D22F967"
+				item: { count: 1, id: "create_riftborne:spatial_lens" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["7A075CED67D93919"]
+			id: "6544CB147985FF81"
+			rewards: [{
+				id: "1C3D3B5BACACBCD7"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "5836458D2A4281CC"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1CB8F4C55759D4F8"
+				item: { count: 1, id: "create_riftborne:stabilized_phase_fluid_bucket" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["6544CB147985FF81"]
+			id: "2A2BDF4F084D2AEC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3842420FEBC76A02"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "27B8A0D68E5C87F2"
+				item: { count: 1, id: "create_riftborne:phase_catalyst" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["2A2BDF4F084D2AEC", "742B421F404A74EE"]
+			id: "499A8CA3E83298B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67F15EA4D2AEDB0C"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6A3D76D5D8607DD4"
+				item: { count: 1, id: "create_riftborne:rift_heart" }
+				type: "item"
+			}]
+			x: 10.00d
+			y: -2.63d
+		}
+		{
+			dependencies: ["499A8CA3E83298B9", "558182DA942C5E0C"]
+			id: "3DF753FD3B9DE27F"
+			rewards: [{
+				id: "210A51FF7CBA9385"
+				type: "xp"
+				xp: 200
+			}, {
+				exclude_from_claim_all: true
+				id: "1D2F59F8A8459DDB"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "442CF86EDD637DCD"
+				item: { count: 1, id: "create_riftborne:rift_engine_base" }
+				type: "item"
+			}, {
+				id: "7A70E635DF17D433"
+				item: { count: 1, id: "create_riftborne:rift_engine_core" }
+				type: "item"
+			}, {
+				id: "4B90D7944B7B071A"
+				item: { count: 1, id: "create_riftborne:rift_engine_stabilizer" }
+				type: "item"
+			}, {
+				id: "3F955CDA4521782B"
+				item: { count: 1, id: "create_riftborne:rift_engine_console" }
+				type: "item"
+			}]
+			x: 12.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["3DF753FD3B9DE27F"]
+			id: "6E9D53F18E974CC2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B0071165BB75AFE"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3C13004A1FF4DE54"
+				item: { count: 1, id: "create_riftborne:rift_anchor" }
+				type: "item"
+			}]
+			x: 14.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["6E9D53F18E974CC2", "6544CB147985FF81"]
+			id: "7A96E37687ED9DC6"
+			rewards: [{
+				id: "466C98085DF60043"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "182D68C1387B2411"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "344FF999727CCA45"
+				type: "checkmark"
+			}]
+			x: 16.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["7A96E37687ED9DC6", "6992D2AD13721BED"]
+			id: "2F43E4590128C3EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B03B18696E3864B"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2629AC50B3B5D5A8"
+				item: { count: 1, id: "create_riftborne:rift_engine_remote" }
+				type: "item"
+			}]
+			x: 18.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["3DF753FD3B9DE27F"]
+			id: "6992D2AD13721BED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DC79525F2AFFCA3"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "26E1ABD1C2EBA9C1"
+				item: { count: 1, id: "create_riftborne:corrupted_shard" }
+				type: "item"
+			}]
+			x: 14.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["558182DA942C5E0C"]
+			id: "638169D0126299FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "768E34177DC9CC1B"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "27A14C789A1CE2A9"
+				item: { count: 1, id: "create_riftborne:empty_shulker_burner" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["558182DA942C5E0C"]
+			id: "3413DDB5C66A93B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "699ABFCA916F0013"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6DE2A48A1209226F"
+				item: { count: 1, id: "create_riftborne:phase_fluid_tank" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["3413DDB5C66A93B9", "742B421F404A74EE"]
+			id: "2BE331FCF202EB41"
+			rewards: [{
+				id: "44761B82EC54554B"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "3B4D57607C7BABAC"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "73959693B89DA075"
+				item: { components: { "ftbfiltersystem:filter": "or(item(create_riftborne:item_slipgate)item(create_riftborne:fluid_slipgate))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 10.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["3413DDB5C66A93B9", "6992D2AD13721BED"]
+			id: "32BC428A06F9B7B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3ADB89E2BEA0BCF0"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2C90E5FBD71B2258"
+				item: { count: 1, id: "create_riftborne:phase_sticker" }
+				type: "item"
+			}]
+			x: 16.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["3413DDB5C66A93B9", "2A2BDF4F084D2AEC"]
+			id: "13CC4677811F1F72"
+			rewards: [{
+				id: "7205081CEA1F8F2E"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "6CE716A6DAF040D8"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "42A039FD85873F89"
+				item: { count: 1, id: "create_riftborne:stasis_core" }
+				type: "item"
+			}, {
+				id: "767B74F51C4417D0"
+				item: { count: 1, id: "create_riftborne:stasis_field" }
+				type: "item"
+			}]
+			x: 10.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["3413DDB5C66A93B9"]
+			id: "1088703E8F6D09D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4103D42703F5D11A"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7DA75C4CD02D8585"
+				item: { components: { "ftbfiltersystem:filter": "or(item(create_riftborne:repulsor_field)item(create_riftborne:tether_winch)item(create_riftborne:pulse_drive)item(create_riftborne:hauler))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 10.00d
+			y: 2.63d
+		}
+		{
+			dependencies: ["6992D2AD13721BED"]
+			id: "7EFC83F69A99504C"
+			rewards: [{
+				id: "29D5223F7FB6817E"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "585AF25860326996"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "62DA1BFBC7330718"
+				item: { count: 1, id: "create_riftborne:apex_base" }
+				type: "item"
+			}, {
+				id: "678F54C209896A10"
+				item: { count: 1, id: "create_riftborne:apex_glass" }
+				type: "item"
+			}, {
+				id: "70F78B982645034F"
+				item: { count: 1, id: "create_riftborne:apex_tap" }
+				type: "item"
+			}]
+			x: 16.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["7EFC83F69A99504C"]
+			id: "7CB6DCA0F0AD91F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72CB0E9B703B21CE"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "63F5776F8478DADE"
+				item: { count: 1, id: "create_riftborne:anomaly_manipulator" }
+				type: "item"
+			}, {
+				id: "7585F26A39421C6C"
+				item: { count: 1, id: "create_riftborne:rift_ichor_chunk" }
+				type: "item"
+			}]
+			x: 18.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["7CB6DCA0F0AD91F4", "13CC4677811F1F72"]
+			id: "40E2C64031BE733F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EB1751EBDD6BCA5"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5F2E9B6F9871B2DF"
+				item: { count: 1, id: "create_riftborne:apex_nexus" }
+				type: "item"
+			}]
+			x: 20.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["40E2C64031BE733F"]
+			id: "4C78389E8A39DCB7"
+			rewards: [{
+				id: "1F77882B81BB4A23"
+				type: "xp"
+				xp: 200
+			}, {
+				exclude_from_claim_all: true
+				id: "56A546134B69EB8A"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6C15057BC996F1B5"
+				item: { count: 1, id: "create_riftborne:primordium" }
+				type: "item"
+			}]
+			x: 22.00d
+			y: 0.00d
+		}
+	]
+}

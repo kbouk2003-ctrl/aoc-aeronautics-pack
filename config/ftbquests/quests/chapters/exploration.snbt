@@ -1,0 +1,515 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exploration"
+	group: "2E7DE7DF3538D0B0"
+	icon: {
+		id: "naturescompass:naturescompass"
+	}
+	id: "68EAC271DD0DA72C"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "minecraft:filled_map" }
+			id: "38D6DE63325E6413"
+			rewards: [{
+				id: "4223D1A5522C7FE6"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "5192CF825DF8192D"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "76AF420005595AF3"
+				type: "checkmark"
+			}]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["38D6DE63325E6413"]
+			id: "22E2E4CAE2E08266"
+			rewards: [{
+				id: "1D388F6A2EDE821D"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "1D3D2CA1CFDD8F92"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "40A2B0D2D8256077"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: 4.80d
+			y: 0.85d
+		}
+		{
+			dependencies: ["38D6DE63325E6413"]
+			id: "7FE38A976D6DC787"
+			rewards: [{
+				id: "60BFA66BAC7DDE4B"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "75393E7496D530A3"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "362F3AC15617D621"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: -4.87d
+			y: 0.00d
+		}
+		{
+			dependencies: ["38D6DE63325E6413"]
+			icon: { id: "lootr:lootr_chest" }
+			id: "37D18E9128EA6F15"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52B8279572417944"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "30E6753F5D3660A1"
+				type: "checkmark"
+			}]
+			x: -0.85d
+			y: -4.80d
+		}
+		{
+			dependencies: ["22E2E4CAE2E08266"]
+			id: "4F0054BB38282CD4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "430803D2CEEEB461"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				biome: "terralith:bryce_canyon"
+				id: "7268C5832F610D33"
+				type: "biome"
+			}]
+			x: 1.19d
+			y: -6.77d
+		}
+		{
+			dependencies: ["22E2E4CAE2E08266"]
+			id: "7AF1A969DA43931E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7580B06B7AAC56D2"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				biome: "terralith:amethyst_canyon"
+				id: "4E8E84FB9A6743E6"
+				type: "biome"
+			}]
+			x: 3.44d
+			y: -5.95d
+		}
+		{
+			dependencies: ["22E2E4CAE2E08266"]
+			id: "36CF493E0AB29784"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6630923ABEE5E6D2"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				biome: "terralith:lavender_forest"
+				id: "7BC82CB66952B452"
+				type: "biome"
+			}]
+			x: 5.26d
+			y: -4.42d
+		}
+		{
+			dependencies: ["22E2E4CAE2E08266"]
+			id: "4C64D60637E7331F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "538DCE72A16438B7"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				biome: "terralith:moonlight_grove"
+				id: "3A11BFC03B4B641E"
+				type: "biome"
+			}]
+			x: 6.46d
+			y: -2.35d
+		}
+		{
+			dependencies: ["22E2E4CAE2E08266"]
+			id: "176E50F222206C82"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68919C386B53CF5E"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				biome: "terralith:desert_oasis"
+				id: "2DE5C656592FC357"
+				type: "biome"
+			}]
+			x: 6.87d
+			y: 0.00d
+		}
+		{
+			dependencies: ["22E2E4CAE2E08266"]
+			id: "1B08C0A85404FB35"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60FE5D44AE53B315"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				biome: "terralith:emerald_peaks"
+				id: "79DE1984AD879E83"
+				type: "biome"
+			}]
+			x: 6.46d
+			y: 2.35d
+		}
+		{
+			dependencies: ["22E2E4CAE2E08266"]
+			id: "5388A05F39C77EE7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F4DA8D70E6D1D92"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				biome: "terralith:mirage_isles"
+				id: "5A821EE652C81C9A"
+				type: "biome"
+			}]
+			x: 5.26d
+			y: 4.42d
+		}
+		{
+			dependencies: ["22E2E4CAE2E08266"]
+			id: "345A84C02D80D802"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11FD52224670640C"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				biome: "terralith:cave/underground_jungle"
+				id: "5F6AF5C942AA0BD1"
+				type: "biome"
+			}]
+			x: 3.44d
+			y: 5.95d
+		}
+		{
+			dependencies: ["22E2E4CAE2E08266"]
+			id: "63F1FD87FBB93A57"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19236F5DE91AE70C"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				biome: "terralith:cave/frostfire_caves"
+				id: "54AFC8FE332FF8EB"
+				type: "biome"
+			}]
+			x: 1.19d
+			y: 6.77d
+		}
+		{
+			dependencies: ["22E2E4CAE2E08266"]
+			id: "1CCE02BE6C4CEE3A"
+			rewards: [{
+				id: "67F3DAAF7D8160BF"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "11E225DFFB49B497"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				biome: "nullscape:void_barrens"
+				id: "145B3FB65397E2EE"
+				type: "biome"
+			}, {
+				biome: "nullscape:crystal_peaks"
+				id: "3F4A47AB6991A857"
+				type: "biome"
+			}]
+			x: -1.19d
+			y: 6.77d
+		}
+		{
+			dependencies: ["4F0054BB38282CD4", "7AF1A969DA43931E", "36CF493E0AB29784", "4C64D60637E7331F", "176E50F222206C82", "1B08C0A85404FB35", "5388A05F39C77EE7", "345A84C02D80D802", "63F1FD87FBB93A57"]
+			hide_dependency_lines: true
+			icon: { id: "naturescompass:naturescompass" }
+			id: "1F330B29A3BBC473"
+			rewards: [{
+				id: "46CE60B2BE0BD66A"
+				type: "xp"
+				xp: 200
+			}, {
+				exclude_from_claim_all: true
+				id: "3C117B76C4410961"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "5800C57908C958C6"
+				type: "checkmark"
+			}]
+			x: 1.54d
+			y: -8.74d
+		}
+		{
+			dependencies: ["7FE38A976D6DC787"]
+			id: "3E5181C881FA5B51"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2299FF566AE32091"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7CC208AC3547C96D"
+				structure: "#terralith:mage_towers"
+				type: "structure"
+			}]
+			x: -3.44d
+			y: 5.95d
+		}
+		{
+			dependencies: ["7FE38A976D6DC787"]
+			id: "6F94CB102E20BA17"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42F463413E624A37"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5C37BF1DB0371360"
+				structure: "#terralith:fortified_villages"
+				type: "structure"
+			}]
+			x: -5.26d
+			y: 4.42d
+		}
+		{
+			dependencies: ["7FE38A976D6DC787"]
+			id: "38A094CF57376510"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D08E444272D7C86"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5BC84F988FF48008"
+				structure: "terralith:spire"
+				type: "structure"
+			}]
+			x: -6.46d
+			y: 2.35d
+		}
+		{
+			dependencies: ["7FE38A976D6DC787"]
+			id: "22BC7CBECEC3DA94"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "745E6079C97ECD29"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5F58664CC07F3159"
+				structure: "structory:old_manor"
+				type: "structure"
+			}]
+			x: -6.87d
+			y: 0.00d
+		}
+		{
+			dependencies: ["7FE38A976D6DC787"]
+			id: "7AD46535B5DE1039"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E6E5AC907401E90"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4B7AE46F59C75A6C"
+				structure: "structory:firetower"
+				type: "structure"
+			}]
+			x: -6.46d
+			y: -2.35d
+		}
+		{
+			dependencies: ["7FE38A976D6DC787"]
+			id: "71EAB4875A7AFAA3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2883432FAFA6EF06"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2A25067404C7786A"
+				structure: "structory:graveyard"
+				type: "structure"
+			}]
+			x: -5.26d
+			y: -4.42d
+		}
+		{
+			dependencies: ["7FE38A976D6DC787"]
+			id: "4190E0E6216E5AD5"
+			rewards: [{
+				id: "2BDB4F21FCB2E242"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "418762BE88A25DE2"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1C5976269DCB558C"
+				structure: "#immersive_gateways:portal"
+				type: "structure"
+			}]
+			x: -3.44d
+			y: -5.95d
+		}
+		{
+			dependencies: ["1CCE02BE6C4CEE3A"]
+			id: "2DD63C984B4FE0AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D414617BDF82C3C"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "27A82240909B5DE1"
+				structure: "nullscape:dragon_skeleton"
+				type: "structure"
+			}]
+			x: -1.54d
+			y: 8.74d
+		}
+		{
+			dependencies: ["3E5181C881FA5B51", "6F94CB102E20BA17", "38A094CF57376510", "22BC7CBECEC3DA94", "7AD46535B5DE1039", "71EAB4875A7AFAA3"]
+			hide_dependency_lines: true
+			icon: { id: "explorerscompass:explorerscompass" }
+			id: "5BA43F969FD2E888"
+			rewards: [{
+				id: "293C2C08DCC0A4FD"
+				type: "xp"
+				xp: 200
+			}, {
+				exclude_from_claim_all: true
+				id: "50B1D491F8D79669"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "72AC85DE7A96771F"
+				type: "checkmark"
+			}]
+			x: -4.44d
+			y: 7.68d
+		}
+		{
+			dependencies: ["1F330B29A3BBC473", "5BA43F969FD2E888"]
+			hide_dependency_lines: true
+			id: "152BC6156B9160FE"
+			rewards: [{
+				id: "69221710B707304C"
+				type: "xp"
+				xp: 200
+			}, {
+				exclude_from_claim_all: true
+				id: "4A8694503C3C776C"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "2732698FAD1741E9"
+				item: { count: 1, id: "tempad:time_steel" }
+				type: "item"
+			}, {
+				id: "76F9BC6B287F1C10"
+				item: { count: 1, id: "tempad:tempad" }
+				type: "item"
+			}]
+			x: 1.89d
+			y: -10.70d
+		}
+		{
+			dependencies: ["152BC6156B9160FE"]
+			id: "481EF74B3FB6D50E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "319B2149BD861C3B"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7DC720ABD5A2027B"
+				item: { components: { "ftbfiltersystem:filter": "or(item(tempad:location_card)item(tempad:chronon_generator)item(tempad:timedoor_projector))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.23d
+			y: -12.67d
+		}
+	]
+}

@@ -1,0 +1,462 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "relics_artifacts"
+	group: "3007F5F02BA780CD"
+	icon: {
+		id: "relics:magic_mirror"
+	}
+	id: "339A8B404A357A40"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "minecraft:chest" }
+			id: "7EFAC13C0485C0D1"
+			rewards: [{
+				id: "4873BDC1DE41D32F"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "4B066F6DF9E0343C"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "19B862B8489E98C4"
+				type: "checkmark"
+			}]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["7EFAC13C0485C0D1"]
+			id: "28736DC9BC382DF0"
+			rewards: [{
+				id: "6CDBF235E42AB187"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "1CAA9A20B253AD08"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6E23A175313CBF9B"
+				item: { components: { "ftbfiltersystem:filter": "or(item(relics:amphibian_boot)item(relics:aqua_walker)item(relics:bastion_ring)item(relics:blazing_flask)item(relics:chorus_inhibitor)item(relics:drowned_belt)item(relics:elytra_booster)item(relics:enders_hand)item(relics:holy_locket)item(relics:hunter_belt)item(relics:ice_breaker)item(relics:ice_skates)item(relics:infinity_ham)item(relics:jellyfish_necklace)item(relics:leather_belt)item(relics:magic_mirror)item(relics:magma_walker)item(relics:midnight_robe)item(relics:phantom_boot)item(relics:rage_glove)item(relics:reflection_necklace)item(relics:roller_skates)item(relics:shadow_glaive)item(relics:space_dissector)item(relics:spore_sack)item(relics:springy_boot)item(relics:wool_mitten))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.00d
+			y: -2.63d
+		}
+		{
+			dependencies: ["28736DC9BC382DF0"]
+			id: "7E50D38AEC50CC14"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "390CBA53260CFBB2"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3AC237D86E1F3AAF"
+				item: { count: 1, id: "relics:relic_experience_bottle" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: -6.13d
+		}
+		{
+			dependencies: ["28736DC9BC382DF0"]
+			id: "26D298054E623889"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AB6C19FE24E30A8"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 3L
+				id: "1190DFB1EAEE3383"
+				item: { components: { "ftbfiltersystem:filter": "or(item(relics:amphibian_boot)item(relics:aqua_walker)item(relics:bastion_ring)item(relics:blazing_flask)item(relics:chorus_inhibitor)item(relics:drowned_belt)item(relics:elytra_booster)item(relics:enders_hand)item(relics:holy_locket)item(relics:hunter_belt)item(relics:ice_breaker)item(relics:ice_skates)item(relics:infinity_ham)item(relics:jellyfish_necklace)item(relics:leather_belt)item(relics:magic_mirror)item(relics:magma_walker)item(relics:midnight_robe)item(relics:phantom_boot)item(relics:rage_glove)item(relics:reflection_necklace)item(relics:roller_skates)item(relics:shadow_glaive)item(relics:space_dissector)item(relics:spore_sack)item(relics:springy_boot)item(relics:wool_mitten))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: -4.38d
+		}
+		{
+			dependencies: ["26D298054E623889"]
+			id: "4A4AAF946C8405CE"
+			rewards: [{
+				id: "193E9EB63F0CC0A8"
+				type: "xp"
+				xp: 200
+			}, {
+				exclude_from_claim_all: true
+				id: "6CD1260B3E5B7125"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "19368872478DF4AF"
+				item: { count: 1, id: "relics:magic_mirror" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: -4.38d
+		}
+		{
+			dependencies: ["28736DC9BC382DF0"]
+			id: "2E1DEC9FC674C337"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D8A1DC6621AC1F2"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2F4D3B54C2AD0023"
+				item: { count: 1, id: "arcane_abilities:skills_grimoire" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: -2.63d
+		}
+		{
+			dependencies: ["7EFAC13C0485C0D1"]
+			id: "1C0379DC27308CA9"
+			rewards: [{
+				id: "7B836007FD54E0D5"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "719064E1A780A170"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1AE7841F2D19C119"
+				item: { components: { "ftbfiltersystem:filter": "or(item(artifacts:anglers_hat)item(artifacts:antidote_vessel)item(artifacts:aqua_dashers)item(artifacts:bunny_hoppers)item(artifacts:charm_of_shrinking)item(artifacts:charm_of_sinking)item(artifacts:chorus_totem)item(artifacts:cloud_in_a_bottle)item(artifacts:cross_necklace)item(artifacts:crystal_heart)item(artifacts:digging_claws)item(artifacts:everlasting_beef)item(artifacts:feral_claws)item(artifacts:fire_gauntlet)item(artifacts:flame_pendant)item(artifacts:flippers)item(artifacts:golden_hook)item(artifacts:helium_flamingo)item(artifacts:kitty_slippers)item(artifacts:lucky_scarf)item(artifacts:night_vision_goggles)item(artifacts:obsidian_skull)item(artifacts:onion_ring)item(artifacts:panic_necklace)item(artifacts:pickaxe_heater)item(artifacts:pocket_piston)item(artifacts:power_glove)item(artifacts:rooted_boots)item(artifacts:running_shoes)item(artifacts:scarf_of_invisibility)item(artifacts:shock_pendant)item(artifacts:snorkel)item(artifacts:snowshoes)item(artifacts:steadfast_spikes)item(artifacts:strider_shoes)item(artifacts:superstitious_hat)item(artifacts:thorn_pendant)item(artifacts:umbrella)item(artifacts:universal_attractor)item(artifacts:vampiric_glove)item(artifacts:villager_hat)item(artifacts:warp_drive)item(artifacts:whoopee_cushion)item(artifacts:withered_bracelet))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["1C0379DC27308CA9"]
+			icon: { id: "artifacts:mimic_spawn_egg" }
+			id: "1BBF51D246D459C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EDD5C464BE11F03"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "artifacts:mimic"
+				id: "1D38761B7EC38AF2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["1C0379DC27308CA9"]
+			id: "1510BBDCD56B987A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AB6FA3FA1BB2B4E"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 5L
+				id: "3F015431B8AB2D8D"
+				item: { components: { "ftbfiltersystem:filter": "or(item(artifacts:anglers_hat)item(artifacts:antidote_vessel)item(artifacts:aqua_dashers)item(artifacts:bunny_hoppers)item(artifacts:charm_of_shrinking)item(artifacts:charm_of_sinking)item(artifacts:chorus_totem)item(artifacts:cloud_in_a_bottle)item(artifacts:cross_necklace)item(artifacts:crystal_heart)item(artifacts:digging_claws)item(artifacts:everlasting_beef)item(artifacts:feral_claws)item(artifacts:fire_gauntlet)item(artifacts:flame_pendant)item(artifacts:flippers)item(artifacts:golden_hook)item(artifacts:helium_flamingo)item(artifacts:kitty_slippers)item(artifacts:lucky_scarf)item(artifacts:night_vision_goggles)item(artifacts:obsidian_skull)item(artifacts:onion_ring)item(artifacts:panic_necklace)item(artifacts:pickaxe_heater)item(artifacts:pocket_piston)item(artifacts:power_glove)item(artifacts:rooted_boots)item(artifacts:running_shoes)item(artifacts:scarf_of_invisibility)item(artifacts:shock_pendant)item(artifacts:snorkel)item(artifacts:snowshoes)item(artifacts:steadfast_spikes)item(artifacts:strider_shoes)item(artifacts:superstitious_hat)item(artifacts:thorn_pendant)item(artifacts:umbrella)item(artifacts:universal_attractor)item(artifacts:vampiric_glove)item(artifacts:villager_hat)item(artifacts:warp_drive)item(artifacts:whoopee_cushion)item(artifacts:withered_bracelet))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["1C0379DC27308CA9"]
+			id: "572B5A1AE683B8B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F2021A5A6F0E6B9"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1196D17B8DEEDC5A"
+				item: { components: { "ftbfiltersystem:filter": "or(item(artifacts:everlasting_beef)item(artifacts:eternal_steak))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: 2.63d
+		}
+		{
+			dependencies: ["7EFAC13C0485C0D1"]
+			id: "6F8A50AC2CCA7966"
+			rewards: [{
+				id: "1919575DD49DE820"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "11F2F4A655503A59"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1B7620CEFFD554D7"
+				item: { count: 1, id: "reliquary:apothecary_mortar" }
+				type: "item"
+			}, {
+				id: "7817D77D61D4FC99"
+				item: { count: 1, id: "reliquary:apothecary_cauldron" }
+				type: "item"
+			}]
+			x: 2.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["6F8A50AC2CCA7966"]
+			id: "6A19AFDA06D228F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "517688AF9B8DA144"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 4L
+				id: "30EF259F6DE69E44"
+				item: { components: { "ftbfiltersystem:filter": "or(item(reliquary:zombie_heart)item(reliquary:rib_bone)item(reliquary:catalyzing_gland)item(reliquary:chelicerae)item(reliquary:slime_pearl)item(reliquary:bat_wing)item(reliquary:squid_beak)item(reliquary:nebulous_heart)item(reliquary:molten_core)item(reliquary:frozen_core))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: 4.38d
+		}
+		{
+			dependencies: ["6A19AFDA06D228F9"]
+			id: "56082B9D37863398"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12DFCC1BC37C898B"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "26E0ADAD44361252"
+				item: { count: 1, id: "reliquary:alkahestry_tome" }
+				type: "item"
+			}, {
+				id: "117187F833B188DC"
+				item: { count: 1, id: "reliquary:alkahestry_altar" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: -2.63d
+		}
+		{
+			dependencies: ["6A19AFDA06D228F9"]
+			id: "46ECBC68EB046941"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71ABCEC541BAE644"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5F96B1038927E711"
+				item: { components: { "ftbfiltersystem:filter": "or(item(reliquary:ender_staff)item(reliquary:glacial_staff)item(reliquary:pyromancer_staff)item(reliquary:sojourner_staff)item(reliquary:serpent_staff)item(reliquary:harvest_rod)item(reliquary:rending_gale)item(reliquary:ice_magus_rod))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["6A19AFDA06D228F9"]
+			id: "526F62CFF8B4482C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EA686D0DD4BB936"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6A050F386AA54BA2"
+				item: { count: 1, id: "reliquary:handgun" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["46ECBC68EB046941"]
+			id: "754DF61E2031663D"
+			rewards: [{
+				id: "164927F305C396E1"
+				type: "xp"
+				xp: 200
+			}, {
+				exclude_from_claim_all: true
+				id: "5520453E4D02BEEC"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "626B2086CB576D5D"
+				item: { count: 1, id: "reliquary:phoenix_down" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["7EFAC13C0485C0D1"]
+			id: "27503FCA82653687"
+			rewards: [{
+				id: "2BD4D9B346F27B90"
+				type: "xp"
+				xp: 100
+			}, {
+				exclude_from_claim_all: true
+				id: "7FA615E76C6D5B02"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "50449B5DA15BB24D"
+				item: { count: 1, id: "irons_artifice:blackpowder" }
+				type: "item"
+			}, {
+				id: "44AF35BF52E0FF61"
+				item: { count: 1, id: "irons_artifice:simple_mechanical_components" }
+				type: "item"
+			}]
+			x: 2.00d
+			y: 2.63d
+		}
+		{
+			dependencies: ["27503FCA82653687"]
+			id: "37E95EED1CA024C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AE51A721D2F8265"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7222EE55BA0170EB"
+				item: { count: 1, id: "irons_artifice:flintlock" }
+				type: "item"
+			}, {
+				count: 16L
+				id: "31B61C181B06824D"
+				item: { count: 1, id: "irons_artifice:bullet" }
+				type: "item"
+			}]
+			x: 4.00d
+			y: 6.13d
+		}
+		{
+			dependencies: ["37E95EED1CA024C8"]
+			id: "17EA788DCEAE4BA9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EE985D79078C7EA"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "29D0660DD5BE693E"
+				item: { components: { "ftbfiltersystem:filter": "or(item(irons_artifice:scope_attachment_modifier)item(irons_artifice:bayonet_attachment_modifier)item(irons_artifice:suppressor_attachment_modifier)item(irons_artifice:blackpowder_charge_modifier)item(irons_artifice:lead_core_modifier)item(irons_artifice:hair_trigger_modifier)item(irons_artifice:gun_oil_modifier)item(irons_artifice:incendiary_tip_modifier))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: 2.63d
+		}
+		{
+			dependencies: ["37E95EED1CA024C8"]
+			id: "7521910EE5719D62"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3378AD0B76067DE1"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3DF92D3FE0C7B45A"
+				item: { components: { "ftbfiltersystem:filter": "or(item(irons_artifice:musket)item(irons_artifice:blunderbuss)item(irons_artifice:blackpowder_revolver)item(irons_artifice:six_shooter))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.00d
+			y: 4.38d
+		}
+		{
+			dependencies: ["7521910EE5719D62", "17EA788DCEAE4BA9"]
+			id: "63BCCF4587AF5A43"
+			rewards: [{
+				id: "3F68C0C258C28B0F"
+				type: "xp"
+				xp: 200
+			}, {
+				exclude_from_claim_all: true
+				id: "2558A4900C81A7EE"
+				table_id: 5249651026717322459L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "65D44256B80301EC"
+				item: { count: 1, id: "irons_artifice:clockwork_components" }
+				type: "item"
+			}, {
+				id: "55ECB3AAADCEF8A1"
+				item: { count: 1, id: "irons_artifice:clockwork_rifle" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["7521910EE5719D62"]
+			id: "6AB73F745DA07D66"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D4358BF151E3D3F"
+				table_id: 5001068052608706388L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "523A4705D26C9E1E"
+				item: { components: { "ftbfiltersystem:filter": "or(item(irons_artifice:cowboy_hat)item(irons_artifice:tricorne))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.00d
+			y: 1.75d
+		}
+	]
+}

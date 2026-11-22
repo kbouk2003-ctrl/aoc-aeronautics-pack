@@ -1,0 +1,13 @@
+name = "HexTale"
+filename = "hextale-neoforge-1.21.1-1.10.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fuY4VRt9/versions/qQrqRXRX/hextale-neoforge-1.21.1-1.10.1.jar"
+hash-format = "sha512"
+hash = "4ed212a6c0c343de548f359714c305063f1679223ac2b25e336f1cda53e1e30736264b473a7570b2b02f4e45c22cbfb9dfb93f1eb29b6b809ef142ed1d5534cc"
+
+[update]
+[update.modrinth]
+mod-id = "fuY4VRt9"
+version = "qQrqRXRX"

@@ -4534,11 +4534,6 @@ hash = "8c2759884099b53cde49187394f0d9dc863d96cd90509cb4a552a2bcbb125925"
 metafile = true
 
 [[files]]
-file = "mods/createloconautics.pw.toml"
-hash = "075bbff94d93dc64557e5b4439402e98c46ca0444f7e779d66ef81070f25a4d0"
-metafile = true
-
-[[files]]
 file = "mods/createmechanicalconfection-0-3-0.pw.toml"
 hash = "1dc459e7d30b0fff3b5a3e83630168e41544d4bbab389ae3cb0a23d6a5f82c37"
 metafile = true

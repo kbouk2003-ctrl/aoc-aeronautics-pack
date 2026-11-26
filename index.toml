@@ -4024,6 +4024,11 @@ hash = "3e8276152592852f2dae0e49cad8acb68a3153177db98f0ca46c9dc250debc6c"
 metafile = true
 
 [[files]]
+file = "mods/apothic-spawners.pw.toml"
+hash = "e3cf8a1207e85580723e384bf59688be26b80373b49c1d64972528cdc0dcac6d"
+metafile = true
+
+[[files]]
 file = "mods/apple-cows-1-0-0-1-21-1-neoforge.pw.toml"
 hash = "9af40efecc0d47cd48a9de17bcecb9dce25a35f98c6288c95a46dbe44c7f2f41"
 metafile = true
@@ -5091,6 +5096,11 @@ metafile = true
 [[files]]
 file = "mods/lmft-1-1-1-1-21-9-neoforge.pw.toml"
 hash = "35725a7bee95c5f0df1eeccd3ed406036c35fae26a7d7864fae1127a85957fdb"
+metafile = true
+
+[[files]]
+file = "mods/loconautics.pw.toml"
+hash = "310b6b4073500a52c4f5162d6808b8e3153b1d48de665782e7adfedc88985e9b"
 metafile = true
 
 [[files]]

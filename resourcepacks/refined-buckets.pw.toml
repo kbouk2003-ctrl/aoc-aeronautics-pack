@@ -1,0 +1,13 @@
+name = "Refined Buckets"
+filename = "Refined Buckets 3.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/l2nl8HQJ/versions/3xfWCDi5/Refined%20Buckets%203.0.zip"
+hash-format = "sha512"
+hash = "3b9c7f2eb699267cbb311563bb6864331aebec989fb6be81acd2000f96883849d29d96d584c26ffc4ff2fd29c41f7175d9ef8dd794b28578449596ec7c7173ab"
+
+[update]
+[update.modrinth]
+mod-id = "l2nl8HQJ"
+version = "3xfWCDi5"

@@ -1,6 +1,6 @@
 # All of Create Aeronautics – Custom (packwiz)
 
-Minecraft 1.21.1 · NeoForge 21.1.264 · packwiz pack. Clients and the server sync from this repo on launch.
+Minecraft 1.21.1 · NeoForge 21.1.268 · packwiz pack. Clients and the server sync from this repo on launch.
 
 - Pack URL for packwiz-installer: `https://raw.githubusercontent.com/kbouk2003-ctrl/aoc-aeronautics-pack/main/pack.toml`
 - Client: Prism Launcher instance with pre-launch command

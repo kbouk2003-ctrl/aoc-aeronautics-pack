@@ -1,0 +1,13 @@
+name = "The Illusioner"
+filename = "the-illusioner-1.2.0-1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6845f26d86d2132668b544eb47a2007f534d9c7b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9770788
+project-id = 1805888
